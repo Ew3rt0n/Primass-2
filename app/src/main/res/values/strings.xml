@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Primas</string>
+    <string name="digite_o_seu_nome">Digite o seu nome:</string>
+    <string name="data_de_nascimento">Data de nascimento:</string>
+    <string name="Menu_Home">Home</string>
+    <string name="Menu_resultado">Resultado</string>
+    <string name="Menu_compatibilidade">Compatibilidade</string>
+    <string name="Menu_triangulo">Triangulo</string>
+    <string name="Menu_arcanos">Arcanos</string>
+    <string name="Menu_descricao">Descrição</string>
+    <string name="Barra_inf">Barra_Inferior</string>
+    <string name="Primeira_barra_sup">Barra_Superior</string>
+    <string name="Numerologia">Numerologia</string>
+    <string name="Segunda_barra_sup">Barra_superior2</string>
+    <string name="Segunda_barra_inf">Barra_Inferior2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_dia">Dia</string>
+    <string name="tv_mes">Mes</string>
+    <string name="tv_ano">Ano</string>
+    <string name="bt_calc">CALCULAR</string>
+    <string name="logo_cabeca_dir">cabeca_dir</string>
+    <string name="logo_cabeca_esq">cabeca_esq</string>
+    <string name="Menu_game">Game</string>
+    <string name="imagem_expressao">Imagem expressão</string>
+    <string name="texto_express_o">Texto expressão</string>
+    <string name="imagem_impress_o">Imagem impressão</string>
+    <string name="texto_impress_o">Texto impressão</string>
+    <string name="imagem_personalidade">Imagem personalidade</string>
+    <string name="texto_personalidade">Texto personalidade</string>
+    <string name="imagem_destino">Imagem destino</string>
+    <string name="texto_destino">Texto destino</string>
+    <string name="imagem_miss_o">Imagem missão</string>
+    <string name="texto_miss_o">Texto missão</string>
+    <string name="imagem_arcanos">Imagem arcanos</string>
+    <string name="texto_arcanos">Texto arcanos</string>
+    <string name="imagem_orienta_es">Imagem orientações</string>
+    <string name="texto_orienta_o">Texto orientação</string>
+    <string name="imagem_li_o">Imagem lição</string>
+    <string name="texto_li_o">Texto lição</string>
+    <string name="imagem_leao">Imagem leao</string>
+</resources>

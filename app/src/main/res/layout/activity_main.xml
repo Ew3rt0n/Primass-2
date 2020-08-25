@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ic_launcher_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/barrainferior"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/barrasupe"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_marginBottom="57dp"
+            android:contentDescription="@string/Primeira_barra_sup"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/barrasup"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/cabeça_dir"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/logo_cabeca_dir"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cabeca_esq" />
+
+        <ImageView
+            android:id="@+id/tx_numerologia"
+            android:layout_width="271dp"
+            android:layout_height="44dp"
+            android:contentDescription="@string/Numerologia"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/cabeca_esq"
+            app:layout_constraintStart_toEndOf="@+id/cabeça_dir"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/tx_numerologia" />
+
+        <ImageView
+            android:id="@+id/cabeca_esq"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/logo_cabeca_esq"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cabeca_dir" />
+
+        <ImageView
+            android:id="@+id/barrainfi"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="57dp"
+            android:contentDescription="@string/Barra_inf"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/barrainf"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <FrameLayout
+        android:id="@+id/viewPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barrainferior">
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/barrainferior"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998"
+        tools:context=".MainActivity"
+        tools:ignore="DuplicateIds">
+
+        <ImageView
+            android:id="@+id/barrasupe2"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_marginBottom="57dp"
+            android:contentDescription="@string/Segunda_barra_sup"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/barrainf"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/bt_Home"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bt_home"
+            android:contentDescription="@string/Menu_Home"
+            android:tint="@color/white"
+            android:src="@drawable/ic_home_30"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/bt_Resultado"
+            app:layout_constraintBottom_toBottomOf="parent" />
+        <ImageButton
+            android:id="@+id/bt_Resultado"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bt_home"
+            android:contentDescription="@string/Menu_resultado"
+            android:tint="@color/white"
+            android:src="@drawable/ic_person30"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/bt_Home"
+            app:layout_constraintEnd_toStartOf="@id/bt_Compatibilidade"
+            app:layout_constraintBottom_toBottomOf="parent" />
+        <ImageButton
+            android:id="@+id/bt_Compatibilidade"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bt_home"
+            android:contentDescription="@string/Menu_compatibilidade"
+            android:tint="@color/white"
+            android:src="@drawable/ic_coracao_30"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/bt_Resultado"
+            app:layout_constraintEnd_toStartOf="@id/bt_Triangulo"
+            app:layout_constraintBottom_toBottomOf="parent" />
+        <ImageButton
+            android:id="@+id/bt_Triangulo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bt_home"
+            android:tint="@color/white"
+            android:src="@drawable/ic_triangulo_30"
+            android:contentDescription="@string/Menu_triangulo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/bt_Compatibilidade"
+            app:layout_constraintEnd_toStartOf="@id/bt_Arcanos"
+            app:layout_constraintBottom_toBottomOf="parent" />
+        <ImageButton
+            android:id="@+id/bt_Arcanos"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bt_home"
+            android:contentDescription="@string/Menu_arcanos"
+            android:tint="@color/white"
+            android:src="@drawable/ic_ampulheta_30"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/bt_Triangulo"
+            app:layout_constraintEnd_toStartOf="@id/bt_Descricao"
+            app:layout_constraintBottom_toBottomOf="parent" />
+        <ImageButton
+            android:id="@+id/bt_Descricao"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/bt_home"
+            android:contentDescription="@string/Menu_descricao"
+            android:tint="@color/white"
+            android:src="@drawable/ic_olho_30"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/bt_Arcanos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/barrainfi2"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="57dp"
+            android:contentDescription="@string/Segunda_barra_inf"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/barrasup"
+            tools:ignore="MissingConstraints" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
