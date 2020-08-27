@@ -73,7 +73,7 @@ public class ResultadoFragment extends Fragment {
         im_fundo_im = view.findViewById(R.id.im_fundo_im);
         im_fundo_mis = view.findViewById(R.id.im_fundo_mis);
 
-        public void resultadoExp (String resultadoExp);
+        /* public void resultadoExp (String resultadoExp);
 
         ImageView imagemExp = view.findViewById(R.id.im_fundo_ex);
 
@@ -274,7 +274,7 @@ public class ResultadoFragment extends Fragment {
             default:
                 break;
 
-        }
+        } */
 
         return view;
     }
