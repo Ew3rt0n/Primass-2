@@ -1,0 +1,16 @@
+
+local.properties
+
+.gradle/6.1.1/executionHistory/
+
+.gradle/6.1.1/fileHashes/
+
+.gradle/6.1.1/javaCompile/
+
+.gradle/buildOutputCleanup/
+
+.idea/caches/
+
+.idea/libraries/
+
+.idea/workspace.xml
