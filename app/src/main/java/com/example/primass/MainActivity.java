@@ -38,11 +38,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        campoNome = findViewById(R.id.campoNome);
-        tv_dia = findViewById(R.id.tv_dia);
-        tv_mes = findViewById(R.id.tv_mes);
-        tv_ano = findViewById(R.id.tv_ano);
-        findViewById(R.id.bt_calc).setOnClickListener(this);
+        campoNome = findViewById(R.id.campoNome3);
+        tv_dia = findViewById(R.id.tv_dia3);
+        tv_mes = findViewById(R.id.tv_mes3);
+        tv_ano = findViewById(R.id.tv_ano3);
+        findViewById(R.id.bt_compatibilidade).setOnClickListener(this);
 
 
         bt_Home = findViewById(R.id.bt_Home);
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.bt_calc:
+            case R.id.bt_compatibilidade:
                 converter(campoNome.getText().toString().toUpperCase());
                 break;
 

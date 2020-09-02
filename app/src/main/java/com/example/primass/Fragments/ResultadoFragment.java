@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
 import com.example.primass.R;
@@ -19,7 +20,8 @@ public class ResultadoFragment extends Fragment {
 
 
     private ImageView im_fundo_ex, im_fundo_im, im_fundo_des,
-            im_fundo_mis, im_fundo_arc;
+            im_fundo_mis, im_fundo_arc, im_fundo_per, im_fundo_ori,
+            im_fundo_lic;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -72,6 +74,9 @@ public class ResultadoFragment extends Fragment {
         im_fundo_des = view.findViewById(R.id.im_fundo_des);
         im_fundo_im = view.findViewById(R.id.im_fundo_im);
         im_fundo_mis = view.findViewById(R.id.im_fundo_mis);
+        im_fundo_per = view.findViewById(R.id.im_fundo_per);
+        im_fundo_ori = view.findViewById(R.id.im_fundo_ori);
+        im_fundo_lic = view.findViewById(R.id.im_fundo_lic);
 
         /* public void resultadoExp (String resultadoExp);
 
@@ -276,7 +281,150 @@ public class ResultadoFragment extends Fragment {
 
         } */
 
+        im_fundo_ex.setOnClickListener(new View.OnClickListener() {
+                                           @Override
+                                           public void onClick(View view) {
+
+
+                                               AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+                                               View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+
+
+                                               builder.setView(viewdialog)
+                                                       .setTitle("Numero de Expressão")
+                                                       .setMessage()
+                                                       .setPositiveButton("OK", null)
+                                                       .show();
+
+                                           }
+                                       });
+
+
+        im_fundo_im.setOnclickListerner(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View view) {
+
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+
+
+                                                builder.setView(viewdialog)
+                                                        .setTitle("Numero de Impressão")
+                                                        .setMessage()
+                                                        .setPositiveButton("OK", null)
+                                                        .show();
+
+                                            }
+                                        });
+
+        im_fundo_per.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View view) {
+
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+
+
+                                                builder.setView(viewdialog)
+                                                        .setTitle("Numero de Personalidade")
+                                                        .setMessage()
+                                                        .setPositiveButton("OK", null)
+                                                        .show();
+
+                                            }
+                                        });
+
+        im_fundo_des.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View view) {
+
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+
+
+                                                builder.setView(viewdialog)
+                                                        .setTitle("Numero de Destino")
+                                                        .setMessage()
+                                                        .setPositiveButton("OK", null)
+                                                        .show();
+                                            }
+                                        });
+
+        im_fundo_mis.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View view) {
+
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+
+
+                                                builder.setView(viewdialog)
+                                                        .setTitle("Numero de Missão")
+                                                        .setMessage()
+                                                        .setPositiveButton("OK", null)
+                                                        .show();
+                                            }
+                                        });
+
+        im_fundo_arc.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View view) {
+
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+
+
+                                                builder.setView(viewdialog)
+                                                        .setTitle("Numero de Arcano Regente")
+                                                        .setMessage()
+                                                        .setPositiveButton("OK", null)
+                                                        .show();
+                                            }
+                                        });
+
+        im_fundo_ori.setOnClickListener(new View.OnClickListener() {
+                                            @Override
+                                            public void onClick(View view) {
+
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+
+
+                                                builder.setView(viewdialog)
+                                                        .setTitle("Orientações")
+                                                        .setMessage()
+                                                        .setPositiveButton("OK", null)
+                                                        .show();
+                                            }
+                                        });
+
+         im_fundo_lic.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+
+                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+                 View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+
+
+                 builder.setView(viewdialog)
+                         .setTitle("Lições")
+                         .setMessage()
+                         .setPositiveButton("OK", null)
+                         .show();
+             }
+
+         });
+
         return view;
     }
+
 
 }

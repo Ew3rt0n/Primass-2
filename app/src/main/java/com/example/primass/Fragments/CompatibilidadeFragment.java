@@ -4,7 +4,9 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
 import com.example.primass.R;
@@ -15,6 +17,8 @@ import com.example.primass.R;
  * create an instance of this fragment.
  */
 public class CompatibilidadeFragment extends Fragment {
+
+    private Button bt_compatibilidade;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -60,6 +64,30 @@ public class CompatibilidadeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_compatibilidade, container, false);
+        View view = inflater.inflate(R.layout.fragment_compatibilidade, container, false);
+
+        bt_compatibilidade = view.findViewById(R.id.bt_compatibilidade);
+
+        bt_compatibilidade.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+
+
+                builder.setView(viewdialog)
+                        .setTitle("Compatibilidade")
+                        .setMessage()
+                        .setPositiveButton("OK", null)
+                        .show();
+
+            }
+        });
+
+
+    return view;
     }
 }

@@ -106,7 +106,7 @@
         app:layout_constraintTop_toBottomOf="@+id/barrainferior">
 
         <Button
-            android:id="@+id/bt_calc"
+            android:id="@+id/bt_compatibilidade"
             android:layout_width="200dp"
             android:layout_height="60dp"
             android:layout_marginTop="50dp"
@@ -115,11 +115,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_mes"
+            app:layout_constraintTop_toBottomOf="@+id/tv_mes3"
             app:layout_constraintVertical_bias="0.0" />
 
         <EditText
-            android:id="@+id/campoNome"
+            android:id="@+id/campoNome3"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginStart="16dp"
@@ -144,7 +144,7 @@
             app:layout_constraintVertical_bias="0.254" />
 
         <EditText
-            android:id="@+id/tv_dia"
+            android:id="@+id/tv_dia3"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginStart="16dp"
@@ -161,13 +161,13 @@
             android:textColorHint="#BFBFBF"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/tv_mes"
+            app:layout_constraintEnd_toStartOf="@+id/tv_mes3"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_nascimento3" />
 
         <EditText
-            android:id="@+id/tv_mes"
+            android:id="@+id/tv_mes3"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginStart="16dp"
@@ -184,13 +184,13 @@
             android:textColorHint="#BFBFBF"
             android:textSize="18sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/tv_ano"
+            app:layout_constraintEnd_toStartOf="@+id/tv_ano3"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/tv_dia"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintStart_toEndOf="@+id/tv_dia3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nascimento3" />
 
         <EditText
-            android:id="@+id/tv_ano"
+            android:id="@+id/tv_ano3"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginStart="16dp"
@@ -209,11 +209,11 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/tv_mes"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintStart_toEndOf="@+id/tv_mes3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nascimento3" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/tv_nascimento3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
@@ -222,17 +222,7 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/campoNome" />
-
-        <TextView
-            android:id="@+id/tv_resultado"
-            android:layout_width="399dp"
-            android:layout_height="101dp"
-            android:layout_marginTop="8dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bt_calc" />
-
+            app:layout_constraintTop_toBottomOf="@+id/campoNome3" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
