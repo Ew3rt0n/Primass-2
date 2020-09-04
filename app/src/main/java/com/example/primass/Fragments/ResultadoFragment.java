@@ -286,7 +286,7 @@ public class ResultadoFragment extends Fragment {
                                            public void onClick(View view) {
 
 
-                                               AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                                               AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
 
@@ -294,6 +294,7 @@ public class ResultadoFragment extends Fragment {
                                                builder.setView(viewdialog)
                                                        .setTitle("Numero de Expressão")
                                                        .setMessage()
+                                                       .setCancelable(false)
                                                        .setPositiveButton("OK", null)
                                                        .show();
 
@@ -301,11 +302,11 @@ public class ResultadoFragment extends Fragment {
                                        });
 
 
-        im_fundo_im.setOnclickListerner(new View.OnClickListener() {
+        im_fundo_im.setOnClickListener(new View.OnClickListener() {
                                             @Override
                                             public void onClick(View view) {
 
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                                                 View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
 
@@ -313,6 +314,7 @@ public class ResultadoFragment extends Fragment {
                                                 builder.setView(viewdialog)
                                                         .setTitle("Numero de Impressão")
                                                         .setMessage()
+                                                        .setCancelable(false)
                                                         .setPositiveButton("OK", null)
                                                         .show();
 
@@ -323,7 +325,7 @@ public class ResultadoFragment extends Fragment {
                                             @Override
                                             public void onClick(View view) {
 
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                                                 View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
 
@@ -331,6 +333,7 @@ public class ResultadoFragment extends Fragment {
                                                 builder.setView(viewdialog)
                                                         .setTitle("Numero de Personalidade")
                                                         .setMessage()
+                                                        .setCancelable(false)
                                                         .setPositiveButton("OK", null)
                                                         .show();
 
@@ -341,7 +344,7 @@ public class ResultadoFragment extends Fragment {
                                             @Override
                                             public void onClick(View view) {
 
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                                                 View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
 
@@ -349,6 +352,7 @@ public class ResultadoFragment extends Fragment {
                                                 builder.setView(viewdialog)
                                                         .setTitle("Numero de Destino")
                                                         .setMessage()
+                                                        .setCancelable(false)
                                                         .setPositiveButton("OK", null)
                                                         .show();
                                             }
@@ -358,7 +362,7 @@ public class ResultadoFragment extends Fragment {
                                             @Override
                                             public void onClick(View view) {
 
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                                                 View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
 
@@ -366,6 +370,7 @@ public class ResultadoFragment extends Fragment {
                                                 builder.setView(viewdialog)
                                                         .setTitle("Numero de Missão")
                                                         .setMessage()
+                                                        .setCancelable(false)
                                                         .setPositiveButton("OK", null)
                                                         .show();
                                             }
@@ -375,7 +380,7 @@ public class ResultadoFragment extends Fragment {
                                             @Override
                                             public void onClick(View view) {
 
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                                                 View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
 
@@ -383,6 +388,7 @@ public class ResultadoFragment extends Fragment {
                                                 builder.setView(viewdialog)
                                                         .setTitle("Numero de Arcano Regente")
                                                         .setMessage()
+                                                        .setCancelable(false)
                                                         .setPositiveButton("OK", null)
                                                         .show();
                                             }
@@ -392,7 +398,7 @@ public class ResultadoFragment extends Fragment {
                                             @Override
                                             public void onClick(View view) {
 
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                                                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                                                 View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
 
@@ -400,6 +406,7 @@ public class ResultadoFragment extends Fragment {
                                                 builder.setView(viewdialog)
                                                         .setTitle("Orientações")
                                                         .setMessage()
+                                                        .setCancelable(false)
                                                         .setPositiveButton("OK", null)
                                                         .show();
                                             }
@@ -409,7 +416,7 @@ public class ResultadoFragment extends Fragment {
              @Override
              public void onClick(View view) {
 
-                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                 AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                  View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
 
@@ -417,6 +424,7 @@ public class ResultadoFragment extends Fragment {
                  builder.setView(viewdialog)
                          .setTitle("Lições")
                          .setMessage()
+                         .setCancelable(false)
                          .setPositiveButton("OK", null)
                          .show();
              }
