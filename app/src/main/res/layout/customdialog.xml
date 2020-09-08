@@ -33,11 +33,11 @@
         android:layout_width="0dp"
         android:layout_height="3dp"
         android:elevation="5dp"
-        android:scaleType="center"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:srcCompat="@drawable/barrainf" />
+        app:srcCompat="@drawable/barra_pop1" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -45,11 +45,11 @@
         android:layout_height="3dp"
         android:layout_marginTop="45dp"
         android:elevation="5dp"
-        android:scaleType="center"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:srcCompat="@drawable/barrainf" />
+        app:srcCompat="@drawable/barra_pop1" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -60,7 +60,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/barrainf" />
+        app:srcCompat="@drawable/barra_pop3" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -71,22 +71,22 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/barrainf" />
+        app:srcCompat="@drawable/barra_pop4" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="match_parent"
         android:layout_height="3dp"
-        android:scaleType="center"
+        android:scaleType="centerCrop"
         android:elevation="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/barrainf" />
+        app:srcCompat="@drawable/barra_pop2" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@color/colorPrimary"
         android:orientation="vertical"
@@ -97,7 +97,8 @@
 
 
         <TextView
-            android:id="@+id/tv_texto"
+
+            android:id="@+id/tv_titulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -106,22 +107,26 @@
             android:layout_marginRight="30dp"
             android:gravity="center_horizontal"
             android:hint="Titulo"
-            android:textColorHint="#FFFFFF"
             android:textColor="#DAA520"
-            android:textSize="24dp"
+            android:textColorHint="#FFFFFF"
+            android:textSize="24sp"
             android:textStyle="bold" />
 
         <TextView
 
+
+            android:id="@+id/tv_definicao"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_margin="15dp"
             android:gravity="center|center_horizontal|center_vertical"
             android:hint="Texto"
+            android:text="flkfdsalkfsaldkgsalgkslgksalgklslsglsgk
+ssdgmsdgms,gm,smg,smg.,smg,msgmsdgmg"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
     </LinearLayout>
 
