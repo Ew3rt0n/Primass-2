@@ -73,14 +73,14 @@ public class CompatibilidadeFragment extends Fragment {
             public void onClick(View view) {
 
 
-                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
                 View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
 
 
                 builder.setView(viewdialog)
                         .setTitle("Compatibilidade")
-                        .setMessage()
+                        .setMessage("")
                         .setPositiveButton("OK", null)
                         .show();
 

@@ -1,6 +1,7 @@
 package com.example.primass;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
@@ -26,12 +27,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button bt_calc;
     private String vogal, consoante;
 
-    private ResultadoFragment resultadoFragment;
-    private CompatibilidadeFragment compatibilidadeFragment;
-    private TrianguloFragment trianguloFragment;
-    private ArcanosFragment arcanosFragment;
-    private DescricaoFragment descricaoFragment;
-
+    private FragmentManager fm;
+    private FragmentTransaction ft;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,8 +61,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bt_Descricao.setOnClickListener(this);
         bt_Home.setOnClickListener(this);
 
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.commit();
+        fm = getSupportFragmentManager();
+        ft = fm.beginTransaction();
+
     }
 
     @Override
@@ -78,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.bt_Home:
 
+                fm.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
                 trocaCor(view.getId());
 
@@ -85,11 +84,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.bt_Resultado:
 
-                resultadoFragment = new ResultadoFragment();
+                fm.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
-                FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.viewPage, resultadoFragment);
-                transaction.commit();
+                ft=fm.beginTransaction();
+                ft.replace(R.id.viewPage, ResultadoFragment.newInstance("",""));
+                ft.addToBackStack(null);
+                ft.commit();
 
                 trocaCor(view.getId());
 
@@ -97,11 +97,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.bt_Compatibilidade:
 
-                compatibilidadeFragment = new CompatibilidadeFragment();
+                fm.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
-                transaction = getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.viewPage, compatibilidadeFragment);
-                transaction.commit();
+                ft=fm.beginTransaction();
+                ft.replace(R.id.viewPage, CompatibilidadeFragment.newInstance("",""));
+                ft.addToBackStack(null);
+                ft.commit();
 
                 trocaCor(view.getId());
 
@@ -109,11 +110,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.bt_Triangulo:
 
-                trianguloFragment = new TrianguloFragment();
+                fm.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
-                transaction = getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.viewPage, trianguloFragment);
-                transaction.commit();
+                ft=fm.beginTransaction();
+                ft.replace(R.id.viewPage, TrianguloFragment.newInstance("",""));
+                ft.addToBackStack(null);
+                ft.commit();
 
                 trocaCor(view.getId());
 
@@ -121,11 +123,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.bt_Arcanos:
 
-                arcanosFragment = new ArcanosFragment();
+                fm.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
-                transaction = getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.viewPage, arcanosFragment);
-                transaction.commit();
+                ft=fm.beginTransaction();
+                ft.replace(R.id.viewPage, ArcanosFragment.newInstance("",""));
+                ft.addToBackStack(null);
+                ft.commit();
 
                 trocaCor(view.getId());
 
@@ -133,11 +136,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.bt_Descricao:
 
-                descricaoFragment = new DescricaoFragment();
+                fm.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
-                transaction = getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.viewPage, descricaoFragment);
-                transaction.commit();
+                ft=fm.beginTransaction();
+                ft.replace(R.id.viewPage, DescricaoFragment.newInstance("",""));
+                ft.addToBackStack(null);
+                ft.commit();
 
                 trocaCor(view.getId());
 
