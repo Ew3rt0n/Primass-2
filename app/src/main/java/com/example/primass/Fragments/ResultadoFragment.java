@@ -5,10 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
+import com.example.primass.Definicoes;
 import com.example.primass.R;
 
 /**
@@ -80,43 +82,48 @@ public class ResultadoFragment extends Fragment {
         im_fundo_ori = view.findViewById(R.id.im_fundo_ori);
         im_fundo_lic = view.findViewById(R.id.im_fundo_lic);
 
-        /* public void resultadoExp (String resultadoExp);
+
+
+         /*public void resultadoExp (String resultadoExp){
+
+
+        String resultadoExp = getString(calcNome)
 
         ImageView imagemExp = view.findViewById(R.id.im_fundo_ex);
 
         switch (resultadoExp) {
             case "1":
-                im_fundo_ex.setImageResource(R.drawable.numero_1);
+                imagemExp.setImageResource(R.drawable.numero_1);
                 break;
             case "2":
-                im_fundo_ex.setImageResource(R.drawable.numero_2);
+                imagemExp.setImageResource(R.drawable.numero_2);
                 break;
             case "3":
-                im_fundo_ex.setImageResource(R.drawable.numero_3);
+                imagemExp.setImageResource(R.drawable.numero_3);
                 break;
             case "4":
-                im_fundo_ex.setImageResource(R.drawable.numero_4);
+                imagemExp.setImageResource(R.drawable.numero_4);
                 break;
             case "5":
-                im_fundo_ex.setImageResource(R.drawable.numero_5);
+                imagemExp.setImageResource(R.drawable.numero_5);
                 break;
             case "6":
-                im_fundo_ex.setImageResource(R.drawable.numero_6);
+                imagemExp.setImageResource(R.drawable.numero_6);
                 break;
             case "7":
-                im_fundo_ex.setImageResource(R.drawable.numero_7);
+                imagemExp.setImageResource(R.drawable.numero_7);
                 break;
             case "8":
-                im_fundo_ex.setImageResource(R.drawable.numero_8);
+                imagemExp.setImageResource(R.drawable.numero_8);
                 break;
             case "9":
-                im_fundo_ex.setImageResource(R.drawable.numero_9);
+                imagemExp.setImageResource(R.drawable.numero_9);
                 break;
             case "11":
-                im_fundo_ex.setImageResource(R.drawable.numero_11);
+                imagemExp.setImageResource(R.drawable.numero_11);
                 break;
             case "22":
-                im_fundo_ex.setImageResource(R.drawable.numero_22);
+                imagemExp.setImageResource(R.drawable.numero_22);
                 break;
             default:
                 break;
@@ -283,6 +290,8 @@ public class ResultadoFragment extends Fragment {
 
         } */
 
+        Definicoes def = new Definicoes();
+
         im_fundo_ex.setOnClickListener
                 (new View.OnClickListener() {
                 @Override
@@ -295,6 +304,9 @@ public class ResultadoFragment extends Fragment {
                   (R.layout.customdialog, null);
 
           builder.setView(viewdialog)
+
+         //((TextView)
+         //view.findViewById(R.id.tv_definicao).setText(def.numexpressao(calcNome))
           .show();
 
                                            }
