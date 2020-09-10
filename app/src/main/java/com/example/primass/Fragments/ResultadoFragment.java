@@ -67,7 +67,9 @@ public class ResultadoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_resultado, container, false);
+        View view = inflater.inflate
+                (R.layout.fragment_resultado, container,
+                        false);
 
         im_fundo_ex = view.findViewById(R.id.im_fundo_ex);
         im_fundo_arc = view.findViewById(R.id.im_fundo_arc);
@@ -281,140 +283,139 @@ public class ResultadoFragment extends Fragment {
 
         } */
 
-        im_fundo_ex.setOnClickListener(new View.OnClickListener() {
-                                           @Override
-                                           public void onClick(View view) {
+        im_fundo_ex.setOnClickListener
+                (new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
+          AlertDialog.Builder builder = new
+                  AlertDialog.Builder(getContext());
 
-                                               AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+          View viewdialog = getLayoutInflater().inflate
+                  (R.layout.customdialog, null);
 
-                                               View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
-
-
-                                               builder.setView(viewdialog)
-
-
-                                                       .setPositiveButton("OK", null)
-                                                       .show();
+          builder.setView(viewdialog)
+          .show();
 
                                            }
                                        });
 
 
-        im_fundo_im.setOnClickListener(new View.OnClickListener() {
-                                            @Override
-                                            public void onClick(View view) {
+        im_fundo_im.setOnClickListener
+                (new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+         AlertDialog.Builder builder = new
+                 AlertDialog.Builder(getContext());
 
-                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
-
-
-                                                builder.setView(viewdialog)
-
-                                                        .setPositiveButton("OK", null)
-                                                        .show();
-
-                                            }
-                                        });
-
-        im_fundo_per.setOnClickListener(new View.OnClickListener() {
-                                            @Override
-                                            public void onClick(View view) {
-
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
-
-                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+         View viewdialog = getLayoutInflater().inflate
+                 (R.layout.customdialog, null);
 
 
-                                                builder.setView(viewdialog)
-
-                                                        .setPositiveButton("OK", null)
-                                                        .show();
+         builder.setView(viewdialog)
+        .show();
 
                                             }
                                         });
 
-        im_fundo_des.setOnClickListener(new View.OnClickListener() {
-                                            @Override
-                                            public void onClick(View view) {
+        im_fundo_per.setOnClickListener
+                (new View.OnClickListener() {
+                 @Override
+                 public void onClick(View view) {
 
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+           AlertDialog.Builder builder = new
+                   AlertDialog.Builder(getContext());
 
-                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+           View viewdialog = getLayoutInflater().inflate
+                   (R.layout.customdialog, null);
 
+           builder.setView(viewdialog)
+           .show();
 
-                                                builder.setView(viewdialog)
-
-                                                        .setPositiveButton("OK", null)
-                                                        .show();
                                             }
                                         });
 
-        im_fundo_mis.setOnClickListener(new View.OnClickListener() {
-                                            @Override
-                                            public void onClick(View view) {
+        im_fundo_des.setOnClickListener
+                (new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+          AlertDialog.Builder builder = new
+                  AlertDialog.Builder(getContext());
 
-                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+          View viewdialog = getLayoutInflater().inflate
+                  (R.layout.customdialog, null);
 
-
-                                                builder.setView(viewdialog)
-
-                                                        .setPositiveButton("OK", null)
-                                                        .show();
+          builder.setView(viewdialog)
+          .show();
                                             }
                                         });
 
-        im_fundo_arc.setOnClickListener(new View.OnClickListener() {
-                                            @Override
-                                            public void onClick(View view) {
+        im_fundo_mis.setOnClickListener
+                (new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+          AlertDialog.Builder builder = new
+                  AlertDialog.Builder(getContext());
 
-                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+          View viewdialog = getLayoutInflater().inflate
+                  (R.layout.customdialog, null);
 
-
-                                                builder.setView(viewdialog)
-
-                                                        .setPositiveButton("OK", null)
-                                                        .show();
+         builder.setView(viewdialog)
+         .show();
                                             }
                                         });
 
-        im_fundo_ori.setOnClickListener(new View.OnClickListener() {
-                                            @Override
-                                            public void onClick(View view) {
+        im_fundo_arc.setOnClickListener
+                (new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
-                                                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+          AlertDialog.Builder builder = new
+                  AlertDialog.Builder(getContext());
 
-                                                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+          View viewdialog = getLayoutInflater().inflate
+                  (R.layout.customdialog, null);
 
-
-                                                builder.setView(viewdialog)
-
-                                                        .setPositiveButton("OK", null)
-                                                        .show();
+          builder.setView(viewdialog)
+          .show();
                                             }
                                         });
 
-         im_fundo_lic.setOnClickListener(new View.OnClickListener() {
-             @Override
-             public void onClick(View view) {
+        im_fundo_ori.setOnClickListener
+                (new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
 
-                 AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+           AlertDialog.Builder builder = new
+                   AlertDialog.Builder(getContext());
 
-                 View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+           View viewdialog = getLayoutInflater().inflate
+                   (R.layout.customdialog, null);
 
+           builder.setView(viewdialog)
+           .show();
+                                            }
+                                        });
 
-                 builder.setView(viewdialog)
+         im_fundo_lic.setOnClickListener
+                 (new View.OnClickListener() {
+                 @Override
+                 public void onClick(View view) {
 
-                         .setPositiveButton("OK", null)
-                         .show();
-             }
+           AlertDialog.Builder builder = new
+                   AlertDialog.Builder(getContext());
 
-         });
+           View viewdialog = getLayoutInflater().inflate
+                   (R.layout.customdialog, null);
+
+          builder.setView(viewdialog)
+          .show();
+                                          }
+
+                                     });
 
         return view;
     }

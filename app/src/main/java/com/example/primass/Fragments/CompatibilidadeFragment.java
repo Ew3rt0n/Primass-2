@@ -42,8 +42,10 @@ public class CompatibilidadeFragment extends Fragment {
      * @return A new instance of fragment CompatibilidadeFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static CompatibilidadeFragment newInstance(String param1, String param2) {
-        CompatibilidadeFragment fragment = new CompatibilidadeFragment();
+    public static CompatibilidadeFragment
+    newInstance(String param1, String param2) {
+        CompatibilidadeFragment fragment =
+                new CompatibilidadeFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,28 +63,31 @@ public class CompatibilidadeFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater,
+            ViewGroup container,
+             Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_compatibilidade, container, false);
+        View view = inflater.inflate
+                (R.layout.fragment_compatibilidade,
+                        container, false);
 
-        bt_compatibilidade = view.findViewById(R.id.bt_compatibilidade);
+        bt_compatibilidade = view.findViewById
+                (R.id.bt_compatibilidade);
 
-        bt_compatibilidade.setOnClickListener(new View.OnClickListener() {
+        bt_compatibilidade.setOnClickListener
+                (new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
 
-                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+         AlertDialog.Builder builder = new
+                 AlertDialog.Builder(getContext());
 
-                View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+         View viewdialog = getLayoutInflater().inflate
+                 (R.layout.customdialog, null);
 
-
-                builder.setView(viewdialog)
-                        .setTitle("Compatibilidade")
-                        .setMessage("")
-                        .setPositiveButton("OK", null)
-                        .show();
+         builder.setView(viewdialog)
+         .show();
 
             }
         });
