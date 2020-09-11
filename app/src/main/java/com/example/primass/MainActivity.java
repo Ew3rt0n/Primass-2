@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity
 
     private EditText campoNome,
             tv_dia, tv_mes, tv_ano;
-    private Button bt_calc;
+    private ImageButton bt_calc;
     private String vogal, consoante;
 
     private FragmentManager fm;
@@ -38,11 +38,11 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        campoNome = findViewById(R.id.campoNome3);
+        campoNome = findViewById(R.id.campoNome);
         tv_dia = findViewById(R.id.tv_dia);
         tv_mes = findViewById(R.id.tv_mes);
         tv_ano = findViewById(R.id.tv_ano);
-        findViewById(R.id.bt_compatibilidade).
+        findViewById(R.id.bt_calc).
                 setOnClickListener(this);
 
 
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.bt_compatibilidade:
+            case R.id.bt_calc:
                 converter(campoNome.getText().
                         toString().toUpperCase());
                 break;

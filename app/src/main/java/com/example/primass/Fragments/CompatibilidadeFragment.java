@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
@@ -18,7 +19,7 @@ import com.example.primass.R;
  */
 public class CompatibilidadeFragment extends Fragment {
 
-    private Button bt_compatibilidade;
+    private ImageButton bt_compatib;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -71,10 +72,10 @@ public class CompatibilidadeFragment extends Fragment {
                 (R.layout.fragment_compatibilidade,
                         container, false);
 
-        bt_compatibilidade = view.findViewById
-                (R.id.bt_compatibilidade);
+        bt_compatib = view.findViewById
+                (R.id.bt_compatib);
 
-        bt_compatibilidade.setOnClickListener
+        bt_compatib.setOnClickListener
                 (new View.OnClickListener() {
             @Override
             public void onClick(View view) {

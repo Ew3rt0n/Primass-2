@@ -105,11 +105,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/barrainferior">
 
-        <Button
-            android:id="@+id/bt_compatibilidade"
+        <ImageButton
+            android:id="@+id/bt_calc"
             android:layout_width="200dp"
             android:layout_height="60dp"
-            android:background="@drawable/bt_calcular"
+            android:background="@drawable/efeito_calc"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -118,7 +118,7 @@
             app:layout_constraintVertical_bias="0.162" />
 
         <EditText
-            android:id="@+id/campoNome3"
+            android:id="@+id/campoNome"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginStart="16dp"
@@ -217,7 +217,7 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/campoNome3" />
+            app:layout_constraintTop_toBottomOf="@+id/campoNome" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
