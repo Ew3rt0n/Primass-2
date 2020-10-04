@@ -39,4 +39,5 @@
     <string name="imagem_li_o">Imagem lição</string>
     <string name="texto_li_o">Texto lição</string>
     <string name="imagem_leao">Imagem leao</string>
+    <string name="data_invalida">Data Inválida</string>
 </resources>

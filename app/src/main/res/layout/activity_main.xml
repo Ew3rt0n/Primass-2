@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,31 +10,23 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/barrainferior"
+        android:id="@+id/barrasuperior"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:background="@color/colorPrimary"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:context=".MainActivity">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/barrasupe"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="3dp"
             android:layout_marginBottom="57dp"
             android:contentDescription="@string/Primeira_barra_sup"
             android:scaleType="centerCrop"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/barrasup"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="0dp" />
+            app:srcCompat="@drawable/barrasup" />
 
         <ImageView
             android:id="@+id/cabeça_dir"
@@ -78,7 +69,7 @@
 
         <ImageView
             android:id="@+id/barrainfi"
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="3dp"
             android:layout_marginTop="57dp"
             android:contentDescription="@string/Barra_inf"
@@ -86,9 +77,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/barrainf"
-            tools:ignore="MissingConstraints" />
+            app:srcCompat="@drawable/barrainf" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -97,25 +86,11 @@
 
         android:id="@+id/home"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/barrainferior"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barrainferior">
-
-        <ImageButton
-            android:id="@+id/bt_calc"
-            android:layout_width="200dp"
-            android:layout_height="60dp"
-            android:background="@drawable/efeito_calc"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tv_mes"
-            app:layout_constraintVertical_bias="0.162" />
+        app:layout_constraintTop_toBottomOf="@id/barrasuperior">
 
         <EditText
             android:id="@+id/campoNome"
@@ -141,6 +116,18 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.254" />
 
+        <TextView
+            android:id="@+id/tv_nascimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Data de nascimento"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campoNome" />
+
         <EditText
             android:id="@+id/tv_dia"
             android:layout_width="0dp"
@@ -155,6 +142,7 @@
             android:gravity="center"
             android:hint="@string/tv_dia"
             android:inputType="numberDecimal"
+            android:maxLength="2"
             android:textColor="#FFFFFF"
             android:textColorHint="#BFBFBF"
             android:textSize="18sp"
@@ -177,6 +165,7 @@
             android:gravity="center"
             android:hint="@string/tv_mes"
             android:inputType="numberDecimal"
+            android:maxLength="2"
             android:textColor="#FFFFFF"
             android:textColorHint="#BFBFBF"
             android:textSize="18sp"
@@ -199,6 +188,7 @@
             android:gravity="center"
             android:hint="@string/tv_ano"
             android:inputType="numberDecimal"
+            android:maxLength="4"
             android:textColor="#FFFFFF"
             android:textColorHint="#BFBFBF"
             android:textSize="18sp"
@@ -207,31 +197,26 @@
             app:layout_constraintStart_toEndOf="@+id/tv_mes"
             app:layout_constraintTop_toBottomOf="@+id/tv_nascimento" />
 
-        <TextView
-            android:id="@+id/tv_nascimento"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:text="Data de nascimento"
-            android:textSize="24sp"
-            android:textStyle="bold"
+        <ImageButton
+            android:id="@+id/bt_calc"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/efeito_calc"
+            android:layout_marginTop="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/campoNome" />
-
+            app:layout_constraintTop_toBottomOf="@+id/tv_mes" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <FrameLayout
         android:id="@+id/viewPage"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/barrainferior"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barrainferior">
+        app:layout_constraintTop_toBottomOf="@id/barrasuperior">
 
     </FrameLayout>
 
@@ -270,72 +255,77 @@
             android:layout_height="30dp"
             android:background="@drawable/bt_home"
             android:contentDescription="@string/Menu_Home"
-            android:tint="@color/white"
             android:src="@drawable/ic_home_30"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:tint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/bt_Resultado"
-            app:layout_constraintBottom_toBottomOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <ImageButton
             android:id="@+id/bt_Resultado"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@drawable/bt_home"
             android:contentDescription="@string/Menu_resultado"
-            android:tint="@color/white"
             android:src="@drawable/ic_person30"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toEndOf="@id/bt_Home"
+            android:tint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/bt_Compatibilidade"
-            app:layout_constraintBottom_toBottomOf="parent" />
+            app:layout_constraintStart_toEndOf="@id/bt_Home"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <ImageButton
             android:id="@+id/bt_Compatibilidade"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@drawable/bt_home"
             android:contentDescription="@string/Menu_compatibilidade"
-            android:tint="@color/white"
             android:src="@drawable/ic_coracao_30"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toEndOf="@id/bt_Resultado"
+            android:tint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/bt_Triangulo"
-            app:layout_constraintBottom_toBottomOf="parent" />
+            app:layout_constraintStart_toEndOf="@id/bt_Resultado"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <ImageButton
             android:id="@+id/bt_Triangulo"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@drawable/bt_home"
-            android:tint="@color/white"
-            android:src="@drawable/ic_triangulo_30"
             android:contentDescription="@string/Menu_triangulo"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toEndOf="@id/bt_Compatibilidade"
+            android:src="@drawable/ic_triangulo_30"
+            android:tint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/bt_Arcanos"
-            app:layout_constraintBottom_toBottomOf="parent" />
+            app:layout_constraintStart_toEndOf="@id/bt_Compatibilidade"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <ImageButton
             android:id="@+id/bt_Arcanos"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@drawable/bt_home"
             android:contentDescription="@string/Menu_arcanos"
-            android:tint="@color/white"
             android:src="@drawable/ic_ampulheta_30"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toEndOf="@id/bt_Triangulo"
+            android:tint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@id/bt_Descricao"
-            app:layout_constraintBottom_toBottomOf="parent" />
+            app:layout_constraintStart_toEndOf="@id/bt_Triangulo"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <ImageButton
             android:id="@+id/bt_Descricao"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@drawable/bt_home"
             android:contentDescription="@string/Menu_descricao"
-            android:tint="@color/white"
             android:src="@drawable/ic_olho_30"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toEndOf="@id/bt_Arcanos"
+            android:tint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" />
+            app:layout_constraintStart_toEndOf="@id/bt_Arcanos"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
         <ImageView

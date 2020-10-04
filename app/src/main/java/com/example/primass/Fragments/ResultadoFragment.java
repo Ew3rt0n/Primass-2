@@ -13,45 +13,33 @@ import androidx.fragment.app.Fragment;
 import com.example.primass.Definicoes;
 import com.example.primass.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link ResultadoFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
-public class ResultadoFragment extends Fragment {
+public class ResultadoFragment extends Fragment implements View.OnClickListener {
 
 
     private ImageView im_fundo_ex, im_fundo_im, im_fundo_des,
             im_fundo_mis, im_fundo_arc, im_fundo_per, im_fundo_ori,
             im_fundo_lic;
 
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private static final String ARG_NOME = "paramNome";
+    private static final String ARG_CONSOANTE = "paramConsoante";
+    private static final String ARG_DATA = "paramData";
+    private static final String ARG_NOME_DATA = "paramNomeComData";
+    private static final String ARG_DIA = "paramDia";
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    private String mNome, mConsoante, mData, mNomeData, mDia;
 
     public ResultadoFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment ResultadoFragment.
-     */
-    // TODO: Rename and change types and number of parameters
-    public static ResultadoFragment newInstance(String param1, String param2) {
+    public static ResultadoFragment newInstance(String paramNome, String paramConsoante, String paramData, String paramNomeComData, String paramDia) {
         ResultadoFragment fragment = new ResultadoFragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+        args.putString(ARG_NOME, paramNome);
+        args.putString(ARG_CONSOANTE, paramConsoante);
+        args.putString(ARG_DATA, paramData);
+        args.putString(ARG_NOME_DATA, paramNomeComData);
+        args.putString(ARG_DIA, paramDia);
         fragment.setArguments(args);
         return fragment;
     }
@@ -60,8 +48,11 @@ public class ResultadoFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+            mNome = getArguments().getString(ARG_NOME);
+            mConsoante = getArguments().getString(ARG_CONSOANTE);
+            mData = getArguments().getString(ARG_DATA);
+            mNomeData = getArguments().getString(ARG_NOME_DATA);
+            mDia = getArguments().getString(ARG_DIA);
         }
     }
 
@@ -69,18 +60,25 @@ public class ResultadoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate
-                (R.layout.fragment_resultado, container,
-                        false);
+        View view = inflater.inflate(R.layout.fragment_resultado, container, false);
 
-        im_fundo_ex = view.findViewById(R.id.im_fundo_ex);
-        im_fundo_arc = view.findViewById(R.id.im_fundo_arc);
-        im_fundo_des = view.findViewById(R.id.im_fundo_des);
-        im_fundo_im = view.findViewById(R.id.im_fundo_im);
-        im_fundo_mis = view.findViewById(R.id.im_fundo_mis);
-        im_fundo_per = view.findViewById(R.id.im_fundo_per);
-        im_fundo_ori = view.findViewById(R.id.im_fundo_ori);
-        im_fundo_lic = view.findViewById(R.id.im_fundo_lic);
+        view.findViewById(R.id.im_fundo_ex).setOnClickListener(this);
+        view.findViewById(R.id.im_fundo_arc).setOnClickListener(this);
+        view.findViewById(R.id.im_fundo_des).setOnClickListener(this);
+        view.findViewById(R.id.im_fundo_im).setOnClickListener(this);
+        view.findViewById(R.id.im_fundo_mis).setOnClickListener(this);
+        view.findViewById(R.id.im_fundo_per).setOnClickListener(this);
+        view.findViewById(R.id.im_fundo_ori).setOnClickListener(this);
+        view.findViewById(R.id.im_fundo_lic).setOnClickListener(this);
+
+//        im_fundo_ex = view.findViewById(R.id.im_fundo_ex);
+//        im_fundo_arc = view.findViewById(R.id.im_fundo_arc);
+//        im_fundo_des = view.findViewById(R.id.im_fundo_des);
+//        im_fundo_im = view.findViewById(R.id.im_fundo_im);
+//        im_fundo_mis = view.findViewById(R.id.im_fundo_mis);
+//        im_fundo_per = view.findViewById(R.id.im_fundo_per);
+//        im_fundo_ori = view.findViewById(R.id.im_fundo_ori);
+//        im_fundo_lic = view.findViewById(R.id.im_fundo_lic);
 
 
 
@@ -292,145 +290,62 @@ public class ResultadoFragment extends Fragment {
 
         Definicoes def = new Definicoes();
 
-        im_fundo_ex.setOnClickListener
-                (new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-
-          AlertDialog.Builder builder = new
-                  AlertDialog.Builder(getContext());
-
-          View viewdialog = getLayoutInflater().inflate
-                  (R.layout.customdialog, null);
-
-          builder.setView(viewdialog)
-
-         //((TextView)
-         //view.findViewById(R.id.tv_definicao).setText(def.numexpressao(calcNome))
-          .show();
-
-                                           }
-                                       });
-
-
-        im_fundo_im.setOnClickListener
-                (new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-
-         AlertDialog.Builder builder = new
-                 AlertDialog.Builder(getContext());
-
-         View viewdialog = getLayoutInflater().inflate
-                 (R.layout.customdialog, null);
-
-
-         builder.setView(viewdialog)
-        .show();
-
-                                            }
-                                        });
-
-        im_fundo_per.setOnClickListener
-                (new View.OnClickListener() {
-                 @Override
-                 public void onClick(View view) {
-
-           AlertDialog.Builder builder = new
-                   AlertDialog.Builder(getContext());
-
-           View viewdialog = getLayoutInflater().inflate
-                   (R.layout.customdialog, null);
-
-           builder.setView(viewdialog)
-           .show();
-
-                                            }
-                                        });
-
-        im_fundo_des.setOnClickListener
-                (new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-
-          AlertDialog.Builder builder = new
-                  AlertDialog.Builder(getContext());
-
-          View viewdialog = getLayoutInflater().inflate
-                  (R.layout.customdialog, null);
-
-          builder.setView(viewdialog)
-          .show();
-                                            }
-                                        });
-
-        im_fundo_mis.setOnClickListener
-                (new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-
-          AlertDialog.Builder builder = new
-                  AlertDialog.Builder(getContext());
-
-          View viewdialog = getLayoutInflater().inflate
-                  (R.layout.customdialog, null);
-
-         builder.setView(viewdialog)
-         .show();
-                                            }
-                                        });
-
-        im_fundo_arc.setOnClickListener
-                (new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-
-          AlertDialog.Builder builder = new
-                  AlertDialog.Builder(getContext());
-
-          View viewdialog = getLayoutInflater().inflate
-                  (R.layout.customdialog, null);
-
-          builder.setView(viewdialog)
-          .show();
-                                            }
-                                        });
-
-        im_fundo_ori.setOnClickListener
-                (new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-
-           AlertDialog.Builder builder = new
-                   AlertDialog.Builder(getContext());
-
-           View viewdialog = getLayoutInflater().inflate
-                   (R.layout.customdialog, null);
-
-           builder.setView(viewdialog)
-           .show();
-                                            }
-                                        });
-
-         im_fundo_lic.setOnClickListener
-                 (new View.OnClickListener() {
-                 @Override
-                 public void onClick(View view) {
-
-           AlertDialog.Builder builder = new
-                   AlertDialog.Builder(getContext());
-
-           View viewdialog = getLayoutInflater().inflate
-                   (R.layout.customdialog, null);
-
-          builder.setView(viewdialog)
-          .show();
-                                          }
-
-                                     });
 
         return view;
     }
 
 
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+
+            case R.id.im_fundo_ex:
+                dialog("Titulo Ex", "msg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh asl");
+                break;
+
+            case R.id.im_fundo_arc:
+                dialog("Titulo ARC", "msg ARC");
+                break;
+
+            case R.id.im_fundo_des:
+                dialog("Titulo DES", "msg DES");
+                break;
+
+            case R.id.im_fundo_im:
+                dialog("Titulo IM", "msg IM");
+                break;
+
+            case R.id.im_fundo_mis:
+                dialog("Titulo MIS", "msg MIS");
+                break;
+
+            case R.id.im_fundo_per:
+                dialog("Titulo PER", "msg PER");
+                break;
+
+            case R.id.im_fundo_ori:
+                dialog("Titulo ORI", "msg ORI");
+                break;
+
+            case R.id.im_fundo_lic:
+                dialog("Titulo LIC", "msg LIC");
+                break;
+
+            default:
+                break;
+        }
+    }
+
+    private void dialog(String title, String msg){
+
+        View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+
+        ((TextView)viewdialog.findViewById(R.id.tv_custom_titulo)).setText(title);
+        ((TextView)viewdialog.findViewById(R.id.tv_custom_definicao)).setText(msg);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+        builder.setCancelable(true);
+        builder.setView(viewdialog);
+        builder.show();
+    }
 }
