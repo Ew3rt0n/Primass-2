@@ -1,5 +1,6 @@
 package com.example.primass.Fragments;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,10 +16,11 @@ import com.example.primass.R;
 
 public class ResultadoFragment extends Fragment implements View.OnClickListener {
 
+    private Definicoes def;
 
     private ImageView im_fundo_ex, im_fundo_im, im_fundo_des,
             im_fundo_mis, im_fundo_arc, im_fundo_per, im_fundo_ori,
-            im_fundo_lic;
+            im_fundo_lic, iv_customdialog_close;
 
     private static final String ARG_NOME = "paramNome";
     private static final String ARG_CONSOANTE = "paramConsoante";
@@ -70,6 +72,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         view.findViewById(R.id.im_fundo_per).setOnClickListener(this);
         view.findViewById(R.id.im_fundo_ori).setOnClickListener(this);
         view.findViewById(R.id.im_fundo_lic).setOnClickListener(this);
+
 
 //        im_fundo_ex = view.findViewById(R.id.im_fundo_ex);
 //        im_fundo_arc = view.findViewById(R.id.im_fundo_arc);
@@ -288,7 +291,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
 
         } */
 
-        Definicoes def = new Definicoes();
+        def = new Definicoes();
 
 
         return view;
@@ -300,7 +303,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         switch (view.getId()) {
 
             case R.id.im_fundo_ex:
-                dialog("Titulo Ex", "msg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh aslmsg Exjdashd alsjdhasjdh laksjdh asjdh asjdhalsjdh alsjh asl");
+                dialog("Expressão", def.expressao(mNome));
                 break;
 
             case R.id.im_fundo_arc:
@@ -308,27 +311,27 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
 
             case R.id.im_fundo_des:
-                dialog("Titulo DES", "msg DES");
+                dialog("Destino", def.destino(mData));
                 break;
 
             case R.id.im_fundo_im:
-                dialog("Titulo IM", "msg IM");
+                dialog("Impressão", "impressão");
                 break;
 
             case R.id.im_fundo_mis:
-                dialog("Titulo MIS", "msg MIS");
+                dialog("Missão", def.missao(mNomeData));
                 break;
 
             case R.id.im_fundo_per:
-                dialog("Titulo PER", "msg PER");
+                dialog("Personalidade", def.dia(mDia));
                 break;
 
             case R.id.im_fundo_ori:
-                dialog("Titulo ORI", "msg ORI");
+                dialog("Orientações", "Orientações");
                 break;
 
             case R.id.im_fundo_lic:
-                dialog("Titulo LIC", "msg LIC");
+                dialog("Lições", "msg LIC");
                 break;
 
             default:
@@ -343,8 +346,28 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         ((TextView)viewdialog.findViewById(R.id.tv_custom_titulo)).setText(title);
         ((TextView)viewdialog.findViewById(R.id.tv_custom_definicao)).setText(msg);
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+        ImageView ivClose = viewdialog.findViewById(R.id.iv_customdialog_close);
+
+        final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
         builder.setCancelable(true);
+
+        ivClose.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
+                    @Override
+                    public void onDismiss(DialogInterface dialogInterface) {
+                        dialogInterface.dismiss();
+                    }
+                });
+            }
+
+
+
+        });
+
+
+
         builder.setView(viewdialog);
         builder.show();
     }
