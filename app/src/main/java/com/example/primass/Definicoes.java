@@ -6,6 +6,66 @@ public class Definicoes {
 
     }
 
+    public String tituloexp(String titExp){
+
+        String resposta;
+
+        switch (titExp){
+
+            case "1":
+                resposta = "O Ativo";
+                break;
+
+            case "2":
+                resposta = "O Sensitivo";
+                break;
+
+            case "3":
+                resposta = "O Expressivo";
+                break;
+
+            case "4":
+                resposta = "O Obstinado";
+                break;
+
+            case "5":
+                resposta = "O Curioso";
+                break;
+
+            case "6":
+                resposta = "O Amoroso";
+                break;
+
+            case "7":
+                resposta = "O Ponderado";
+                break;
+
+            case "8":
+                resposta = "O Poderoso";
+                break;
+
+            case "9":
+                resposta = "O Idealista";
+                break;
+
+            case "11":
+                resposta = "O Inspirador";
+                break;
+
+            case "22":
+                resposta = "O Persuasivo";
+                break;
+
+            default:
+                resposta = "ERRO";
+                break;
+        }
+
+        return resposta;
+    }
+
+
+
     public String expressao(String numexpressao){
 
         String resposta;
@@ -13,7 +73,8 @@ public class Definicoes {
         switch (numexpressao){
 
             case "1":
-                resposta = "O número um corresponde ao líder, às pessoas influentes, pioneiras, inventivas e planejadoras – embora muitas vezes essas pessoas realizem seus projetos sem levar em conta os envolvidos. Tendem a dominar, consciente ou inconscientemente, todos os seus conhecidos. \n" +
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O número um corresponde ao líder, às pessoas influentes, pioneiras, inventivas e planejadoras – embora muitas vezes essas pessoas realizem seus projetos sem levar em conta os envolvidos. Tendem a dominar, consciente ou inconscientemente, todos os seus conhecidos. \n" +
                         "Em vista da sua tremenda ousadia, vive a sonhar com grandes empreendimentos, pioneiros, sempre à procura de novidades, visando o presente e o futuro. \n" +
                         "O seu êxito profissional, afetivo ou pessoal, depende exclusivamente do seu modo de pensar, falar e proceder, pois como é individualista, dificilmente aceita conselhos ou sugestões de quem quer que seja. \n" +
                         "Em virtude da sua personalidade de aspecto arrogante e ditatorial, encontrará, ao longo da vida inúmeras dificuldades de relacionamento, sejam elas de cunho afetivo, pessoal ou mesmo profissional, levando-o a fazer amigos e inimigos com grande facilidade. \n" +
@@ -22,20 +83,23 @@ public class Definicoes {
                 break;
 
             case "2":
-                resposta = "O dois, apesar de não ser ambicioso, consegue tudo que deseja, mas sempre pela persuasão, nunca pela força. No lado negativo de seu caráter, destaca-se a hesitação constante e a falta de iniciativa, tendo tendência para adiar decisões importantes por qualquer motivo, levando-o a situações delicadas, principalmente no âmbito profissional e afetivo. \n" +
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O dois, apesar de não ser ambicioso, consegue tudo que deseja, mas sempre pela persuasão, nunca pela força. No lado negativo de seu caráter, destaca-se a hesitação constante e a falta de iniciativa, tendo tendência para adiar decisões importantes por qualquer motivo, levando-o a situações delicadas, principalmente no âmbito profissional e afetivo. \n" +
                         "Normalmente usa de destreza e sabedoria, trabalhando mais nos “bastidores”, ou seja, na retaguarda, para levar alegria e amor a todos os seus conhecidos. É cooperativo, de certa maneira tímido, vulnerável e até passivo, porém sempre atento a todos os detalhes de seu ambiente. Nasceu para trabalhar em conjunto com outras pessoas, dificilmente se adaptando ao comando, seja de que nível for. É detalhista e prefere fazer uso das suas habilidades inatas lidando com pessoas e satisfazendo seu desejo de eterna harmonia. \n" +
                         "Parte do seu sucesso provém do fato de aplicar suas habilidades e saber transformar a teoria em prática. Além disso, o ser dois é muito trabalhador, sempre pensando no sucesso; é, também, de certa forma ambicioso e com grande poder de liderança. Atento aos detalhes, é inventivo e sabe como ninguém solucionar problemas, seja de que nível for. \n" +
                         "Como é uma pessoa leal, grande parte da sua segurança é construída com amor e amizade; bons relacionamentos são importantes para a sua realização.";
                 break;
 
             case "3":
-                resposta = "O três é o número da mais alta sabedoria e valor, da harmonia e da ação, do amor perfeito, da ternura e da força d’alma. \n" +
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O três é o número da mais alta sabedoria e valor, da harmonia e da ação, do amor perfeito, da ternura e da força d’alma. \n" +
                         "É tremendamente apaixonado pela família (mesmo que não aparente), gosta de receber e dar amor e sente-se muito feliz em poder contribuir para a felicidade alheia. É ambicioso e dificilmente desiste dos seus ideais, seus objetivos. É um ser criativo e normalmente tem muitos amigos divertidos, além de possuir uma elevada percepção de beleza, cor e forma. O aspecto leve e espirituoso da sua personalidade sugere que gosta de se divertir e de se comunicar, e esses predicados, quando num elemento culturalmente desenvolvido, leva-o à procura de respostas para as questões mais profundas da vida, o que, no final das contas, acaba levando-o a explorar áreas mais espirituais ou místicas. \n" +
                         "Detesta receber ordens e trabalhar em uma profissão ou posição inferior, pois como sabe ter poderes e qualidades superiores, também sabe como tirar proveito de qualquer situação que o possa fazer feliz. \n";
                 break;
 
             case "4":
-                resposta = "O quatro é o número da perseverança e da imortalidade, da descoberta e da consumação, da firmeza e do propósito, da realização das esperanças, das regras, dos poderes e da vontade. \n" +
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O quatro é o número da perseverança e da imortalidade, da descoberta e da consumação, da firmeza e do propósito, da realização das esperanças, das regras, dos poderes e da vontade. \n" +
                         "O novo lhe assusta e sente-se mais à vontade lidando com atividades rotineiras e já consagradas pela experiência. Gosta de construir coisas, mesmo que aparentemente não tenham maior serventia, pois é dotado de grande habilidade manual. \n" +
                         "Não suporta pessoas hipócritas, desonestas, preguiçosas e com falta de visão do futuro, e estas deficiências o tornam deprimido e triste. \n" +
                         "Não gosta de discussões fúteis, sem motivo aparente. Jamais guarda rancor, ressentimentos ou ódio de qualquer espécie, esquecendo rapidamente qualquer ofensa ou constrangimento. \n" +
@@ -44,13 +108,15 @@ public class Definicoes {
                 break;
 
             case "5":
-                resposta = "O cinco é o número dos criativos, dos ousados, dos agitados e dos amantes da liberdade. A característica deste número o impele a viajar pelo mundo sempre em busca de saber, de novas experiências e também prazer. É um ser sociável, agradável e sempre bem-vindo em festas e reuniões. Gosta de ocupações diferentes, aquelas que o permitem estar em contato com pessoas, com o público, e que o deixem agir e exprimir-se livremente. \n" +
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O cinco é o número dos criativos, dos ousados, dos agitados e dos amantes da liberdade. A característica deste número o impele a viajar pelo mundo sempre em busca de saber, de novas experiências e também prazer. É um ser sociável, agradável e sempre bem-vindo em festas e reuniões. Gosta de ocupações diferentes, aquelas que o permitem estar em contato com pessoas, com o público, e que o deixem agir e exprimir-se livremente. \n" +
                         "Detesta receber ordens, principalmente de pessoas com estudo ou capacidade inferior às suas. Também não gosta de trabalhos pesados, enfadonhos, cansativos, preferindo os intelectuais, ou aqueles que o colocam em destaque, como chefe de vendas, de marketing, de criação, ou qualquer outro que implique no desejo de viver e pesquisar. \n" +
                         "Possui grande capacidade para lidar com quaisquer tipos de pessoas, sejam elas ricas, influentes ou intelectuais. O cinco, às vezes, tem surtos extraordinários de energia e coragem que lhe permitem reagir rapidamente a situações e agarrar as oportunidades. Possui uma mente excelente e precisa e é capaz de ter pensamentos profundos, além de uma inclinação a pensar de forma técnica e analítica. O seu espírito independente o estimula a ver as coisas de uma maneira original e a buscar a liberdade pessoal. Porém, deve evitar ser voluntarioso ou obstinado e se tornar negativo e pouco comunicativo. \n";
                 break;
 
             case "6":
-                resposta = "O seis é um número de certa maneira contraditório; é o número da confusão e junção, da união e sedução, do vício e da virtude, da incerteza no casamento, do amor, da atração dos sexos e da beleza. Significa todos os tipos de problemas e discórdias, mas também é capaz de purificação pelo conhecimento e de uma vida elevada. \n" +
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O seis é um número de certa maneira contraditório; é o número da confusão e junção, da união e sedução, do vício e da virtude, da incerteza no casamento, do amor, da atração dos sexos e da beleza. Significa todos os tipos de problemas e discórdias, mas também é capaz de purificação pelo conhecimento e de uma vida elevada. \n" +
                         "A família é à base de sustentação de toda a sua vida. Amar e ser amado; eis o desejo maior do número seis. E quando privado desse amor, sente-se completamente perdido, sem saber o que fazer e como agir. \n" +
                         "Aparentemente calmo, pode explodir quando o contradizem ou criticam, principalmente quando nasce nos dias 29, 30, 31 ou primeiro de cada mês. \n" +
                         "O seis quer ver todos saudáveis, alegres e repletos de sucesso e felicidade. É pródigo em favorecer os outros, nada esperando em retribuição, passando inúmeras vezes por “otário”, pois as pessoas que favorece dificilmente retribuem os favores recebidos. Apesar de suas qualidades expressivas e brilhantes, pode ter dificuldades em fazer escolhas e tomar decisões. Como tem diversos interesses que o levam a diferentes direções, é muito importante ter um senso de propósito. Sem isso, pode ficar dividido entre os seus ideais e o desejo de satisfação material. Um lado da sua natureza pode ter uma forte atração por dinheiro, luxo e um estilo de vida indolente, mas o outro tem um desejo inspirador que pode levá-lo a trabalhar duro para realizar seus ideais. Qualquer que seja a sua escolha, terá muitas oportunidades e a habilidade de driblar as situações difíceis, graças ao seu charme e persuasão. \n" +
@@ -58,13 +124,15 @@ public class Definicoes {
                 break;
 
             case "7":
-                resposta = "É o número da realeza e do triunfo, da fama e da honra, da reputação e da vitória. O sete é perfeccionista, de certa maneira arredio, por vezes calado, demora a esquentar um relacionamento, interessado em filosofia, religiosidade, política e assuntos extra físicos. De grande intuição e discernimento, raramente segue as idéias alheias e só faz o que acredita. É vibrante em seus propósitos, honesto, leal, amigo, profundo, elevado moralmente, não gostando de futilidades e ilegalidades, e as atividades ou atos que as contenham, o deprimem e o entristecem. \n" +
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O sete é o número da realeza e do triunfo, da fama e da honra, da reputação e da vitória. O sete é perfeccionista, de certa maneira arredio, por vezes calado, demora a esquentar um relacionamento, interessado em filosofia, religiosidade, política e assuntos extra físicos. De grande intuição e discernimento, raramente segue as idéias alheias e só faz o que acredita. É vibrante em seus propósitos, honesto, leal, amigo, profundo, elevado moralmente, não gostando de futilidades e ilegalidades, e as atividades ou atos que as contenham, o deprimem e o entristecem. \n" +
                         "Como é um ator natural, muitas vezes passa uma imagem de autoconfiança. Em geral é perspicaz e inteligente, com um forte sexto sentido, pode avaliar rapidamente as pessoas e situações. Isso faz com que tenha um desempenho melhor quando ocupa uma posição de liderança em vez de se desgastar em trabalhos físicos. \n" +
                         "Mesmo que seja generoso, tanto quanto à sua disponibilidade de tempo quanto de dinheiro, pode se tornar expansivo e indulgente em excesso. Felizmente, é aberto às críticas, o que lhe permite usar a autoanálise como uma ferramenta valiosa, com poder de influenciar os demais. Por vezes é incompreendido, considerado estranho, um ser solitário, incomum, diferente. \n";
                 break;
 
             case "8":
-                resposta = "O oito é considerado o número da atração e da repulsão, da vida, de todos os tipos de lutas, da separação, ruptura, destruição, expectativas e ameaças. Também é conhecido como o “portão da eternidade”. \n" +
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O oito é considerado o número da atração e da repulsão, da vida, de todos os tipos de lutas, da separação, ruptura, destruição, expectativas e ameaças. Também é conhecido como o “portão da eternidade”. \n" +
                         "Dificilmente consegue expressar seus sentimentos, parecendo frio e evasivo; a realidade é outra: é muito carinhoso, meigo, amoroso, carente de afeição e com muito calor humano. Em virtude destas características (ser uma coisa e parecer outra), tem tendência ao materialismo, ao acúmulo de bens materiais e também uma certa ganância de querer possuir a maior quantidade de dinheiro e bens possíveis. \n" +
                         "É organizadíssimo e muito dedicado à profissão, sendo excelente para lidar com situações concretas que requerem discernimento e constância. É austero, prático, direto, seguro de si, por vezes generoso, mas também se pode tornar violento quando as coisas não correm como deseja. \n" +
                         "Como é dotado de alto senso de justiça, jamais deve fazer qualquer transação comercial fraudulenta, pois essa “falta” poderá lhe ser muito prejudicial ao longo da existência. Normalmente não perde tempo lutando pela fortuna, pois sabe com absoluta certeza que conseguirá atingir seus objetivos. \n" +
@@ -72,7 +140,8 @@ public class Definicoes {
                 break;
 
             case "9":
-                resposta = "O nove é misterioso, silencioso e liga-se ao plano astral. É o número da sabedoria, da virtude, da experiência, dos mistérios, da moralidade, do valor, da soberania, do amor humano, da obscuridade, da proteção e dos frutos do mérito. Enfim, é o número dos universalistas, dos generosos, dos seres humanos sensíveis aos sofrimentos alheios e vivem constantemente em busca da “verdade”, da compreensão, adaptando-se a trabalhos que visam o engrandecimento do ser humano, não medindo esforços e sacrifícios para fazer o que pensa ser certo, ou seja, amar, proteger e defender o próximo. \n" +
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O nove é misterioso, silencioso e liga-se ao plano astral. É o número da sabedoria, da virtude, da experiência, dos mistérios, da moralidade, do valor, da soberania, do amor humano, da obscuridade, da proteção e dos frutos do mérito. Enfim, é o número dos universalistas, dos generosos, dos seres humanos sensíveis aos sofrimentos alheios e vivem constantemente em busca da “verdade”, da compreensão, adaptando-se a trabalhos que visam o engrandecimento do ser humano, não medindo esforços e sacrifícios para fazer o que pensa ser certo, ou seja, amar, proteger e defender o próximo. \n" +
                         "O nove é um pensador nato e dispõe de grande capacidade de raciocínio, observação, criatividade e compreensão, levando-o a conhecer o âmago e as qualidades de coisas e fatos. \n" +
                         "Deve sempre ser impessoal, pois como é universalista, o materialismo pode-lhe causar sérios desapontamentos e aborrecimentos, principalmente com respeito a “amigos” e parentes que considera íntegros e incapazes de ações ilícitas, mas que na realidade são falsos. \n" +
                         "Tem excelente capacidade para ganhar dinheiro, e também para perdê-lo. Mas o mais extraordinário, é o fato de “nunca” lhe faltar dinheiro para as despesas do dia-a-dia. \n" +
@@ -80,7 +149,8 @@ public class Definicoes {
                 break;
 
             case "11":
-                resposta = "O onze é o número do poder, da bravura, da energia, do sucesso em aventuras destemidas, da liberdade. Suas vibrações são lunares e seus possuidores são idealistas, intuitivos, sensíveis, místicos, imaginativos e pensadores inspirados. O ser onze dificilmente é bem sucedido como negociante, sentindo-se mais à vontade em profissões agitadas, como política, marketing, administração de grandes empresas ou grandes projetos esotéricos, sociais e ideológicos. \n" +
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O onze é o número do poder, da bravura, da energia, do sucesso em aventuras destemidas, da liberdade. Suas vibrações são lunares e seus possuidores são idealistas, intuitivos, sensíveis, místicos, imaginativos e pensadores inspirados. O ser onze dificilmente é bem sucedido como negociante, sentindo-se mais à vontade em profissões agitadas, como política, marketing, administração de grandes empresas ou grandes projetos esotéricos, sociais e ideológicos. \n" +
                         "Profundo conhecedor da mente humana, normalmente se destaca dos demais, pois sendo um “número mestre”, consegue vislumbrar em seus amigos e inimigos, defeitos e virtudes que em outros números seria impossível. Tem fé em seus ideais e dificilmente volta atrás em suas decisões. Procura sempre ser justo, leal, compreensivo e viver em harmonia com todos. \n" +
                         "A vibração especial deste número sugere que o idealismo, a inspiração e a inovação são altamente importantes para o seu possuidor. Uma combinação de humildade e confiança o desafia a trabalhar para alcançar a independência financeira e espiritual. Através da experiência, pode aprender a lidar com os dois lados da sua natureza e desenvolver uma atitude menos extremista, acreditando nos seus sentimentos. Em geral, o onze tem muita energia e gosta de vitalidade, mas deve evitar o excesso de ansiedade e a falta de sentido prático \n" +
                         "Se não seguir os dogmas esotéricos e estudos profundos do “hermetismo”, pode-se tornar indolente, indeciso e sujeito à vontade alheia, sendo sugado e feito de empregado por seres muito mais inferiores do que ele. \n" +
@@ -88,7 +158,8 @@ public class Definicoes {
                 break;
 
            case "22":
-                resposta = "As pessoas cujos nomes correspondem a vinte e dois – o número supremo – possuem todas as qualidades boas dos outros números. Se desejar algo que em princípio pareça impossível, vá em frente, pois com certeza conseguirá atingir o seu objetivo, e até com certa facilidade, pois é habilidoso, idealista, organizado e tem grande potencial de realização. \n" +
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "As pessoas cujos nomes correspondem a vinte e dois – o número supremo – possuem todas as qualidades boas dos outros números. Se desejar algo que em princípio pareça impossível, vá em frente, pois com certeza conseguirá atingir o seu objetivo, e até com certa facilidade, pois é habilidoso, idealista, organizado e tem grande potencial de realização. \n" +
                         "Tem, ainda, outras qualidades: integridade moral, honestidade nata, inspiração divina, disciplina técnica e social, constância nos objetivos e grande capacidade para levar até ao fim um projeto ou um objetivo. Não é muito fácil conviver com ele, pois sendo “superior”, normalmente não se adapta a situações preconcebidas e muito menos gosta de aceitar ordens de quem quer que seja, gostando de trabalhar sozinho ou então em cargos de chefia. \n" +
                         "A ambição pode levá-lo ao mundo dos negócios, no qual pode se sobressair graças à sua capacidade de organização e administração. Isto sugere também que pode vir a ser bem-sucedido nas áreas industrial, bancária, imobiliária e de merchandising. A sua visão e sua imaginação ativa podem levá-lo a seguir carreiras no teatro, fotografia, cinema ou decoração de interiores. A sua habilidade natural para lidar com as pessoas pode ser canalizada para profissões que envolvam o trato com o público, como comunicação, educação, medicina, trabalho social ou advocacia. O seu discernimento especial e compaixão podem levá-lo a trabalhar no mundo da cura, seja na medicina tradicional ou na alternativa. \n";
                 break;
@@ -238,61 +309,265 @@ public class Definicoes {
         return resposta;
     }
 
+    public String tituloimp(String titImp){
+
+        String resposta;
+
+        switch (titImp){
+
+            case "1":
+                resposta ="O Líder";
+                break;
+
+            case "2":
+                resposta ="O Colaborador";
+                break;
+
+            case "3":
+                resposta ="O Jovial";
+                break;
+
+            case "4":
+                resposta ="O Racional";
+                break;
+
+            case "5":
+                resposta ="O Camaleão";
+                break;
+
+            case "6":
+                resposta ="O Afável";
+                break;
+
+            case "7":
+                resposta ="O Analista";
+                break;
+
+            case "8":
+                resposta ="O Construtor";
+                break;
+
+            case "9":
+                resposta ="O Humanitário";
+                break;
+
+            default:
+                resposta = "ERRO";
+                break;
+        }
+
+        return resposta;
+    }
+
+
+
+    public String impressao(String numImpressao){
+
+        String resposta;
+
+        switch (numImpressao){
+
+            case "1":
+                resposta ="Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
+                        "A impressão deste ser, é exatamente isto: um ser superior que se destaca dos demais, fazendo com que todos, invariavelmente, se virem para ele. \n" +
+                        "É líder por natureza e vive patrocinando novas ideais, sejam elas suas ou de outrem. Nessa busca, sonha em ser corajoso, ousado, justo, leal e original, tanto nas qualidades profissionais, quanto no seu modo de se vestir e no falar. É persistente e dificilmente se deixa dominar pelo desânimo, por isso, para conseguir o que deseja, pode mostrar-se teimoso, egoísta, obstinado e por vezes opressor. Sabe mandar, dirigir e tem aparência sólida e autoconfiante. \n" +
+                        "Entre os amigos (que são muitos) é sempre escolhido para liderar, pois as suas ideais e posturas sólidas, lhe conferem as prerrogativas inerentes aos vencedores. \n" +
+                        "Mostra grande potencial e habilidade executiva e de liderança, que pode se manifestar em trabalhos de especialização na sua área de atuação ou em postos de gerenciamento e administração, na carreira militar ou política. \n";
+                break;
+
+            case "2":
+                resposta ="Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
+                        "Quer amor, amizade, carinho, harmonia e paz. Tem feições que o destacam de todos os outros números: é ardoroso, idealista, calado, pacífico, diplomata, sendo muito hábil em conciliações de interesses seus e alheios. Na tentativa de agradar as pessoas de quem gosta, corre o risco de se tornar excessivamente dependente. Contudo, desenvolver a autoconfiança, pode superar essa tendência e vir a ser uma pessoa bem sucedida, sem grandes problemas. \n" +
+                        "É também responsável, justo, gosta de calma, de legitimidade, esclarecimento e também inspiração. Gosta também de se sentir compreendido e confortado. Quando só, parece sonhador, trazendo a cabeça nas “nuvens”. \n" +
+                        "Pelos modos calmos, gentis e agradáveis, desperta em todos a segurança e a confiança. Normalmente age com naturalidade e simplicidade, não gostando de se exibir, seja em família ou numa roda social. A discrição é seu lema. \n";
+                break;
+
+            case "3":
+                resposta = "Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
+                        "É do tipo social, amistoso, alegre e jovial. O 3 é popular, atraente, criativo, gostando de ser aplaudido, notado, admirado, ou seja, que o vejam como um verdadeiro artista. Normalmente cultiva a criatividade, os contatos sociais e a expressão de suas próprias ideais e sentimentos, especialmente através de alguma forma de arte. \n" +
+                        "Demonstra personalidade e um espírito de grande profundidade, justiça, esperança, filantropia, alegria e felicidade. Abençoado e com charme, sensibilidade e imaginação fértil, o três precisa equilibrar essas qualidades com alguma forma de fundação sólida na vida. Embora seja, em geral, artístico, charmoso e elegante, com excelentes relacionamentos, e tenha um bom-senso de humor, talvez precise desenvolver a autoestima e evitar tendências à preocupação ou insegurança emocional. \n";
+                break;
+
+            case "4":
+                resposta = "Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
+                        "É o número da consumação e da manifestação da luz. É o número do entendimento e da ordem; é a chave que abrirá muitas portas mágicas fechadas ao homem comum. É o número dos seres rígidos, fortes, seguros, objetivos, trabalhadores, conservadores e dignos de confiança; o sustentáculo da família, da empresa e dos amigos. \n" +
+                        "É naturalmente preciso, simples, comedido, sendo apreciador de boa música, teatro e gastronomia. É elegante no vestir, preferindo o clássico ao moderno. \n" +
+                        "A sólida estrutura e capacidade de organização mostra que o quatro precisa de estabilidade e ordem. Como a natureza o dotou de grande energia, habilidades práticas e forte determinação, com certeza conseguirá, com estes predicados, atingir seus objetivos. \n" +
+                        "É detalhista, ordeiro, natural no andar, de gestos simples e graciosos. Bom ouvinte está sempre interessado nas conversas alheias quando estas lhe parecem sinceras e concretas. \n" +
+                        "\n";
+                break;
+
+            case "5":
+                resposta = "Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
+                        "É um número mágico e peculiar, que era usado pelos gregos e romanos como amuleto para proteger o portador dos espíritos malignos. O dono deste número é normalmente intuitivo, fazendo-o normalmente conhecer o âmago, o caráter e sentimentos alheios. É um ser cativante, interessante, agradável e por que não dizer, magnético. \n" +
+                        "Sonha em viajar por todos os recantos do planeta levando uma vida de aventuras, sem vínculos ou até mesmo sem muita responsabilidade (não que não a tenha). \n" +
+                        "Sabe se defender dos inimigos é esperto e dificilmente consegue ser enganado. É também muito leal e sabe fazer amizades e também inimizades com muita facilidade. \n" +
+                        "Está sempre à procura do que está além da superfície dos seres e das coisas, gostando de se mostrar antecipado, ora criando, descobrindo ou ditando modas. Uma das suas maiores virtudes é o entusiasmo com que encara qualquer inovação ou novidade, além de estar sempre bem informado sobre todas as coisas, sendo muito difícil surpreendê-lo. \n" +
+                        "Mesmo quando a idade chegar, terá sempre uma aparência alegre e juvenil. O desejo de explorar ou experimentar qualquer novidade e a abordagem entusiástica, sugerem que a vida tem muito a lhe oferecer. \n" +
+                        "O charme é dos seus atributos naturais e, por isso, não tem problemas em atrair admiradores e amantes.\n";
+                break;
+
+            case "6":
+                resposta ="Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
+                        "É visto como a perfeição dos números pelos cabalistas e o filósofo grego Nicomachus o chama de Vênus, deusa a quem era consagrado e razão pela qual é tido como o número do amor. O portador deste número é elegante, atraente, do tipo paternal e em certas ocasiões, encantador. Sonha com uma família maravilhosa, uma bela casa, com varandas, flores e sempre pronta para receber os amigos. \n" +
+                        "É de certa maneira contraditório, pois enquanto tem o dom da harmonia, também atrai confusão; é o número da sedução, do vício e da virtude, das incertezas no casamento e também do amor puro e simples; gosta de segurança, tem senso de responsabilidade, ama o social (tem tendência à extravagância) e não suporta viver só. \n" +
+                        "O seis possui uma nobreza interior que se mostra especialmente quando ocupa posição de liderança ou de responsabilidade. Encara o trabalho com seriedade e dá o melhor de si quando tem liberdade de ação. Quando aprende a examinar todos os fatos de qualquer situação difícil ou a ceder em vez de se lançar em jogos de poder, tem resultados mais positivos. \n";
+                break;
+
+            case "7":
+                resposta = "Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
+                        "É um número classificado como próspero e geralmente é visto assim. É um número inteiramente religioso e como tal foi estimado pelos antigos; representa o triunfo do espírito sobre a matéria. Tem facilidade de adquirir numerosas simpatias no mundo social. Seu grande desejo é se ver cercado de livros numa atmosfera de paz, beleza e tranquilidade, e isso o leva a imaginar-se sábio e também o refúgio aonde todos venham consultar. \n" +
+                        "É tremendamente místico, de natureza meditativa e também solitária, apesar de gostar da companhia dos amigos e também de elogios, vivendo à procura do entendimento e também do esclarecimento de suas dúvidas e conflitos. Dispõe de natureza expressiva, única e imponente, pois a sua personalidade sete, não pode ser imitada pelos que não pertencem à mesma vibração. Possui personalidade exigente, sinceridade e honestidade com todos, exigindo, é claro, reciprocidade. Tem natureza distinta, delicada, sóbria, não gostando muito de aparecer. \n" +
+                        "Como é uma pessoa sensível, com sentimentos intensos e profundos, aprende a relaxar procurando ser alegre e evitando sobrecarregar sua mente quando enfrenta situações estressantes. A tendência a ser enigmático ou dissimulado, muitas vezes o leva a desenvolver a arte de fazer perguntas sutis sem deixar que ninguém saiba o que realmente está pensando.\n";
+                break;
+
+            case "8":
+                resposta = "Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
+                        "Este número é peculiar e visto como de grande poder pelos antigos gregos e cabalistas, que diziam: “Todas as coisas são oito”. O oito aparenta imponência e influência, mesmo que esteja com problemas pessoais ou financeiros. Tem raciocínio vivo e perspicaz, e seus modos são calmos e equilibrados. Sonha em ser o comandante de grande empreendimento comercial, um poderoso executivo, sempre cercado de tudo e de todos e chefiando numerosos empregados. \n" +
+                        "É ordeiro, prático e está sempre procurando fazer do seu local de trabalho um lugar agradável e eficiente, onde existam todas as coisas necessárias ao bom desenvolvimento profissional. \n" +
+                        "Quando é atingido em seu amor próprio, é passível de impulsos de mau humor e até certas repulsas a brincadeiras. Altamente criativo, o oito tem uma força vigorosa que o impele a sempre buscar novas formas de realização. Naturalmente dramático, mas com aversão a obedecer aos outros, não gosta de receber críticas. Tem uma incrível habilidade para lidar com as pessoas e fazer contatos, mas pode alterar entre ser caloroso e atencioso e ser frio e indiferente. \n" +
+                        "Gosta de ser notado e de dar impressão de estar bem financeiramente. Tem senso natural para os negócios e se beneficiará muito se desenvolver suas habilidades executivas e de organização.\n";
+                break;
+
+            case "9":
+                resposta = "Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
+                        "É o ser que atrai sempre simpatias e antipatias na mesma proporção. Sonha em ser um humanitarista, ávido por servir, compreensivo em relação aos sofrimentos alheios e uma fonte de conforto e aconselhamento. Realiza-se pelo esforço que emprega em resolver os problemas alheios, dando-lhes amizade e carinho. \n" +
+                        "É um visionário, sempre em busca de harmonia, esclarecimento e analisando tudo e todos, procurando desvendar os problemas mais obscuros e incompreendidos da Natureza. \n" +
+                        "Possui rara inteligência e também profundos conhecimentos sobre os mais diversos assuntos, mesmo que tenha tido uma educação insuficiente. \n" +
+                        "Pela sua aparência (imponente), personalidade marcante, sabedoria, bondade, compreensão e ponderação, normalmente inspira confiança em todos que o conhecem, podendo produzir admiráveis resultados, pois normalmente atinge o fim a que se propõe. Quando vê as coisas correrem como quer, normalmente se sente leve e sabe julgar o caráter das pessoas. Isso lhe permite ser sociável e voltado para as coisas públicas, características que, quando combinadas, o levam a ajudar muitas pessoas.\n";
+                break;
+
+            default:
+                resposta = "ERRO";
+                break;
+        }
+
+        return resposta;
+    }
+
+    public String titulodest(String titDest){
+
+        String resposta;
+
+        switch (titDest){
+            case "1":
+                resposta ="Caminho do pioneirismo";
+                break;
+
+            case "2":
+                resposta ="Caminho da cooperação";
+                break;
+
+            case "3":
+                resposta ="Caminho da expressão";
+                break;
+
+            case "4":
+                resposta ="Caminho da praticidade";
+                break;
+
+            case "5":
+                resposta ="Caminho da mudança";
+                break;
+
+            case "6":
+                resposta ="Caminho da união";
+                break;
+
+            case "7":
+                resposta ="Caminho da Sabedoria";
+                break;
+
+            case "8":
+                resposta ="Caminho do poder";
+                break;
+
+            case "9":
+                resposta ="Caminho da universalidade";
+                break;
+
+            case "11":
+                resposta ="Caminho da inspiração";
+                break;
+
+            case "22":
+                resposta ="Caminho do altruísta";
+                break;
+
+            default:
+                resposta = "ERRO";
+                break;
+}
+
+        return resposta;
+                }
+
     public String destino(String numDestino){
 
         String resposta;
 
         switch (numDestino){
             case "1":
-                resposta = "Normalmente é um ser talentoso e espirituoso, em geral uma pessoa ativa e produtiva, dotada de uma inteligência aguçada e perspicaz Se for estimulado por um projeto que considere valer a pena, tem o talento, a vitalidade e a capacidade para realizações extraordinárias. \n" +
+                resposta ="O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Normalmente é um ser talentoso e espirituoso, em geral uma pessoa ativa e produtiva, dotada de uma inteligência aguçada e perspicaz Se for estimulado por um projeto que considere valer a pena, tem o talento, a vitalidade e a capacidade para realizações extraordinárias. \n" +
                         "O 1 necessita de brilho, de reconhecimento e sucesso. Para conseguir esse estágio, se dedicam exaustivamente ao trabalho e normalmente são os melhores na sua área de atuação. Quem com ele convive, fica muito intrigado, pois demonstra sempre um semblante feliz, alegre, descontraído e, acima de tudo, de muita confiança em suas realizações, mesmo que tudo isso não seja verdade.";
                 break;
 
             case "2":
-                resposta = "Tem habilidades diplomáticas naturais e sabe deixar os outros à vontade. Normalmente as pessoas se sentem atraídas por sua gentileza e maneiras refinadas e normalmente se ajusta bem a trabalhos em conjunto. É amigo leal, excelente pai ou mãe e faz grande questão de proteger os familiares, amigos ou simplesmente colegas de trabalho. \n" +
+                resposta ="O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Tem habilidades diplomáticas naturais e sabe deixar os outros à vontade. Normalmente as pessoas se sentem atraídas por sua gentileza e maneiras refinadas e normalmente se ajusta bem a trabalhos em conjunto. É amigo leal, excelente pai ou mãe e faz grande questão de proteger os familiares, amigos ou simplesmente colegas de trabalho. \n" +
                         "Quando consegue ver as pessoas e situações a partir de uma perspectiva superior, pode dar muito de si, ao mesmo tempo em que se mantém distante, confiando que a vida irá naturalmente resolver as coisas no tempo devido.";
                 break;
 
             case "3":
-                resposta = "Ao longo da sua existência deve sempre procurar cultivar esses dotes, ou seja, a criatividade, os contatos sociais e a expressão de suas ideais e sentimentos. \n" +
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Ao longo da sua existência deve sempre procurar cultivar esses dotes, ou seja, a criatividade, os contatos sociais e a expressão de suas ideais e sentimentos. \n" +
                         "Tudo o que faz cresce e se multiplica. Tem, na comunicação, como um todo, o seu principal trunfo para ser próspero e feliz. A emoção e a criatividade são as razões do seu sucesso, pois tem extraordinária facilidade de expressão e também grande capacidade executiva. \n" +
                         "Dinâmico e versátil, tem uma personalidade charmosa e habilidade para promover suas ideais. Quanto mais se dedicar ao trabalho, melhores serão os resultados e recompensas. Pode ser bem sucedido como vendedor, professor, relações públicas, nas artes plásticas ou cênicas ou em contato com o público.";
                 break;
 
             case "4":
-                resposta = "Terá de trabalhar muito, com muita dedicação para manter a vida financeira, afetiva e social. Porém, tudo o que consegue é sólido e eterno. Dedica-se de corpo e alma aos seus projetos e conquistas e quase sempre é bem sucedido profissionalmente. Tem poucos amigos, porém sinceros e não se interessa por quantidade, preferindo a qualidade em tudo e em todos. Sensível, cheio de ideais criativas e com senso de visão, tem potencial para expressar os seus conceitos originais e inspirados. Isso pode ajudá-lo a superar possíveis preocupações quanto à sua instabilidade financeira e a tomar as decisões corretas. Em si repousa a segurança e a estabilidade para manter tudo e todos que dele dependem.";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Terá de trabalhar muito, com muita dedicação para manter a vida financeira, afetiva e social. Porém, tudo o que consegue é sólido e eterno. Dedica-se de corpo e alma aos seus projetos e conquistas e quase sempre é bem sucedido profissionalmente. Tem poucos amigos, porém sinceros e não se interessa por quantidade, preferindo a qualidade em tudo e em todos. Sensível, cheio de ideais criativas e com senso de visão, tem potencial para expressar os seus conceitos originais e inspirados. Isso pode ajudá-lo a superar possíveis preocupações quanto à sua instabilidade financeira e a tomar as decisões corretas. Em si repousa a segurança e a estabilidade para manter tudo e todos que dele dependem.";
                 break;
 
             case "5":
-                resposta = "É alegre, comunicativo, inteligente e receptivo, sempre bem-vindo em qualquer roda. Curioso, dotado de capacidade de discernimento, geralmente procura se fortalecer através do conhecimento. Com ele não existe “mau tempo”; está sempre de bem com a vida e, por isso, por vezes é confundido e até tachado de irresponsável, coisa que não é, em absoluto. \n" +
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "É alegre, comunicativo, inteligente e receptivo, sempre bem-vindo em qualquer roda. Curioso, dotado de capacidade de discernimento, geralmente procura se fortalecer através do conhecimento. Com ele não existe “mau tempo”; está sempre de bem com a vida e, por isso, por vezes é confundido e até tachado de irresponsável, coisa que não é, em absoluto. \n" +
                         "Como é mentalmente ativo, gosta de um bom desafio intelectual. Contudo, a sua inclinação para se envolver em disputas implica que quando não consegue o que quer pode ficar irascível.";
                 break;
 
             case "6":
-                resposta = "A sua forte personalidade, combinada com sua capacidade amorosa e seu charme, pode ser muito atraente para os demais. É ambicioso mas também compreensivo e encorajador, com disposição de fazer qualquer coisa pelas pessoas que ama. Detesta aglomerações e festividades excessivas, gosta da harmonia e de viver em paz. Geralmente se dá bem em relacionamentos afetivos, pois é amável e muito gentil.";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "A sua forte personalidade, combinada com sua capacidade amorosa e seu charme, pode ser muito atraente para os demais. É ambicioso mas também compreensivo e encorajador, com disposição de fazer qualquer coisa pelas pessoas que ama. Detesta aglomerações e festividades excessivas, gosta da harmonia e de viver em paz. Geralmente se dá bem em relacionamentos afetivos, pois é amável e muito gentil.";
                 break;
 
             case "7":
-                resposta = "Busca sempre o lado oculto das coisas e das pessoas. Nunca se satisfaz com as aparências, preferindo conhecer a essência. \n" +
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Busca sempre o lado oculto das coisas e das pessoas. Nunca se satisfaz com as aparências, preferindo conhecer a essência. \n" +
                         "Com uma necessidade constante de ter uma maior autoconsciência, gosta de reunir informações e se interessa por ler, escrever por assuntos espirituais. A tendência a ser enigmático ou reservado sugere que pode ocasionalmente se sentir mal interpretado.";
                 break;
 
             case "8":
-                resposta = "A sua necessidade de crescimento e habilidade para rever o todo sugere que gosta de pensar em grandes termos. Confiante e curioso, não gosta de interferências de outras pessoas e, com a inclinação à teimosia, pode tornar-se inquieto e impaciente.";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "A sua necessidade de crescimento e habilidade para rever o todo sugere que gosta de pensar em grandes termos. Confiante e curioso, não gosta de interferências de outras pessoas e, com a inclinação à teimosia, pode tornar-se inquieto e impaciente.";
                 break;
 
             case "9":
-                resposta = "Com sua grande capacidade para adquirir conhecimentos, pode ser bem sucedido no meio acadêmico ou nas áreas de advocacia, psicologia, medicina, literatura, ou ainda nas artes plásticas de um modo geral e, principalmente, no meio esotérico.";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Com sua grande capacidade para adquirir conhecimentos, pode ser bem sucedido no meio acadêmico ou nas áreas de advocacia, psicologia, medicina, literatura, ou ainda nas artes plásticas de um modo geral e, principalmente, no meio esotérico.";
                 break;
 
             case "11":
-                resposta = "Sensível e idealista, é normalmente uma pessoa enérgica, com enorme potencial mental quando está disposto a se disciplinar através da concentração nos seus objetivos. Versátil e imaginativo, precisa expressar o seu poder criativo e emocional. A compostura e a perseverança são frequentemente a chave para o seu sucesso, e pode impressionar quando se especializa em uma área específica. \n" +
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Sensível e idealista, é normalmente uma pessoa enérgica, com enorme potencial mental quando está disposto a se disciplinar através da concentração nos seus objetivos. Versátil e imaginativo, precisa expressar o seu poder criativo e emocional. A compostura e a perseverança são frequentemente a chave para o seu sucesso, e pode impressionar quando se especializa em uma área específica. \n" +
                         "O número-mestre 11 sugere que o idealismo, a inspiração e a inovação são altamente importante para ele. Uma combinação de humildade e confiança o desafia a trabalhar para alcançar a independência financeira e espiritual. \n" +
                         "É concentrado, objetivo, inspirador, muito espiritualizado, intuitivo, expansivo, prestativo, tem grande habilidade para curar, é humanitário e psíquico.";
                 break;
 
             case "22":
-                resposta = "O Destino mestre 22 é orgulhoso, prático e altamente intuitivo. Normalmente honesto e trabalhador, com capacidade natural para a liderança, possui uma personalidade carismática e uma compreensão profunda das pessoas e de suas motivações. Apesar de ser reservado, muitas vezes tem uma preocupação atenciosa e protetora com o bem-estar das pessoas, mas nunca perde de vista a sua posição realista e pragmática. Em geral culto e mundano, tem muitos amigos e admiradores. Os que são mais competitivos, podem alcançar o sucesso e a fortuna com a ajuda e o encorajamento dos amigos e familiares. \n" +
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "O Destino mestre 22 é orgulhoso, prático e altamente intuitivo. Normalmente honesto e trabalhador, com capacidade natural para a liderança, possui uma personalidade carismática e uma compreensão profunda das pessoas e de suas motivações. Apesar de ser reservado, muitas vezes tem uma preocupação atenciosa e protetora com o bem-estar das pessoas, mas nunca perde de vista a sua posição realista e pragmática. Em geral culto e mundano, tem muitos amigos e admiradores. Os que são mais competitivos, podem alcançar o sucesso e a fortuna com a ajuda e o encorajamento dos amigos e familiares. \n" +
                         "Charmoso, talentoso, comunicativo e diplomata natural, pode seguir carreiras nas áreas de vendas, promoções, agências ou de relações públicas. Da mesma forma, pode se dedicar ao mundo das comunicações, área editorial, política, educação, medicina e, principalmente, à área holística, ajudando a humanidade. \n" +
                         "Além de todos estes dons, ainda possui facilidade de entender e desenvolver processos de alta magia, entendida como uma força extrafísica e não como uma forma racional";
                 break;
@@ -513,13 +788,72 @@ public class Definicoes {
         return resposta;
     }
 
+    public String titulomissao(String titMissao){
+
+        String resposta;
+
+        switch (titMissao){
+            case "1":
+                resposta ="Liderança";
+                break;
+
+            case "2":
+                resposta ="Harmonia";
+                break;
+
+            case "3":
+                resposta ="Criatividade";
+                break;
+
+            case "4":
+                resposta ="Vontade";
+                break;
+
+            case "5":
+                resposta ="Versatilidade";
+                break;
+
+            case "6":
+                resposta ="Amor";
+                break;
+
+            case "7":
+                resposta ="Sabedoria";
+                break;
+
+            case "8":
+                resposta ="Justiça";
+                break;
+
+            case "9":
+                resposta ="Conhecimento";
+                break;
+
+            case "11":
+                resposta ="Fé";
+                break;
+
+            case "22":
+                resposta ="Esperança";
+                break;
+
+    default:
+    resposta = "ERRO";
+                break;
+}
+
+        return resposta;
+                }
+
+
     public String missao(String numMissao){
 
         String resposta;
 
         switch (numMissao){
             case "1":
-                resposta = "As atribulações, contratempos, obstáculos e vitórias que obteve ou obterá na primeira metade da vida (até os 45 anos), servem ou serviram para desenvolver a força moral necessária na segunda metade, quando necessitará se estabilizar materialmente e cumprir seus deveres sociais e espirituais. \n" +
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "As atribulações, contratempos, obstáculos e vitórias que obteve ou obterá na primeira metade da vida (até os 45 anos), servem ou serviram para desenvolver a força moral necessária na segunda metade, quando necessitará se estabilizar materialmente e cumprir seus deveres sociais e espirituais. \n" +
                         "Com desejo de ser o primeiro e independente, o possuidor desta Missão tem inclinação a ser individualista, inovador e corajoso, com muita energia, predicados que deve cultivar ao longo da sua vida. O espírito pioneiro o encoraja a se aventurar sozinho nos seus empreendimentos. Esta força também pode estimulá-lo a desenvolver habilidades executivas, de organização, criatividade e originalidade. \n" +
                         "A Missão 1, é a do ser inteligente, mas também o é do ambicioso e do agressivo. É confiante em seus propósitos, independente e, se quiser, poderá aspirar aos maiores cargos na sua profissão ou atividade. Tem tendência a ser autoritário, dominador e inflexível em seus propósitos, o que lhe causará alguns problemas, principalmente com respeito aos subordinados e pessoas mais chegadas, como parentes e amigos. Será sempre invejado e deve se proteger espiritualmente contra essa inveja e contra inúmeras maledicências que dirão sobre sua pessoa. \n" +
                         "Será também admirado, respeitado e terá a consideração dos outros. Se agir com prudência e sabedoria, poderá ser muito bem sucedido na política, na administração de grandes empresas, como líder de povos ou excelente místico. \n" +
@@ -527,7 +861,8 @@ public class Definicoes {
                 break;
 
             case "2":
-                resposta = "Paz e disposição ordenada como um todo, é seu principal lema. Sua missão representa a solidificação do ser humano, a capacidade de trabalhar em grupo, a disposição em servir e também em querer que tudo esteja em perfeita ordem e em perfeito estado de funcionamento. \n" +
+                resposta ="Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "Paz e disposição ordenada como um todo, é seu principal lema. Sua missão representa a solidificação do ser humano, a capacidade de trabalhar em grupo, a disposição em servir e também em querer que tudo esteja em perfeita ordem e em perfeito estado de funcionamento. \n" +
                         "Harmonia entre pesquisar e executar, coerência entre os propósitos e os objetivos são, com certeza, suas maiores virtudes. \n" +
                         "Aparenta ser frio, calculista, obstinado, incrédulo, mas na realidade é muito afetuoso, bom amante e sempre pronto a ajudar aqueles que o procuram e também aqueles que necessitam sem o procurarem, ou seja, gosta de ajudar a todos indistintamente. \n" +
                         "Em virtude desse seu procedimento, por vezes é enganado por aqueles em quem confia, pois como é íntegro e honesto em tudo e com todos, acha que os outros também o são. Tal procedimento o deprime e o chateia, mas como não sabe guardar rancor nem ódio, rapidamente se recupera desses inconvenientes, perdoando os elementos que lhe fizeram mal. \n" +
@@ -536,7 +871,8 @@ public class Definicoes {
                 break;
 
             case "3":
-                resposta = "É sociável, popular, criativo, artístico e imaginativo. A palavra que exprime seu número é a auto expressão, seja na oratória, escrevendo ou mesmo representando. De excelente senso de humor, o 3 nasceu para brilhar, pois é dotado de grande imaginação e criatividade. \n" +
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "É sociável, popular, criativo, artístico e imaginativo. A palavra que exprime seu número é a auto expressão, seja na oratória, escrevendo ou mesmo representando. De excelente senso de humor, o 3 nasceu para brilhar, pois é dotado de grande imaginação e criatividade. \n" +
                         "Mesmo quando a idade chegar, parecerá sempre jovial e sonhador, procurando novas aventuras e criando novos projetos. Se interpretar estas palavras corretamente, poderá ser ou conseguir tudo o que desejar. \n" +
                         "Durante sua longa vida, muitas oportunidades de sucesso surgirão; cabe a você interpretá-las e seguir a sua própria intuição, não se deixando seduzir ou levar pela conversa dos outros. \n" +
                         "Como não se deixa jamais dominar pela depressão ou desânimo, quase sempre é bem sucedido no que pretende realizar. Porém, de acordo com a sua personalidade extrovertida, que por vezes é interpretada como sendo irresponsável, estará exposto a críticas, do tipo: “Você é irresponsável, só pensa em farra...” \n" +
@@ -546,21 +882,24 @@ public class Definicoes {
                 break;
 
             case "4":
-                resposta = "Sua Missão não é a de um visionário e sim de alguém com os pés no chão, alguém que persegue e consegue seus objetivos por métodos já consagrados e não por iniciativa própria, usando projetos inéditos. \n" +
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "Sua Missão não é a de um visionário e sim de alguém com os pés no chão, alguém que persegue e consegue seus objetivos por métodos já consagrados e não por iniciativa própria, usando projetos inéditos. \n" +
                         "É um lutador; coragem e determinação não lhe faltam e enfrenta qualquer obstáculo com valentia e determinação. A sua Missão é construir coisas; porém, a sua realização pessoal será de âmbito mais coletivo e não em prazer próprio. O amor, a tolerância, a paciência, a harmonia, fazem parte desta Missão, pois todos estes predicados lhe serão exigidos durante toda a vida. Na maturidade, ou seja, após os 45 anos, tais virtudes deverão ficar muito mais latentes, pois será comparado a um pai ou a uma mãe, aonde todos virão se aconselhar. \n" +
                         "Como é empreendedor, ambicioso e trabalhador, tem força de vontade e habilidade para perceber as oportunidades que podem ajudá-lo na sua escalada para o sucesso. A construção civil, a química, a metalurgia, a odontologia, a segurança pública, política, e as finanças de um modo geral, devem ou deveriam ser os seus principais objetivos. As parcerias serão sempre preferíveis à iniciativa individual. \n" +
                         "Se compreender bem estas palavras e possuir tempo e discernimento compatíveis, conseguirá reconhecimento tanto no âmbito nacional como internacional, pois é carismático, amigo e interessado no bem estar do seu semelhante, e o planeta necessita muito desse tipo de indivíduo.";
                 break;
 
             case "5":
-                resposta = "Além dos predicados acima expostos, esta Missão mostra um ser ousado, enérgico e amante da liberdade. Normalmente é atraente ao sexo oposto e está fadado a trocar várias vezes de parceiro durante a vida, pois também é bastante volúvel. Amante do novo gosta de viajar pelo mundo sempre em busca de novidades, estudando e tentando compreender seus semelhantes. \n" +
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "Além dos predicados acima expostos, esta Missão mostra um ser ousado, enérgico e amante da liberdade. Normalmente é atraente ao sexo oposto e está fadado a trocar várias vezes de parceiro durante a vida, pois também é bastante volúvel. Amante do novo gosta de viajar pelo mundo sempre em busca de novidades, estudando e tentando compreender seus semelhantes. \n" +
                         "Tem mente investigadora, grande versatilidade mental, excelente memória e extraordinária capacidade para fazer várias coisas ou mesmo ler vários livros ao mesmo tempo. Tem, também, a tendência para começar várias coisas e não terminá-las, ou seja, tem muitos começos e poucos fins. Tal tendência deve-se principalmente ao desejo quase obstinado de conhecer, o que o torna por vezes dispersivo, instável e inquieto, mudando de atividade tão logo encontre outra que lhe proporcione mais prazer e interesse. \n" +
                         "Como é adaptável e ousado, deve assumir responsabilidades, pois pode naturalmente ser levado a posições de autoridade. Sua inteligência aguçada e suas ideias originais podem levá-lo a seguir carreiras nas áreas de educação, filosofia ou pesquisa científica. Magnânimo e gentil, é excelente para lidar com as pessoas e normalmente sabe perceber as oportunidades. Como não gosta de obedecer a ordens de outros, prefere ocupar posições gerenciais ou trabalhar por conta própria, pois quer ter liberdade para agir do seu jeito. Seu humanitarismo e suas aspirações espirituais podem levá-lo a ter atividades ligadas a reformas sociais ou à religião. Mas o seu senso dramático natural pode fazer com que seja atraído pelo mundo do entretenimento. \n" +
                         "Por ser muito popular, por vezes se deixa levar por palavras elogiosas e comete erros infantis de julgamento de seus semelhantes, sendo muitas vezes vítima de intrigas e ciúmes. É inteligente e deve aprender a desligar-se das opiniões alheias e a seguir sua própria intuição, mesmo que a princípio lhe pareça tarefa das mais difíceis. Novos ambientes, novos amigos, novas paisagens, novos horizontes, farão parte ativa de sua vida.";
                 break;
 
             case "6":
-                resposta = "A família é a sua principal fonte de preocupação. É extremamente prático, equilibrado, sentimental, leal, compreensivo e sempre pronto a ajudar aqueles que solicitam sua ajuda. \n" +
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "A família é a sua principal fonte de preocupação. É extremamente prático, equilibrado, sentimental, leal, compreensivo e sempre pronto a ajudar aqueles que solicitam sua ajuda. \n" +
                         "É honesto, digno de confiança, bondoso, alegre e muito amoroso. Sente-se muito feliz em cargos que requeiram alta responsabilidade, na qual possa contribuir para regularizar, ajustar e harmonizar as coisas — ocupações relacionadas com instituições de caridade, ensino de modo geral, treinamento, ocupações esotéricas, tanto em consultas como didáticas, ou trabalhos em comunidades que requeiram uma liderança justa e íntegra. \n" +
                         "O Amor é a sua palavra mágica; amor pelas crianças, velhos, familiares, principalmente os filhos (se os tiver), pelos amigos e, em alguns casos, pelos inimigos. \n" +
                         "Às vezes pode ser explosivo, principalmente quando duvidam de sua capacidade profissional ou põem à prova sua honestidade. Porém, logo esquece as ofensas e os desafetos e perdoa todos, indistintamente. A sua Missão é, invariavelmente, o Amor Universal. Caso se desvie dela, sofrerá na maturidade o peso dessa negligência, culpando tudo e a todos pelos fracassos e decepções que por certo aparecerão, mesmo que, materialmente seja bem sucedido. \n" +
@@ -569,7 +908,8 @@ public class Definicoes {
                 break;
 
             case "7":
-                resposta = "A Sabedoria é a sua palavra de ordem. É um número por vezes enigmático, pois tanto pode ser profundo, calado e introspectivo, como estranho, sociável, falante e cativante. \n" +
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "A Sabedoria é a sua palavra de ordem. É um número por vezes enigmático, pois tanto pode ser profundo, calado e introspectivo, como estranho, sociável, falante e cativante. \n" +
                         "À primeira impressão, as pessoas sentem até um certo receio de se aproximar dele, pois seu ar superior e até assustador, leva-as a se afastar em princípio. Porém após algumas horas ou somente minutos de convivência, todos lhe são simpáticos e anseiam por permanecer em sua companhia, e se alguns não o fazem, é por pura inveja ou despeito. \n" +
                         "O 7 a vibração da perfeição e da sabedoria, tanto na vida material como no mundo espiritual. É o número das qualidades psíquicas e também da sensibilidade. Como não gosta de ser mandado, deve evitar qualquer trabalho subalterno, saindo-se melhor como educador, guia espiritual, orador, pregador, pesquisador, explorador, historiador, ou em atividades ligadas ao saber, na mais pura expressão da verdade. \n" +
                         "É autoritário e gosta por demais que os outros o venham consultar. Poderá também ser excelente escritor metafísico, de esoterismo, religião ou de assuntos relacionados à autoajuda. \n" +
@@ -579,7 +919,8 @@ public class Definicoes {
                 break;
 
             case "8":
-                resposta = "É organizado, muito dedicado aos seus negócios, excelente para lidar com situações concretas, dominador, prático, direto, seguro de si e generoso. A sua meta principal é o progresso material; progresso sólido, feito com justiça e elevado senso moral. \n" +
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "É organizado, muito dedicado aos seus negócios, excelente para lidar com situações concretas, dominador, prático, direto, seguro de si e generoso. A sua meta principal é o progresso material; progresso sólido, feito com justiça e elevado senso moral. \n" +
                         "É persistente, tem grande força de vontade e está sempre à espreita de oportunidades, dificilmente deixando que se lhe escapem. Tais características ficam, com o passar dos anos, cada vez mais acentuadas. \n" +
                         "O grande problema que deve encontrar na primeira metade da vida (até aos 45 anos), é a disciplina. Caso não seja disciplinado nessa fase, sofrerá muito na segunda, onde as oportunidades já não serão tantas, e a vitalidade já não será tão grande. Se disciplinado, sempre encontrará meios de se locupletar, seja trabalhando com afinco e esperteza, seja fazendo os outros trabalharem em seu proveito. \n" +
                         "Não é dado a discussões e a teimosias, preferindo contornar qualquer obstáculo que se entreponha entre si e o objetivo desejado. Quanto aos amigos, poderá ter tantos quanto os que lhe querem bem, pois sabe fazer amizades e também sabe desfazê-las, tão logo perceba que são interesseiras. \n" +
@@ -588,7 +929,8 @@ public class Definicoes {
                 break;
 
             case "9":
-                resposta = "É aquele que ao longo da vida deve obter o máximo de conhecimentos possíveis, a fim de adquirir a Sabedoria. É universalista, generoso, sente compaixão por todos, quer melhorar a espécie humana e busca sempre a verdade. \n" +
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "É aquele que ao longo da vida deve obter o máximo de conhecimentos possíveis, a fim de adquirir a Sabedoria. É universalista, generoso, sente compaixão por todos, quer melhorar a espécie humana e busca sempre a verdade. \n" +
                         "Por ser universalista, tanto o passado, o presente e o futuro fazem parte do seu dia-a-dia, vivendo nessa eterna busca, sem nada encontrar, pois já sabe de antemão todas as respostas. \n" +
                         "Como tem ampla visão do mundo e das coisas que o cercam, principalmente os seus semelhantes, sofre por demais quando percebe injustiças ou mesmo quando alguém é maltratado, mesmo que todos digam que merece, sejam eles quem forem. \n" +
                         "Normalmente é impessoal, porque os interesses pessoais geralmente levam-no a desapontamentos. Por seu caráter, não deve ser egoísta e jamais esperar qualquer coisa dos outros, principalmente agradecimentos. Como é incompreendido, por ser universal, tem alguma dificuldade de relacionamento afetivo, dificilmente se dando bem no amor. \n" +
@@ -597,7 +939,8 @@ public class Definicoes {
                 break;
 
             case "11":
-                resposta = "A grande virtude do 11 é a Fé. Esta Fé, em si mesmo, não representa propriamente religiosidade, mas também a Fé nos seus ideais, propósitos, pressentimentos, “sorte” ou em projetos que elabora. \n" +
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "A grande virtude do 11 é a Fé. Esta Fé, em si mesmo, não representa propriamente religiosidade, mas também a Fé nos seus ideais, propósitos, pressentimentos, “sorte” ou em projetos que elabora. \n" +
                         "Consciente ou inconscientemente, a Fé em alguma coisa é a sua “mola mestra” que lhe empurra para o destino. \n" +
                         "Agindo corretamente, tem o potencial para inspirar as pessoas com seus ideais e imaginação; assim, evite investir suas energias mentais em coisas de pouca importância para não se desviar das suas metas positivas. Quando se concentra em suas energias positivas, é capaz de obter resultados produtivos. Cuide da sua dieta e da sua saúde e aprenda a relaxar de vez em quando. \n" +
                         "Tem a habilidade para encantar as pessoas, mas elas talvez não vejam que atrás da sua aparência ousada, sofre de confusão interior. Em idade avançada, terá uma sabedoria acumulada através do desenvolvimento espiritual, da compreensão universal e da potencial místico. Evite ser impulsivo, agir de forma extravagante ou se deixar levar por esquemas de enriquecimento rápido, investindo em planos de longo prazo. \n" +
@@ -608,7 +951,8 @@ public class Definicoes {
                 break;
 
             case "22":
-                resposta = "A Missão 22 é muito parecida com o “Destino 22”, pois é um número altruísta e voltado quase exclusivamente para a humanidade, para o todo, para a sabedoria. Vê tudo em larga escala e é altamente capaz de levar a bom termo qualquer projeto que vise o bem do Planeta. \n" +
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "A Missão 22 é muito parecida com o “Destino 22”, pois é um número altruísta e voltado quase exclusivamente para a humanidade, para o todo, para a sabedoria. Vê tudo em larga escala e é altamente capaz de levar a bom termo qualquer projeto que vise o bem do Planeta. \n" +
                         "Mentalmente arguto e intuitivo, gosta de tomar as próprias decisões. É uma pessoa humanitária, que tem uma visão realista da vida e, com sua força, pode dar apoio a quem precisa. \n" +
                         "Com grande habilidade social, normalmente tem muitos amigos e admiradores. Para ter paz e harmonia, muitas vezes está disposto a fazer concessões ou sacrifícios. Considera a amizade e gosta de se dar com as pessoas que o inspirem a ser aventureiro e o divirtam. Se sente bem quando está na companhia dos que ama. \n" +
                         "A sua existência se pautará por testes: financeiros, amorosos ou existenciais. Porém, como é um ser superior, uma vez ciente deste fato, conseguirá se sair bem em qualquer atividade ou profissão e terá grandes satisfações no decurso de sua longa existência. \n" +
@@ -704,13 +1048,152 @@ public class Definicoes {
         return resposta;
     }
 
+    public String titulodia(String titDia){
+
+        String resposta;
+
+        switch (titDia){
+            case "1":
+                resposta ="O Lider";
+                break;
+
+            case "2":
+                resposta ="O Diplomata";
+                break;
+
+            case "3":
+                resposta ="O Popular";
+                break;
+
+            case "4":
+                resposta ="O Persistente";
+                break;
+
+            case "5":
+                resposta ="O Versatil";
+                break;
+
+            case "6":
+                resposta ="O Amoroso";
+                break;
+
+            case "7":
+                resposta ="O Inspirador";
+                break;
+
+            case "8":
+                resposta ="O Prospero";
+                break;
+
+            case "9":
+                resposta ="O Humanitario";
+                break;
+
+            case "10":
+                resposta ="O Autoconfiante";
+                break;
+
+            case "11":
+                resposta ="O Harmonioso";
+                break;
+
+            case "12":
+                resposta ="O Expressivo";
+                break;
+
+            case "13":
+                resposta ="O Perito";
+                break;
+
+            case "14":
+                resposta ="O Compreensivo";
+                break;
+
+            case "15":
+                resposta ="O Magnetico";
+                break;
+
+            case "16":
+                resposta ="O Vencedor";
+                break;
+
+            case "17":
+                resposta ="O Perspicaz";
+                break;
+
+            case "18":
+                resposta ="O Inteligente";
+                break;
+
+            case "19":
+                resposta ="O Honesto";
+                break;
+
+            case "20":
+                resposta ="O Sensitivo";
+                break;
+
+            case "21":
+                resposta ="O Idealista";
+                break;
+
+            case "22":
+                resposta ="O Pratico";
+                break;
+
+            case "23":
+                resposta ="O Persuasivo";
+                break;
+
+            case "24":
+                resposta ="O Conciliador";
+                break;
+
+            case "25":
+                resposta ="O Progessista";
+                break;
+
+            case "26":
+                resposta ="O Justo";
+                break;
+
+            case "27":
+                resposta ="O Audacioso";
+                break;
+
+            case "28":
+                resposta ="O Ambicioso";
+                break;
+
+            case "29":
+                resposta ="O Espiritualista";
+                break;
+
+            case "30":
+                resposta ="O Realizador";
+                break;
+
+            case "31":
+                resposta ="O Habilidoso";
+                break;
+
+            default:
+                resposta = "ERRO";
+                break;
+}
+
+      return resposta;
+                }
+
+
     public String dia(String numDia){
 
         String resposta;
 
         switch (numDia){
             case "1":
-                resposta = "É um líder nato; gosta de mandar em vez de fazer. É criativo e original, tem raciocínio lógico e rápido, e é capaz de discutir sobre os mais variados assuntos, até mesmo aqueles que conhece superficialmente. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "É um líder nato; gosta de mandar em vez de fazer. É criativo e original, tem raciocínio lógico e rápido, e é capaz de discutir sobre os mais variados assuntos, até mesmo aqueles que conhece superficialmente. \n" +
                         "Tem tendência a ser autoritário, de certa maneira possessivo e um tanto egocêntrico. Ainda que o lado aventureiro da sua natureza queira se expressar, a sua visão altamente pragmática e a preocupação com a segurança sugerem um certo materialismo. Isso indica que mesmo que o idealismo e a visão tenham um papel importante na sua vida, a preocupação com o dinheiro, ou com a sua falta, mantém os seus pés firmes no chão. Todavia, você é uma pessoa amável, que tem emoções fortes, inclinações humanitárias e grande capacidade de liderança. Embora não o sendo, o número 1 é considerado “frio”, calculista e pouco comunicativo. Raramente demonstra afeto e compaixão. Contudo, gosta de ser elogiado e admirado. Quando seus projetos ou desejos não se realizam ou são frustrados, o seu sistema metabólico sofre sobremaneira e os nervos e a pressão arterial são sobrecarregados, podendo causar graves danos ao organismo. \n" +
                         "Como líder, sente-se terrivelmente frustrado em posição subalterna e, por vezes, torna-se irascível, violento e inconsequente, sendo muito difícil trabalhar e conviver em sua companhia. Precisa também aprender que o mundo não gira ao seu redor, evitando a inclinação a ser autocentrado ou ditatorial. \n" +
                         "O nascido no dia um necessita saber para poder e querer. Estudar, projetar, manter a consistência no objetivo deve ser sua principal característica, pois tem tendência a deixar tudo pela metade ou a glória aos outros. \n" +
@@ -718,7 +1201,8 @@ public class Definicoes {
                 break;
 
             case "2":
-                resposta = "É um ser diplomata por excelência. É aquele que harmoniza o grupo e a família; o que possui o dom da reconciliação. É cooperativo, aparentemente tímido e vulnerável, de certa maneira passivo, mas sempre atento aos detalhes de seu ambiente. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "É um ser diplomata por excelência. É aquele que harmoniza o grupo e a família; o que possui o dom da reconciliação. É cooperativo, aparentemente tímido e vulnerável, de certa maneira passivo, mas sempre atento aos detalhes de seu ambiente. \n" +
                         "Amante das diversões e sociável pode ser um grande amigo e uma boa companhia. Mesmo sendo amoroso e afetuoso, deve tomar cuidado na escolha dos seus relacionamentos para que eles sejam duradouros. Pode ser romântico com as pessoas de que gosta e mostrar honestamente os seus sentimentos, mas, para ser feliz, deve procurar segurança financeira. Com todo o seu charme, é muito atraente ao sexo oposto, porém não gosta de ser tolhido em seus movimentos. \n" +
                         "No trabalho sente-se melhor desenvolvendo atividades ligadas a grupos, pois com sua personalidade de certa forma amável e passiva, é amado por todos e é sempre excelente profissional. Não suporta ficar parado procurando sempre algo para fazer. É compreensivo com os sentimentos alheios e incapaz de ferir quem quer que seja. \n" +
                         "Um dos seus grandes defeitos é a inclinação para subestimar seus dotes e capacidades, tanto intelectuais como profissionais, sendo, muitas vezes, subordinado de pessoas com capacidades inferiores às suas. \n" +
@@ -727,14 +1211,16 @@ public class Definicoes {
                 break;
 
             case "3":
-                resposta = "O nativo deste dia é um ser de rara animação, criatividade, expressão e popularidade. Pode parecer irresponsável para alguns que não o conhecem bem, mas na realidade é um ser altamente responsável, e prestativo com tudo e com todos. O três é intuitivo, original, honesto, dedicado à família e aos amigos (aos últimos, às vezes até demais). \n" +
+                resposta ="A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "O nativo deste dia é um ser de rara animação, criatividade, expressão e popularidade. Pode parecer irresponsável para alguns que não o conhecem bem, mas na realidade é um ser altamente responsável, e prestativo com tudo e com todos. O três é intuitivo, original, honesto, dedicado à família e aos amigos (aos últimos, às vezes até demais). \n" +
                         "Sua ambição e sua personalidade atraente podem levá-lo ao topo de qualquer carreira. Seja na área bancária ou no mundo artístico, a sua aversão a ordens alheias pode levá-lo a posições superiores, como gerente ou executivo. Pode se sair particularmente bem na área teatral, como ator, diretor ou dramaturgo. Mas pode também usar a sua habilidade para lidar com as pessoas na área dos negócios, em que pode dar início a novos projetos nos quais ocupe uma posição de liderança. \n" +
                         "Como sabe delegar tarefas a seus subordinados, pode ser um excelente administrador ou trabalhar por conta própria. Pelo seu lado extrovertido e amistoso, não suporta ser criticado, apelando para o sentimentalismo daqueles que o criticam ou simplesmente lhe dão “conselhos”. É do tipo que trabalha em inúmeras atividades ao mesmo tempo e que quase sempre as deixa a meio caminho, ou seja, tem muitos começos e poucos fins. \n" +
                         "No decorrer de sua longa vida, terá inúmeras frustrações, e estas podem levá-lo a ter certos problemas físicos, principalmente o sistema nervoso abalado e também a contrair certas doenças de pele, que não se sabe como as supera com grande senso de humor. Na realidade, é um ser lutador, criativo e liberal, que usa de seus predicados, principalmente a oratória, como sustentáculo de sua vida.";
                 break;
 
             case "4":
-                resposta = "Os nascidos neste dia são muito disciplinados, constantes, regulares e ordeiros. Perseverantes em seus propósitos, incansáveis trabalhadores, dificilmente deixam de atingir seus objetivos. Normalmente honesto, sincero e conservador, o quatro adapta-se a trabalhos rotineiros, metódicos e que requerem esforço concentrado. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Os nascidos neste dia são muito disciplinados, constantes, regulares e ordeiros. Perseverantes em seus propósitos, incansáveis trabalhadores, dificilmente deixam de atingir seus objetivos. Normalmente honesto, sincero e conservador, o quatro adapta-se a trabalhos rotineiros, metódicos e que requerem esforço concentrado. \n" +
                         "Em virtude dos predicados acima descritos, o nascido neste dia sente-se mais à vontade lidando com situações rotineiras, já consagradas pelo uso, evitando o novo ou o incerto. A sólida estrutura e o poder de organização sugeridos por este dia, indicam que o seu possuidor precisa de estabilidade e ordem. Dotado de energia, habilidades práticas e muita determinação, pode ser bem sucedido se estiver disposto a trabalhar duro. Preocupado com a segurança, quer ter uma base sólida para si mesmo e para os familiares. A maneira pragmática como encara a vida lhe confere um bom senso para os negócios e habilidade para alcançar o sucesso material. É muito econômico, amigo dos amigos, companheiro leal e dedicado, de grande responsabilidade e respeitador do sexo oposto, gostando também de construir coisas e trabalhar com as mãos. \n" +
                         "Tem tendência à obstinação, ao apego e à sua maneira de ser. Quando o contrariam ou fazem coisas que não gosta, pode-se tornar rude, ofensivo e dominador, pois se ofende com certa facilidade. Porém, como é uma alma superior, não sabe guardar raiva, ressentimentos ou qualquer sentimento de revolta. \n" +
                         "Quando não consegue atingir seus objetivos ou os mesmos são adiados por circunstâncias adversas à sua vontade, fica tremendamente frustrado causando-lhe dor de cabeça, melancolia, distúrbios cardíacos e problemas renais. \n" +
@@ -742,14 +1228,16 @@ public class Definicoes {
                 break;
 
             case "5":
-                resposta = "O nascido neste dia é normalmente divertido, alegre, ousado, dotado de poderes psíquicos, imaginação fértil, versatilidade e também amante da liberdade. Em virtude de ter os ouvidos muito sensíveis (não gosta de receber ordens), vive constantemente em busca de dinheiro, por vezes de maneiras totalmente inusitadas, sem qualquer medo de correr riscos. Gosta de estudar e de saber, para poder conseguir atingir seus objetivos com mais facilidade. Viajar por diversão, estudo ou satisfação do ego, também fazem parte da sua personalidade. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "O nascido neste dia é normalmente divertido, alegre, ousado, dotado de poderes psíquicos, imaginação fértil, versatilidade e também amante da liberdade. Em virtude de ter os ouvidos muito sensíveis (não gosta de receber ordens), vive constantemente em busca de dinheiro, por vezes de maneiras totalmente inusitadas, sem qualquer medo de correr riscos. Gosta de estudar e de saber, para poder conseguir atingir seus objetivos com mais facilidade. Viajar por diversão, estudo ou satisfação do ego, também fazem parte da sua personalidade. \n" +
                         "É obstinado em seus propósitos (impaciente e impulsivo) e não descansa enquanto não consegue atingir seus objetivos, mesmo que tenha de usar de artifícios pouco convencionais ou prejudicar alguém. Gosta de estar em contato com o público, de preferência sendo o centro das atenções, e no trabalho sente-se melhor em ocupações que o coloquem em contato com pessoas, mas que estas lhe permitam agir e exprimir-se livremente. \n" +
                         "As frustrações, principalmente no âmbito profissional, que atrapalham seus planos, causam-lhe insônias, distúrbios psicológicos, falta de controle emocional que podem se transformar em violência. \n" +
                         "Quando quer ou é incentivado, consegue resultados fantásticos no terreno profissional, pois tem grande capacidade de discernimento, amplos conhecimentos e satisfação naquilo que faz. Porém, o seu lado obscuro, o lado “libertino”, leva-o a ter muitos começos e poucos fins. Quase nunca é bem sucedido no amor (existe, é claro, as exceções), levando-o a trocar várias vezes de parceiros ao longo da sua duradoura vida. Tem, ainda, grande habilidade para encantar as pessoas com o seu otimismo e generosidade, mas deve tomar cuidado para não se tornar muito autoritário com quem ama.";
                 break;
 
             case "6":
-                resposta = "O nascido no dia seis é normalmente sentimental, muito equilibrado, compreensivo, adora a família, a casa, os amigos, os filhos (se os tiver) e é também excelente amante. Tem personalidade magnética e atrai sempre as atenções: em festas, reuniões, cursos, etc. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "O nascido no dia seis é normalmente sentimental, muito equilibrado, compreensivo, adora a família, a casa, os amigos, os filhos (se os tiver) e é também excelente amante. Tem personalidade magnética e atrai sempre as atenções: em festas, reuniões, cursos, etc. \n" +
                         "Profissionalmente sente-se realizado numa posição superior, onde pode contribuir para o desenvolvimento da empresa, das coisas e principalmente das pessoas envolvidas. É perseverante e luta até o fim para atingir seus objetivos. \n" +
                         "Como é altamente sensível, quando contrariado, ou quando as coisas não correm como quer, pode-se tornar ciumento, nervoso e demonstrar possessividade, levando-o a ter atitudes enérgicas para defender seus princípios ideológicos. No tocante às frustrações amorosas, estas lhe causam quase sempre complicações nervosas e problemas ósseos. \n" +
                         "Gosta de se divertir, é atencioso, confiável e gentil. Tem uma alegria infantil e sempre será jovial. Naturalmente charmoso e sociável, tem muitos amigos e admiradores. Nos relacionamentos sérios, é uma pessoa romântica, idealista e leal, mas deve evitar se martirizar ou ser muito possessivo. Pode ser um parceiro dedicado, caloroso, atencioso e amoroso. \n" +
@@ -757,7 +1245,8 @@ public class Definicoes {
                 break;
 
             case "7":
-                resposta = "Além da integridade inerente do número sete, ele também possui em larga escala a independência de pensamento, a iniciativa e a ponderação. É também um perfeccionista e um tanto arredio a coisas e a novas amizades. \n" +
+                resposta ="A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Além da integridade inerente do número sete, ele também possui em larga escala a independência de pensamento, a iniciativa e a ponderação. É também um perfeccionista e um tanto arredio a coisas e a novas amizades. \n" +
                         "Analítico e ponderado, o nascido neste dia é muitas vezes crítico e concentrado nos seus próprios interesses. Com uma necessidade constante de ter uma maior autoconsciência, gosta de reunir informações e se interessa por ler, escrever e por assuntos espirituais. A tendência a ser enigmático ou reservado sugere que pode ocasionalmente se sentir incompreendido. Embora não goste de contrair dívidas, precisa aprender a administrar a sua vida financeira. O desejo de desfrutar de uma boa vida sugere que precisa de algo que o motive e o inspire, pois há o perigo de cair na rotina e perder o rumo. \n" +
                         "Se o querem ver feliz, falem de religião, de filosofia (pura e simples), de ensino ou qualquer atividade ligada à espiritualidade. \n" +
                         "Companheiro (ou companheira) dedicado, quando se separa é por demais difícil se adaptar a uma nova relação. A Numerologia aconselha que se case tarde (após os 30 anos), depois de namorar muito e conhecer plenamente as características do companheiro. \n" +
@@ -766,7 +1255,8 @@ public class Definicoes {
                 break;
 
             case "8":
-                resposta = "O nascido neste dia é normalmente organizado, muito dedicado aos negócios, criativo e com enorme potencial para ganhar dinheiro. É justo, leal, prático, generoso (quando quer) e tem grande capacidade executiva e grande senso de justiça. \n" +
+                resposta ="A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "O nascido neste dia é normalmente organizado, muito dedicado aos negócios, criativo e com enorme potencial para ganhar dinheiro. É justo, leal, prático, generoso (quando quer) e tem grande capacidade executiva e grande senso de justiça. \n" +
                         "Quando as coisas não saem como deseja, pode-se tornar direto (às vezes até demais), agressivo, com acessos de mau humor e com grande tendência a dominar a todos, indiscriminadamente, sejam eles parentes, amigos ou empregados. \n" +
                         "Em vista do seu grande potencial para ganhar dinheiro (ou outros bens materiais), será mais bem sucedido como alto executivo, trabalhando por conta própria ou em alguma atividade em que o dinheiro esteja presente e em grande quantidade. Pertence ao mundo dos negócios e, por isso, deve sempre desenvolver a sua capacidade criativa para levar avante os seus projetos. Com a sua percepção aguçada e rápida, sabe avaliar as pessoas e as situações. Muito eficiente no trabalho, tem disposição para trabalhar duro e assumir responsabilidades. No entanto, precisa aprender a administrar ou a delegar a sua autoridade de maneira justa e imparcial. Manifesta, normalmente, uma aparência austera, fria e calculista; na realidade, é tremendamente carente, sentimental, justo e sempre pronto a ajudar quem necessita dele. \n" +
                         "Do outro lado, ou seja, do material, como “adora” dinheiro, vive desconfiado, descrente de quase tudo e até certo ponto pessimista, o que o leva a ter repentes de solidão, mau humor e até um tanto ranzinza. Apesar disso, dificilmente é derrotado, superando todos os obstáculos que por ventura lhe apareçam pela frente. \n" +
@@ -774,7 +1264,8 @@ public class Definicoes {
                 break;
 
             case "9":
-                resposta = "O nativo deste dia é normalmente universalista: sente compaixão por todos e quer melhorar o gênero humano. Benevolência, ponderação e sensibilidade emocional estão associadas a este dia de nascimento. Tolerante e gentil, é na maior parte das vezes generoso e liberal. Sua intuição e seu poder psíquico indicam uma receptividade universal que, se for positivamente canalizada, pode inspirá-lo a buscar o caminho espiritual. Amante da verdade, normalmente generoso, independente, liberal, audacioso, corajoso, combativo, e não tem medo da derrota eventual, pois sabe que conseguirá o que deseja. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "O nativo deste dia é normalmente universalista: sente compaixão por todos e quer melhorar o gênero humano. Benevolência, ponderação e sensibilidade emocional estão associadas a este dia de nascimento. Tolerante e gentil, é na maior parte das vezes generoso e liberal. Sua intuição e seu poder psíquico indicam uma receptividade universal que, se for positivamente canalizada, pode inspirá-lo a buscar o caminho espiritual. Amante da verdade, normalmente generoso, independente, liberal, audacioso, corajoso, combativo, e não tem medo da derrota eventual, pois sabe que conseguirá o que deseja. \n" +
                         "Dificilmente tem paz de espírito e tranquilidade, pois tem facilidade em atrair discórdia e desentendimentos, afastando os amigos e as pessoas que o amam. É um ser muito contraditório, pois sendo humanista e bondoso não deveria ser arrogante e revoltoso, mas o é, e dessa maneira, destrói em minutos o que levou anos a construir. \n" +
                         "Em virtude da sua autoconfiança, normalmente protela tudo, e às vezes acaba ficando em dificuldades financeiras; mas no final acaba se saindo bem. Não gosta de receber ordens e será mais bem sucedido em assuntos relacionados com a religião, filantropia ou associações beneficentes, nas quais a inspiração, a bondade e a compreensão sejam necessárias. \n" +
                         "Quando transmite os seus poderes sentimentais, expressa o seu amor e afeição. Normalmente não se apega a nada nem a ninguém, sejam bens materiais, amigos, companheiros de jornada ou mesmo a pessoa amada, tendo ao longo da sua vida muitos desapontamentos amorosos e também algumas perdas de amizade. \n" +
@@ -782,7 +1273,8 @@ public class Definicoes {
                 break;
 
             case "10":
-                resposta = "O nativo deste dia é audacioso, progressista, independente, prestativo, amigo, atraente fisicamente, cativante e sempre pronto a ajudar àqueles que lhe pedem auxílio. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "O nativo deste dia é audacioso, progressista, independente, prestativo, amigo, atraente fisicamente, cativante e sempre pronto a ajudar àqueles que lhe pedem auxílio. \n" +
                         "Pelo seu lado atraente e de certa forma arrogante, normalmente desperta inveja e antipatias. Tem grandes ambições e se esforça para realizá-las, mas talvez precise, antes, superar alguns obstáculos. \n" +
                         "Vigoroso e original, defende aquilo em que acredita, mesmo quando os outros não concordam. A sua habilidade para dar início às coisas com um espírito pioneiro o encoraja a viajar por lugares distantes e a se arriscar sozinho. \n" +
                         "Para ter sucesso profissionalmente, deve desenvolver a espiritualidade, pois caso contrário pode ser envolvido por pessoas inescrupulosas que tudo farão para o arruinar, e caso não possua esta característica, dificilmente terá competência para solucionar seus problemas. \n" +
@@ -792,7 +1284,8 @@ public class Definicoes {
                 break;
 
             case "11":
-                resposta = "Apesar de ter como lema a harmonia, a inspiração está sempre presente em sua vida. É um diplomata por excelência; delicado nos termos, ações, possuindo tato e discernimento para qualquer problema ou ocasião. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Apesar de ter como lema a harmonia, a inspiração está sempre presente em sua vida. É um diplomata por excelência; delicado nos termos, ações, possuindo tato e discernimento para qualquer problema ou ocasião. \n" +
                         "É um número - mestre, e os seus possuidores quase sempre são carinhosos, sentimentais e necessitam tremendamente de um lar para se sentirem seguros, protegidos, pois não gostam de viver sozinhos. \n" +
                         "Inteligente e observador, é muitas vezes um parceiro ou amigo leal. Sincero e atencioso, precisa de um relacionamento estável e honesto. Embora possa refinar e melhorar as situações, precisa aprender a diferenciar entre ser autoritário e crítico e ajudar os que estão à sua volta. Parece uma contradição, e é, pois sendo o 11 compreensivo por natureza, não deveria se importar com o pensamento alheio, mas se importa. \n" +
                         "Como ama a liberdade, necessita estar sempre ocupado para se sentir útil e feliz. É eficiente profissionalmente e poucos o acompanham em qualquer atividade, apesar de ser mais sonhador do que realizador e, em virtude disso, deve sempre procurar orientação técnica profissional para ser bem sucedido, ter sucesso e ser feliz. Deve, ainda, tomar muito cuidado para que o seu intelecto não sufoque sua intuição, pois sendo psíquico, não pode vacilar ante os problemas. Para atingir seus objetivos, por vezes pode parecer submisso, mas, na realidade, consegue tudo o que deseja, pois é convincente, inteligente e perspicaz. \n" +
@@ -800,7 +1293,8 @@ public class Definicoes {
                 break;
 
             case "12":
-                resposta = "É comunicador nato; pela sua criatividade, expressão, e argumentação, consegue convencer todas as pessoas. Tem gosto artístico, habilidade manual, é idealista, quase sempre está de bom humor e dificilmente desiste dos seus ideais. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "É comunicador nato; pela sua criatividade, expressão, e argumentação, consegue convencer todas as pessoas. Tem gosto artístico, habilidade manual, é idealista, quase sempre está de bom humor e dificilmente desiste dos seus ideais. \n" +
                         "A sua praticidade e agilidade em fazer as coisas, leva-o a assumir mais compromissos do que pode cumprir e, dessa maneira, está sempre atarefado, cheio de trabalho, necessitando aprender a dosar suas energias, pois com certeza vai precisar delas em casos especiais. \n" +
                         "O nativo deste dia é íntegro em seus propósitos, justo, de caráter leal, franco, liberal, de natureza ativa, qualidades comerciais, diplomacia, aptidão para o comando e gosta de ajudar o próximo. É muito respeitador da fé e das crenças, suas e alheias. \n" +
                         "Gosta de ser popular, tendo mesmo tendência para se tornar político ou trabalhar em atividades de interesses sociais. É bondoso por natureza, e por vezes em vista dessa característica, tende a ser explorado pelas pessoas mais chegadas a ele. \n" +
@@ -810,8 +1304,9 @@ public class Definicoes {
                 break;
 
             case "13":
-                resposta = "O nativo deste dia é meticuloso, autoritário, sistemático, prático, econômico, trabalhador incansável, sempre lutando em prol dos seus objetivos, não poupando esforços para atingi-los. \n" +
-                        "Como o nome do dia sugere (dia da Perícia), é tremendamente habilidoso em reformas, em transformações e mudanças, quando estas são de seu interesse. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "O nativo deste dia é meticuloso, autoritário, sistemático, prático, econômico, trabalhador incansável, sempre lutando em prol dos seus objetivos, não poupando esforços para atingi-los. \n" +
+                        "Como o nome ja sugere, é tremendamente habilidoso em reformas, em transformações e mudanças, quando estas são de seu interesse. \n" +
                         "Ousado e dinâmico, prefere fazer acontecer a esperar. Está associado ao trabalho duro e pode realizar muito através da determinação e do talento. Como é influenciado pelo ambiente, precisa ser decidido e controlar a direção da sua vida. \n" +
                         "É alegre e talentoso, podendo se sair bem em profissões artísticas ou de entretenimento. É justo, bondoso e fica muito chateado quando pressente ou constata que alguém foi injustiçado e também se revolta com as competições desleais ou quando alguém é enganado. \n" +
                         "É muito amoroso, mas encontra certa dificuldade em expressar seus sentimentos. É prestativo, dedicado, bom amigo, mas quase nunca expressa essas emoções, parecendo isto sim, indiferente, frio, materialista e calculista, reprimindo seus sentimentos, sejam eles de dor, decepções ou mesmo de alegria. Não sabe viver sem amor, carinho e afeto. Porém, como não expressa esses sentimentos, poucos o compreendem e o conhecem realmente. \n" +
@@ -820,14 +1315,16 @@ public class Definicoes {
                 break;
 
             case "14":
-                resposta = "Potencial intelectual, perspectiva pragmática e forte determinação são algumas das qualidades associadas a esta data de nascimento. Tem grande desejo de estabelecer uma base sólida e ter sucesso através do trabalho duro, podendo alcançar o topo da sua profissão. Quase sempre vive no presente, pouco se preocupando com o futuro, sendo normalmente líder em qualquer situação ou grupo. É negociante nato; não gosta de ficar parado e está sempre procurando alguma coisa para fazer, para ganhar dinheiro, pouco se importando se terá lucro ou prejuízo. Tem uma boa capacidade de gerenciamento e talento para solucionar problemas além de uma aptidão natural para escrever – que sempre pode usar de forma criativa ou na vida profissional. Um dos seus pontos mais fortes é trabalhar com muita movimentação de capitais, seja como especulador financeiro, agente imobiliário ou negociador. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Potencial intelectual, perspectiva pragmática e forte determinação são algumas das qualidades associadas a esta data de nascimento. Tem grande desejo de estabelecer uma base sólida e ter sucesso através do trabalho duro, podendo alcançar o topo da sua profissão. Quase sempre vive no presente, pouco se preocupando com o futuro, sendo normalmente líder em qualquer situação ou grupo. É negociante nato; não gosta de ficar parado e está sempre procurando alguma coisa para fazer, para ganhar dinheiro, pouco se importando se terá lucro ou prejuízo. Tem uma boa capacidade de gerenciamento e talento para solucionar problemas além de uma aptidão natural para escrever – que sempre pode usar de forma criativa ou na vida profissional. Um dos seus pontos mais fortes é trabalhar com muita movimentação de capitais, seja como especulador financeiro, agente imobiliário ou negociador. \n" +
                         "Admira as pessoas que têm uma maneira pouco convencional ou original de abordar a vida e deseja ter um parceiro que seja disciplinado e trabalhador. Com seu charme e seu comportamento naturalmente assertivo, sempre atrai pessoas que acreditam em você. Para ser feliz no casamento, o cônjuge deve gostar de vida agitada, deve gostar de viajar, de conhecer novos lugares e jamais se prender a um único local, pois caso contrário a união não terá final feliz. \n" +
                         "Por ser naturalmente bondoso e emotivo, normalmente é presa fácil dos inescrupulosos, principalmente quando querem seus favores. Por vezes (quando desenvolvido espiritualmente) é profético, com tendências construtivas e destrutivas. Quando o contrariam ou frustram seus ideais, pode ter problemas respiratórios, algumas alergias e até desenvolver doenças imaginárias. \n" +
                         "Caso consiga controlar a impulsividade e adquira prudência, pode-se tornar muito bem sucedido financeiramente e também socialmente.";
                 break;
 
             case "15":
-                resposta = "Como o dia sugere: “magnetismo pessoal”, esse magnetismo é levado às últimas consequências, pois tanto homens como mulheres lhe acham simpático, agradável, afetuoso e interessante. No comércio ou num escritório, normalmente é o alvo das atenções, mais, é claro, do sexo oposto, sendo dessa maneira, invejado por todos. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Duas palavras definem esta personalidade: “magnetismo pessoal”, esse magnetismo é levado às últimas consequências, pois tanto homens como mulheres lhe acham simpático, agradável, afetuoso e interessante. No comércio ou num escritório, normalmente é o alvo das atenções, mais, é claro, do sexo oposto, sendo dessa maneira, invejado por todos. \n" +
                         "Não tem grandes problemas financeiros (raramente fica pobre), pois é esperto, inteligente, perseverante e sempre encontra uma maneira de ganhar dinheiro. Não tem veia de avarento, mas é de certa forma apegado ao dinheiro, preferindo gastá-lo com o companheiro (a), na casa ou em algo proveitoso para si. \n" +
                         "Tem grande calor humano, adora reuniões sociais, ama a vida e as pessoas e não se importa em gastar, principalmente quando está em companhia da pessoa amada. \n" +
                         "Deve-se casar (ou unir-se) com pessoa que tenha afinidade com seus propósitos e gostos; caso contrário, a união não dará certo e qualquer separação o faz sofrer em demasia, levando-o inclusive ao isolamento. \n" +
@@ -836,7 +1333,8 @@ public class Definicoes {
                 break;
 
             case "16":
-                resposta = "É um extremista! Quem nasce neste dia pode ser o mais miserável dos seres, ou o maior dos ricos. Dependendo da vida que levar, pode transformar seu possuidor numa pessoa poderosa, rica, um ser de pleno sucesso e felicidade; no outro extremo, pode arruinar, levar ao desmando, transformar o ser em um elemento arrogante, prepotente, orgulhoso e dominador. Aconselha-se que os nascidos neste dia vivam tão altruisticamente quanto possível, que tenham pensamentos positivos, sentimentos elevados e, desta maneira, com absoluta certeza atingirão o sucesso e serão muito felizes. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "É um extremista! Quem nasce neste dia pode ser o mais miserável dos seres, ou o maior dos ricos. Dependendo da vida que levar, pode transformar seu possuidor numa pessoa poderosa, rica, um ser de pleno sucesso e felicidade; no outro extremo, pode arruinar, levar ao desmando, transformar o ser em um elemento arrogante, prepotente, orgulhoso e dominador. Aconselha-se que os nascidos neste dia vivam tão altruisticamente quanto possível, que tenham pensamentos positivos, sentimentos elevados e, desta maneira, com absoluta certeza atingirão o sucesso e serão muito felizes. \n" +
                         "É, também, o número do equilíbrio entre o material e o espiritual. Se teimar em viver fraudulentamente, querendo levar vantagem em tudo e com todos, poderá ver seus planos frustrados, ser traído por amigos e ainda contrair doenças inesperadas. \n" +
                         "É analítico, cético (só acredita no que vê ou é comprovado), gosta de conhecer a essência e o âmago das coisas e pessoas e também apresenta acentuado caráter perfeccionista. \n" +
                         "Pelo seu senso de perspicácia, gosta e consegue desvendar coisas misteriosas e também de acumular conhecimentos. É um ser de grande sensibilidade, intuição e inspiração, tendo mesmo qualidades psíquicas sem qualquer estudo do assunto. \n" +
@@ -847,13 +1345,15 @@ public class Definicoes {
                 break;
 
             case "17":
-                resposta = "O nativo deste dia é naturalmente um líder inteligente e arguto. Está quase sempre de bom humor e consegue ser simpático até com os opositores. Diferente do líder (1), se quiser ser bem sucedido profissionalmente, deve trabalhar em grupo, com outras pessoas, e somente em casos esporádicos consegue se sair bem trabalhando só. Nasceu para ser bem sucedido no plano material, através de muito trabalho, persistência e determinação. Por qualquer destes caminhos que se aventurar, será um vencedor: negócios imobiliários, comércio em geral, como executivo trabalhando com muitos subordinados ou comércio exterior, pois é eficiente profissionalmente, econômico (não avarento) e grande articulador. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "O nativo deste dia é naturalmente um líder inteligente e arguto. Está quase sempre de bom humor e consegue ser simpático até com os opositores. Diferente do líder (1), se quiser ser bem sucedido profissionalmente, deve trabalhar em grupo, com outras pessoas, e somente em casos esporádicos consegue se sair bem trabalhando só. Nasceu para ser bem sucedido no plano material, através de muito trabalho, persistência e determinação. Por qualquer destes caminhos que se aventurar, será um vencedor: negócios imobiliários, comércio em geral, como executivo trabalhando com muitos subordinados ou comércio exterior, pois é eficiente profissionalmente, econômico (não avarento) e grande articulador. \n" +
                         "É popular, está sempre bem humorado (mesmo que seja para disfarçar alguma decepção ou tristeza), e só depende dele ser ou não bem sucedido financeiramente. Normalmente é bem relacionado com o sexo oposto e está sempre cercado de admiradores, apesar de não gostar de revelar os seus pensamentos ou sentimentos. \n" +
                         "Busca a companhia de pessoas ambiciosas, determinadas e trabalhadoras. No plano afetivo, as pessoas que mais o atraem são aquelas que demonstram gerar harmonia e paz.";
                 break;
 
             case "18":
-                resposta = "Dinâmico e ativo, frequentemente deseja o poder e precisa de desafios constantes. Pode, às vezes, ser crítico, difícil de ser agradado ou ter inclinações para a controvérsia. Com sua personalidade e poder marcantes, pode usar esses predicados para ajudar seus semelhantes, dar bons conselhos e resolver problemas alheios. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Dinâmico e ativo, frequentemente deseja o poder e precisa de desafios constantes. Pode, às vezes, ser crítico, difícil de ser agradado ou ter inclinações para a controvérsia. Com sua personalidade e poder marcantes, pode usar esses predicados para ajudar seus semelhantes, dar bons conselhos e resolver problemas alheios. \n" +
                         "O dia 18 é o dia dos bruxos, dos magos, dos médiuns famosos e dos religiosos poderosos. É, também, o dia dos seres felizes e infelizes, ou seja, o dia dos extremos. Se agir com dignidade, trabalhar e estudar para o bem da humanidade, com certeza alcançará altos postos e será feliz. No outro extremo, ou seja, se agir fraudulentamente, sempre querendo levar vantagem em tudo e com todos, é certo que se arruinará, mais dia, menos dia. \n" +
                         "De natureza psíquica, o 18 é profundamente espiritual; tem contato com dimensões superiores, visões, de ampla e irrestrita intuição, é comunicativo e altamente sensível a problemas espirituais. \n" +
                         "É um vencedor nato! É inteligente, tem mente ativa e desperta e consegue se sobressair em quase todas as atividades. Os seus maiores inimigos são seus próprios defeitos: vaidade e ambição. \n" +
@@ -864,7 +1364,8 @@ public class Definicoes {
                 break;
 
             case "19":
-                resposta = "Ambição e humanitarismo são algumas das principais características deste excelente dia. Decisivo e cheio de recursos, possui uma visão penetrante, mas o lado sonhador da sua natureza é compassivo, idealista e criativo. Apesar de ser sensível, a necessidade de ser alguém pode levá-lo a ser dramático e a querer ser o centro das atenções. Muitas vezes há um forte desejo de estabelecer uma identidade individual. Para isso, precisa primeiro superar a influência causada pela pressão externa. Para os outros, os nascidos neste dia aparentam ser uma pessoa confiante, resistente e cheia de recursos, mas as tensões internas podem causar instabilidade emocional. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Ambição e humanitarismo são algumas das principais características deste excelente dia. Decisivo e cheio de recursos, possui uma visão penetrante, mas o lado sonhador da sua natureza é compassivo, idealista e criativo. Apesar de ser sensível, a necessidade de ser alguém pode levá-lo a ser dramático e a querer ser o centro das atenções. Muitas vezes há um forte desejo de estabelecer uma identidade individual. Para isso, precisa primeiro superar a influência causada pela pressão externa. Para os outros, os nascidos neste dia aparentam ser uma pessoa confiante, resistente e cheia de recursos, mas as tensões internas podem causar instabilidade emocional. \n" +
                         "Assim como o (5), quer mudanças, é versátil e está sempre desejando o melhor para si e também para a família. É independente, artístico, original e dotado de espírito de iniciativa e criatividade. \n" +
                         "19 é o dia do sucesso, da prosperidade e também da felicidade. Esta vibração altamente positiva tem em si embutido também certa tendência à arrogância à teimosia e à vaidade. \n" +
                         "Possui grande poder de realização, mas se irrita com certa facilidade, tendo acessos de crises de violência que normalmente afetam sua saúde. Apesar desta negatividade, jamais guarda rancor de quem quer que seja e rapidamente esquece qualquer ofensa de que é vítima. \n" +
@@ -874,7 +1375,8 @@ public class Definicoes {
                 break;
 
             case "20":
-                resposta = "O nativo deste dia é sensível, intuitivo, adaptável e compreensivo, e gosta de pertencer a um grupo. Em geral aprecia atividades cooperativas, nas quais possa interagir, compartilhar experiências e aprender com as outras pessoas. É um ser humano caseiro, ordeiro, pacífico, sempre distribuindo amor e paz a todos os conhecidos e sabe como poucos criar atmosferas agradáveis e harmoniosas. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "O nativo deste dia é sensível, intuitivo, adaptável e compreensivo, e gosta de pertencer a um grupo. Em geral aprecia atividades cooperativas, nas quais possa interagir, compartilhar experiências e aprender com as outras pessoas. É um ser humano caseiro, ordeiro, pacífico, sempre distribuindo amor e paz a todos os conhecidos e sabe como poucos criar atmosferas agradáveis e harmoniosas. \n" +
                         "Receptivo e intuitivo, gosta de se comunicar com os outros e, muitas vezes, tem talento para lidar com as pessoas, sendo excelente mediador ou negociador. Se desenvolver os seus dons artísticos, pode escolher uma carreira nas áreas de educação, como professor, ou na área editorial como redator ou jornalista. \n" +
                         "Os relacionamentos afetivos têm muita importância em sua vida e é vital que não caia em situações de dependência. Como precisa de companheirismo, em geral não gosta de ficar sozinho por muito tempo. Felizmente, seu charme, habilidade diplomática e excelente poder de persuasão podem ajudá-lo a ter amigos e amantes. Contudo, os seus sentimentos podem, às vezes, ser extremos e difíceis para as outras pessoas, mesmo quando genuinamente deseja a harmonia. Como é encantador, sociável e divertido, normalmente é um excelente anfitrião. \n" +
                         "É tremendamente hábil e é capaz de fazer qualquer serviço mais rápido e melhor do que qualquer outra pessoa. Também tem grande habilidade para tratar com o público, sendo dessa maneira, um bom político ou trabalhar em repartições governamentais voltadas para o povo. \n" +
@@ -882,7 +1384,8 @@ public class Definicoes {
                 break;
 
             case "21":
-                resposta = "Apesar de ser idealista e liberal, o nativo deste dia necessita da companhia de outras pessoas, pois dessa irmandade depende o seu sucesso e também o seu bem estar. Nasceu para manifestar e expressar seus sentimentos e idéias. É ambicioso, mas dispersivo, e dificilmente consegue acabar o que começa, ou seja, tem muitos começos e poucos fins. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Apesar de ser idealista e liberal, o nativo deste dia necessita da companhia de outras pessoas, pois dessa irmandade depende o seu sucesso e também o seu bem estar. Nasceu para manifestar e expressar seus sentimentos e idéias. É ambicioso, mas dispersivo, e dificilmente consegue acabar o que começa, ou seja, tem muitos começos e poucos fins. \n" +
                         "Muitas vezes musical e artístico, com queda para o teatro e a oratória, pode ser excelente ator de cinema ou teatro. \n" +
                         "Espirituoso e divertido e tem uma personalidade brilhante. Como é amigável, tem uma vida social ativa. Atraído por pessoas independentes e bem-sucedidas, quando se envolve em algum relacionamento precisa de liberdade e autoconfiança. Um dos lados da sua natureza afetiva é ser muito dramático, desconfiado e retraído, causando certo desconforto nos relacionamentos. Quando casado, é excelente companheiro e gosta por demais da família, a ponto de grandes sacrifícios para tornar tudo harmonioso. \n" +
                         "É por demais emotivo, sujeito a extremos, que o leva quase sempre a um estado de depressão. Em vista dessa sua fragilidade e inconstância, encontrará sérios obstáculos na juventude, mas por fim terá sucesso na idade mais madura, pois tem absoluta certeza de que tudo acabará bem. \n" +
@@ -891,7 +1394,8 @@ public class Definicoes {
                 break;
 
             case "22":
-                resposta = "O nativo deste dia, como especificado, é tremendamente prático, adapta-se a qualquer tipo de trabalho e para atingir seus objetivos (caso os tenha), é capaz de feitos heroicos. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "O nativo deste dia, como especificado, é tremendamente prático, adapta-se a qualquer tipo de trabalho e para atingir seus objetivos (caso os tenha), é capaz de feitos heroicos. \n" +
                         "Como tem visão futurista e perfeccionista ao extremo, inúmeras vezes deixa de aproveitar as ocasiões que se lhe deparam no dia a dia. Sendo um ser totalmente independente, tanto em considerar as coisas como as pessoas, despreza os convencionalismos e as tradições, o que normalmente lhe é prejudicial profissionalmente. \n" +
                         "Ainda com referência ao futurismo do nativo, normalmente não tem grandes ambições materiais e pouco se importa em ganhar ou acumular fortuna e, dessa maneira, está sujeito a muitos altos e baixos durante a vida. Para viver adequadamente, deve manter o equilíbrio entre as emoções e a praticidade. É de certa maneira nervoso, tenso e necessita muito de repouso. Este seu lado negativo, em certos momentos, mostra um certo desequilíbrio emocional, tendendo à intolerância, impaciência, não se entendendo a si próprio e, assim vivendo em constante conflito com os mais próximos. \n" +
                         "Sendo um duplo “2”, também na vida real as coisas tendem a acontecer-lhe em dobro, tanto para o bem, como para o mal, portanto, deve fazer um esforço redobrado para viver construtivamente e em harmonia com toda a humanidade. \n" +
@@ -901,7 +1405,8 @@ public class Definicoes {
                 break;
 
             case "23":
-                resposta = "Se quiser levar uma vida sem maiores problemas, tem de trabalhar ao máximo o seu lado compreensivo. Sensível e emotivo, o 23 é um idealista, audacioso e romântico. Atraído por pessoas vigorosas, usa os seus poderosos sentimentos expressando de forma dramática o amor que sente. No entanto, algumas vezes, seus relacionamentos pessoais podem ser perturbados devido à instabilidade do seu humor ou ao seu excessivo materialismo. Apesar de ser paciente, nunca descansa até conseguir o que quer. É o número do sucesso material, do dinheiro, e o seu portador precisa aprender a seguir caminhos profissionais, de preferência os de alto nível e não enveredar para os negócios, pois sendo intelectual, pertence ao mundo sensível e não está apto a servir ninguém. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Se quiser levar uma vida sem maiores problemas, tem de trabalhar ao máximo o seu lado compreensivo. Sensível e emotivo, o 23 é um idealista, audacioso e romântico. Atraído por pessoas vigorosas, usa os seus poderosos sentimentos expressando de forma dramática o amor que sente. No entanto, algumas vezes, seus relacionamentos pessoais podem ser perturbados devido à instabilidade do seu humor ou ao seu excessivo materialismo. Apesar de ser paciente, nunca descansa até conseguir o que quer. É o número do sucesso material, do dinheiro, e o seu portador precisa aprender a seguir caminhos profissionais, de preferência os de alto nível e não enveredar para os negócios, pois sendo intelectual, pertence ao mundo sensível e não está apto a servir ninguém. \n" +
                         "Tem personalidade marcante, rara inteligência (aprende tudo com grande facilidade), inclinação social (gosta de festas e reuniões) e se dá melhor com o sexo oposto do que com o próprio. \n" +
                         "Em virtude da sua grande sensibilidade, quando lhe tolhem os objetivos ou reprimem seus ideais, pode sofrer sobremaneira do sistema nervoso. \n" +
                         "Usualmente é versátil, pensa com rapidez, e é dotado de uma atitude profissional e uma mente cheia de ideias criativas. Gosta de viagens, aventuras e de conhecer pessoas novas. Ainda que esconda os seus sentimentos, a sua natureza idealista e confiável indica que quando fala o que pensa pode ser terrivelmente franco. Mesmo que às vezes possa ser destemido, deve tomar cuidado para que essa franqueza não seja ofensiva às pessoas. \n" +
@@ -909,14 +1414,16 @@ public class Definicoes {
                 break;
 
             case "24":
-                resposta = "Quem nasce no dia 24, além dos predicados acima descritos, é também grande amigo, amante da verdade e tolerante com as falhas alheias. Esteja onde estiver e com quem, é quase sempre o centro das atenções, não pela beleza física ou porte, mas sim pela inteligência, calor humano e compreensão de tudo e com todos. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Quem nasce no dia 24, é um grande amigo, amante da verdade e tolerante com as falhas alheias. Esteja onde estiver e com quem, é quase sempre o centro das atenções, não pela beleza física ou porte, mas sim pela inteligência, calor humano e compreensão de tudo e com todos. \n" +
                         "É muito hábil em trabalhos manuais, sejam eles mecânicos, eletroeletrônicos, de marcenaria, ou concertos rotineiros os mais variados. Tem, também, gostos gastronômicos, sendo excelente cozinheiro e nas festas que participa é sempre solicitado para fazer os aperitivos ou o churrasco. \n" +
                         "Em virtude da sua grande sensibilidade, tem tendência a proteger os fracos e oprimidos e a se deixar levar pelo sofrimento alheio. No amor, caso seja demasiadamente sonhador, ardente e romântico, dificilmente se ajustará à vida monótona do romance, pois se sentirá incompreendido e solitário. \n" +
                         "Como tem presença marcante e cativante, é sempre preferível ir pessoalmente a algum lugar, em vez de telefonar ou escrever. Pode ser grande médico ou psicólogo, pois é muito sensível e compreensível. É confiável e justo, embora às vezes possa ser reservado, e tem a tendência a acreditar que as ações falam mais alto do que as palavras. Com essa maneira pragmática de encarar a vida, desenvolve um bom senso para os negócios e habilidade para superar os obstáculos e ser bem-sucedido. Mesmo que vencer seja muito importante para este nativo, deve evitar a tendência a ser autocentrado ou ditatorial.";
                 break;
 
             case "25":
-                resposta = "O nativo deste dia, além da ambição material inerente ao ser humano, vive constantemente em busca do desejo da moralidade. É um pensador, um estudioso e, em vista disso, profundo conhecedor de vários assuntos, podendo se destacar e ter sucesso nos mais variados segmentos, como ciência, ocultismo, filosofia ou sobre a Natureza na sua mais abrangente expressão. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "O nativo deste dia, além da ambição material inerente ao ser humano, vive constantemente em busca do desejo da moralidade. É um pensador, um estudioso e, em vista disso, profundo conhecedor de vários assuntos, podendo se destacar e ter sucesso nos mais variados segmentos, como ciência, ocultismo, filosofia ou sobre a Natureza na sua mais abrangente expressão. \n" +
                         "O 25 é perfeccionista, exigente (consigo e com os outros), diplomata, versátil, com grande capacidade intuitiva, senso analítico e perspicaz. É rápido e enérgico, apesar de intuitivo e ponderado. O desejo de perfeição o impele a trabalhar duro e a ser produtivo. No entanto, precisa ser menos impaciente ou crítico quando as coisas não correm de acordo com os seus planos. \n" +
                         "Como tem dons proféticos e desenvolvida intuição, por vezes é instável e sujeito a vacilações e flutuações na sua personalidade. Tem como seu grande defeito, subestimar as suas qualidades, sendo ao longo da vida subjugado por pessoas muito inferiores a si. \n" +
                         "Como é honesto, bondoso e leal, julga que os outros principalmente os “amigos” também o são e, assim, vive sendo usado por essas pessoas, que tudo fazem para lhe tirar dinheiro e também para fazê-lo de empregado. Apesar dessas decepções ou frustrações e fracassos ocasionais, enfrenta tudo com muita valentia, mas pode ter problemas estomacais, como úlceras, sofrer de algum mal cardíaco ou pulmonar, na qual é recomendada a total abstinência ao cigarro. \n" +
@@ -925,14 +1432,16 @@ public class Definicoes {
                 break;
 
             case "26":
-                resposta = "A justiça na sua mais pura expressão, a perseverança e a moderação são as principais características do nativo deste dia. Tem, também, grande capacidade de discernimento, competência e organização, jamais desistindo dos seus objetivos e ideais, mesmo em algumas ocasiões parecendo indeciso, não sabendo muito bem o que quer. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "A justiça na sua mais pura expressão, a perseverança e a moderação são as principais características do nativo deste dia. Tem, também, grande capacidade de discernimento, competência e organização, jamais desistindo dos seus objetivos e ideais, mesmo em algumas ocasiões parecendo indeciso, não sabendo muito bem o que quer. \n" +
                         "Tem uma maneira pragmática de abordar a vida, habilidade executiva e bom senso para negócios. Normalmente responsável e íntegro, com senso estético natural e amor à vida doméstica, precisa construir uma boa base sólida ou encontrar uma estabilidade verdadeira. Tem personalidade marcante e certo ar de superioridade, que com certeza lhe garantem certas inimizades e algumas perturbações. Quando é contrariado, torna-se agressivo e mal humorado. O nativo deste dia é normalmente um ser solitário, de certa forma incompreendido, parecendo frio e calculista; na realidade, é uma extraordinária alma humana, sempre pronto a ajudar os fracos, os amigos e aqueles que necessitam de ajuda humanitária. \n" +
                         "Nasceu para mandar. É muito organizado, justo, de aspecto intelectual, com grande cultura e senso de responsabilidade. É também elegante no vestir e despreza o modernismo, preferindo o convencional. \n" +
                         "Ainda que possa ser uma pessoa teimosa e com ideias fixas, quando está apaixonado pode ser responsável e dedicado a fazer grandes sacrifícios. Frustrações e decepções podem lhe causar problemas biliares, dores de cabeça, reumatismo e problemas de circulação sanguínea.";
                 break;
 
             case "27":
-                resposta = "O nativo deste excelente dia é normalmente conhecedor dos mistérios da vida e pode, se quiser, ir a extremos: para o bem ou para o mal, e normalmente com 18 anos já definiu o caminho que vai percorrer. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "O nativo deste excelente dia é normalmente conhecedor dos mistérios da vida e pode, se quiser, ir a extremos: para o bem ou para o mal, e normalmente com 18 anos já definiu o caminho que vai percorrer. \n" +
                         "É um ser idealista e sensível, intuitivo e analítico, com uma mente fértil e criativa, que consegue impressionar as outras pessoas com os seus pensamentos originais. Às vezes pode parecer dissimulado, racional ou distante, mas, na verdade, pode estar ocultando tensões internas. Essas tensões podem incluir tendências impulsivas, indecisão ou desconfiança sobre mudanças. Se desenvolver a sua capacidade de comunicação, pode superar a resistência a expressar os seus sentimentos mais profundos. Por mais que necessite ficar só, deve evitar isolar-se. Pode ter mais paz quando cria uma atmosfera harmônica à sua volta. \n" +
                         "Tem personalidade audaciosa, liberal, corajosa, combativa e independente; é também grande amante da liberdade e não suporta dar satisfação dos seus atos, preferindo trabalhar só. \n" +
                         "Quase sempre bem sucedido no plano material, dificilmente tem maiores problemas de dinheiro, pois sabe como consegui-lo. Tem elevado senso de fraternidade e mente Universal. É afetuoso, emotivo, nervoso e de certa maneira um tanto extravagante, principalmente em se tratando de sua aparência. O amor, a afeição e dedicação ao semelhante representam muito e é capaz de grandes sacrifícios pelos que ama. \n" +
@@ -940,14 +1449,16 @@ public class Definicoes {
                 break;
 
             case "28":
-                resposta = "É muito contraditório, pois nasceu com o dom do querer, mas vive se queixando. Livre dessa face doentia poderá se impor a tudo e a todos, pelo seu admirável senso diplomático e espírito de justiça e compreensão. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "É muito contraditório, pois nasceu com o dom do querer, mas vive se queixando. Livre dessa face doentia poderá se impor a tudo e a todos, pelo seu admirável senso diplomático e espírito de justiça e compreensão. \n" +
                         "Será mais bem sucedido como chefe ou em atividades independentes, pois não gosta de ser mandado nem criticado. Como tem grande vitalidade e energia física, pode se dedicar a várias atividades ao mesmo tempo sem se cansar. Como o 29, tem muitos começos e poucos fins, e por isso deixa de aproveitar as oportunidades de se tornar famoso e rico. \n" +
                         "Tem tendência a aumentar seus aborrecimentos, embora não aparente e nem concorde com isso e, dessa maneira, se sujeita a muitos desapontamentos. Sempre pronto para a ação e para novos empreendimentos, aceita corajosamente os desafios da vida, e com o seu entusiasmo pode com facilidade inspirar as outras pessoas, se não a se juntar, pelo menos, a apoiá-lo nas suas aventuras. \n" +
                         "Para superar todos os pontos negativos, deve desenvolver otimismo, autoconfiança e perseverança de propósitos. Estudar a natureza humana, procurando compreendê-la, deixar de ser egoísta e se elevar sempre, seja no plano material como intelectual, são a base de sustentação para que atinja o sucesso e a felicidade tão almejadas.";
                 break;
 
             case "29":
-                resposta = "Quem nasce neste dia e souber direcionar sua vida para o bem, conseguirá tudo o que desejar. O seu sensível intelecto, combinado com a sua poderosa memória e capacidade de liderança, garante que pode dar uma contribuição valiosa em diversas áreas. Com atração por ocupações e atividades relacionadas ao trato com as pessoas, pode se sobressair em carreiras como as de professor, treinador, publicitário, relações públicas, escritor, advogado ou em qualquer ramo holístico, sobretudo na área de autoajuda. Tem grande capacidade auditiva e senso variado de humor, podendo em questão de segundos ir da alegria contagiante à mais negativa das formas: a violência. É um ser altamente espiritualizado e as pessoas que com ele convivem devem também comungar de seus ideais e participarem dos seus projetos, pois caso contrário podem-se tornar seus inimigos. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Quem nasce neste dia e souber direcionar sua vida para o bem, conseguirá tudo o que desejar. O seu sensível intelecto, combinado com a sua poderosa memória e capacidade de liderança, garante que pode dar uma contribuição valiosa em diversas áreas. Com atração por ocupações e atividades relacionadas ao trato com as pessoas, pode se sobressair em carreiras como as de professor, treinador, publicitário, relações públicas, escritor, advogado ou em qualquer ramo holístico, sobretudo na área de autoajuda. Tem grande capacidade auditiva e senso variado de humor, podendo em questão de segundos ir da alegria contagiante à mais negativa das formas: a violência. É um ser altamente espiritualizado e as pessoas que com ele convivem devem também comungar de seus ideais e participarem dos seus projetos, pois caso contrário podem-se tornar seus inimigos. \n" +
                         "Para conseguir se realizar usa de imaginação, brandura de modos (quando não o contrariam) além de elevado espírito de conciliação. Como é moral e intelectualmente elevado, usa a fé, o idealismo e o conhecimento inspirado para tingir seus objetivos, seus ideais. \n" +
                         "Sendo extremista, está sujeito a muitas mudanças comportamentais ao longo de sua duradoura vida e, por isso, deve procurar interesses definidos e manter o ânimo calmo e equilibrado, pois a sua normal agitação o torna disperso, provocando na primeira metade da vida (até os 45 anos), muitos começos e poucos fins. \n" +
                         "Há uma grande tendência a se voltar para a religião ou esoterismo após os 45 anos e deve cuidar para não cair no fanatismo e também não induzir os demais, pois como é inspirado e cativante, tem facilidade de convencer quem quer que seja. \n" +
@@ -958,7 +1469,8 @@ public class Definicoes {
                 break;
 
             case "30":
-                resposta = "Amável e caloroso, gosta de atividades sociais e pode ser excepcionalmente carismático e leal. Estar apaixonado ou emocionalmente satisfeito é um requisito fundamental; na sua busca pela felicidade, deve evitar ser excessivamente indulgente ou impaciente. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Amável e caloroso, gosta de atividades sociais e pode ser excepcionalmente carismático e leal. Estar apaixonado ou emocionalmente satisfeito é um requisito fundamental; na sua busca pela felicidade, deve evitar ser excessivamente indulgente ou impaciente. \n" +
                         "Detesta ser criticado, pois é altamente sensível e não suporta se ver “despido” de seus princípios e ideais. O 0(zero) à direita do 3 (três) mostra claramente que existe uma tendência à auto anulação, à autodesvalorização, subestimando-se em demasia. Precisa constantemente se conscientizar de seu grande valor e de sua habilidade em superar dificuldades e, principalmente, impor-se antes a si próprio para depois conquistar o respeito e a admiração dos demais. \n" +
                         "O poder do amor é a sua maior virtude e com a sua natureza romântica, seu temperamento apaixonado e sua generosidade, as pessoas se sentem atraídas pelo seu carisma e encanto. Embora esteja disposto a fazer grandes sacrifícios pelos seus entes queridos, precisa superar a tendência a permitir que seus sentimentos controlem a sua mente. \n" +
                         "Tem personalidade marcante, de certa forma perfeccionista, independente e não suporta ser mandado ou trabalhar em cargos ou funções subalternas. Caso não seja moralmente desenvolvido, poderá tentar atingir seus objetivos de forma ilegal, fraudulentamente, usando de artifícios pouco convencionais (chegando mesmo a ser cruel), e como não consegue disfarçar seus sentimentos, quase sempre é pego e acaba se arruinando e arruinando os parentes, principalmente aqueles mais próximos, como filhos, irmãos ou o cônjuge. \n" +
@@ -966,7 +1478,8 @@ public class Definicoes {
                 break;
 
             case "31":
-                resposta = "Como o número indica, os seus nativos possuem grande habilidade, capacidade, autoridade, e gostam de segurança econômica, e também dão grande valor às suas realizações, esquecendo-se, em muitos casos, de si próprio. \n" +
+                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
+                        "Os nativos do dia 31 possuem grande habilidade, capacidade, autoridade, e gostam de segurança econômica, e também dão grande valor às suas realizações, esquecendo-se, em muitos casos, de si próprio. \n" +
                         "Tem ideias originais, um bom-senso de forma e habilidade para ser bem-sucedido nos negócios, se tiver um plano de ação e colocá-lo em prática no seu ritmo. Uma das suas boas características é trabalhar em serviços comunitários, mas que os participantes não lhe tolham os passos ou a iniciativa. \n" +
                         "Como confia em todos, por causa da sua boa-fé, normalmente é mal interpretado e enfrenta mais obstáculos que os demais, pois pensa que todos são como ele, honestos, retos e competentes, o que não é verdade e, assim, está sempre às voltas com problemas financeiros e também profissionais. \n" +
                         "O nativo deste dia vive num mundo só seu e a maioria das pessoas tem certa dificuldade em compreendê-lo e para viver bem em sua companhia, a pessoa deve ser leal e compreensiva. Faz amigos e inimigos com a mesma facilidade. \n" +

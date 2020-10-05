@@ -303,7 +303,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         switch (view.getId()) {
 
             case R.id.im_fundo_ex:
-                dialog("Expressão", def.expressao(mNome));
+                dialog(def.tituloexp(mNome), def.expressao(mNome));
                 break;
 
             case R.id.im_fundo_arc:
@@ -311,19 +311,19 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
 
             case R.id.im_fundo_des:
-                dialog("Destino", def.destino(mData));
+                dialog(def.titulodest(mData), def.destino(mData));
                 break;
 
             case R.id.im_fundo_im:
-                dialog("Impressão", "impressão");
+                dialog(def.tituloimp(mConsoante),def.impressao(mConsoante));
                 break;
 
             case R.id.im_fundo_mis:
-                dialog("Missão", def.missao(mNomeData));
+                dialog(def.titulomissao(mNomeData), def.missao(mNomeData));
                 break;
 
             case R.id.im_fundo_per:
-                dialog("Personalidade", def.dia(mDia));
+                dialog(def.titulodia(mDia), def.dia(mDia));
                 break;
 
             case R.id.im_fundo_ori:
@@ -331,7 +331,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
 
             case R.id.im_fundo_lic:
-                dialog("Lições", "msg LIC");
+                dialog("Lições", "LIÇÕES");
                 break;
 
             default:
