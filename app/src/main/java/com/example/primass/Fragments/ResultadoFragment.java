@@ -346,25 +346,10 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         ((TextView)viewdialog.findViewById(R.id.tv_custom_titulo)).setText(title);
         ((TextView)viewdialog.findViewById(R.id.tv_custom_definicao)).setText(msg);
 
-        ImageView ivClose = viewdialog.findViewById(R.id.iv_customdialog_close);
+
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
         builder.setCancelable(true);
-
-        ivClose.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
-                    @Override
-                    public void onDismiss(DialogInterface dialogInterface) {
-                        dialogInterface.dismiss();
-                    }
-                });
-            }
-
-
-
-        });
 
 
 
