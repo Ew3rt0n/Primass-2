@@ -96,7 +96,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 fm.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
                 ft = fm.beginTransaction();
-                ft.replace(R.id.viewPage, CompatibilidadeFragment.newInstance("", ""));
+                ft.replace(R.id.viewPage, CompatibilidadeFragment.newInstance
+                        (campoNome.getText().toString(), tv_dia.getText().toString(),
+                         tv_mes.getText().toString(), tv_ano.getText().toString()));
                 ft.addToBackStack(null);
                 ft.commit();
 

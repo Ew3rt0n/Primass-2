@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.EditText;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
@@ -20,7 +21,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
 
     private ImageView im_fundo_ex, im_fundo_im, im_fundo_des,
             im_fundo_mis, im_fundo_arc, im_fundo_per, im_fundo_ori,
-            im_fundo_lic, iv_customdialog_close;
+            im_fundo_lic;
 
     private static final String ARG_NOME = "paramNome";
     private static final String ARG_CONSOANTE = "paramConsoante";
@@ -29,6 +30,8 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
     private static final String ARG_DIA = "paramDia";
 
     private String mNome, mConsoante, mData, mNomeData, mDia;
+
+    private View view;
 
     public ResultadoFragment() {
         // Required empty public constructor
@@ -62,7 +65,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_resultado, container, false);
+        view = inflater.inflate(R.layout.fragment_resultado, container, false);
 
         view.findViewById(R.id.im_fundo_ex).setOnClickListener(this);
         view.findViewById(R.id.im_fundo_arc).setOnClickListener(this);
@@ -74,25 +77,93 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         view.findViewById(R.id.im_fundo_lic).setOnClickListener(this);
 
 
-//        im_fundo_ex = view.findViewById(R.id.im_fundo_ex);
-//        im_fundo_arc = view.findViewById(R.id.im_fundo_arc);
-//        im_fundo_des = view.findViewById(R.id.im_fundo_des);
-//        im_fundo_im = view.findViewById(R.id.im_fundo_im);
-//        im_fundo_mis = view.findViewById(R.id.im_fundo_mis);
-//        im_fundo_per = view.findViewById(R.id.im_fundo_per);
-//        im_fundo_ori = view.findViewById(R.id.im_fundo_ori);
-//        im_fundo_lic = view.findViewById(R.id.im_fundo_lic);
+        im_fundo_ex = view.findViewById(R.id.im_fundo_ex);
+        im_fundo_arc = view.findViewById(R.id.im_fundo_arc);
+        im_fundo_des = view.findViewById(R.id.im_fundo_des);
+        im_fundo_im = view.findViewById(R.id.im_fundo_im);
+        im_fundo_mis = view.findViewById(R.id.im_fundo_mis);
+        im_fundo_per = view.findViewById(R.id.im_fundo_per);
+        im_fundo_ori = view.findViewById(R.id.im_fundo_ori);
+        im_fundo_lic = view.findViewById(R.id.im_fundo_lic);
+
+        resultadoExp();
+        resultadoDes();
+        resultadoMis();
+        resultadoImp();
 
 
+        def = new Definicoes();
 
-         /*public void resultadoExp (String resultadoExp){
+
+        return view;
+    }
 
 
-        String resultadoExp = getString(calcNome)
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+
+            case R.id.im_fundo_ex:
+                dialog(def.tituloexp(mNome), def.expressao(mNome));
+                break;
+
+            case R.id.im_fundo_arc:
+                dialog("Titulo ARC", "msg ARC");
+                break;
+
+            case R.id.im_fundo_des:
+                dialog(def.titulodest(mData), def.destino(mData));
+                break;
+
+            case R.id.im_fundo_im:
+                dialog(def.tituloimp(mConsoante), def.impressao(mConsoante));
+                break;
+
+            case R.id.im_fundo_mis:
+                dialog(def.titulomissao(mNomeData), def.missao(mNomeData));
+                break;
+
+            case R.id.im_fundo_per:
+                dialog(def.titulodia(mDia), def.dia(mDia));
+                break;
+
+            case R.id.im_fundo_ori:
+                dialog("Orientações", def.orientDest(mData) + "\n orientscao expre \n" + def.orientEx(mConsoante));
+                break;
+
+            case R.id.im_fundo_lic:
+                dialog("Lições", "LIÇÕES");
+                break;
+
+            default:
+                break;
+        }
+    }
+
+    private void dialog(String title, String msg) {
+
+        View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
+
+        ((TextView) viewdialog.findViewById(R.id.tv_custom_titulo)).setText(title);
+        ((TextView) viewdialog.findViewById(R.id.tv_custom_definicao)).setText(msg);
+
+
+        final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+        builder.setCancelable(true);
+
+
+        builder.setView(viewdialog);
+        builder.show();
+    }
+
+    public void resultadoExp() {
+
+
+        //String resultadoExp = getString(mNome);
 
         ImageView imagemExp = view.findViewById(R.id.im_fundo_ex);
 
-        switch (resultadoExp) {
+        switch (mNome) {
             case "1":
                 imagemExp.setImageResource(R.drawable.numero_1);
                 break;
@@ -130,11 +201,14 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
 
         }
-        public void resultadoDes (String resultadoDes);
+
+    }
+
+    public void resultadoDes() {
 
         ImageView imagemDes = view.findViewById(R.id.im_fundo_des);
 
-        switch (resultadoDes) {
+        switch (mData) {
             case "1":
                 im_fundo_des.setImageResource(R.drawable.numero_1);
                 break;
@@ -170,13 +244,14 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
             default:
                 break;
-
         }
-        public void resultadoMis (String resultadoMis);
+    }
+
+    public void resultadoMis() {
 
         ImageView imagemMis = view.findViewById(R.id.im_fundo_mis);
 
-        switch (resultadoMis) {
+        switch (mNomeData) {
             case "1":
                 im_fundo_mis.setImageResource(R.drawable.numero_1);
                 break;
@@ -212,14 +287,14 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
             default:
                 break;
-
         }
+    }
 
-        public void resultadoImp (String resultadoImp);
+    public void resultadoImp() {
 
         ImageView imagemImp = view.findViewById(R.id.im_fundo_im);
 
-        switch (resultadoImp) {
+        switch (mConsoante) {
             case "1":
                 im_fundo_im.setImageResource(R.drawable.numero_1);
                 break;
@@ -252,8 +327,8 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
 
         }
-
-        public void resultadoArc (String resultadoArc);
+    }
+        /*public void resultadoArc (){
 
         ImageView imagemArc = view.findViewById(R.id.im_fundo_arc);
 
@@ -291,69 +366,4 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
 
         } */
 
-        def = new Definicoes();
-
-
-        return view;
-    }
-
-
-    @Override
-    public void onClick(View view) {
-        switch (view.getId()) {
-
-            case R.id.im_fundo_ex:
-                dialog(def.tituloexp(mNome), def.expressao(mNome));
-                break;
-
-            case R.id.im_fundo_arc:
-                dialog("Titulo ARC", "msg ARC");
-                break;
-
-            case R.id.im_fundo_des:
-                dialog(def.titulodest(mData), def.destino(mData));
-                break;
-
-            case R.id.im_fundo_im:
-                dialog(def.tituloimp(mConsoante),def.impressao(mConsoante));
-                break;
-
-            case R.id.im_fundo_mis:
-                dialog(def.titulomissao(mNomeData), def.missao(mNomeData));
-                break;
-
-            case R.id.im_fundo_per:
-                dialog(def.titulodia(mDia), def.dia(mDia));
-                break;
-
-            case R.id.im_fundo_ori:
-                dialog("Orientações", "Orientações");
-                break;
-
-            case R.id.im_fundo_lic:
-                dialog("Lições", "LIÇÕES");
-                break;
-
-            default:
-                break;
-        }
-    }
-
-    private void dialog(String title, String msg){
-
-        View viewdialog = getLayoutInflater().inflate(R.layout.customdialog, null);
-
-        ((TextView)viewdialog.findViewById(R.id.tv_custom_titulo)).setText(title);
-        ((TextView)viewdialog.findViewById(R.id.tv_custom_definicao)).setText(msg);
-
-
-
-        final AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
-        builder.setCancelable(true);
-
-
-
-        builder.setView(viewdialog);
-        builder.show();
-    }
 }

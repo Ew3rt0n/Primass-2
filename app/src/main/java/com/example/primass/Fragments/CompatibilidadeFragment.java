@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AlertDialog;
@@ -23,33 +24,30 @@ public class CompatibilidadeFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private static final String ARG_NOME = "paramNome";
+    private static final String ARG_DIA = "paramDia";
+    private static final String ARG_MES = "paramMes";
+    private static final String ARG_ANO = "paramAno";
 
     // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+    private String mNome, mDia, mMes, mAno;
+
 
     public CompatibilidadeFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment CompatibilidadeFragment.
-     */
+
     // TODO: Rename and change types and number of parameters
-    public static CompatibilidadeFragment
-    newInstance(String param1, String param2) {
+    public static CompatibilidadeFragment newInstance(String paramNome, String paramDia,String paramMes, String paramAno) {
         CompatibilidadeFragment fragment =
                 new CompatibilidadeFragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+        args.putString(ARG_NOME, paramNome);
+        args.putString(ARG_DIA, paramDia);
+        args.putString(ARG_MES, paramMes);
+        args.putString(ARG_ANO, paramAno);
+
         fragment.setArguments(args);
         return fragment;
     }
@@ -58,8 +56,11 @@ public class CompatibilidadeFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+            mNome = getArguments().getString(ARG_NOME);
+            mDia = getArguments().getString(ARG_DIA);
+            mMes = getArguments().getString(ARG_MES);
+            mAno = getArguments().getString(ARG_ANO);
+
         }
     }
 
@@ -71,6 +72,11 @@ public class CompatibilidadeFragment extends Fragment {
         View view = inflater.inflate
                 (R.layout.fragment_compatibilidade,
                         container, false);
+
+        ((EditText)view.findViewById(R.id.campoNome2)).setText(mNome);
+        ((EditText)view.findViewById(R.id.tv_dia2)).setText(mDia);
+        ((EditText)view.findViewById(R.id.tv_mes2)).setText(mMes);
+        ((EditText)view.findViewById(R.id.tv_ano2)).setText(mAno);
 
         bt_compatib = view.findViewById
                 (R.id.bt_compatib);

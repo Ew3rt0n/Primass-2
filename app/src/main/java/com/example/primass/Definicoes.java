@@ -1053,39 +1053,39 @@ public class Definicoes {
         String resposta;
 
         switch (titDia){
-            case "1":
+            case "01":
                 resposta ="O Lider";
                 break;
 
-            case "2":
+            case "02":
                 resposta ="O Diplomata";
                 break;
 
-            case "3":
+            case "03":
                 resposta ="O Popular";
                 break;
 
-            case "4":
+            case "04":
                 resposta ="O Persistente";
                 break;
 
-            case "5":
+            case "05":
                 resposta ="O Versatil";
                 break;
 
-            case "6":
+            case "06":
                 resposta ="O Amoroso";
                 break;
 
-            case "7":
+            case "07":
                 resposta ="O Inspirador";
                 break;
 
-            case "8":
+            case "08":
                 resposta ="O Prospero";
                 break;
 
-            case "9":
+            case "09":
                 resposta ="O Humanitario";
                 break;
 
@@ -1191,7 +1191,7 @@ public class Definicoes {
         String resposta;
 
         switch (numDia){
-            case "1":
+            case "01":
                 resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
                         "É um líder nato; gosta de mandar em vez de fazer. É criativo e original, tem raciocínio lógico e rápido, e é capaz de discutir sobre os mais variados assuntos, até mesmo aqueles que conhece superficialmente. \n" +
                         "Tem tendência a ser autoritário, de certa maneira possessivo e um tanto egocêntrico. Ainda que o lado aventureiro da sua natureza queira se expressar, a sua visão altamente pragmática e a preocupação com a segurança sugerem um certo materialismo. Isso indica que mesmo que o idealismo e a visão tenham um papel importante na sua vida, a preocupação com o dinheiro, ou com a sua falta, mantém os seus pés firmes no chão. Todavia, você é uma pessoa amável, que tem emoções fortes, inclinações humanitárias e grande capacidade de liderança. Embora não o sendo, o número 1 é considerado “frio”, calculista e pouco comunicativo. Raramente demonstra afeto e compaixão. Contudo, gosta de ser elogiado e admirado. Quando seus projetos ou desejos não se realizam ou são frustrados, o seu sistema metabólico sofre sobremaneira e os nervos e a pressão arterial são sobrecarregados, podendo causar graves danos ao organismo. \n" +
@@ -1200,7 +1200,7 @@ public class Definicoes {
                         "Individualista e dinâmico, gosta de conhecer gente de diferentes círculos sociais. Como é sociável, aprecia a companhia de outras pessoas, especialmente as que são criativas e que o estimulam a se expressar. Ainda que seja leal e disposto a apoiar entes queridos, tem dúvidas e se sente indeciso nos seus relacionamentos. Para evitar desapontamentos, precisa encarar a sua vida emocional com leveza e lembrar que deseja ser feliz.";
                 break;
 
-            case "2":
+            case "02":
                 resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
                         "É um ser diplomata por excelência. É aquele que harmoniza o grupo e a família; o que possui o dom da reconciliação. É cooperativo, aparentemente tímido e vulnerável, de certa maneira passivo, mas sempre atento aos detalhes de seu ambiente. \n" +
                         "Amante das diversões e sociável pode ser um grande amigo e uma boa companhia. Mesmo sendo amoroso e afetuoso, deve tomar cuidado na escolha dos seus relacionamentos para que eles sejam duradouros. Pode ser romântico com as pessoas de que gosta e mostrar honestamente os seus sentimentos, mas, para ser feliz, deve procurar segurança financeira. Com todo o seu charme, é muito atraente ao sexo oposto, porém não gosta de ser tolhido em seus movimentos. \n" +
@@ -1210,7 +1210,7 @@ public class Definicoes {
                         "Caso não seja culturalmente desenvolvido, pode-se tornar cruel, inescrupuloso e até violento, no propósito de atingir seus objetivos.";
                 break;
 
-            case "3":
+            case "03":
                 resposta ="A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
                         "O nativo deste dia é um ser de rara animação, criatividade, expressão e popularidade. Pode parecer irresponsável para alguns que não o conhecem bem, mas na realidade é um ser altamente responsável, e prestativo com tudo e com todos. O três é intuitivo, original, honesto, dedicado à família e aos amigos (aos últimos, às vezes até demais). \n" +
                         "Sua ambição e sua personalidade atraente podem levá-lo ao topo de qualquer carreira. Seja na área bancária ou no mundo artístico, a sua aversão a ordens alheias pode levá-lo a posições superiores, como gerente ou executivo. Pode se sair particularmente bem na área teatral, como ator, diretor ou dramaturgo. Mas pode também usar a sua habilidade para lidar com as pessoas na área dos negócios, em que pode dar início a novos projetos nos quais ocupe uma posição de liderança. \n" +
@@ -1218,7 +1218,7 @@ public class Definicoes {
                         "No decorrer de sua longa vida, terá inúmeras frustrações, e estas podem levá-lo a ter certos problemas físicos, principalmente o sistema nervoso abalado e também a contrair certas doenças de pele, que não se sabe como as supera com grande senso de humor. Na realidade, é um ser lutador, criativo e liberal, que usa de seus predicados, principalmente a oratória, como sustentáculo de sua vida.";
                 break;
 
-            case "4":
+            case "04":
                 resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
                         "Os nascidos neste dia são muito disciplinados, constantes, regulares e ordeiros. Perseverantes em seus propósitos, incansáveis trabalhadores, dificilmente deixam de atingir seus objetivos. Normalmente honesto, sincero e conservador, o quatro adapta-se a trabalhos rotineiros, metódicos e que requerem esforço concentrado. \n" +
                         "Em virtude dos predicados acima descritos, o nascido neste dia sente-se mais à vontade lidando com situações rotineiras, já consagradas pelo uso, evitando o novo ou o incerto. A sólida estrutura e o poder de organização sugeridos por este dia, indicam que o seu possuidor precisa de estabilidade e ordem. Dotado de energia, habilidades práticas e muita determinação, pode ser bem sucedido se estiver disposto a trabalhar duro. Preocupado com a segurança, quer ter uma base sólida para si mesmo e para os familiares. A maneira pragmática como encara a vida lhe confere um bom senso para os negócios e habilidade para alcançar o sucesso material. É muito econômico, amigo dos amigos, companheiro leal e dedicado, de grande responsabilidade e respeitador do sexo oposto, gostando também de construir coisas e trabalhar com as mãos. \n" +
@@ -1227,7 +1227,7 @@ public class Definicoes {
                         "Em matéria de amor (relacionamentos) a mulher nascida neste dia é mais acessível e menos dramática do que o homem.";
                 break;
 
-            case "5":
+            case "05":
                 resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
                         "O nascido neste dia é normalmente divertido, alegre, ousado, dotado de poderes psíquicos, imaginação fértil, versatilidade e também amante da liberdade. Em virtude de ter os ouvidos muito sensíveis (não gosta de receber ordens), vive constantemente em busca de dinheiro, por vezes de maneiras totalmente inusitadas, sem qualquer medo de correr riscos. Gosta de estudar e de saber, para poder conseguir atingir seus objetivos com mais facilidade. Viajar por diversão, estudo ou satisfação do ego, também fazem parte da sua personalidade. \n" +
                         "É obstinado em seus propósitos (impaciente e impulsivo) e não descansa enquanto não consegue atingir seus objetivos, mesmo que tenha de usar de artifícios pouco convencionais ou prejudicar alguém. Gosta de estar em contato com o público, de preferência sendo o centro das atenções, e no trabalho sente-se melhor em ocupações que o coloquem em contato com pessoas, mas que estas lhe permitam agir e exprimir-se livremente. \n" +
@@ -1235,7 +1235,7 @@ public class Definicoes {
                         "Quando quer ou é incentivado, consegue resultados fantásticos no terreno profissional, pois tem grande capacidade de discernimento, amplos conhecimentos e satisfação naquilo que faz. Porém, o seu lado obscuro, o lado “libertino”, leva-o a ter muitos começos e poucos fins. Quase nunca é bem sucedido no amor (existe, é claro, as exceções), levando-o a trocar várias vezes de parceiros ao longo da sua duradoura vida. Tem, ainda, grande habilidade para encantar as pessoas com o seu otimismo e generosidade, mas deve tomar cuidado para não se tornar muito autoritário com quem ama.";
                 break;
 
-            case "6":
+            case "06":
                 resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
                         "O nascido no dia seis é normalmente sentimental, muito equilibrado, compreensivo, adora a família, a casa, os amigos, os filhos (se os tiver) e é também excelente amante. Tem personalidade magnética e atrai sempre as atenções: em festas, reuniões, cursos, etc. \n" +
                         "Profissionalmente sente-se realizado numa posição superior, onde pode contribuir para o desenvolvimento da empresa, das coisas e principalmente das pessoas envolvidas. É perseverante e luta até o fim para atingir seus objetivos. \n" +
@@ -1244,7 +1244,7 @@ public class Definicoes {
                         "Prático e econômico, tem tendência a ser idealista e despreocupado. Confiando na sua intuição e aprendendo a se conhecer, pode ter um bom relacionamento com as pessoas. Será excelente profissional no setor social (trabalhar com idosos, crianças, deficientes físicos ou mentais), em áreas esotéricas e religiosas, como professor, decorador, cozinheiro, ou tratando de embelezar o planeta.";
                 break;
 
-            case "7":
+            case "07":
                 resposta ="A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
                         "Além da integridade inerente do número sete, ele também possui em larga escala a independência de pensamento, a iniciativa e a ponderação. É também um perfeccionista e um tanto arredio a coisas e a novas amizades. \n" +
                         "Analítico e ponderado, o nascido neste dia é muitas vezes crítico e concentrado nos seus próprios interesses. Com uma necessidade constante de ter uma maior autoconsciência, gosta de reunir informações e se interessa por ler, escrever e por assuntos espirituais. A tendência a ser enigmático ou reservado sugere que pode ocasionalmente se sentir incompreendido. Embora não goste de contrair dívidas, precisa aprender a administrar a sua vida financeira. O desejo de desfrutar de uma boa vida sugere que precisa de algo que o motive e o inspire, pois há o perigo de cair na rotina e perder o rumo. \n" +
@@ -1254,7 +1254,7 @@ public class Definicoes {
                         "Normalmente sem vícios (álcool, cigarro e drogas); quando os tem lhe são altamente prejudiciais ao fígado, pâncreas e estômago. Também deve evitar qualquer tipo de jogo (dificilmente ganhará em loterias e seus afins).";
                 break;
 
-            case "8":
+            case "08":
                 resposta ="A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
                         "O nascido neste dia é normalmente organizado, muito dedicado aos negócios, criativo e com enorme potencial para ganhar dinheiro. É justo, leal, prático, generoso (quando quer) e tem grande capacidade executiva e grande senso de justiça. \n" +
                         "Quando as coisas não saem como deseja, pode-se tornar direto (às vezes até demais), agressivo, com acessos de mau humor e com grande tendência a dominar a todos, indiscriminadamente, sejam eles parentes, amigos ou empregados. \n" +
@@ -1263,7 +1263,7 @@ public class Definicoes {
                         "Qualquer vício lhe é prejudicial à saúde, principalmente o álcool, que pode lhe provocar graves distúrbios ao fígado e estômago.";
                 break;
 
-            case "9":
+            case "09":
                 resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
                         "O nativo deste dia é normalmente universalista: sente compaixão por todos e quer melhorar o gênero humano. Benevolência, ponderação e sensibilidade emocional estão associadas a este dia de nascimento. Tolerante e gentil, é na maior parte das vezes generoso e liberal. Sua intuição e seu poder psíquico indicam uma receptividade universal que, se for positivamente canalizada, pode inspirá-lo a buscar o caminho espiritual. Amante da verdade, normalmente generoso, independente, liberal, audacioso, corajoso, combativo, e não tem medo da derrota eventual, pois sabe que conseguirá o que deseja. \n" +
                         "Dificilmente tem paz de espírito e tranquilidade, pois tem facilidade em atrair discórdia e desentendimentos, afastando os amigos e as pessoas que o amam. É um ser muito contraditório, pois sendo humanista e bondoso não deveria ser arrogante e revoltoso, mas o é, e dessa maneira, destrói em minutos o que levou anos a construir. \n" +
