@@ -258,47 +258,47 @@ public class Definicoes {
 
         switch (numorientacaoEx){
             case "1":
-                resposta = "ORIENTAÇÃO: Em vista de ter tendência a começar muitas coisas e não terminá-las, deve adquirir conhecimentos, prudência, ponderação e sabedoria, para poder desenvolver o seu imenso potencial de realização e levar a bom termo os seus objetivos.";
+                resposta = "Em vista de ter tendência a começar muitas coisas e não terminá-las, deve adquirir conhecimentos, prudência, ponderação e sabedoria, para poder desenvolver o seu imenso potencial de realização e levar a bom termo os seus objetivos.";
                 break;
 
             case "2":
-                resposta = "ORIENTAÇÃO: O dois era chamado pelos antigos de a “mãe dos números e do casamento”. Como a sua grande virtude é a compreensão dos processos do conhecimento oculto, deve sempre cultivar este dom, a fim de poder viver condignamente, sem esperar que alguém ou algo o faça movimentar-se.";
+                resposta = "O dois era chamado pelos antigos de a “mãe dos números e do casamento”. Como a sua grande virtude é a compreensão dos processos do conhecimento oculto, deve sempre cultivar este dom, a fim de poder viver condignamente, sem esperar que alguém ou algo o faça movimentar-se.";
                 break;
 
             case "3":
-                resposta = "ORIENTAÇÃO: A vontade de aprender e a aversão à rotina indicam que você pode passar por diversas experiências na sua busca por uma carreira que o desafie mentalmente. Com a maneira persuasiva com que usa as palavras, pode ser bem sucedido no mundo da comunicação, vendas, escrita, arte ou área editorial, sendo, é claro, o chefe ou trabalhando por conta própria, pois tem grande aversão a ser mandado.";
+                resposta = "A vontade de aprender e a aversão à rotina indicam que você pode passar por diversas experiências na sua busca por uma carreira que o desafie mentalmente. Com a maneira persuasiva com que usa as palavras, pode ser bem sucedido no mundo da comunicação, vendas, escrita, arte ou área editorial, sendo, é claro, o chefe ou trabalhando por conta própria, pois tem grande aversão a ser mandado.";
                 break;
 
             case "4":
-                resposta = "ORIENTAÇÃO: Como gosta da sua liberdade, evite fazer julgamentos ou criticar demais as pessoas, pois elas podem ficar ressentidas com as suas decisões e, assim, não lhe prestarem bons serviços ou não colaborarem com seus projetos.";
+                resposta = "Como gosta da sua liberdade, evite fazer julgamentos ou criticar demais as pessoas, pois elas podem ficar ressentidas com as suas decisões e, assim, não lhe prestarem bons serviços ou não colaborarem com seus projetos.";
                 break;
 
             case "5":
-                resposta = "ORIENTAÇÃO: Como terá muitas experiências na vida, deve usar essas experiências e o seu temperamento corajoso para levar até o fim os seus projetos, pois é de certa forma dispersivo, não conseguindo terminar o que começa, tendo mais começos do que fins.";
+                resposta = "Como terá muitas experiências na vida, deve usar essas experiências e o seu temperamento corajoso para levar até o fim os seus projetos, pois é de certa forma dispersivo, não conseguindo terminar o que começa, tendo mais começos do que fins.";
                 break;
 
             case "6":
-                resposta = "ORIENTAÇÃO: Para se elevar e conquistar fama e fortuna deve procurar profissões de interesse humanitário, sempre incentivado pelos que ama. Deve, também, concentrar sua energia e não se preocupar com o que outras pessoas dizem ou fazem. Aprenda a dizer “não” sem medo de ofender os outros.";
+                resposta = "Para se elevar e conquistar fama e fortuna deve procurar profissões de interesse humanitário, sempre incentivado pelos que ama. Deve, também, concentrar sua energia e não se preocupar com o que outras pessoas dizem ou fazem. Aprenda a dizer “não” sem medo de ofender os outros.";
                 break;
 
             case "7":
-                resposta = "ORIENTAÇÃO: Deve controlar a sua vida e estabelecer primeiro uma base sólida. Deve aproveitar o que a vida tem de melhor e evitar o comodismo. Deve trabalhar em prol da humanidade, em serviços que beneficiem a coletividade e que de alguma maneira o satisfaçam intelectual e também espiritualmente. Precisa meditar e receber inspiração do eu interior.";
+                resposta = "Deve controlar a sua vida e estabelecer primeiro uma base sólida. Deve aproveitar o que a vida tem de melhor e evitar o comodismo. Deve trabalhar em prol da humanidade, em serviços que beneficiem a coletividade e que de alguma maneira o satisfaçam intelectual e também espiritualmente. Precisa meditar e receber inspiração do eu interior.";
                 break;
 
             case "8":
-                resposta = "ORIENTAÇÃO: Como é progressista, dá grande importância ao dinheiro, ao status social e deseja constantemente expressar livremente os seus sentimentos, deve evitar situações monótonas ou excesso de rigidez. Terá mais chance de se realizar como alto executivo, comerciante ou trabalhando por conta própria.";
+                resposta = "Como é progressista, dá grande importância ao dinheiro, ao status social e deseja constantemente expressar livremente os seus sentimentos, deve evitar situações monótonas ou excesso de rigidez. Terá mais chance de se realizar como alto executivo, comerciante ou trabalhando por conta própria.";
                 break;
 
             case "9":
-                resposta = "ORIENTAÇÃO: Como nasceu para ser livre, não deve se apegar a nada nem a ninguém, e sim amar e trabalhar em prol de toda a humanidade, sem nada esperar em troca. Evite ser destrutivo ou vingativo. Tente perceber a necessidade das outras pessoas e evite ser autocentrado ou crítico; evite dominar os outros com as suas opiniões. A compaixão e o amor trazem as maiores recompensas.";
+                resposta = "Como nasceu para ser livre, não deve se apegar a nada nem a ninguém, e sim amar e trabalhar em prol de toda a humanidade, sem nada esperar em troca. Evite ser destrutivo ou vingativo. Tente perceber a necessidade das outras pessoas e evite ser autocentrado ou crítico; evite dominar os outros com as suas opiniões. A compaixão e o amor trazem as maiores recompensas.";
                 break;
 
             case "11":
-                resposta = "ORIENTAÇÃO: Como todos os grandes seres humanos, aqueles que se destacam dos demais, o onze também tem certas dificuldades de adaptação ao meio ambiente, ao convívio com seres de inferior categoria, que não o compreendem, não o apoiam e ainda o criticam. Deve ir em frente nos seus ideais sem se preocupar com o que os outros pensam de si.";
+                resposta = "Como todos os grandes seres humanos, aqueles que se destacam dos demais, o onze também tem certas dificuldades de adaptação ao meio ambiente, ao convívio com seres de inferior categoria, que não o compreendem, não o apoiam e ainda o criticam. Deve ir em frente nos seus ideais sem se preocupar com o que os outros pensam de si.";
                 break;
 
             case "22":
-                resposta = "ORIENTAÇÃO: Pode-se tornar famoso, tanto nacional como internacionalmente, pois como tem grande capacidade de persuasão e destreza com as palavras, consegue convencer a todos com seus argumentos e ideais, que outras não devem ser se não as que visem o bem da humanidade. Todo e qualquer vício lhe é altamente prejudicial, principalmente o fumo.";
+                resposta = "Pode-se tornar famoso, tanto nacional como internacionalmente, pois como tem grande capacidade de persuasão e destreza com as palavras, consegue convencer a todos com seus argumentos e ideais, que outras não devem ser se não as que visem o bem da humanidade. Todo e qualquer vício lhe é altamente prejudicial, principalmente o fumo.";
                 break;
 
             default:
@@ -725,57 +725,57 @@ public class Definicoes {
 
         switch (numOrientacaoDest){
             case "1":
-                resposta = "Orientação: Como não gosta de receber ordens, deve sempre procurar trabalhar por conta própria ou em cargo de chefia. Sendo individualista, íntegro e honesto em seus propósitos, deve aprender a ser pioneiro, a trabalhar em grupo e a ser comandante, não ditador; a ouvir conselhos, analisar situações e, após meditar sobre o assunto, tomar decisões. Ou seja, não agir precipitadamente.";
+                resposta = "Como não gosta de receber ordens, deve sempre procurar trabalhar por conta própria ou em cargo de chefia. Sendo individualista, íntegro e honesto em seus propósitos, deve aprender a ser pioneiro, a trabalhar em grupo e a ser comandante, não ditador; a ouvir conselhos, analisar situações e, após meditar sobre o assunto, tomar decisões. Ou seja, não agir precipitadamente.";
                 break;
 
             case "2":
-                resposta = "Orientação: Precisa cultivar a paciência, cooperação, tato, lealdade, aplicação e capacidade de seguir a orientação dos outros. \n" +
+                resposta = "Precisa cultivar a paciência, cooperação, tato, lealdade, aplicação e capacidade de seguir a orientação dos outros. \n" +
                         "Sendo o seu principal atributo a união, deve aprender a unir todos aqueles que desejam essa parceria. Porém, não deve interferir (o que normalmente faz) naqueles que não desejam estar unidos. \n" +
                         "Trabalhe sempre em parceria; se não existir, procure. Não fique parado esperando que as coisas caiam do céu ou que apareça alguém do nada para lhe ajudar a resolver seus problemas.";
                 break;
 
             case "3":
-                resposta = "Orientação: Como nasceu com o dom da palavra, da comunicação, deve usar esse dom intuitivo para alcançar sucesso em trabalhos mentais. Embora o dia 3 faça com que seja artístico e charmoso, dotado de um bom senso de humor, precisa desenvolver a autoestima e evitar as tendências a se preocupar ou se sentir emocionalmente inseguro. \n" +
+                resposta = "Como nasceu com o dom da palavra, da comunicação, deve usar esse dom intuitivo para alcançar sucesso em trabalhos mentais. Embora o dia 3 faça com que seja artístico e charmoso, dotado de um bom senso de humor, precisa desenvolver a autoestima e evitar as tendências a se preocupar ou se sentir emocionalmente inseguro. \n" +
                         "Deve, ainda, manter sob controle suas necessidades de movimentação e os excessos de atividades corriqueiras. Seja mais seleto nas amizades, ou seja, procure qualidade à quantidade.";
                 break;
 
             case "4":
-                resposta = "Orientação: Deve viver ponderadamente, desenvolver o senso de responsabilidade moral, equilíbrio no poder e correta aplicação do saber em todos os seus projetos e realizações. Para viver sem muitos altos e baixos, precisa praticar a justiça, a ponderação e serviço a terceiros, sempre que a oportunidade se oferecer. Deve se relacionar positivamente com todos e respeitar o direito que eles tem de errarem. Deve, também, se relacionar com pessoas inteligentes e com as quais possa compartilhar os seus interesses.";
+                resposta = "Deve viver ponderadamente, desenvolver o senso de responsabilidade moral, equilíbrio no poder e correta aplicação do saber em todos os seus projetos e realizações. Para viver sem muitos altos e baixos, precisa praticar a justiça, a ponderação e serviço a terceiros, sempre que a oportunidade se oferecer. Deve se relacionar positivamente com todos e respeitar o direito que eles tem de errarem. Deve, também, se relacionar com pessoas inteligentes e com as quais possa compartilhar os seus interesses.";
                 break;
 
             case "5":
-                resposta = "Orientação: Para evitar os aspectos negativos prejudiciais ao desenvolvimento pessoal, deve desenvolver o poder de análise e seleção, aproveitando as experiências para aperfeiçoar e elevar seu caráter e sentir uma nobre afinidade humana isenta de interesses particulares, sexuais ou materiais. Como vive quase que exclusivamente no presente, é aconselhável trabalhar com um propósito definido, com um objetivo altruísta e levá-lo até o fim, aconteça o que acontecer. \n" +
+                resposta = "Para evitar os aspectos negativos prejudiciais ao desenvolvimento pessoal, deve desenvolver o poder de análise e seleção, aproveitando as experiências para aperfeiçoar e elevar seu caráter e sentir uma nobre afinidade humana isenta de interesses particulares, sexuais ou materiais. Como vive quase que exclusivamente no presente, é aconselhável trabalhar com um propósito definido, com um objetivo altruísta e levá-lo até o fim, aconteça o que acontecer. \n" +
                         "Lembre-se que a desordem não faz parte do Universo; logo, quando encontrar desordem, mude; mude a desordem em uma nova ordem. Será um bom psicólogo, historiador, professor, jurista, conferencista ou carreiras que tenham contato com o público. \n" +
                         "Como admira pessoas poderosas e independentes, precisa de um parceiro que o enfrente e que não se intimide com a sua personalidade vigorosa. Embora seja amigável e sociável, gosta de fazer as coisas sozinho e de enfrentar novos desafios. Como gosta de exercitar o seu poder cerebral, prefere a companhia de pessoas inteligentes.";
                 break;
 
             case "6":
-                resposta = "Orientação: Como é o destino da responsabilidade e da liderança, necessita aprender a se ajustar a condições pouco harmoniosas, a assumir o fardo dos outros, a defender suas próprias ideais e a servir com alegria. Apesar de seus ideais elevados, precisa ser determinado, ter paciência e perseverança para atingir as suas metas. \n" +
+                resposta = "Como é o destino da responsabilidade e da liderança, necessita aprender a se ajustar a condições pouco harmoniosas, a assumir o fardo dos outros, a defender suas próprias ideais e a servir com alegria. Apesar de seus ideais elevados, precisa ser determinado, ter paciência e perseverança para atingir as suas metas. \n" +
                         "Deve trabalhar com o público, pois conquista amizades e simpatias com grande facilidade, sendo respeitado e amado por todos.";
                 break;
 
             case "7":
-                resposta = "Orientação: O 7 é o Destino da sabedoria e também o da solidão, por isso necessita desenvolver seus poderes mentais, estudar, meditar, buscar o significado último da vida. Enfim, tornar-se um especialista. \n" +
+                resposta = "O 7 é o Destino da sabedoria e também o da solidão, por isso necessita desenvolver seus poderes mentais, estudar, meditar, buscar o significado último da vida. Enfim, tornar-se um especialista. \n" +
                         "Com sua inteligência arguta, sua habilidade de liderança e poder inerente a este dia, pode ter muitas oportunidades profissionais e ser bem sucedido em qualquer uma delas. Pode ser escritor, advogado, pesquisador, religioso, pesquisador ou trabalhar simplesmente para desenvolver espiritualmente o planeta. Contudo, evite usar o poder de forma destrutiva e se rebelar contra os outros, pois o “tiro pode sair pela culatra”, ou seja, você ser o prejudicado no final.";
                 break;
 
             case "8":
-                resposta = "Orientação: Precisa cultivar a eficiência na arte de negociar e compreender as leis que comandam a acumulação, o poder e o uso do dinheiro. \n" +
+                resposta = "Precisa cultivar a eficiência na arte de negociar e compreender as leis que comandam a acumulação, o poder e o uso do dinheiro. \n" +
                         "Para aproveitar ao máximo a sua inteligência rápida, sua necessidade de expressão e o lado sociável da sua natureza, precisa superar a inclinação à incerteza ou à indecisão nos seus relacionamentos emocionais. Necessita aprender que as pessoas precisam de atenção. Por isso, fique atento: quanto maior for a ostentação, mais as pessoas concluirão que você não precisa delas. E, se em algum momento você realmente precisar, elas não estarão por perto. \n" +
                         "Como tem grande capacidade executiva, pode ser advogado, executivo de grandes empresas, vendedor (por conta própria), professor, político, missões religiosas ou conselheiro.";
                 break;
 
             case "9":
-                resposta = "Orientação: Necessita servir e se divertir. Precisa aprender a amar o próximo, a livrar-se dos preconceitos, ser generoso, tolerante e compreensivo com seus semelhantes. Este número sugere a necessidade de superar desafios e a tendência a ser excessivamente sensível e passível de instabilidade emocional. Pode-se beneficiar de viagens internacionais e da interação com pessoas de diversos círculos sociais, mas deve evitar os sonhos irrealistas ou a inclinação ao escapismo.";
+                resposta = "Necessita servir e se divertir. Precisa aprender a amar o próximo, a livrar-se dos preconceitos, ser generoso, tolerante e compreensivo com seus semelhantes. Este número sugere a necessidade de superar desafios e a tendência a ser excessivamente sensível e passível de instabilidade emocional. Pode-se beneficiar de viagens internacionais e da interação com pessoas de diversos círculos sociais, mas deve evitar os sonhos irrealistas ou a inclinação ao escapismo.";
                 break;
 
             case "11":
-                resposta = "Orientação: Precisa investigar o misticismo, confiar na própria intuição, ter fé, conservar-se humilde diante da notoriedade e inspirar os outros através do seu exemplo. \n" +
+                resposta = "Precisa investigar o misticismo, confiar na própria intuição, ter fé, conservar-se humilde diante da notoriedade e inspirar os outros através do seu exemplo. \n" +
                         "Como a Natureza lhe dotou de certos atributos que não deu aos demais, deve usá-los para melhorar o planeta, os seus semelhantes e a própria vida. Não exija demais dos outros ou que eles compreendam ou façam o mesmo que você. Embora precise de liberdade para agir de forma independente, evite se preocupar demais consigo mesmo e aprenda a trabalhar com as outras pessoas. Quando combina seu pensamento imaginativo com sua habilidade e praticidade, pode obter resultados extraordinários.";
                 break;
 
             case "22":
-                resposta = "Orientação: Precisa aprender que justiça, cooperação e serviço prestado também fazem parte do cotidiano. Precisa aprender a penetrar nos problemas, até às suas últimas motivações de seus atos e as verdadeiras razões de seu proceder. \n" +
+                resposta = "Precisa aprender que justiça, cooperação e serviço prestado também fazem parte do cotidiano. Precisa aprender a penetrar nos problemas, até às suas últimas motivações de seus atos e as verdadeiras razões de seu proceder. \n" +
                         "Apesar de emocional e materialmente generoso, pode, às vezes, radicalizar, deixando-se levar por uma vida de luxo e glamour. Se cair no escapismo e se recusar a amadurecer, precisará aprender a ser responsável e a ter uma perspectiva mais madura. Porém, quando faz algo de que realmente gosta, é capaz de trabalhar arduamente e, com dedicação e perseverança, pode se realizar e ser bem-sucedido. \n" +
                         "Está destinado a ser Líder, pela sua capacidade executiva que se estende por vasto campo, atingindo mesmo as fronteiras internacionais. No tocante à Magia, a mesma poderá ser construtiva ou destrutiva; o que semear, colherá!";
                 break;

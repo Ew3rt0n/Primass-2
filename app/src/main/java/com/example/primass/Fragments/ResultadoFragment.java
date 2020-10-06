@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.EditText;
 
+
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
@@ -128,7 +129,9 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
 
             case R.id.im_fundo_ori:
-                dialog("Orientações", def.orientDest(mData) + "\n orientscao expre \n" + def.orientEx(mConsoante));
+                dialog("Orientações", "Orientações sobre suas Ações\n\n"+
+                        def.orientEx(mNome) + "\n\nOrientações sobre o seu Destino\n\n" +
+                        def.orientDest(mData));
                 break;
 
             case R.id.im_fundo_lic:
