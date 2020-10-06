@@ -1550,30 +1550,40 @@ public class Definicoes {
         String resposta;
 
         switch (numDividas){
+            case "4":
             case "13":
                 resposta ="Você já deve ter percebido que na sua vida você tende a se tornar preguiçoso, indiferente ao que acontece à sua volta e a criticar muito, sejam elas de cunho pessoal, político ou existencial. \n" +
-                        "Para melhorar sua vida consideravelmente deve-se trabalhar com disciplina em qualquer atividade profissional escolhida, evitando sua forte tendência a preguiça e a procrastinação. Durante sua existência muito lhe será exigido e terá de lutar contra as adversidades da vida, administrar bens (seus e alheios), as más atitudes (suas e alheias) e contra o descontentamento e, desta maneira terá menos problemas financeiros ao longo da vida.\n";
+                        "\n"+
+                        "Para melhorar sua vida consideravelmente deve-se trabalhar com disciplina em qualquer atividade profissional escolhida, evitando sua forte tendência a preguiça e a procrastinação. Durante sua existência muito lhe será exigido e terá de lutar contra as adversidades da vida, administrar bens (seus e alheios), as más atitudes (suas e alheias) e contra o descontentamento e, desta maneira terá menos problemas financeiros ao longo da vida.\n"+
+                        "\n";
                 break;
 
+            case "5":
             case "14":
                 resposta ="Você já deve ter percebido que na sua vida existem certas perturbações, tais como, desapontamentos com amigos, sócios, familiares e também muitos obstáculos que se interporão aos seus objetivos sem explicações e justificativas.\n" +
                         "\n" +
-                        "Para melhorar sua vida consideravelmente é necessário que aprenda a se desapegar, tanto das coisas materiais quanto das pessoas, mas sempre cultive sempre compreensão. Desta maneira, compreendendo o seu semelhante e desapegando-se de tudo e de todos, conseguirá desenvolver a humildade suficiente, o amor e a compaixão. Assim evitara sua tendência natural a ambição destrutiva e o seu egoísmo.\n";
+                        "Para melhorar sua vida consideravelmente é necessário que aprenda a se desapegar, tanto das coisas materiais quanto das pessoas, mas sempre cultive sempre compreensão. Desta maneira, compreendendo o seu semelhante e desapegando-se de tudo e de todos, conseguirá desenvolver a humildade suficiente, o amor e a compaixão. Assim evitara sua tendência natural a ambição destrutiva e o seu egoísmo.\n"+
+                        "\n";
                 break;
 
+            case "7":
             case "16":
                 resposta = "Você já deve ter percebido que na sua vida existem vários contratempos ou até algumas calamidades inexplicáveis, tais como: acidentes os mais diversos, decepções com amigos, colegas de trabalho, parentes, cônjuge (namorado ou companheiro), fracasso nos negócios e talvez até alguns problemas com a justiça.\n" +
                         "\n" +
-                        "Para melhorar sua vida consideravelmente você deve ser compreensivo, justo e solidário com seu semelhante. Deve andar na mais perfeita retidão e não se desviar deste caminho, sob pena de continuar indefinidamente sofrendo dos mesmos males.\n";
+                        "Para melhorar sua vida consideravelmente você deve ser compreensivo, justo e solidário com seu semelhante. Deve andar na mais perfeita retidão e não se desviar deste caminho, sob pena de continuar indefinidamente sofrendo dos mesmos males.\n"+
+                        "\n";
                 break;
 
+            case "1":
             case "19":
                 resposta ="Você já deve ter percebido que na sua vida que as pessoas não guardam os seus segredos, te traem tanto sócios como companheiros sem nenhuma justificativa e, principalmente, ter de conviver com o sucesso e fracasso contínuos.\n" +
-                        "Para melhorar sua vida consideravelmente você deve levar uma vida reta e elevada, altruísta, carregada de amor, afeto, bondade e voltada para o bem estar de toda a humanidade. Agindo desta maneira, ou seja, plantando bem e cuidando da horta, a colheita será farta de sucesso e prosperidade. Basicamente, é o aviso para que não seja dominador, orgulhoso, egoísta, autoritário e exerça a tolerância em tudo e com todos.\n";
+                        "\n"+
+                        "Para melhorar sua vida consideravelmente você deve levar uma vida reta e elevada, altruísta, carregada de amor, afeto, bondade e voltada para o bem estar de toda a humanidade. Agindo desta maneira, ou seja, plantando bem e cuidando da horta, a colheita será farta de sucesso e prosperidade. Basicamente, é o aviso para que não seja dominador, orgulhoso, egoísta, autoritário e exerça a tolerância em tudo e com todos.\n"+
+                        "\n";
                 break;
 
             default:
-                resposta = "ERRO";
+                resposta = "";
                 break;
         }
 

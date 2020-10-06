@@ -200,6 +200,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ft.replace(R.id.viewPage, ResultadoFragment.newInstance(
                 valConvercoes.getValNome(),
                 valConvercoes.getValConsoante(),
+                valConvercoes.getValVogal(),
                 valConvercoes.getValData(),
                 valConvercoes.getValNomeComData(),
                 String.format("%02d", Integer.parseInt(tv_dia.getText().toString()))));

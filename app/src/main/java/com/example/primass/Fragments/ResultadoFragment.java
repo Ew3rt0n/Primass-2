@@ -25,12 +25,13 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
             im_fundo_lic;
 
     private static final String ARG_NOME = "paramNome";
+    private static final String ARG_VOGAL = "paramVogal";
     private static final String ARG_CONSOANTE = "paramConsoante";
     private static final String ARG_DATA = "paramData";
     private static final String ARG_NOME_DATA = "paramNomeComData";
     private static final String ARG_DIA = "paramDia";
 
-    private String mNome, mConsoante, mData, mNomeData, mDia;
+    private String mNome, mVogal, mConsoante, mData, mNomeData, mDia;
 
     private View view;
 
@@ -38,10 +39,11 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         // Required empty public constructor
     }
 
-    public static ResultadoFragment newInstance(String paramNome, String paramConsoante, String paramData, String paramNomeComData, String paramDia) {
+    public static ResultadoFragment newInstance(String paramNome, String paramVogal, String paramConsoante, String paramData, String paramNomeComData, String paramDia) {
         ResultadoFragment fragment = new ResultadoFragment();
         Bundle args = new Bundle();
         args.putString(ARG_NOME, paramNome);
+        args.putString(ARG_VOGAL, paramVogal);
         args.putString(ARG_CONSOANTE, paramConsoante);
         args.putString(ARG_DATA, paramData);
         args.putString(ARG_NOME_DATA, paramNomeComData);
@@ -55,6 +57,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mNome = getArguments().getString(ARG_NOME);
+            mVogal = getArguments().getString(ARG_VOGAL);
             mConsoante = getArguments().getString(ARG_CONSOANTE);
             mData = getArguments().getString(ARG_DATA);
             mNomeData = getArguments().getString(ARG_NOME_DATA);
@@ -135,7 +138,26 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
 
             case R.id.im_fundo_lic:
-                dialog("Lições", "LIÇÕES");
+                String msg ="";
+
+                msg = def.dividas(mVogal);
+
+                if (!mData.equals(mVogal)) {
+                    if (Integer.parseInt(mData) != Integer.parseInt(mVogal)) {
+                        msg += def.dividas(mData);
+                    }
+
+                    if (Integer.parseInt(mNome) != Integer.parseInt(mVogal) && Integer.parseInt(mNome) != Integer.parseInt(mData)) {
+                        msg += def.dividas(mNome);
+                    }
+
+                    if (Integer.parseInt(mDia) != Integer.parseInt(mVogal) && Integer.parseInt(mDia) != Integer.parseInt(mData) && Integer.parseInt(mDia) != Integer.parseInt(mNome)) {
+                        msg += def.dividas(mDia);
+
+                    }
+                }
+
+                dialog("Lições",msg) ;
                 break;
 
             default:
