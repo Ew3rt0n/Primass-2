@@ -172,87 +172,7 @@ public class Definicoes {
         return resposta;
     }
 
-    public String pontosPositivosEx(String numpontosPNEx){
-
-        String resposta;
-
-        switch (numpontosPNEx){
-
-            case "1":
-                resposta = "Pontos positivos: Liderança, criatividade, atitudes progressistas, otimismo, vigor físico, convicções fortes, competitividade, independência e sociabilidade. \n" +
-                        "\n" +
-                        "Pontos negativos: Arrogância, tendência ao ciúme, egocentrismo, antagonismo, falta de controle em ocasiões que deveria manter a paciência, instabilidade emocional e certa impaciência.";
-                break;
-
-            case "2":
-                resposta = "Pontos positivos: Boas parcerias, gentileza, tato, receptividade, intuição, consideração, harmonia, natureza agradável, que demonstra sempre boa vontade em ajudar os outros. \n" +
-                        "\n" +
-                        "Pontos negativos: Desconfiança, subserviência, timidez, egoísmo, tendência a se magoar facilmente, ilusão e excesso de sensibilidade.";
-                break;
-
-            case "3":
-                resposta = "Pontos positivos: Humor, felicidade, amizade, lealdade, produtividade, criatividade, franqueza, talento artístico, força de vontade, amor à amizade e talento com as palavras. \n" +
-                        "\n" +
-                        "Pontos negativos: Excesso de imaginação, tendência a se entediar com facilidade, tendência a ser pouco afetivo, extravagância, comodismo, preguiça, hipocrisia, vaidade e ostentação.";
-                break;
-
-            case "4":
-                resposta = "Pontos positivos: Capacidade de organização, autodisciplina, firmeza de caráter, trabalhador, sincero, paciente, confiável, perseverante, obstinado e conservador. \n" +
-                        "\n" +
-                        "Pontos negativos: Comportamento destrutivo, pouco comunicativo, reprimido, rígido, pouca sensibilidade, procrastinação, muito econômico, autoritário, afeições ocultas e ressentimentos.";
-                break;
-
-            case "5":
-                resposta = "Pontos positivos: Versatilidade, adaptabilidade, instintos fortes, sedução, sorte, ousadia, amor pela liberdade, espirituosidade, curiosidade, sociabilidade e misticismo. \n" +
-                        "\n" +
-                        "Pontos negativos: Falta de confiabilidade, mutação, procrastinação, inconsistência, libidinosidade, confiança extrema e teimosia.";
-                break;
-
-            case "6":
-                resposta = "Pontos positivos: Mundanismo, amabilidade, compaixão, confiabilidade, compreensão, solidariedade, idealismo, vida doméstica, humanitarismo, senso artístico, equilíbrio.\n" +
-                        " \n" +
-                        "Pontos negativos: Descontentamento, ansiedade, timidez, teimosia, franqueza excessiva, perfeccionismo, dominação, egoísmo, desconfiança, cinismo e egocentrismo.";
-                break;
-
-            case "7":
-                resposta = "Pontos positivos: Educação, confiança, meticulosidade, Idealismo, honestidade, poderes psíquicos, cientificidade, racionalidade, reflexão e pensador silencioso. \n" +
-                        "\n" +
-                        "Pontos negativos: Dissimulação, engano, pouco amável, fingimento, ceticismo, confusão e falta de sentimentos.";
-                break;
-
-            case "8":
-                resposta = "Pontos positivos: Liderança, meticulosidade, trabalho árduo, tradição, autoridade, proteção, poder de cura, bom juízo de valores. \n" +
-                        "\n" +
-                        "Pontos negativos: Impaciência, intolerância, mesquinhez, inquietude, excesso de trabalho, dominação, falta de planejamento, controlador.";
-                break;
-
-            case "9":
-                resposta = "Pontos positivos: Idealismo, humanitarismo, criatividade, sensibilidade, generosidade, sedução, caridade, desapego e popularidade. \n" +
-                        "\n" +
-                        "Pontos negativos: Frustração, nervosismo, fragmentação, insegurança, egoísmo, pouca praticidade, complexo de inferioridade, medos e preocupação exagerada.";
-                break;
-
-            case "11":
-                resposta = "Pontos positivos: Equilíbrio, concentração, objetividade, entusiasmo, espiritualidade, idealismo, intuitivo, inteligência, expansividade, inventividade, senso artístico, prestatividade, capacidade de cura, humanitarismo e poderes psíquicos. \n" +
-                        "\n" +
-                        "Pontos negativos: Complexo de superioridade, desonestidade, falta de objetivos, emotividade excessiva, magoa-se facilmente, falta de clareza, dominação e hipersensibilidade.";
-                break;
-
-            case "22":
-                resposta = "Pontos positivos: Universalidade, direção, elevada intuição, pragmatismo, praticidade, habilidade manual, construção, capacidade de organização, realismo, resolução de problemas e empreendedor. \n" +
-                        "\n" +
-                        "Pontos negativos: Esquemas de enriquecimento rápido, nervosismo, autoritarismo, materialismo, egoísmo, falta de visão, autopromoção, arrogância e preguiça.";
-                break;
-
-            default:
-                resposta = "ERRO";
-                break;
-        }
-
-        return resposta;
-    }
-
-    public String orientEx(String numorientacaoEx){
+   public String orientEx(String numorientacaoEx){
 
         String resposta;
 
@@ -637,89 +557,7 @@ public class Definicoes {
         return resposta;
     }
 
-    public String pontosPositivosdesDest(String numpontosPNdest){
-
-        String resposta;
-
-        switch (numpontosPNdest){
-            case "1":
-                resposta = "Pontos positivos: Pioneirismo, iniciativa, grande capacidade de liderança, inventividade, capacidade de comando e espírito executivo. Devido a estas características, o consulente com esta vibração, normalmente tem êxito e prosperidade em quase todas as atividades. \n" +
-                        "\n" +
-                        "Pontos negativos: Tendência à arrogância, egoísmo, prepotência, excesso de ânimo e dominação, por vezes achando que o sucesso do grupo dependeu exclusivamente dele. Esse tipo de postura pode tornar difícil o convívio com os amigos e colegas de trabalho, além de dificultar o relacionamento a dois, pois não é nada fácil conviver com esse tipo de pessoa. Um dos obstáculos à sua realização pessoal é a tendência a sobrecarregar o seu sistema nervoso com uma atitude crítica e preocupada. Como isso pode isolá-lo dos outros, precisa ter fé em si mesmo e nas suas habilidade e aproveitar ao máximo suas ideais originais e inventivas.";
-                break;
-
-            case "2":
-                resposta = "Pontos positivos: É o número das associações com outras pessoas; aquele capaz de unir, juntar ideais e fatos e contribuir para a realização de qualquer projeto. Possui grande capacidade para assimilar ideais alheias, valorizá-las e condensá-las, de forma a criar um clima de satisfação em todos os envolvidos. \n" +
-                        "\n" +
-                        "Pontos negativos: Tem tendência ao acomodamento e a esperar que os outros tomem a iniciativa, procurando manter-se na retaguarda, aparecendo pouco. Como não é pioneiro ou individualista quanto aos seus projetos de vida, é muito comum perder excelentes oportunidades por causa disso, não notando que o tempo vai passando e os projetos e ideais vão ficando cada vez mais distantes. No lado psicológico, quando está com disposição negativa (o que não é raro), corre o risco de se sacrificar ou de se deixar levar pela auto piedade ou comodismo.";
-                break;
-
-            case "3":
-                resposta = "Pontos positivos: É o destino da sociabilidade. O 3 é alegre, versátil e talentoso. É criativo, social e possui o dom artístico, seja falando, representando, escrevendo, pintando ou desenvolvendo qualquer outro tipo de arte. \n" +
-                        "\n" +
-                        "Pontos negativos: Entedia-se facilmente, é vaidoso em demasia, impaciente, extravagante, exagerado, esbanjador, com certa irresponsabilidade para cumprir horários e desprezar pessoas com nível inferior ao seu. Quando essas características se manifestam, torna-se completamente insociável, disperso e com grande tendência a se entediar, a se isolar e ter crises nervosas.";
-                break;
-
-            case "4":
-                resposta = "Pontos positivos: É o destino da conquista, por meio do trabalho duro e incansável. Necessita cultivar a paciência, a confiança e a disposição para servir. Sua vida, em geral, não é muito fácil, em termos de retorno e exigências. \n" +
-                        "\n" +
-                        "Pontos negativos: Como é muito estruturado, conservador e inflexível, viver em grupo é extremamente difícil e quase sempre rejeita o novo, pois essa incerteza lhe transmite insegurança e possibilidades de perdas. É perfeccionista ao extremo e cobra demais dos outros, sejam familiares, amigos ou subordinados, tornando-se por vezes chato e incompreendido. Se levar uma vida negativa, poderá se inclinar para assuntos fraudulentos, conspirações, orgulho demasiado ou a planos astutos e maléficos para enriquecer rapidamente às custas do sofrimento alheio.";
-                break;
-
-            case "5":
-                resposta = "Pontos positivos: É o viajante, sempre desejoso de mudanças e de novidades. Esta vibração pertence às pessoas versáteis, no sentido de mudar, alterar e transformar. Está sempre à procura do que é novo, moderno, diferente. Esta procura também se estende pelo âmbito do saber, aprender e conhecer, muito mais do que por capricho ou prazer. \n" +
-                        "\n" +
-                        "Pontos negativos: Normalmente compra mais coisas do que necessita e pode pagar, levando-o a ter alguns problemas financeiros ao longo da vida. No lado sentimental, busca relações novas e intrigantes, que são as que o atraem, e às vezes se envolve em situações afetivas de que dificilmente se desvencilha. É um ser extrovertido com ampla visão de tudo e de todos, mas inconstante em seus objetivos, levando-o a ter muitos começos e poucos fins.";
-                break;
-
-            case "6":
-                resposta = "Pontos positivos: O 6 é normalmente dócil, educado, não suporta brigas e desentendimentos e quer sempre manter tudo calmo e tranquilo. É o número da harmonia, do lar e do amor. Compaixão, idealismo e natureza atenciosa são algumas das qualidades sugeridas por este dia admirável. É o número do perfeccionista ou do amigo universal e em muitos casos, humanitário, responsável e amoroso. Adora crianças, plantas e animais. \n" +
-                        "\n" +
-                        "Pontos negativos: É por demais sentimental, vulnerável e crédulo, sempre confiando nas aparências sem analisar os fatos friamente. Tem, normalmente, dois problemas: o acomodamento e a falta de interesse. Por ser profundo, necessita de tranquilidade para, no mínimo, aparentar estar bem consigo mesmo. Quanto ao interesse, necessita ser constantemente incentivado, pois caso contrário tem tendência a deixar tudo a meio caminho. \n" +
-                        "Na tentativa de manter tudo calmo e tranquilo, por vezes acaba interferindo de maneira não condizente com o momento, pois nem sempre a docilidade é o melhor remédio para certas situações, e isso o perturba sobremaneira, levando-o a se retrair e a acomodar-se, até que outro fato ou circunstância o incentivem.";
-                break;
-
-            case "7":
-                resposta = "Pontos positivos: Normalmente é uma pessoa que busca na vida o entendimento, o conhecimento mais profundo e qualitativo. No desenrolar de sua vida sempre procurará ser eficiente, intuitivo, perfeccionista, meticuloso, racional, reflexivo, concentrado, reservado, compreensivo e amoroso, apesar de não demonstrar qualquer desses sentimentos altruístas. \n" +
-                        "\n" +
-                        "Pontos negativos: Por vezes tem espírito dominador, crítico, exigente, perfeccionista, angustiado, impaciente, orgulhoso e aparentemente descrente. Embora seja pragmático por natureza, pode, às vezes, ter ideais pouco convencionais; tome cuidado, porém, para que isso não vire uma desculpa para ser do contra somente para se fazer de difícil. Deve também, aprender a valorizar as pessoas como elas são, ou seja, respeitar o fato de os outros serem fruto daquilo que conseguiram absorver da vida e do convívio com os demais.";
-                break;
-
-            case "8":
-                resposta = "Pontos positivos: É aquele que tem capacidade para planejar, organizar e levar a efeito qualquer tipo de negócio. O seu Destino é o ganho financeiro e material. Individualista, inteligente e sensível, tem uma personalidade exigente. Embora seja ambicioso e vigoroso, e tenha coragem e lealdade aos seus ideais, é também muito gentil e generoso com os que ama. Geralmente não apresenta problemas financeiros, pois caso não seja herdeiro, é empreendedor. Objetividade é o seu lema. É justo, disciplinado, honesto, amigo, econômico, elegante e bom negociante. \n" +
-                        "\n" +
-                        "Pontos negativos: Como está sempre sendo impulsionado para ganhar dinheiro e para conquistas materiais, por vezes se esquece da família, do lado sentimental, social e, principalmente, de si próprio. Apresenta, também, acentuada dificuldade em demonstrar afeto e carinho, aparentando frieza nos relacionamentos em geral. Na realidade, é um ser altamente emotivo, necessitando de ajuda e compreensão por parte das pessoas mais chegadas.";
-                break;
-
-            case "9":
-                resposta = "Pontos positivos: A pessoa com este Destino normalmente é espirituosa, charmosa, divertida e amorosa, mas o seu desejo de ser bem sucedido deriva de uma interessante mistura de materialismo e idealismo. Benevolência, ponderação e sensibilidade emocional estão associadas a este dia. Tolerante e gentil, é na maior parte das vezes generoso e liberal. Sua intuição e seu poder psíquico indicam uma receptividade universal que, se positivamente canalizada, pode inspirá-lo a buscar o caminho espiritual. \n" +
-                        "\n" +
-                        "Pontos negativos: Como vive para o mundo, por vezes acaba perdendo excelentes oportunidades, principalmente no âmbito profissional. Embora seja idealista e generoso, pode ser reservado e, em algumas ocasiões, ocultar sentimentos profundos que podem se transformar em ressentimentos. \n" +
-                        "Frustra-se com certa facilidade, é pouco prático, de certa maneira egoísta, tem dias amargos, complexo de inferioridade, medos, preocupação exagerada e tendência ao isolamento.";
-                break;
-
-            case "11":
-                resposta = "Pontos positivos: É o número das pessoas altamente sensíveis e intuitivas. O 11 possui facilidade de ver, não somente a realidade atual, mas também os seus desdobramentos. Enxergam longe. Normalmente são impacientes e dotados de certo nervosismo \n" +
-                        "\n" +
-                        "Pontos negativos: Tendência a vícios, falta de objetivos, complexo de superioridade, magoa-se com facilidade, hipersensível, excessivamente emotivo, de certa forma egoísta e, quando as coisas não correm como quer, pode-se tornar desonesto no afã de conseguir o que quer. \n" +
-                        "Como é altamente sensível, capta com maior intensidade as imperfeições do mundo e das pessoas. Com isso, vai acumulando insatisfações e sofrimentos. Essas insatisfações e sofrimentos, devem servir para melhorar sempre os seus conceitos sobre tudo e todos.";
-                break;
-
-            case "22":
-                resposta = "Pontos positivos: É o destino do mestre construtor que se dedica altruisticamente à humanidade. É, também, o número da Sabedoria. As pessoas com esta vibração são normalmente precoces em todas as atividades, sejam elas de cunho material, social, mental ou espiritual. Conhecem da vida o superficial, o profundo e o invisível, e possuem uma capacidade nata para o ensino. \n" +
-                        "\n" +
-                        "Pontos negativos: Tendência à arrogância, ao nervosismo, à preguiça, ao egoísmo, à autopromoção, à traição e a menosprezar o semelhante.";
-                break;
-
-            default:
-                resposta = "ERRO";
-                break;
-        }
-
-        return resposta;
-    }
-
-    public String orientDest(String numOrientacaoDest){
+   public String orientDest(String numOrientacaoDest){
 
         String resposta;
 
@@ -969,86 +807,7 @@ public class Definicoes {
         return resposta;
     }
 
-    public String pontasPositMissao(String numPNmissao){
-
-        String resposta;
-
-        switch (numPNmissao){
-            case "1":
-                resposta = "Pontos positivos: Liderança, criatividade, caráter progressista, vigor, otimismo, convicções fortes, competitividade, independência e espírito de união.\n" +
-                        " \n" +
-                        "Pontos negativos: Arrogância, ciúme, excesso de orgulho, antagonismo, falta de controle, egoísmo, instabilidade e impaciência.";
-                break;
-
-            case "2":
-                resposta = "Pontos positivos: Gentileza, tato, receptividade, intuição, consideração, harmonia, solidez, inteligência, conservadorismo, economia e honestidade. \n" +
-                        "\n" +
-                        "Pontos negativos: Falta de confiança, subserviência, excesso de sensibilidade, mau humor e se ofende com facilidade.";
-                break;
-
-            case "3":
-                resposta = "Pontos positivos: Amigável, criativo, artístico, amante da liberdade, engraçado, com excelente senso de humor, talento com as palavras e com grande poder de desejar. \n" +
-                        "\n" +
-                        "Pontos negativos: Entendia-se com facilidade, vaidoso, excessivamente imaginativo, exagerado, convencido, extravagante, comodista, preguiçoso e hipócrita.";
-                break;
-
-            case "4":
-                resposta = "Pontos positivos: Organizado, disciplinado, estável, trabalhador, habilidoso, perseverante, sincero, íntegro, paciente, conservador, esperançoso, confiável, pragmático e autodisciplinado. \n" +
-                        "\n" +
-                        "Pontos negativos: Pouco comunicativo, autoritário, muito econômico, rígido e guarda ressentimentos.";
-                break;
-
-            case "5":
-                resposta = "Pontos positivos: Versátil, adaptável, progressista, magnético, ousado, rápido, curioso, místico e sociável. \n" +
-                        "\n" +
-                        "Pontos negativos: Instável, procrastinador, inconsistente e excessivamente confiante.";
-                break;
-
-            case "6":
-                resposta = "Pontos positivos: Fraternidade universal, compaixão, confiabilidade, solidariedade, idealismo, vida doméstica, humanitarismo, firmeza e temperamento artístico. \n" +
-                        "\n" +
-                        "Pontos negativos: Ansiedade, timidez, teimosia, perfeccionismo, egocentrismo e desconfiança.";
-                break;
-
-            case "7":
-                resposta = "Pontos positivos: Carismático, imponente, sabedoria, sensitivo, inteligência, generoso e ambicioso.\n" +
-                        "\n" +
-                        "Pontos negativos: Introvertido, insubordinado, teimosia e impulsividade.";
-                break;
-
-            case "8":
-                resposta = "Pontos positivos: Liderança, meticulosidade, autoritário, protetor, bons princípios, trabalhador, com grande poder de cura e justiça. \n" +
-                        "\n" +
-                        "Pontos negativos: Impaciente, dominador e intolerante.";
-                break;
-
-            case "9":
-                resposta = "Pontos positivos: Idealismo, criatividade, sensibilidade, generosidade, magnetismo, caridade, desapego e popularidade. \n" +
-                        "\n" +
-                        "Pontos negativos: Nervosismo, falta de praticidade, preocupação exagerada, egoísmo e frustração.";
-                break;
-
-            case "11":
-                resposta = "Pontos positivos: Equilibrado, concentrado, objetivo, entusiástico, espiritualizado, idealista, intuitivo, habilidade para cura, humanitário e grande capacidade psíquica. \n" +
-                        "\n" +
-                        "Pontos negativos: Complexo de superioridade, excessivamente emotivo, egoísta, dominador e magoa-se facilmente.";
-                break;
-
-            case "22":
-                resposta = "Pontos positivos: Universalidade, intuição elevada, pragmatismo, praticidade, capacidade de organização e capacidade de resolução de problemas. \n" +
-                        "\n" +
-                        "Pontos negativos: Nervosismo, complexo de inferioridade, autoritarismo, preguiça e egoísmo.";
-                break;
-
-            default:
-                resposta = "ERRO";
-                break;
-        }
-
-        return resposta;
-    }
-
-    public String titulodia(String titDia){
+   public String titulodia(String titDia){
 
         String resposta;
 
@@ -1501,190 +1260,221 @@ public class Definicoes {
         String resposta;
 
         switch (numPontosDia){
-            case "1":
-                resposta = "Pontos positivos: Liderança, criatividade, caráter progressista, vigor, otimismo, fortes convicções, competitividade, independência, sociabilidade. \n" +
+            case "01":
+                resposta = "\n\n" +
+                        "Pontos Positivos: Liderança, criatividade, caráter progressista, vigor, otimismo, fortes convicções, competitividade, independência, sociabilidade. \n" +
                         "\n" +
-                        "Pontos negativos: Arrogância, egoísmo, ciúme, antagonismo, egoísmo, excesso de orgulho, hesitação, impaciência.";
+                        "Pontos Negativos: Arrogância, egoísmo, ciúme, antagonismo, egoísmo, excesso de orgulho, hesitação, impaciência.";
                 break;
 
-            case "2":
-                resposta = "Pontos positivos: Gentileza, tato, boas parcerias, receptividade, intuição, consideração, harmonia, em princípio agrada a todos. \n" +
+            case "02":
+                resposta = "\n\n" +
+                        "Pontos Positivos: Gentileza, tato, boas parcerias, receptividade, intuição, consideração, harmonia, em princípio agrada a todos. \n" +
                         "\n" +
-                        "Pontos negativos: Desconfiança, falta de objetividade, subserviência, excesso de sensibilidade, emotividade, egoísmo e tendência a ser desonesto quando não consegue atingir os objetivos pela maneira correta, ou seja, honestamente.";
+                        "Pontos Negativos: Desconfiança, falta de objetividade, subserviência, excesso de sensibilidade, emotividade, egoísmo e tendência a ser desonesto quando não consegue atingir os objetivos pela maneira correta, ou seja, honestamente.";
                 break;
 
-            case "3":
-                resposta = "Pontos positivos: Bem-humorado, feliz, amigável, produtivo, criativo, artístico, amor à liberdade, talento com as palavras, poder para desejar. \n" +
+            case "03":
+                resposta ="\n\n" +
+                        "Pontos Positivos: Bem-humorado, feliz, amigável, produtivo, criativo, artístico, amor à liberdade, talento com as palavras, poder para desejar. \n" +
                         "\n" +
-                        "Pontos negativos: Entendia-se facilmente, vaidoso, excesso de imaginação, orgulhoso, extravagante, comodista, preguiçoso, hipócrita, esbanjador.";
+                        "Pontos Negativos: Entendia-se facilmente, vaidoso, excesso de imaginação, orgulhoso, extravagante, comodista, preguiçoso, hipócrita, esbanjador.";
                 break;
 
-            case "4":
-                resposta = "pragmático, confiável, preciso. \n" +
+            case "04":
+                resposta = "\n\n" +
+                        "Pontos Positivos: Pragmático, confiável, preciso. \n" +
                         "\n" +
-                        "Pontos negativos: Falta de comunicação, rigidez, falta de sentimentos, procrastinação, autoritarismo, afeições ocultas, ressentimento, severidade.";
+                        "Pontos Negativos: Falta de comunicação, rigidez, falta de sentimentos, procrastinação, autoritarismo, afeições ocultas, ressentimento, severidade.";
                 break;
 
-            case "5":
-                resposta = "Pontos positivos: Versátil, adaptável, progressista, fortes instintos, magnético, sortudo, ousado, amante da liberdade, perspicaz e rápido, curioso, sociável. \n" +
+            case "05":
+                resposta = "\n\n" +
+                        "Pontos Positivos: Versátil, adaptável, progressista, fortes instintos, magnético, sortudo, ousado, amante da liberdade, perspicaz e rápido, curioso, sociável. \n" +
                         "\n" +
-                        "Pontos negativos: Pouco confiável, instável, procrastinador, inconsistente, excessivamente confiante, cabeça-dura.";
+                        "Pontos Negativos: Pouco confiável, instável, procrastinador, inconsistente, excessivamente confiante, cabeça-dura.";
                 break;
 
-            case "6":
-                resposta = "Pontos positivos: Universal, fraterno, compassivo, confiável, compreensivo, solidário, idealista, com inclinação doméstica, humanitarista, equilibrado, artístico. \n" +
+            case "06":
+                resposta = "\n\n" +
+                        "Pontos Positivos: Universal, fraterno, compassivo, confiável, compreensivo, solidário, idealista, com inclinação doméstica, humanitarista, equilibrado, artístico. \n" +
                         "\n" +
-                        "Pontos negativos: Insatisfeito, ansiedade, timidez, irracionalidade, teimosia, falta de harmonia, dominação, egoísmo, desconfiança, cinismo, egocentrismo.";
+                        "Pontos Negativos: Insatisfeito, ansiedade, timidez, irracionalidade, teimosia, falta de harmonia, dominação, egoísmo, desconfiança, cinismo, egocentrismo.";
                 break;
 
-            case "7":
-                resposta = "Pontos positivos: Culto, confiável, meticuloso, idealista, honesto, com poderes psíquicos, científico, racional, reflexivo. \n" +
+            case "07":
+                resposta = "\n\n" +
+                        "Pontos Positivos: Culto, confiável, meticuloso, idealista, honesto, com poderes psíquicos, científico, racional, reflexivo. \n" +
                         "\n" +
-                        "Pontos negativos: Dissimulado, enganoso, pouco amigável, fingido, cético, confuso quando lida com detalhes, inoportuno, indiferente, pouco sentimental, sensível às críticas.";
+                        "Pontos Negativos: Dissimulado, enganoso, pouco amigável, fingido, cético, confuso quando lida com detalhes, inoportuno, indiferente, pouco sentimental, sensível às críticas.";
                 break;
 
-            case "8":
-                resposta = "Pontos positivos: Liderança, meticulosidade, trabalhador, autoridade, proteção, poder de cura, bom juízo de valores. \n" +
+            case "08":
+                resposta ="\n\n" +
+                        "Pontos Positivos: Liderança, meticulosidade, trabalhador, autoridade, proteção, poder de cura, bom juízo de valores. \n" +
                         "\n" +
-                        "Pontos negativos: Impaciência, desperdício, intolerância, excesso de trabalho, dominação, desencoraja-se facilmente, falta de planejamento.";
+                        "Pontos Negativos: Impaciência, desperdício, intolerância, excesso de trabalho, dominação, desencoraja-se facilmente, falta de planejamento.";
                 break;
 
-            case "9":
-                resposta = "Pontos positivos: Idealista, humanitário, criativo, sensível, generoso, magnético, poético, caridoso, desapegado, sortudo, popular. \n" +
+            case "09":
+                resposta ="\n\n" +
+                        "Pontos Positivos: Idealista, humanitário, criativo, sensível, generoso, magnético, poético, caridoso, desapegado, sortudo, popular. \n" +
                         "\n" +
-                        "Pontos negativos: Frustrado, fragmentado, inseguro, egoísta, pouco prático, preocupado.";
+                        "Pontos Negativos: Frustrado, fragmentado, inseguro, egoísta, pouco prático, preocupado.";
                 break;
 
             case "10":
-                resposta = "Pontos positivos: Liderança, criatividade, caráter progressista, vigor, otimismo, fortes convicções, competitividade, independência. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Liderança, criatividade, caráter progressista, vigor, otimismo, fortes convicções, competitividade, independência. \n" +
                         "\n" +
-                        "Pontos negativos: Arrogância, ciúme, egoísmo, orgulho, antagonismo, falta de controle, hesitação, impaciência.";
+                        "Pontos Negativos: Arrogância, ciúme, egoísmo, orgulho, antagonismo, falta de controle, hesitação, impaciência.";
                 break;
 
             case "11":
-                resposta = "Pontos positivos: Equilíbrio, concentração, objetividade, entusiasmo, inspiração, espiritualidade, idealismo, intuição, capacidade de curar, humanitarismo, psiquismo. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Equilíbrio, concentração, objetividade, entusiasmo, inspiração, espiritualidade, idealismo, intuição, capacidade de curar, humanitarismo, psiquismo. \n" +
                         "\n" +
-                        "Pontos negativos: Complexo de superioridade, desonestidade, falta de objetivos, excesso de emotividade, magoa-se facilmente, egoísmo, falta de clareza, dominador, mesquinho, hipersensível.";
+                        "Pontos Negativos: Complexo de superioridade, desonestidade, falta de objetivos, excesso de emotividade, magoa-se facilmente, egoísmo, falta de clareza, dominador, mesquinho, hipersensível.";
                 break;
 
             case "12":
-                resposta = "Pontos positivos: Criativo, atraente, capacidade de iniciativa, disciplinador, assertivo, confiante. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Criativo, atraente, capacidade de iniciativa, disciplinador, assertivo, confiante. \n" +
                         "\n" +
-                        "Pontos negativos: Excêntrico, pouco cooperativo, excessivamente sensível, falta de autoestima.";
+                        "Pontos Negativos: Excêntrico, pouco cooperativo, excessivamente sensível, falta de autoestima.";
                 break;
 
             case "13":
-                resposta = "Pontos positivos: Ambicioso, criativo, tem amor pela liberdade, é expressivo e com grande iniciativa. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Ambicioso, criativo, tem amor pela liberdade, é expressivo e com grande iniciativa. \n" +
                         "\n" +
-                        "Pontos negativos: Impulsivo, indeciso, autoritário, pouco emotivo e rebelde.";
+                        "Pontos Negativos: Impulsivo, indeciso, autoritário, pouco emotivo e rebelde.";
                 break;
 
             case "14":
-                resposta = "Pontos positivos: Ações decididas. Trabalhador, sortudo, criativo, pragmático, imaginativo e habilidoso. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Ações decididas. Trabalhador, sortudo, criativo, pragmático, imaginativo e habilidoso. \n" +
                         "\n" +
-                        "Pontos negativos: Excessivamente cauteloso ou impulsivo, instável, sem consideração e teimoso.";
+                        "Pontos Negativos: Excessivamente cauteloso ou impulsivo, instável, sem consideração e teimoso.";
                 break;
 
             case "15":
-                resposta = "Pontos positivos: Disposição, generosidade, responsabilidade, amabilidade, cooperação, apreço e ideias criativas. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Disposição, generosidade, responsabilidade, amabilidade, cooperação, apreço e ideias criativas. \n" +
                         "\n" +
-                        "Pontos negativos: Inquieto, autocentrado, medo de mudar, perda da fé, preocupação e certa indecisão.";
+                        "Pontos Negativos: Inquieto, autocentrado, medo de mudar, perda da fé, preocupação e certa indecisão.";
                 break;
 
             case "16":
-                resposta = "Pontos positivos: Responsabilidade, integridade, intuição, sociabilidade, cooperação e discernimento. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Responsabilidade, integridade, intuição, sociabilidade, cooperação e discernimento. \n" +
                         "\n" +
-                        "Pontos negativos: Preocupação, insatisfação, irritabilidade, egoísmo, ceticismo e falta de solidariedade.";
+                        "Pontos Negativos: Preocupação, insatisfação, irritabilidade, egoísmo, ceticismo e falta de solidariedade.";
                 break;
 
             case "17":
-                resposta = "Pontos positivos: Ponderação, especialização, capacidade de planejamento, senso para os negócios, trabalhador, científico e atrai dinheiro. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Ponderação, especialização, capacidade de planejamento, senso para os negócios, trabalhador, científico e atrai dinheiro. \n" +
                         "\n" +
-                        "Pontos negativos: Distante, teimoso, descuidado, mal-humorado, sensível, crítico, preocupado e desconfiado.";
+                        "Pontos Negativos: Distante, teimoso, descuidado, mal-humorado, sensível, crítico, preocupado e desconfiado.";
                 break;
 
             case "18":
-                resposta = "Pontos positivos: Progressista, assertivo, alto poder de intuição, corajoso, resoluto, eficiente, capacidade de aconselhar. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Progressista, assertivo, alto poder de intuição, corajoso, resoluto, eficiente, capacidade de aconselhar. \n" +
                         "\n" +
-                        "Pontos negativos: Emoções descontroladas, falta de ordem, egoísmo, vaidade, ambição desmedida e incapacidade de concluir trabalhos ou projetos.";
+                        "Pontos Negativos: Emoções descontroladas, falta de ordem, egoísmo, vaidade, ambição desmedida e incapacidade de concluir trabalhos ou projetos.";
                 break;
 
             case "19":
-                resposta = "Pontos positivos: Dinamismo, criatividade, liderança, progressismo, otimismo, convicções fortes, competitividade, independência, espírito gregário e muita sorte. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Dinamismo, criatividade, liderança, progressismo, otimismo, convicções fortes, competitividade, independência, espírito gregário e muita sorte. \n" +
                         "\n" +
-                        "Pontos negativos: Egocentrismo, preocupação, medo de ser rejeitado, materialismo, impaciência e tendência à depressão quando não consegue atingir os objetivos.";
+                        "Pontos Negativos: Egocentrismo, preocupação, medo de ser rejeitado, materialismo, impaciência e tendência à depressão quando não consegue atingir os objetivos.";
                 break;
 
             case "20":
-                resposta = "Pontos positivos: Boas parcerias, gentileza, tato, receptividade, intuição, consideração, harmonia, presença agradável, embaixador da boa vontade. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Boas parcerias, gentileza, tato, receptividade, intuição, consideração, harmonia, presença agradável, embaixador da boa vontade. \n" +
                         "\n" +
-                        "Pontos negativos: Desconfiança, subserviência, timidez, sensibilidade excessiva, certo egoísmo, tendência a magoar-se com facilidade.";
+                        "Pontos Negativos: Desconfiança, subserviência, timidez, sensibilidade excessiva, certo egoísmo, tendência a magoar-se com facilidade.";
                 break;
 
             case "21":
-                resposta = "Pontos positivos: Inspiração, criatividade, uniões por amor e relacionamentos duradouros. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Inspiração, criatividade, uniões por amor e relacionamentos duradouros. \n" +
                         "\n" +
-                        "Pontos negativos: Dependência, temperamental, nervoso, falta de visão, medo de mudanças.";
+                        "Pontos Negativos: Dependência, temperamental, nervoso, falta de visão, medo de mudanças.";
                 break;
 
             case "22":
-                resposta = "Pontos positivos: Intuição elevada, pragmatismo, praticidade, habilidade com as mãos, capacidade de organização, realismo, resolução de problemas e empreendedor. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Intuição elevada, pragmatismo, praticidade, habilidade com as mãos, capacidade de organização, realismo, resolução de problemas e empreendedor. \n" +
                         "\n" +
-                        "Pontos negativos: Esquemas de enriquecimento rápido, nervosismo, autoritarismo, materialismo, falta de visão, ganância, autopromoção e preguiça.";
+                        "Pontos Negativos: Esquemas de enriquecimento rápido, nervosismo, autoritarismo, materialismo, falta de visão, ganância, autopromoção e preguiça.";
                 break;
 
             case "23":
-                resposta = "Pontos positivos: Lealdade, responsabilidade, adora viajar, comunicativo, intuitivo, criativo, versátil, paciente, persuasivo e confiável. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Lealdade, responsabilidade, adora viajar, comunicativo, intuitivo, criativo, versátil, paciente, persuasivo e confiável. \n" +
                         "\n" +
-                        "Pontos negativos: Egoísta, inseguro, teimoso, inflexível, crítico, reservado e preconceituoso.";
+                        "Pontos Negativos: Egoísta, inseguro, teimoso, inflexível, crítico, reservado e preconceituoso.";
                 break;
 
             case "24":
-                resposta = "Pontos positivos: Energia, idealismo, habilidades práticas, forte determinação, honestidade, franqueza, justiça, harmonia, diplomacia, alegria, generosidade, amor à casa, ativo e enérgico. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Energia, idealismo, habilidades práticas, forte determinação, honestidade, franqueza, justiça, harmonia, diplomacia, alegria, generosidade, amor à casa, ativo e enérgico. \n" +
                         "\n" +
-                        "Pontos negativos: Materialista, muito econômico, crueldade, aversão à rotina, pouco confiável, dominador, teimoso, vingativo e ciumento.";
+                        "Pontos Negativos: Materialista, muito econômico, crueldade, aversão à rotina, pouco confiável, dominador, teimoso, vingativo e ciumento.";
                 break;
 
             case "25":
-                resposta = "Pontos positivos: Altamente intuitivo, perfeccionista, perceptivo, mente criativa, ponderado, talento para lidar com as pessoas e capacidade para ganhar dinheiro. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Altamente intuitivo, perfeccionista, perceptivo, mente criativa, ponderado, talento para lidar com as pessoas e capacidade para ganhar dinheiro. \n" +
                         "\n" +
-                        "Pontos negativos: Impulsivo, impaciente, excessivamente emotivo, ciumento, reservado, instável, crítico e de certa maneira mal-humorado.";
+                        "Pontos Negativos: Impulsivo, impaciente, excessivamente emotivo, ciumento, reservado, instável, crítico e de certa maneira mal-humorado.";
                 break;
 
             case "26":
-                resposta = "Pontos positivos: Prático, atencioso, orgulhoso da família, entusiástico, corajoso, justo e perseverante. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Prático, atencioso, orgulhoso da família, entusiástico, corajoso, justo e perseverante. \n" +
                         "\n" +
-                        "Pontos negativos: Teimoso, rebelde, falta de entusiasmo, de persistência e com relacionamentos instáveis";
+                        "Pontos Negativos: Teimoso, rebelde, falta de entusiasmo, de persistência e com relacionamentos instáveis";
                 break;
 
             case "27":
-                resposta = "Pontos positivos: Versátil, imaginativo, criativo, resoluto, corajoso, compreensivo, inventivo, espiritual, audaz e com grande força mental. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Versátil, imaginativo, criativo, resoluto, corajoso, compreensivo, inventivo, espiritual, audaz e com grande força mental. \n" +
                         "\n" +
-                        "Pontos negativos: Brigão, inquieto, nervoso, desconfiado e protelador.";
+                        "Pontos Negativos: Brigão, inquieto, nervoso, desconfiado e protelador.";
                 break;
 
             case "28":
-                resposta = "Pontos positivos: Compaixão, progressismo, temperamento artístico, ambição, trabalho, vida doméstica estável e voluntarioso. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Compaixão, progressismo, temperamento artístico, ambição, trabalho, vida doméstica estável e voluntarioso. \n" +
                         "\n" +
-                        "Pontos negativos: Sonhador, falta de compaixão, autoritário, agressividade, falta de confiança, orgulho, vive se queixando e é excessivamente dependente.";
+                        "Pontos Negativos: Sonhador, falta de compaixão, autoritário, agressividade, falta de confiança, orgulho, vive se queixando e é excessivamente dependente.";
                 break;
 
             case "29":
-                resposta = "Pontos positivos: Inspiração, equilíbrio, paz interior, generosidade, sucesso, criatividade, intuição, misticismo, capacidade de liderança e mundanismo. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Inspiração, equilíbrio, paz interior, generosidade, sucesso, criatividade, intuição, misticismo, capacidade de liderança e mundanismo. \n" +
                         "\n" +
-                        "Pontos negativos: Nervosismo, mau humor, extremismo, falta de consideração, arrogância e orgulho.";
+                        "Pontos Negativos: Nervosismo, mau humor, extremismo, falta de consideração, arrogância e orgulho.";
                 break;
 
             case "30":
-                resposta = "Pontos positivos: Amor à diversão, lealdade, amizade, talento com as palavras, criatividade e generosidade. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Amor à diversão, lealdade, amizade, talento com as palavras, criatividade e generosidade. \n" +
                         "\n" +
-                        "Pontos negativos: Preguiça, obstinação, impaciência, insegurança, indiferença, desperdício de energia e não gosta de ser criticado.";
+                        "Pontos Negativos: Preguiça, obstinação, impaciência, insegurança, indiferença, desperdício de energia e não gosta de ser criticado.";
                 break;
 
             case "31":
-                resposta = "Pontos positivos: Liderança, criatividade, progressista, vigoroso, otimista, fortes convicções, competitivo, independente e habilidoso. \n" +
+                resposta ="\n\n" +
+                        "Pontos Positivos: Liderança, criatividade, progressista, vigoroso, otimista, fortes convicções, competitivo, independente e habilidoso. \n" +
                         "\n" +
-                        "Pontos negativos: Arrogância, ciúme, egoísmo, orgulho, fraqueza de caráter, hesitação e impaciência.";
+                        "Pontos Negativos: Arrogância, ciúme, egoísmo, orgulho, fraqueza de caráter, hesitação e impaciência.";
                 break;
 
             default:
@@ -1761,35 +1551,25 @@ public class Definicoes {
 
         switch (numDividas){
             case "13":
-                resposta = "Esta Dívida representa a morte em todas as suas concepções. Com absoluta certeza, em vidas passadas cometeu transgressões às Leis Naturais, tais como: suicídio, assassino, foi passivo e negligente com a própria vida ou com a vida alheia e também por vícios apressou a própria morte. \n" +
-                        "Uma coisa é certa: qualquer que tenha sido o caso ou os casos, os mesmos foram cometidos conscientemente, não sofrendo, em absoluto, qualquer influência externa. \n" +
-                        "Nesta existência, em virtude dessas transgressões, pode se tornar preguiçoso, indiferente ao que acontece à sua volta e tender para a crítica, seja ela de cunho pessoal, político ou existencial. \n" +
-                        "Elimina-se esta crucial Dívida Cármica “trabalhando”; trabalhando duro em qualquer atividade profissional. Durante sua existência muito lhe será exigido e terá de lutar contra as adversidades da vida, administrar bens (seus e alheios), as más atitudes (suas e alheias) e contra o descontentamento e, desta maneira, além de “pagar a Dívida”, terá menos problemas financeiros ao longo da vida";
+                resposta ="Você já deve ter percebido que na sua vida você tende a se tornar preguiçoso, indiferente ao que acontece à sua volta e a criticar muito, sejam elas de cunho pessoal, político ou existencial. \n" +
+                        "Para melhorar sua vida consideravelmente deve-se trabalhar com disciplina em qualquer atividade profissional escolhida, evitando sua forte tendência a preguiça e a procrastinação. Durante sua existência muito lhe será exigido e terá de lutar contra as adversidades da vida, administrar bens (seus e alheios), as más atitudes (suas e alheias) e contra o descontentamento e, desta maneira terá menos problemas financeiros ao longo da vida.\n";
                 break;
 
             case "14":
-                resposta = "É a Dívida que trata dos bens materiais. O ser humano com esta Dívida Cármica terá ao longo da sua existência ou até que aprenda a “lição”, inúmeras atribulações: troca constante de emprego, de residência, perda de bens: móveis ou imóveis e negócios fracassados. \n" +
-                        "Em vidas passadas, locupletou-se financeiramente em detrimento de outras pessoas, ou seja, para subir na vida, agiu fraudulentamente, prejudicando sócios, amigos e companheiros de jornada, arruinando-os e levando-os à miséria, à desgraça e à destruição moral. \n" +
-                        "Nesta existência, terá de arcar com o peso de todos esses crimes hediondos, causados pela ambição desmedida e total inconsequência dos fatos. \n" +
-                        "Tais crimes, até serem completamente “pagos”, lhe trarão sérios aborrecimentos nesta existência e certas perturbações, tais como, desapontamentos com amigos, sócios, familiares e também muitos obstáculos que se interporão aos seus objetivos. \n" +
-                        "Tais desacertos na vida passada deve-se à sua total falta de compreensão e ambição desmedida. Ainda agora, ou seja, nesta vida atual, caso não seja espiritualmente desenvolvido, pode cometer os mesmos delitos e, assim, ter de passar pelos mesmos sacrifícios. \n" +
-                        "A principal “lição” a aprender nesta vida é o desapego. Não se apegue a nada nem a ninguém e cultive a compreensão até às últimas consequências. \n" +
-                        "Somente desta maneira, compreendendo o seu semelhante e desapegando-se de tudo e de todos, conseguirá desenvolver a humildade suficiente, o amor e a compaixão para resgatar essa tão triste e cruel Dívida Cármica.";
+                resposta ="Você já deve ter percebido que na sua vida existem certas perturbações, tais como, desapontamentos com amigos, sócios, familiares e também muitos obstáculos que se interporão aos seus objetivos sem explicações e justificativas.\n" +
+                        "\n" +
+                        "Para melhorar sua vida consideravelmente é necessário que aprenda a se desapegar, tanto das coisas materiais quanto das pessoas, mas sempre cultive sempre compreensão. Desta maneira, compreendendo o seu semelhante e desapegando-se de tudo e de todos, conseguirá desenvolver a humildade suficiente, o amor e a compaixão. Assim evitara sua tendência natural a ambição destrutiva e o seu egoísmo.\n";
                 break;
 
             case "16":
-                resposta = "Esta Dívida Cármica é a manifestação do orgulho, do autoritarismo, da traição e da vaidade. Com absoluta certeza em vidas passadas você viveu exclusivamente para seu deleite (bem estar), pouco se importando com o direito ou sentimento do próximo, subjugando todos e agindo com desmedido autoritarismo, frieza e até violência. \n" +
-                        "Nesta existência, em virtude dessas “faltas”, deverá sofrer vários contratempos ou até algumas calamidades, tais como: acidentes os mais diversos, decepções com amigos, colegas de trabalho, parentes, cônjuge (namorado ou companheiro), fracasso nos negócios e também problemas com a justiça. \n" +
-                        "Este Carma ainda carrega o peso de traições conjugais, crimes passionais e uniões ilegítimas. Além dos contratempos acima citados, poderá passar por momentos muito angustiantes nesta existência, como trabalhar e não conseguir atingir os objetivos, perder a fortuna ou o poder, além de ser traído pelos que ama e confia. \n" +
-                        "Para eliminar este Carma, deve ser compreensivo, justo e solidário com seu semelhante. Deve andar na mais perfeita retidão e não se desviar deste caminho, sob pena de continuar indefinidamente sofrendo dos mesmos males.";
+                resposta = "Você já deve ter percebido que na sua vida existem vários contratempos ou até algumas calamidades inexplicáveis, tais como: acidentes os mais diversos, decepções com amigos, colegas de trabalho, parentes, cônjuge (namorado ou companheiro), fracasso nos negócios e talvez até alguns problemas com a justiça.\n" +
+                        "\n" +
+                        "Para melhorar sua vida consideravelmente você deve ser compreensivo, justo e solidário com seu semelhante. Deve andar na mais perfeita retidão e não se desviar deste caminho, sob pena de continuar indefinidamente sofrendo dos mesmos males.\n";
                 break;
 
             case "19":
-                resposta = "É o número do “equilíbrio”. Como sabemos, a lei da Causa e Efeito é perfeita e aqueles que a transgredem com absoluta certeza pagarão caro por essa transgressão. \n" +
-                        "Em vidas passadas você agiu contrário a essa Lei e, agora, deve pagar o preço da iniquidade ou então repor aquilo que tirou aos outros. \n" +
-                        "Mais claramente, você se locupletou financeiramente e socialmente, usando de artifícios fraudulentos, prejudicando pessoas e até fazendo que sofressem por sua causa, ou seja, levando culpas que deveriam ser imputadas a você, como serem aprisionados, terem seus bens confiscados e se verem desonrados por sua causa. Mais ainda, ganhou notoriedade e premiações que em absoluto lhe eram de direito, e sim de outrem. \n" +
-                        "Nesta existência, poderá ter segredos desvendados, ser traído por sócios e companheiros e, principalmente, ter de conviver com o sucesso e fracasso contínuos, até que aprenda a lição que é a que só colhemos aquilo que semearmos. Basicamente, é o aviso para que não seja dominador, orgulhoso, egoísta, autoritário e exerça a tolerância em tudo e com todos. \n" +
-                        "Elimina-se esta Dívida Cármica levando uma vida reta e elevada, altruísta, carregada de amor, afeto, bondade e voltada para o bem estar de toda a humanidade. Agindo desta maneira, ou seja, plantando bem e cuidando da horta, a colheita será farta de sucesso e prosperidade.";
+                resposta ="Você já deve ter percebido que na sua vida que as pessoas não guardam os seus segredos, te traem tanto sócios como companheiros sem nenhuma justificativa e, principalmente, ter de conviver com o sucesso e fracasso contínuos.\n" +
+                        "Para melhorar sua vida consideravelmente você deve levar uma vida reta e elevada, altruísta, carregada de amor, afeto, bondade e voltada para o bem estar de toda a humanidade. Agindo desta maneira, ou seja, plantando bem e cuidando da horta, a colheita será farta de sucesso e prosperidade. Basicamente, é o aviso para que não seja dominador, orgulhoso, egoísta, autoritário e exerça a tolerância em tudo e com todos.\n";
                 break;
 
             default:
@@ -1884,6 +1664,113 @@ public class Definicoes {
 
             case "9":
                 resposta = "É o desejo de conhecimento e amor universal. Há uma tendência para se preocupar excessivamente com os problemas mundiais em detrimento de si próprio e da família.";
+                break;
+
+            default:
+                resposta = "ERRO";
+                break;
+        }
+
+        return resposta;
+    }
+
+    public String titulosArcRegentes(String titArc){
+
+        String resposta;
+
+        switch (titArc){
+            case "1":
+                resposta ="O Mago";
+                break;
+
+            case "2":
+                resposta ="A Sacerdotisa";
+                break;
+
+            case "3":
+                resposta ="A Imperatriz";
+                break;
+
+            case "4":
+                resposta ="O Imperador";
+                break;
+
+            case "5":
+                resposta ="O Papa";
+                break;
+
+            case "6":
+                resposta ="Os Enamorados";
+                break;
+
+            case "7":
+                resposta ="O Carro";
+                break;
+
+            case "8":
+                resposta ="A Justiça";
+                break;
+
+            case "9":
+                resposta ="O Eremita";
+                break;
+
+            default:
+                resposta = "ERRO";
+                break;
+        }
+
+        return resposta;
+    }
+
+    public String arcRegentes(String numArc){
+
+        String resposta;
+
+        switch (numArc){
+            case "1":
+                resposta ="O Arcano regente emite vibrações em nossa vida ao longo de toda ela e estas interagem com as vibrações dominantes do período, suavizando ou potencializando-as, dependendo de sua postura diante das situações que se apresentam a você.\n\n"+
+                        "Aponta para os dons e para o potencial criativo que ainda não se manifestaram. Pode surgir como um pressentimento, uma intuição, uma súbita rajada de energia com relação a novas oportunidades. Indica um momento de clareza e de identificação das possibilidades inexploradas. O Mago vem indicar que agora a viagem será possível, e que ele tem consciência de suas reais possibilidades e de sua capacidade, ainda que não desenvolvida. A atenção deve se voltar para a intuição e os pressentimentos, pois podem revelar as novas oportunidades que poderão surgir de modo inesperado. Representa a atividade mental consciente, a convicção e a direção e prontidão; a inteligência materializada pela vontade. ";
+                break;
+
+            case "2":
+                resposta ="O Arcano regente emite vibrações em nossa vida ao longo de toda ela e estas interagem com as vibrações dominantes do período, suavizando ou potencializando-as, dependendo de sua postura diante das situações que se apresentam a você.\n\n"+
+                        "Indica força e intuição e sugere o encontro com o mundo interior. O indivíduo pode estar sendo conduzido para esse mundo sem qualquer explicação por intermédio de seu interesse pelas coisas ocultas, pelo esoterismo, ou, talvez, pelos efeitos de algum sonho perturbador. Enfim, por algo que de alguma forma lhe diga que existem forças superiores que atuam na vida das pessoas. Denota percepção das próprias necessidades espirituais e sentimento religioso. Representa a atividade mental intuitiva; a sensibilidade aflorada, a sabedoria e o mistério, os planos futuros, os estudos, o silêncio e a espera.";
+                break;
+
+            case "3":
+                resposta ="O Arcano regente emite vibrações em nossa vida ao longo de toda ela e estas interagem com as vibrações dominantes do período, suavizando ou potencializando-as, dependendo de sua postura diante das situações que se apresentam a você.\n\n"+
+                        "Significa criatividade, produtividade, maternidade, abundância, boas colheitas, êxito em um ambiente seguro e isento de perigos. Fertilidade tanto mental como física. Indica uma fase da vida mais ligada às coisas terrenas. Um casamento, ou mesmo o nascimento de uma criança podem estar prestes a acontecer. A Imperatriz mostra ainda o êxito nas empresas, e nos empreendimentos, se a pessoa for firme e reta nos pensamentos e ações. Representa o poder da imaginação, a visualização criativa, as emoções saudáveis e o amor; a materialização do desejo; comunicação, inovação, fertilidade, expansão e crescimento. ";
+                break;
+
+            case "4":
+                resposta ="O Arcano regente emite vibrações em nossa vida ao longo de toda ela e estas interagem com as vibrações dominantes do período, suavizando ou potencializando-as, dependendo de sua postura diante das situações que se apresentam a você.\n\n"+
+                        "Significa liderança, atividade mental, dominação, domínio, paternidade. Ditadura; paixão, mas sempre controlada pela inteligência. É a majestade e o poder. Mostra manifestação de autoridade ou necessidade de consulta a uma autoridade ou superior hierárquico. Confronto com o princípio paternal, tanto no seu aspecto positivo quanto negativo. Representa o poder e a autoridade, a faculdade da razão, a lógica e o raciocínio indutivo; atividade, força e poder; a realidade estruturada e lógica, a disciplina, o anseio por estabilidade e seriedade; os planos seguros.";
+                break;
+
+            case "5":
+                resposta ="O Arcano regente emite vibrações em nossa vida ao longo de toda ela e estas interagem com as vibrações dominantes do período, suavizando ou potencializando-as, dependendo de sua postura diante das situações que se apresentam a você.\n\n"+
+                        "Significa ortodoxia, apego às formas externas, ao convencional, ao credo e ao ritual. Tradicionalismo; necessidade de seguir as normas socialmente aceitas; disposição para o dever, a consciência, a generosidade, o perdão, a compaixão e a busca por respostas de ordem filosófica. O Hierofante pode surgir na forma de um psicoterapeuta, um conselheiro, um mestre ou mentor espiritual a quem nos dirigimos em busca de auxilio e orientação. Pode estar indicando que há necessidade de começar a buscar algumas respostas de ordem filosófica. Esse questionamento pode se traduzir no estudo aprofundado de alguma filosofia, ou de um sistema religioso, ou crença, ou mesmo na forma de um profundo comprometimento com relação ao sentido da vida. Representa a compreensão racional das coisas percebidas intuitivamente; as trocas de experiências para aprender e ensinar, as mudanças, a responsabilidade e a moralidade.";
+                break;
+
+            case "6":
+                resposta ="O Arcano regente emite vibrações em nossa vida ao longo de toda ela e estas interagem com as vibrações dominantes do período, suavizando ou potencializando-as, dependendo de sua postura diante das situações que se apresentam a você.\n\n"+
+                        "Significa escolha, eleição, tentação, atração. A luta entre o sagrado e o profano nas relações amorosas. Harmonia dos aspectos interior e exterior da vida; amor puro na sua expressão mais elevada; altruísmo. No mundo divino é a ciência do bem e do mal; no mundo intelectual é o equilíbrio da necessidade e da liberdade; no mundo físico é o antagonismo das forças naturais, o encadeamento das causas aos efeitos. Indica necessidade de escolhas, quase sempre no plano amoroso. Pode também indicar a necessidade de estabilizar as emoções. Representa as escolhas seletivas, as faculdades discriminativas da mente; a busca pelo equilíbrio e estabilidade emocional; as uniões, as relações e situações felizes.";
+                break;
+
+            case "7":
+                resposta ="O Arcano regente emite vibrações em nossa vida ao longo de toda ela e estas interagem com as vibrações dominantes do período, suavizando ou potencializando-as, dependendo de sua postura diante das situações que se apresentam a você.\n\n"+
+                        "Significa triunfo, êxito, vitória. Controle sobre as forças da natureza. Recuperação da saúde, vitória sobre as penúrias econômicas ou sobre inimigos de qualquer tipo. É o arcano que representa o alcance de algo grande; conflito e luta que, por sua vez, resultam em crescimento e fortalecimento da personalidade. Pode também significar viagens agradáveis e cômodas. Representa poder e vontade; triunfo, avanço e progresso; novas experiências, confiança, novidades, agilidade.";
+                break;
+
+            case "8":
+                resposta ="O Arcano regente emite vibrações em nossa vida ao longo de toda ela e estas interagem com as vibrações dominantes do período, suavizando ou potencializando-as, dependendo de sua postura diante das situações que se apresentam a você.\n\n"+
+                        "Significa mente equilibrada, resolução judicial favorável; recompensa justa. Personalidade desejosa de livrar-se do supérfluo, de ideias equivocadas ou errôneas, de conhecimentos inúteis; necessidade do pensamento equilibrado e de tomada de decisões imparciais. Representa a lei de causa e efeito, a busca pelo equilíbrio pessoal e universal; igualdade, equanimidade e justiça; razão, objetividade, realismo, sinceridade e recompensas.";
+                break;
+
+            case "9":
+                resposta ="O Arcano regente emite vibrações em nossa vida ao longo de toda ela e estas interagem com as vibrações dominantes do período, suavizando ou potencializando-as, dependendo de sua postura diante das situações que se apresentam a você.\n\n"+
+                        "Significa iluminação, conselho silencioso e prudente; discrição; sabedoria que nos vem do alto. Um período de solitude, de exílio voluntário das coisas mundanas, da agitação da vida, de forma a obtermos paciência e sabedoria. Esse momento representa a grande oportunidade de erguer e fortalecer a personalidade se estiver disposto a esperar. Representa a sabedoria e o recolhimento necessário para alcançá-la; introspecção e busca interior, prudência e paz de espírito; também resoluções e finalizações.";
                 break;
 
             default:

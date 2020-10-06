@@ -125,13 +125,13 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
 
             case R.id.im_fundo_per:
-                dialog(def.titulodia(mDia), def.dia(mDia));
+                dialog(def.titulodia(mDia), def.dia(mDia) +def.pontosdia(mDia));
                 break;
 
             case R.id.im_fundo_ori:
                 dialog("Orientações", "Orientações sobre suas Ações\n\n"+
                         def.orientEx(mNome) + "\n\nOrientações sobre o seu Destino\n\n" +
-                        def.orientDest(mData));
+                        def.orientDest(mData)+"\n\nCores Favoráveis\n\n"+def.cores(mData));
                 break;
 
             case R.id.im_fundo_lic:
