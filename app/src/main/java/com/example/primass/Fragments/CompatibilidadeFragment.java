@@ -99,6 +99,61 @@ public class CompatibilidadeFragment extends Fragment {
             }
         });
 
+        /*numero 1 vibra com: 9
+                   Atrai: 4,8
+                   Oposto: 6, 7
+                   Compativel: 1
+                   Passivo: 2, 3, 5
+
+         numero 2 vibra com:8
+                   Atrai: 7,9
+                   Oposto: 5
+                   Compativel: 2
+                   Passivo: 1, 3, 4, 6
+
+         numero 3 vibra com: 7
+                   Atrai: 5, 6, 9
+                   Oposto: 4, 8
+                   Compativel: 3
+                   Passivo: 1, 2
+
+         numero 4 vibra com: 6
+                   Atrai: 1,8
+                   Oposto: 3, 5
+                   Compativel: 4
+                   Passivo: 2, 7, 9
+
+         numero 5 vibra com: 5
+                   Atrai: 3,9
+                   Oposto: 2, 4, 6
+                   Passivo: 1, 7, 8
+
+          numero 6 vibra com: 4
+                   Atrai: 3,7, 9
+                   Oposto: 1, 8, 5
+                   Compativel: 6
+                   Passivo: 2
+
+          numero 7 vibra com: 3
+                   Atrai: 2,6
+                   Oposto: 1, 9
+                   Compativel: 7
+                   Passivo: 4, 5, 8
+
+         numero 8 vibra com: 2
+                   Atrai: 1,4
+                   Oposto: 3, 6
+                   Compativel: 8
+                   Passivo: 5, 7, 9
+
+          numero 9 vibra com: 1
+                   Atrai: 2,3, 5, 6
+                   Oposto: 7
+                   Compativel: 9
+                   Passivo: 4, 8
+         */
+
+
 
     return view;
     }

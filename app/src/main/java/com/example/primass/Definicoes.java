@@ -1797,6 +1797,44 @@ public class Definicoes {
         return resposta;
     }
 
+
+
+    public String compatibilidade (String numComp){
+
+        String resposta;
+
+            switch (numComp){
+
+                case "Compativeis":
+                    resposta ="Casais compatíveis são harmônicos, porém o relacionamento tende a tornar-se monótono com o passar dos anos. É fundamental que os parceiros tenham em mente que a convivência necessita ser “alimentada” continuamente, onde a imaginação (de ambos) deve ser cultivada cotidianamente.";
+                    break;
+
+                case "Vibram":
+                    resposta ="Casais vibram sinalizam forte atração sexual e paixão, com sentimentos intensos que podem levar a conflitos constantes e até separação por causa de ciúmes exagerados, inconstância sexual, arrogância de um ou ambos os parceiros, caso não se transforme em amor. Quando o casal conseguir transformar paixão em amor serão abençoados com um amor incondicional.";
+                    break;
+
+                case "Atraem-se":
+                    resposta ="Casais que se atraem são totalmente compatíveis entre si, e o amor e o sexo se compatibilizam harmonicamente. Tendem para a amabilidade, cordialidade, delicadeza, cumplicidade e compreensão mútuas. O relacionamento com esta característica tem tudo para ser bem-sucedido, e se não for, ou será por interferência de terceiros ou por falta de atenção de um para com o outro.";
+                    break;
+
+                case "Opostos":
+                    resposta ="Os casais opostos não refletem o pior dos relacionamentos, como se supunha, desde que os envolvidos tenham consciência do fato e são intelectualmente desenvolvidos. No entanto, ambos devem usar de diplomacia constantemente e ceder em muitos pontos, a fim de evitar conflitos e o fracasso do casamento. É imperioso respeitarem-se mutuamente na individualidade e na intimidade, bem como nunca interferir, sem ser chamado, nos sonhos, desejos e projetos pessoais um do outro.";
+                    break;
+
+                case "Passivos":
+                    resposta ="Os casais passivos indicam relacionamentos onde a amizade e a cumplicidade predominam sobre o sexo. Para levar adiante um casamento entre pessoas de números passivos, há necessidade de que pelo menos um dos parceiros se proponha a manter a chama sexual acesa, porque senão o relacionamento se transforma, com o passar do tempo, em uma relação mais de irmãos que\n" +
+                            "propriamente de casal. Mesmo que se separem, geralmente continuam bons amigos.";
+                    break;
+
+
+                default:
+                resposta = "ERRO";
+                break;
+        }
+
+         return resposta;
+    }
+
 }
 
 
