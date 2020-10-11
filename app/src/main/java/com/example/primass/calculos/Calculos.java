@@ -39,7 +39,7 @@ public class Calculos {
         return calcularNomeData(String.valueOf(Integer.parseInt(valNome) + Integer.parseInt(valData)), valida);
     }
 
-    private String converter(String texto, int nvc) {
+    public String converter(String texto, int nvc) {
 
         texto = texto.toUpperCase();
 

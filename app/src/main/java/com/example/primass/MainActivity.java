@@ -19,6 +19,7 @@ import com.example.primass.Fragments.ResultadoFragment;
 import com.example.primass.Fragments.TrianguloFragment;
 import com.example.primass.calculos.Calculos;
 import com.example.primass.model.Convercoes;
+import com.example.primass.utils.Constants;
 import com.example.primass.utils.Validacao;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -166,6 +167,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             valConvercoes.setValConsoante(calc.calcConsoante(mNome, false));
             valConvercoes.setValData(calc.calcData(mDia + mMes + mAno, true));
             valConvercoes.setValNomeComData(calc.calcNomeComData(valConvercoes.getValNome(), valConvercoes.getValData(), true));
+            valConvercoes.setNomeNum(calc.converter(mNome, Constants.NOME));
 
             resultado();
 
@@ -203,7 +205,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 valConvercoes.getValVogal(),
                 valConvercoes.getValData(),
                 valConvercoes.getValNomeComData(),
-                String.format("%02d", Integer.parseInt(tv_dia.getText().toString()))));
+                String.format("%02d", Integer.parseInt(tv_dia.getText().toString())),
+                valConvercoes.getNomeNum()));
         ft.addToBackStack(null);
         ft.commit();
 

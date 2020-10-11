@@ -15,6 +15,11 @@ import androidx.fragment.app.Fragment;
 
 import com.example.primass.Definicoes;
 import com.example.primass.R;
+import com.example.primass.calculos.TrianguloInvertido;
+import com.example.primass.model.Triangulo;
+import com.example.primass.utils.Constants;
+
+import java.util.ArrayList;
 
 public class ResultadoFragment extends Fragment implements View.OnClickListener {
 
@@ -30,8 +35,11 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
     private static final String ARG_DATA = "paramData";
     private static final String ARG_NOME_DATA = "paramNomeComData";
     private static final String ARG_DIA = "paramDia";
+    private static final String ARG_NOME_NUM = "paramNomeNum";
 
-    private String mNome, mVogal, mConsoante, mData, mNomeData, mDia;
+    private ArrayList<String> mLicoes;
+
+    private String mNome, mVogal, mConsoante, mData, mNomeData, mDia, mNomeNum;
 
     private View view;
 
@@ -39,7 +47,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         // Required empty public constructor
     }
 
-    public static ResultadoFragment newInstance(String paramNome, String paramVogal, String paramConsoante, String paramData, String paramNomeComData, String paramDia) {
+    public static ResultadoFragment newInstance(String paramNome, String paramVogal, String paramConsoante, String paramData, String paramNomeComData, String paramDia, String paramNomeNum) {
         ResultadoFragment fragment = new ResultadoFragment();
         Bundle args = new Bundle();
         args.putString(ARG_NOME, paramNome);
@@ -48,6 +56,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         args.putString(ARG_DATA, paramData);
         args.putString(ARG_NOME_DATA, paramNomeComData);
         args.putString(ARG_DIA, paramDia);
+        args.putString(ARG_NOME_NUM, paramNomeNum);
         fragment.setArguments(args);
         return fragment;
     }
@@ -62,6 +71,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
             mData = getArguments().getString(ARG_DATA);
             mNomeData = getArguments().getString(ARG_NOME_DATA);
             mDia = getArguments().getString(ARG_DIA);
+            mNomeNum = getArguments().getString(ARG_NOME_NUM);
         }
     }
 
@@ -94,6 +104,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         resultadoDes();
         resultadoMis();
         resultadoImp();
+        licoes(mNomeNum);
 
 
         def = new Definicoes();
@@ -112,7 +123,14 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
 
             case R.id.im_fundo_arc:
-                dialog("Titulo ARC", "msg ARC");
+
+                TrianguloInvertido tv = new TrianguloInvertido();
+
+//                dialog(def.titulosArcRegentes(tv.ArcanoRegente(mNomeNum)), def.arcRegentes(tv.ArcanoRegente(mNomeNum)));
+
+                ArrayList<Triangulo> teste = tv.ArcanoRegente(mNomeNum);
+
+                String s="";
                 break;
 
             case R.id.im_fundo_des:
@@ -128,17 +146,17 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
 
             case R.id.im_fundo_per:
-                dialog(def.titulodia(mDia), def.dia(mDia) +def.pontosdia(mDia));
+                dialog(def.titulodia(mDia), def.dia(mDia) + def.pontosdia(mDia));
                 break;
 
             case R.id.im_fundo_ori:
-                dialog("Orientações", "Orientações sobre suas Ações\n\n"+
+                dialog("Orientações", "Orientações sobre suas Ações\n\n" +
                         def.orientEx(mNome) + "\n\nOrientações sobre o seu Destino\n\n" +
-                        def.orientDest(mData)+"\n\nCores Favoráveis\n\n"+def.cores(mData));
+                        def.orientDest(mData) + "\n\nCores Favoráveis\n\n" + def.cores(mData));
                 break;
 
             case R.id.im_fundo_lic:
-                String msg ="";
+                String msg = "";
 
                 msg = def.dividas(mVogal);
 
@@ -151,13 +169,30 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                         msg += def.dividas(mNome);
                     }
 
-                    if (Integer.parseInt(mDia) != Integer.parseInt(mVogal) && Integer.parseInt(mDia) != Integer.parseInt(mData) && Integer.parseInt(mDia) != Integer.parseInt(mNome)) {
-                        msg += def.dividas(mDia);
+                    String somaDia = "";
+
+                    if (mDia.equals("13"))
+                        somaDia = "4";
+                    else if (mDia.equals("14"))
+                        somaDia = "5";
+                    else if (mDia.equals("16"))
+                        somaDia = "7";
+                    else if (mDia.equals("19"))
+                        somaDia = "1";
+                    else
+                        somaDia = mDia;
+
+                    if (Integer.parseInt(somaDia) != Integer.parseInt(mVogal) && Integer.parseInt(somaDia) != Integer.parseInt(mData) && Integer.parseInt(somaDia) != Integer.parseInt(mNome)) {
+                        msg += def.dividas(somaDia);
 
                     }
                 }
 
-                dialog("Lições",msg) ;
+                for (int i = 0; i < mLicoes.size(); i++) {
+                    msg += "\n \n" + def.licoes(mLicoes.get(i));
+                }
+
+                dialog("Lições", msg);
                 break;
 
             default:
@@ -181,8 +216,49 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         builder.show();
     }
 
-    public void resultadoExp() {
+    private void licoes(String nomeNum) {
 
+        mLicoes = new ArrayList<>();
+
+        if (!nomeNum.contains(Constants.UM)) {
+            mLicoes.add(Constants.UM);
+        }
+
+        if (!nomeNum.contains(Constants.DOIS)) {
+            mLicoes.add(Constants.DOIS);
+        }
+
+        if (!nomeNum.contains(Constants.TRES)) {
+            mLicoes.add(Constants.TRES);
+        }
+
+        if (!nomeNum.contains(Constants.QUATRO)) {
+            mLicoes.add(Constants.QUATRO);
+        }
+
+        if (!nomeNum.contains(Constants.CINCO)) {
+            mLicoes.add(Constants.CINCO);
+        }
+
+        if (!nomeNum.contains(Constants.SEIS)) {
+            mLicoes.add(Constants.SEIS);
+        }
+
+        if (!nomeNum.contains(Constants.SETE)) {
+            mLicoes.add(Constants.SETE);
+        }
+
+        if (!nomeNum.contains(Constants.OITO)) {
+            mLicoes.add(Constants.OITO);
+        }
+
+        if (!nomeNum.contains(Constants.NOVE)) {
+            mLicoes.add(Constants.NOVE);
+        }
+
+    }
+
+    public void resultadoExp() {
 
         //String resultadoExp = getString(mNome);
 

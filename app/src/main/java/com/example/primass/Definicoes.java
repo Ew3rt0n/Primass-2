@@ -1,5 +1,7 @@
 package com.example.primass;
 
+import com.example.primass.utils.Constants;
+
 public class Definicoes {
 
     public Definicoes() {
@@ -13,47 +15,47 @@ public class Definicoes {
         switch (titExp){
 
             case "1":
-                resposta = "O Ativo";
+                resposta = "1 - O Ativo";
                 break;
 
             case "2":
-                resposta = "O Sensitivo";
+                resposta = "2 - O Sensitivo";
                 break;
 
             case "3":
-                resposta = "O Expressivo";
+                resposta = "3 - O Expressivo";
                 break;
 
             case "4":
-                resposta = "O Obstinado";
+                resposta = "4 - O Obstinado";
                 break;
 
             case "5":
-                resposta = "O Curioso";
+                resposta = "5 - O Curioso";
                 break;
 
             case "6":
-                resposta = "O Amoroso";
+                resposta = "6 - O Amoroso";
                 break;
 
             case "7":
-                resposta = "O Ponderado";
+                resposta = "7 - O Ponderado";
                 break;
 
             case "8":
-                resposta = "O Poderoso";
+                resposta = "8 - O Poderoso";
                 break;
 
             case "9":
-                resposta = "O Idealista";
+                resposta = "9 - O Idealista";
                 break;
 
             case "11":
-                resposta = "O Inspirador";
+                resposta = "11 - O Inspirador";
                 break;
 
             case "22":
-                resposta = "O Persuasivo";
+                resposta = "22 - O Persuasivo";
                 break;
 
             default:
@@ -236,39 +238,39 @@ public class Definicoes {
         switch (titImp){
 
             case "1":
-                resposta ="O Líder";
+                resposta ="1 - O Líder";
                 break;
 
             case "2":
-                resposta ="O Colaborador";
+                resposta ="2 - O Colaborador";
                 break;
 
             case "3":
-                resposta ="O Jovial";
+                resposta ="3 - O Jovial";
                 break;
 
             case "4":
-                resposta ="O Racional";
+                resposta ="4 - O Racional";
                 break;
 
             case "5":
-                resposta ="O Camaleão";
+                resposta ="5 - O Camaleão";
                 break;
 
             case "6":
-                resposta ="O Afável";
+                resposta ="6 - O Afável";
                 break;
 
             case "7":
-                resposta ="O Analista";
+                resposta ="7 - O Analista";
                 break;
 
             case "8":
-                resposta ="O Construtor";
+                resposta ="8 - O Construtor";
                 break;
 
             case "9":
-                resposta ="O Humanitário";
+                resposta ="9 - O Humanitário";
                 break;
 
             default:
@@ -1491,7 +1493,7 @@ public class Definicoes {
 
         switch (numLicoes){
             case "1":
-                resposta = "Esta Lição mostra claramente que em vidas passadas você foi um ser preguiçoso, sem qualquer iniciativa, ambição ou originalidade, e muito menos competência para cuidar de seus próprios negócios. Em outras palavras, você não estava “nem aí” para o que ocorria à sua volta. Provavelmente foi rico, gastador, esbanjador e sem qualquer criatividade ou objetivo concreto na vida, além de carecer de confiança em sua própria personalidade. \n" +
+                resposta = "Você foi claramente  em vidas passadas um ser preguiçoso, sem qualquer iniciativa, ambição ou originalidade, e muito menos competência para cuidar de seus próprios negócios. Em outras palavras, você não estava “nem aí” para o que ocorria à sua volta. Provavelmente foi rico, gastador, esbanjador e sem qualquer criatividade ou objetivo concreto na vida, além de carecer de confiança em sua própria personalidade. \n" +
                         "Em virtude dessas cruciais faltas, nesta existência precisa aprender a ser pioneiro, criativo, a tomar decisões e não esperar por ninguém, além de aprender a ter amor próprio, a confiar na própria capacidade, a decidir e a concluir seus projetos e seus objetivos.";
                 break;
 
@@ -1550,35 +1552,39 @@ public class Definicoes {
         String resposta;
 
         switch (numDividas){
-            case "4":
-            case "13":
+//            case "4":
+//            case "13":
+            case Constants.quatro_treze:
                 resposta ="Você já deve ter percebido que na sua vida você tende a se tornar preguiçoso, indiferente ao que acontece à sua volta e a criticar muito, sejam elas de cunho pessoal, político ou existencial. \n" +
                         "\n"+
                         "Para melhorar sua vida consideravelmente deve-se trabalhar com disciplina em qualquer atividade profissional escolhida, evitando sua forte tendência a preguiça e a procrastinação. Durante sua existência muito lhe será exigido e terá de lutar contra as adversidades da vida, administrar bens (seus e alheios), as más atitudes (suas e alheias) e contra o descontentamento e, desta maneira terá menos problemas financeiros ao longo da vida.\n"+
                         "\n";
                 break;
 
-            case "5":
-            case "14":
-                resposta ="Você já deve ter percebido que na sua vida existem certas perturbações, tais como, desapontamentos com amigos, sócios, familiares e também muitos obstáculos que se interporão aos seus objetivos sem explicações e justificativas.\n" +
+//            case "5":
+//            case "14":
+            case Constants.cinco_quatorze:
+                resposta ="Existem certas perturbações na sua vida, tais como, desapontamentos com amigos, sócios, familiares e também muitos obstáculos que se interporão aos seus objetivos sem explicações e justificativas.\n" +
                         "\n" +
-                        "Para melhorar sua vida consideravelmente é necessário que aprenda a se desapegar, tanto das coisas materiais quanto das pessoas, mas sempre cultive sempre compreensão. Desta maneira, compreendendo o seu semelhante e desapegando-se de tudo e de todos, conseguirá desenvolver a humildade suficiente, o amor e a compaixão. Assim evitara sua tendência natural a ambição destrutiva e o seu egoísmo.\n"+
+                        "É necessário que aprenda a se desapegar, tanto das coisas materiais quanto das pessoas, mas sempre cultive a compreensão. Desta maneira, compreendendo o seu semelhante e desapegando-se de tudo e de todos, conseguirá desenvolver a humildade suficiente, o amor e a compaixão. Assim evitara sua tendência natural a ambição destrutiva e o seu egoísmo.\n"+
                         "\n";
                 break;
 
-            case "7":
-            case "16":
-                resposta = "Você já deve ter percebido que na sua vida existem vários contratempos ou até algumas calamidades inexplicáveis, tais como: acidentes os mais diversos, decepções com amigos, colegas de trabalho, parentes, cônjuge (namorado ou companheiro), fracasso nos negócios e talvez até alguns problemas com a justiça.\n" +
+//            case "7":
+//            case "16":
+            case Constants.sete_dezeseis:
+                resposta = "Na sua vida existem vários contratempos ou até algumas calamidades inexplicáveis, tais como: acidentes os mais diversos, decepções com amigos, colegas de trabalho, parentes, cônjuge (namorado ou companheiro), fracasso nos negócios e talvez até alguns problemas com a justiça.\n" +
                         "\n" +
-                        "Para melhorar sua vida consideravelmente você deve ser compreensivo, justo e solidário com seu semelhante. Deve andar na mais perfeita retidão e não se desviar deste caminho, sob pena de continuar indefinidamente sofrendo dos mesmos males.\n"+
+                        "Você tem que ser compreensivo, justo e solidário com seu semelhante. Deve andar na mais perfeita retidão e não se desviar deste caminho, sob pena de continuar indefinidamente sofrendo dos mesmos males.\n"+
                         "\n";
                 break;
 
-            case "1":
-            case "19":
-                resposta ="Você já deve ter percebido que na sua vida que as pessoas não guardam os seus segredos, te traem tanto sócios como companheiros sem nenhuma justificativa e, principalmente, ter de conviver com o sucesso e fracasso contínuos.\n" +
+//            case "1":
+//            case "19":
+            case Constants.um_dezenove:
+                resposta ="As pessoas não guardam os seus segredos e te traem, sem nenhuma justificativa. Além de ter que conviver com o sucesso e fracasso contínuos.\n" +
                         "\n"+
-                        "Para melhorar sua vida consideravelmente você deve levar uma vida reta e elevada, altruísta, carregada de amor, afeto, bondade e voltada para o bem estar de toda a humanidade. Agindo desta maneira, ou seja, plantando bem e cuidando da horta, a colheita será farta de sucesso e prosperidade. Basicamente, é o aviso para que não seja dominador, orgulhoso, egoísta, autoritário e exerça a tolerância em tudo e com todos.\n"+
+                        "Para melhorar sua vida, você deve leva-la reta e elevada, com altruísmo, carregada de amor, afeto, bondade e voltada para o bem estar de toda a humanidade. Agindo desta maneira, ou seja, plantando bem e cuidando da horta, a colheita será farta de sucesso e prosperidade. Basicamente, é o aviso para que não seja dominador, orgulhoso, egoísta, autoritário e exerça a tolerância em tudo e com todos.\n"+
                         "\n";
                 break;
 
