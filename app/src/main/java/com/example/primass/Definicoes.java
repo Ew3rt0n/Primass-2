@@ -1694,7 +1694,7 @@ public class Definicoes {
 
         String resposta;
 
-        switch (titArc){
+        switch (titArc.replace("[","").replace("]","")){
             case "1":
                 resposta ="O Mago";
                 break;
@@ -1743,7 +1743,7 @@ public class Definicoes {
 
         String resposta;
 
-        switch (numArc){
+        switch (numArc.replace("[","").replace("]","")){
             case "1":
                 resposta ="O Arcano regente emite vibrações em nossa vida ao longo de toda ela e estas interagem com as vibrações dominantes do período, suavizando ou potencializando-as, dependendo de sua postura diante das situações que se apresentam a você.\n\n"+
                         "Aponta para os dons e para o potencial criativo que ainda não se manifestaram. Pode surgir como um pressentimento, uma intuição, uma súbita rajada de energia com relação a novas oportunidades. Indica um momento de clareza e de identificação das possibilidades inexploradas. O Mago vem indicar que agora a viagem será possível, e que ele tem consciência de suas reais possibilidades e de sua capacidade, ainda que não desenvolvida. A atenção deve se voltar para a intuição e os pressentimentos, pois podem revelar as novas oportunidades que poderão surgir de modo inesperado. Representa a atividade mental consciente, a convicção e a direção e prontidão; a inteligência materializada pela vontade. ";

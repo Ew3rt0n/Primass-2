@@ -16,7 +16,6 @@ import androidx.fragment.app.Fragment;
 import com.example.primass.Definicoes;
 import com.example.primass.R;
 import com.example.primass.calculos.TrianguloInvertido;
-import com.example.primass.model.Triangulo;
 import com.example.primass.utils.Constants;
 
 import java.util.ArrayList;
@@ -124,13 +123,11 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
 
             case R.id.im_fundo_arc:
 
-                TrianguloInvertido tv = new TrianguloInvertido();
+                ArrayList<ArrayList<String>> list = new ArrayList<>();
+                list = new TrianguloInvertido().ArcanoRegente(mNomeNum);
 
-//                dialog(def.titulosArcRegentes(tv.ArcanoRegente(mNomeNum)), def.arcRegentes(tv.ArcanoRegente(mNomeNum)));
+                dialog(def.titulosArcRegentes(String.valueOf(list.get(list.size()-1))), def.arcRegentes(String.valueOf(list.get(1-list.size()))));
 
-                ArrayList<Triangulo> teste = tv.ArcanoRegente(mNomeNum);
-
-                String s="";
                 break;
 
             case R.id.im_fundo_des:
