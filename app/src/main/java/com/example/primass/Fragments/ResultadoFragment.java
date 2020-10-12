@@ -126,7 +126,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 ArrayList<ArrayList<String>> list = new ArrayList<>();
                 list = new TrianguloInvertido().ArcanoRegente(mNomeNum);
 
-                dialog(def.titulosArcRegentes(String.valueOf(list.get(list.size()-1))), def.arcRegentes(String.valueOf(list.get(1-list.size()))));
+                dialog(def.titulosArcRegentes(String.valueOf(list.get(list.size()-1))), def.arcRegentes(String.valueOf(list.get(list.size()-1))));
 
                 break;
 
