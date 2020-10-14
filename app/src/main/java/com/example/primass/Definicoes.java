@@ -75,98 +75,324 @@ public class Definicoes {
         switch (numexpressao){
 
             case "1":
-                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
-                        "O número um corresponde ao líder, às pessoas influentes, pioneiras, inventivas e planejadoras – embora muitas vezes essas pessoas realizem seus projetos sem levar em conta os envolvidos. Tendem a dominar, consciente ou inconscientemente, todos os seus conhecidos. \n" +
-                        "Em vista da sua tremenda ousadia, vive a sonhar com grandes empreendimentos, pioneiros, sempre à procura de novidades, visando o presente e o futuro. \n" +
-                        "O seu êxito profissional, afetivo ou pessoal, depende exclusivamente do seu modo de pensar, falar e proceder, pois como é individualista, dificilmente aceita conselhos ou sugestões de quem quer que seja. \n" +
-                        "Em virtude da sua personalidade de aspecto arrogante e ditatorial, encontrará, ao longo da vida inúmeras dificuldades de relacionamento, sejam elas de cunho afetivo, pessoal ou mesmo profissional, levando-o a fazer amigos e inimigos com grande facilidade. \n" +
-                        "Trabalhos subalternos, sem movimentação (como contador, caixa de banco, etc.), o deprimem, e diríamos até, o deixam “estressado”, pouco à vontade e insatisfeito. Deve trabalhar por conta própria ou em cargos de chefia, pois como tem os ouvidos “sensíveis”, não gosta de receber ordens, principalmente quando essa ordem parte de alguém com estudo inferior. \n" +
-                        "Possui emoções poderosas e habilidades para dar e receber amor. Logo, é importante encontrar uma forma de expressar os seus sentimentos em vez de buscar realização em interesses financeiros. Se ficar desanimado, pode cair nos dramas emocionais de outras pessoas, pois a sua sensibilidade precisa encontrar uma via de escape. A ordem e o método são, em geral, benefícios para você, embora um plano de vida definido seja um pré-requisito para fazer bom uso do seu tremendo potencial. \n";
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua " +
+                        "personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O número um corresponde ao líder, às pessoas influentes, pioneiras," +
+                        " inventivas e planejadoras – embora muitas vezes essas pessoas " +
+                        "realizem seus projetos sem levar em conta os envolvidos. " +
+                        "Tendem a dominar, consciente ou inconscientemente, " +
+                        "todos os seus conhecidos. \n" +
+                        "Em vista da sua tremenda ousadia, vive a sonhar com grandes " +
+                        "empreendimentos, pioneiros, sempre à procura de novidades, visando" +
+                        " o presente e o futuro. \n" +
+                        "O seu êxito profissional, afetivo ou pessoal," +
+                        "depende exclusivamente do seu modo de pensar, falar e proceder," +
+                        " pois como é individualista, dificilmente aceita conselhos ou" +
+                        "sugestões de quem quer que seja. \n" +
+                        "Em virtude da sua personalidade de aspecto arrogante e ditatorial," +
+                        " encontrará, ao longo da vida inúmeras dificuldades de " +
+                        "relacionamento, sejam elas de cunho afetivo, pessoal ou mesmo" +
+                        "profissional, levando-o a fazer amigos e inimigos com grande " +
+                        "facilidade. \n" +
+                        "Trabalhos subalternos, sem movimentação (como contador, " +
+                        "caixa de banco, etc.), o deprimem e diríamos até o deixam " +
+                        "“estressado”, pouco à vontade e insatisfeito. Deve trabalhar por " +
+                        "conta própria ou em cargos de chefia, pois como tem os ouvidos " +
+                        "“sensíveis”, não gosta de receber ordens, principalmente quando " +
+                        "essa ordem parte de alguém com estudo inferior. \n" +
+                        "Possui emoções poderosas e habilidades para dar e receber amor." +
+                        "Logo, é importante encontrar uma forma de expressar os seus " +
+                        "sentimentos em vez de buscar realização em interesses financeiros." +
+                        " Se ficar desanimado, pode cair nos dramas emocionais de outras " +
+                        "pessoas, pois a sua sensibilidade precisa encontrar uma via de " +
+                        "escape. A ordem e o método são, em geral, benéficos para você, " +
+                        "embora um plano de vida definido seja um pré-requisito para fazer " +
+                        "bom uso do seu tremendo potencial. \n";
                 break;
 
             case "2":
-                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
-                        "O dois, apesar de não ser ambicioso, consegue tudo que deseja, mas sempre pela persuasão, nunca pela força. No lado negativo de seu caráter, destaca-se a hesitação constante e a falta de iniciativa, tendo tendência para adiar decisões importantes por qualquer motivo, levando-o a situações delicadas, principalmente no âmbito profissional e afetivo. \n" +
-                        "Normalmente usa de destreza e sabedoria, trabalhando mais nos “bastidores”, ou seja, na retaguarda, para levar alegria e amor a todos os seus conhecidos. É cooperativo, de certa maneira tímido, vulnerável e até passivo, porém sempre atento a todos os detalhes de seu ambiente. Nasceu para trabalhar em conjunto com outras pessoas, dificilmente se adaptando ao comando, seja de que nível for. É detalhista e prefere fazer uso das suas habilidades inatas lidando com pessoas e satisfazendo seu desejo de eterna harmonia. \n" +
-                        "Parte do seu sucesso provém do fato de aplicar suas habilidades e saber transformar a teoria em prática. Além disso, o ser dois é muito trabalhador, sempre pensando no sucesso; é, também, de certa forma ambicioso e com grande poder de liderança. Atento aos detalhes, é inventivo e sabe como ninguém solucionar problemas, seja de que nível for. \n" +
-                        "Como é uma pessoa leal, grande parte da sua segurança é construída com amor e amizade; bons relacionamentos são importantes para a sua realização.";
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua" +
+                        " personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O dois, apesar de não ser ambicioso, consegue tudo que deseja, mas " +
+                        "sempre pela persuasão, nunca pela força. No lado negativo de seu " +
+                        "caráter, destaca-se a hesitação constante e a falta de iniciativa, " +
+                        "tendo tendência para adiar decisões importantes por qualquer motivo," +
+                        " levando-o a situações delicadas, principalmente no âmbito profissional" +
+                        " e afetivo. \n" +
+                        "Normalmente usa de destreza e sabedoria, trabalhando mais nos " +
+                        "“bastidores”, ou seja, na retaguarda, para levar alegria e amor a todos" +
+                        " os seus conhecidos. É cooperativo, de certa maneira tímido, vulnerável" +
+                        " e até passivo, porém sempre atento a todos os detalhes de seu ambiente." +
+                        " Nasceu para trabalhar em conjunto com outras pessoas, dificilmente se " +
+                        "adaptando ao comando, seja de que nível for. É detalhista e prefere " +
+                        "fazer uso das suas habilidades inatas lidando com pessoas e satisfazendo" +
+                        " seu desejo de eterna harmonia. \n" +
+                        "Parte do seu sucesso provém do fato de aplicar suas habilidades e saber" +
+                        " transformar a teoria em prática. Além disso, o ser dois é muito " +
+                        "trabalhador, sempre pensando no sucesso; é, também, de certa forma " +
+                        "ambicioso e com grande poder de liderança. Atento aos detalhes, é " +
+                        "inventivo e sabe como ninguém solucionar problemas, seja de que nível " +
+                        "for. \n" +
+                        "Como é uma pessoa leal, grande parte da sua segurança é construída " +
+                        "com amor e amizade; bons relacionamentos são importantes para a sua" +
+                        " realização.";
                 break;
 
             case "3":
-                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
-                        "O três é o número da mais alta sabedoria e valor, da harmonia e da ação, do amor perfeito, da ternura e da força d’alma. \n" +
-                        "É tremendamente apaixonado pela família (mesmo que não aparente), gosta de receber e dar amor e sente-se muito feliz em poder contribuir para a felicidade alheia. É ambicioso e dificilmente desiste dos seus ideais, seus objetivos. É um ser criativo e normalmente tem muitos amigos divertidos, além de possuir uma elevada percepção de beleza, cor e forma. O aspecto leve e espirituoso da sua personalidade sugere que gosta de se divertir e de se comunicar, e esses predicados, quando num elemento culturalmente desenvolvido, leva-o à procura de respostas para as questões mais profundas da vida, o que, no final das contas, acaba levando-o a explorar áreas mais espirituais ou místicas. \n" +
-                        "Detesta receber ordens e trabalhar em uma profissão ou posição inferior, pois como sabe ter poderes e qualidades superiores, também sabe como tirar proveito de qualquer situação que o possa fazer feliz. \n";
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da " +
+                        "sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O três é o número da mais alta sabedoria e valor, da harmonia e " +
+                        "da ação, do amor perfeito, da ternura e da força d’alma. \n" +
+                        "É tremendamente apaixonado pela família (mesmo que não aparente), " +
+                        "gosta de receber e dar amor, sente-se muito feliz em poder contribuir " +
+                        "para a felicidade alheia. É ambicioso devido a isso dificilmente desiste " +
+                        "dos seus ideais e objetivos. É um ser criativo e normalmente tem " +
+                        "muitos amigos divertidos, além de possuir uma elevada percepção de " +
+                        "beleza, cor e forma. O aspecto leve e espirituoso da sua personalidade" +
+                        " sugere que gosta de se divertir e de se comunicar, esses predicados," +
+                        " quando num elemento culturalmente desenvolvido, leva-o à procura de " +
+                        "respostas para as questões mais profundas da vida, o que, no final das " +
+                        "contas, acaba levando-o a explorar áreas mais espirituais ou místicas. \n" +
+                        "Detesta receber ordens e trabalhar em uma profissão ou posição inferior," +
+                        " pois como sabe ter poderes e qualidades superiores, também sabe como " +
+                        "tirar proveito de qualquer situação que o possa fazer feliz. \n";
                 break;
 
             case "4":
-                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
-                        "O quatro é o número da perseverança e da imortalidade, da descoberta e da consumação, da firmeza e do propósito, da realização das esperanças, das regras, dos poderes e da vontade. \n" +
-                        "O novo lhe assusta e sente-se mais à vontade lidando com atividades rotineiras e já consagradas pela experiência. Gosta de construir coisas, mesmo que aparentemente não tenham maior serventia, pois é dotado de grande habilidade manual. \n" +
-                        "Não suporta pessoas hipócritas, desonestas, preguiçosas e com falta de visão do futuro, e estas deficiências o tornam deprimido e triste. \n" +
-                        "Não gosta de discussões fúteis, sem motivo aparente. Jamais guarda rancor, ressentimentos ou ódio de qualquer espécie, esquecendo rapidamente qualquer ofensa ou constrangimento. \n" +
-                        "Sendo um espírito superior, o seu amor ao próximo é, simultaneamente, glória e dever. Usualmente, pode cooperar e se sair bem em trabalhos de equipe; entretanto, como não gosta de receber ordens, é preferível trabalhar por conta própria. \n" +
-                        "É muito importante ser original, criar as suas próprias ideais e tomar as próprias decisões. Precisa aprender a ser persuasivo e não vigoroso ou autoritário.\n";
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua" +
+                        " personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O quatro é o número da perseverança e da imortalidade, da descoberta" +
+                        " e da consumação, da firmeza e do propósito, da realização das " +
+                        "esperanças, das regras, dos poderes e da vontade. \n" +
+                        "O novo lhe assusta e sente-se mais à vontade lidando com atividades" +
+                        " rotineiras e já consagradas pela experiência. Gosta de construir " +
+                        "coisas, mesmo que aparentemente não tenham maior serventia, pois " +
+                        "é dotado de grande habilidade manual. \n" +
+                        "Não suporta pessoas hipócritas, desonestas, preguiçosas e com " +
+                        "falta de visão do futuro e estas deficiências o tornam deprimido" +
+                        " e triste. \n" +
+                        "Não gosta de discussões fúteis, sem motivo aparente. Jamais guarda" +
+                        " rancor, ressentimentos ou ódio de qualquer espécie, esquecendo " +
+                        "rapidamente qualquer ofensa ou constrangimento. \n" +
+                        "Sendo um espírito superior, o seu amor ao próximo é, simultaneamente," +
+                        " glória e dever. Usualmente, pode cooperar e se sair bem em trabalhos" +
+                        " de equipe; entretanto, como não gosta de receber ordens, é preferível" +
+                        " trabalhar por conta própria. \n" +
+                        "É muito importante ser original, criar as suas próprias ideais e " +
+                        "tomar as próprias decisões. Precisa aprender a ser persuasivo e " +
+                        "não vigoroso ou autoritário.\n";
                 break;
 
             case "5":
-                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
-                        "O cinco é o número dos criativos, dos ousados, dos agitados e dos amantes da liberdade. A característica deste número o impele a viajar pelo mundo sempre em busca de saber, de novas experiências e também prazer. É um ser sociável, agradável e sempre bem-vindo em festas e reuniões. Gosta de ocupações diferentes, aquelas que o permitem estar em contato com pessoas, com o público, e que o deixem agir e exprimir-se livremente. \n" +
-                        "Detesta receber ordens, principalmente de pessoas com estudo ou capacidade inferior às suas. Também não gosta de trabalhos pesados, enfadonhos, cansativos, preferindo os intelectuais, ou aqueles que o colocam em destaque, como chefe de vendas, de marketing, de criação, ou qualquer outro que implique no desejo de viver e pesquisar. \n" +
-                        "Possui grande capacidade para lidar com quaisquer tipos de pessoas, sejam elas ricas, influentes ou intelectuais. O cinco, às vezes, tem surtos extraordinários de energia e coragem que lhe permitem reagir rapidamente a situações e agarrar as oportunidades. Possui uma mente excelente e precisa e é capaz de ter pensamentos profundos, além de uma inclinação a pensar de forma técnica e analítica. O seu espírito independente o estimula a ver as coisas de uma maneira original e a buscar a liberdade pessoal. Porém, deve evitar ser voluntarioso ou obstinado e se tornar negativo e pouco comunicativo. \n";
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua" +
+                        " personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O cinco é o número dos criativos, dos ousados, dos agitados e dos " +
+                        "amantes da liberdade. A característica deste número o impele a viajar" +
+                        " pelo mundo sempre em busca de saber, de novas experiências e também " +
+                        "prazer. É um ser sociável, agradável e sempre bem-vindo em festas e " +
+                        "reuniões. Gosta de ocupações diferentes, aquelas que o permitem estar " +
+                        "em contato com pessoas, com o público, e que o deixem agir e " +
+                        "exprimir-se livremente. \n" +
+                        "Detesta receber ordens, principalmente de pessoas com estudo ou " +
+                        "capacidade inferior às suas. Também não gosta de trabalhos pesados," +
+                        " enfadonhos, cansativos, preferindo os intelectuais, ou aqueles que " +
+                        "o colocam em destaque, como chefe de vendas, de marketing, de criação," +
+                        " ou qualquer outro que implique no desejo de viver e pesquisar. \n" +
+                        "Possui grande capacidade para lidar com quaisquer tipos de pessoas," +
+                        " sejam elas ricas, influentes ou intelectuais. O cinco, às vezes, " +
+                        "tem surtos extraordinários de energia e coragem que lhe permitem " +
+                        "reagir rapidamente a situações e agarrar as oportunidades. Possui " +
+                        "uma mente excelente e precisa e é capaz de ter pensamentos profundos, " +
+                        "além de uma inclinação a pensar de forma técnica e analítica. O seu" +
+                        " espírito independente o estimula a ver as coisas de uma maneira " +
+                        "original e a buscar a liberdade pessoal. Porém, deve evitar ser " +
+                        "voluntarioso ou obstinado e se tornar negativo e pouco comunicativo. \n";
                 break;
 
             case "6":
-                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
-                        "O seis é um número de certa maneira contraditório; é o número da confusão e junção, da união e sedução, do vício e da virtude, da incerteza no casamento, do amor, da atração dos sexos e da beleza. Significa todos os tipos de problemas e discórdias, mas também é capaz de purificação pelo conhecimento e de uma vida elevada. \n" +
-                        "A família é à base de sustentação de toda a sua vida. Amar e ser amado; eis o desejo maior do número seis. E quando privado desse amor, sente-se completamente perdido, sem saber o que fazer e como agir. \n" +
-                        "Aparentemente calmo, pode explodir quando o contradizem ou criticam, principalmente quando nasce nos dias 29, 30, 31 ou primeiro de cada mês. \n" +
-                        "O seis quer ver todos saudáveis, alegres e repletos de sucesso e felicidade. É pródigo em favorecer os outros, nada esperando em retribuição, passando inúmeras vezes por “otário”, pois as pessoas que favorece dificilmente retribuem os favores recebidos. Apesar de suas qualidades expressivas e brilhantes, pode ter dificuldades em fazer escolhas e tomar decisões. Como tem diversos interesses que o levam a diferentes direções, é muito importante ter um senso de propósito. Sem isso, pode ficar dividido entre os seus ideais e o desejo de satisfação material. Um lado da sua natureza pode ter uma forte atração por dinheiro, luxo e um estilo de vida indolente, mas o outro tem um desejo inspirador que pode levá-lo a trabalhar duro para realizar seus ideais. Qualquer que seja a sua escolha, terá muitas oportunidades e a habilidade de driblar as situações difíceis, graças ao seu charme e persuasão. \n" +
-                        "Excelente marido, esposa ou amante, entrega-se por inteiro aos seus amores ou amizades, exigindo a mesma dedicação por parte dos outros, o que nem sempre acontece, frustrando-o e desestabilizando-o emocionalmente por longos períodos. \n";
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua" +
+                        " personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O seis é um número de certa maneira contraditório; é o número da " +
+                        "confusão e junção, da união e sedução, do vício e da virtude, da " +
+                        "incerteza no casamento, do amor, da atração dos sexos e da beleza." +
+                        " Significa todos os tipos de problemas e discórdias, mas também é " +
+                        "capaz de purificação pelo conhecimento e de uma vida elevada. \n" +
+                        "A família é à base de sustentação de toda a sua vida. Amar e ser " +
+                        "amado; eis o desejo maior do número seis. E quando privado desse amor," +
+                        " sente-se completamente perdido, sem saber o que fazer e como agir. \n" +
+                        "Aparentemente calmo, pode explodir quando o contradizem ou criticam, " +
+                        "principalmente quando nasce nos dias 29, 30, 31 ou primeiro de cada mês. \n" +
+                        "O seis quer ver todos saudáveis, alegres e repletos de sucesso e " +
+                        "felicidade. É pródigo em favorecer os outros, nada esperando em " +
+                        "retribuição, passando inúmeras vezes por “otário”, pois as pessoas " +
+                        "que favorece dificilmente retribuem os favores recebidos. Apesar de " +
+                        "suas qualidades expressivas e brilhantes, pode ter dificuldades em " +
+                        "fazer escolhas e tomar decisões. Como tem diversos interesses que " +
+                        "o levam a diferentes direções, é muito importante ter um senso de" +
+                        " propósito. Sem isso, pode ficar dividido entre os seus ideais e o " +
+                        "desejo de satisfação material. Um lado da sua natureza pode ter uma" +
+                        " forte atração por dinheiro, luxo e um estilo de vida indolente, mas" +
+                        " o outro tem um desejo inspirador que pode levá-lo a trabalhar duro" +
+                        " para realizar seus ideais. Qualquer que seja a sua escolha, terá " +
+                        "muitas oportunidades e a habilidade de driblar as situações difíceis," +
+                        " graças ao seu charme e persuasão. \n" +
+                        "Excelente marido, esposa ou amante, entrega-se por inteiro aos seus " +
+                        "amores ou amizades, exigindo a mesma dedicação por parte dos outros, " +
+                        "o que nem sempre acontece, frustrando-o e desestabilizando-o " +
+                        "emocionalmente por longos períodos. \n";
                 break;
 
             case "7":
-                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
-                        "O sete é o número da realeza e do triunfo, da fama e da honra, da reputação e da vitória. O sete é perfeccionista, de certa maneira arredio, por vezes calado, demora a esquentar um relacionamento, interessado em filosofia, religiosidade, política e assuntos extra físicos. De grande intuição e discernimento, raramente segue as idéias alheias e só faz o que acredita. É vibrante em seus propósitos, honesto, leal, amigo, profundo, elevado moralmente, não gostando de futilidades e ilegalidades, e as atividades ou atos que as contenham, o deprimem e o entristecem. \n" +
-                        "Como é um ator natural, muitas vezes passa uma imagem de autoconfiança. Em geral é perspicaz e inteligente, com um forte sexto sentido, pode avaliar rapidamente as pessoas e situações. Isso faz com que tenha um desempenho melhor quando ocupa uma posição de liderança em vez de se desgastar em trabalhos físicos. \n" +
-                        "Mesmo que seja generoso, tanto quanto à sua disponibilidade de tempo quanto de dinheiro, pode se tornar expansivo e indulgente em excesso. Felizmente, é aberto às críticas, o que lhe permite usar a autoanálise como uma ferramenta valiosa, com poder de influenciar os demais. Por vezes é incompreendido, considerado estranho, um ser solitário, incomum, diferente. \n";
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua" +
+                        " personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O sete é o número da realeza e do triunfo, da fama e da honra, da " +
+                        "reputação e da vitória. O sete é perfeccionista, de certa maneira " +
+                        "arredio, por vezes calado, demora a esquentar um relacionamento, " +
+                        "interessado em filosofia, religiosidade, política e assuntos extra " +
+                        "físicos. De grande intuição e discernimento, raramente segue as idéias" +
+                        " alheias e só faz o que acredita. É vibrante em seus propósitos, " +
+                        "honesto, leal, amigo, profundo, elevado moralmente, não gostando de " +
+                        "futilidades e ilegalidades, e as atividades ou atos que as contenham," +
+                        " o deprimem e o entristecem. \n" +
+                        "Como é um ator natural, muitas vezes passa uma imagem de autoconfiança." +
+                        " Em geral é perspicaz e inteligente, com um forte sexto sentido, pode " +
+                        "avaliar rapidamente as pessoas e situações. Isso faz com que tenha um " +
+                        "desempenho melhor quando ocupa uma posição de liderança em vez de se " +
+                        "desgastar em trabalhos físicos. \n" +
+                        "Mesmo que seja generoso, tanto quanto à sua disponibilidade de tempo quanto" +
+                        " de dinheiro, pode se tornar expansivo e indulgente em excesso. Felizmente," +
+                        " é aberto às críticas, o que lhe permite usar a autoanálise como uma" +
+                        " ferramenta valiosa, com poder de influenciar os demais. Por vezes é" +
+                        " incompreendido, considerado estranho, um ser solitário, incomum," +
+                        " diferente. \n";
                 break;
 
             case "8":
-                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
-                        "O oito é considerado o número da atração e da repulsão, da vida, de todos os tipos de lutas, da separação, ruptura, destruição, expectativas e ameaças. Também é conhecido como o “portão da eternidade”. \n" +
-                        "Dificilmente consegue expressar seus sentimentos, parecendo frio e evasivo; a realidade é outra: é muito carinhoso, meigo, amoroso, carente de afeição e com muito calor humano. Em virtude destas características (ser uma coisa e parecer outra), tem tendência ao materialismo, ao acúmulo de bens materiais e também uma certa ganância de querer possuir a maior quantidade de dinheiro e bens possíveis. \n" +
-                        "É organizadíssimo e muito dedicado à profissão, sendo excelente para lidar com situações concretas que requerem discernimento e constância. É austero, prático, direto, seguro de si, por vezes generoso, mas também se pode tornar violento quando as coisas não correm como deseja. \n" +
-                        "Como é dotado de alto senso de justiça, jamais deve fazer qualquer transação comercial fraudulenta, pois essa “falta” poderá lhe ser muito prejudicial ao longo da existência. Normalmente não perde tempo lutando pela fortuna, pois sabe com absoluta certeza que conseguirá atingir seus objetivos. \n" +
-                        "Com excelente capacidade de avaliação, lida com o dinheiro e as questões materiais de forma instintiva. Pode ter golpes de sorte ocasionais, combinando o seu sexto sentido com informações inesperadas. Como pode passar por períodos de instabilidade financeira, precisa equacionar o problema de como viver bem sem ser extravagante. A sua autoridade natural o leva a ocupar posições de responsabilidade, nas quais pode usar a sua capacidade de organização. E será melhor se isso envolver algum tipo de atividade criativa. \n";
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua" +
+                        " personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O oito é considerado o número da atração e da repulsão, da vida, de" +
+                        " todos os tipos de lutas, da separação, ruptura, destruição, " +
+                        "expectativas e ameaças. Também é conhecido como o “portão da eternidade”. \n" +
+                        "Dificilmente consegue expressar seus sentimentos, parecendo frio e evasivo;" +
+                        " a realidade é outra: é muito carinhoso, meigo, amoroso, carente de afeição" +
+                        " e com muito calor humano. Em virtude destas características (ser uma coisa" +
+                        " e parecer outra), tem tendência ao materialismo, ao acúmulo de bens " +
+                        "materiais e também uma certa ganância de querer possuir a maior quantidade " +
+                        "de dinheiro e bens possíveis. \n" +
+                        "É organizadíssimo e muito dedicado à profissão, sendo excelente para lidar" +
+                        " com situações concretas que requerem discernimento e constância. É austero," +
+                        " prático, direto, seguro de si, por vezes generoso, mas também pode se " +
+                        "tornar violento quando as coisas não correm como deseja. \n" +
+                        "Como é dotado de alto senso de justiça, jamais deve fazer qualquer transação" +
+                        " comercial fraudulenta, pois essa “falta” poderá lhe ser muito prejudicial" +
+                        " ao longo da existência. Normalmente não perde tempo lutando pela fortuna," +
+                        " pois sabe com absoluta certeza que conseguirá atingir seus objetivos. \n" +
+                        "Com excelente capacidade de avaliação, lida com o dinheiro e as questões " +
+                        "materiais de forma instintiva. Pode ter golpes de sorte ocasionais, " +
+                        "combinando o seu sexto sentido com informações inesperadas. Como pode " +
+                        "passar por períodos de instabilidade financeira, precisa equacionar o " +
+                        "problema de como viver bem sem ser extravagante. A sua autoridade natural" +
+                        " o leva a ocupar posições de responsabilidade, nas quais pode usar a sua" +
+                        " capacidade de organização. E será melhor se isso envolver algum tipo de " +
+                        "atividade criativa. \n";
                 break;
 
             case "9":
-                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
-                        "O nove é misterioso, silencioso e liga-se ao plano astral. É o número da sabedoria, da virtude, da experiência, dos mistérios, da moralidade, do valor, da soberania, do amor humano, da obscuridade, da proteção e dos frutos do mérito. Enfim, é o número dos universalistas, dos generosos, dos seres humanos sensíveis aos sofrimentos alheios e vivem constantemente em busca da “verdade”, da compreensão, adaptando-se a trabalhos que visam o engrandecimento do ser humano, não medindo esforços e sacrifícios para fazer o que pensa ser certo, ou seja, amar, proteger e defender o próximo. \n" +
-                        "O nove é um pensador nato e dispõe de grande capacidade de raciocínio, observação, criatividade e compreensão, levando-o a conhecer o âmago e as qualidades de coisas e fatos. \n" +
-                        "Deve sempre ser impessoal, pois como é universalista, o materialismo pode-lhe causar sérios desapontamentos e aborrecimentos, principalmente com respeito a “amigos” e parentes que considera íntegros e incapazes de ações ilícitas, mas que na realidade são falsos. \n" +
-                        "Tem excelente capacidade para ganhar dinheiro, e também para perdê-lo. Mas o mais extraordinário, é o fato de “nunca” lhe faltar dinheiro para as despesas do dia-a-dia. \n" +
-                        "A fé interior é um importante fator para a sua autoconfiança e sem ela pode passar por fases de insegurança, reserva ou falta de autoestima. Perspicaz e de mente aguçada, entende as coisas rapidamente e as utiliza em seu benefício. Embora às vezes possa se preocupar muito com questões materiais, é através do uso da sabedoria interior e compreensão espiritual que pode superar a perspectiva fria ou cética. Ousando ser espontâneo e justo ao mesmo tempo, mas sem perder a competitividade, pode desafiar a si mesmo e aos outros sem se sentir arrogante ou poderoso. Frequentemente atraído por indivíduos criativos, tem grande necessidade de amor e compreensão que se opõe à sua aparência forte e assertiva. \n";
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua" +
+                        " personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O nove é misterioso, silencioso e liga-se ao plano astral. É o " +
+                        "número da sabedoria, da virtude, da experiência, dos mistérios, " +
+                        "da moralidade, do valor, da soberania, do amor humano, da obscuridade," +
+                        " da proteção e dos frutos do mérito. Enfim, é o número dos universalistas," +
+                        " dos generosos, dos seres humanos sensíveis aos sofrimentos alheios e " +
+                        "vivem constantemente em busca da “verdade”, da compreensão, adaptando-se" +
+                        " a trabalhos que visam o engrandecimento do ser humano, não medindo esforços" +
+                        " e sacrifícios para fazer o que pensa ser certo, ou seja, amar, proteger e " +
+                        "defender o próximo. \n" +
+                        "O nove é um pensador nato e dispõe de grande capacidade de raciocínio," +
+                        " observação, criatividade e compreensão, levando-o a conhecer o âmago " +
+                        "e as qualidades de coisas e fatos. \n" +
+                        "Deve sempre ser impessoal, pois como é universalista, o materialismo " +
+                        "pode-lhe causar sérios desapontamentos e aborrecimentos, principalmente " +
+                        "com respeito a “amigos” e parentes que considera íntegros e incapazes de" +
+                        " ações ilícitas, mas que na realidade são falsos. \n" +
+                        "Tem excelente capacidade para ganhar dinheiro, e também para perdê-lo. " +
+                        "Mas o mais extraordinário, é o fato de “nunca” lhe faltar dinheiro para as" +
+                        " despesas do dia-a-dia. \n" +
+                        "A fé interior é um importante fator para a sua autoconfiança e sem ela " +
+                        "pode passar por fases de insegurança, reserva ou falta de autoestima. " +
+                        "Perspicaz e de mente aguçada, entende as coisas rapidamente e as utiliza" +
+                        " em seu benefício. Embora às vezes possa se preocupar muito com questões " +
+                        "materiais, é através do uso da sabedoria interior e compreensão espiritual" +
+                        " que pode superar a perspectiva fria ou cética. Ousando ser espontâneo e " +
+                        "justo ao mesmo tempo, mas sem perder a competitividade, pode desafiar a " +
+                        "si mesmo e aos outros sem se sentir arrogante ou poderoso. Frequentemente" +
+                        " atraído por indivíduos criativos, tem grande necessidade de amor e " +
+                        "compreensão que se opõe à sua aparência forte e assertiva. \n";
                 break;
 
             case "11":
-                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
-                        "O onze é o número do poder, da bravura, da energia, do sucesso em aventuras destemidas, da liberdade. Suas vibrações são lunares e seus possuidores são idealistas, intuitivos, sensíveis, místicos, imaginativos e pensadores inspirados. O ser onze dificilmente é bem sucedido como negociante, sentindo-se mais à vontade em profissões agitadas, como política, marketing, administração de grandes empresas ou grandes projetos esotéricos, sociais e ideológicos. \n" +
-                        "Profundo conhecedor da mente humana, normalmente se destaca dos demais, pois sendo um “número mestre”, consegue vislumbrar em seus amigos e inimigos, defeitos e virtudes que em outros números seria impossível. Tem fé em seus ideais e dificilmente volta atrás em suas decisões. Procura sempre ser justo, leal, compreensivo e viver em harmonia com todos. \n" +
-                        "A vibração especial deste número sugere que o idealismo, a inspiração e a inovação são altamente importantes para o seu possuidor. Uma combinação de humildade e confiança o desafia a trabalhar para alcançar a independência financeira e espiritual. Através da experiência, pode aprender a lidar com os dois lados da sua natureza e desenvolver uma atitude menos extremista, acreditando nos seus sentimentos. Em geral, o onze tem muita energia e gosta de vitalidade, mas deve evitar o excesso de ansiedade e a falta de sentido prático \n" +
-                        "Se não seguir os dogmas esotéricos e estudos profundos do “hermetismo”, pode-se tornar indolente, indeciso e sujeito à vontade alheia, sendo sugado e feito de empregado por seres muito mais inferiores do que ele. \n" +
-                        "Como é um ser superior, normalmente atrai inveja e conflito das pessoas ao seu redor, fazendo amizades e inimizades com grande facilidade e, assim, dificultando a conclusão dos seus objetivos. \n";
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua" +
+                        " personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "O onze é o número do poder, da bravura, da energia, do sucesso em " +
+                        "aventuras destemidas, da liberdade. Suas vibrações são lunares e " +
+                        "seus possuidores são idealistas, intuitivos, sensíveis, místicos, " +
+                        "imaginativos e pensadores inspirados. O ser onze dificilmente é " +
+                        "bem sucedido como negociante, sentindo-se mais à vontade em " +
+                        "profissões agitadas, como política, marketing, administração de " +
+                        "grandes empresas ou grandes projetos esotéricos, sociais e ideológicos. \n" +
+                        "Profundo conhecedor da mente humana, normalmente se destaca dos demais," +
+                        " pois sendo um “número mestre”, consegue vislumbrar em seus amigos e " +
+                        "inimigos, defeitos e virtudes que em outros números seria impossível. " +
+                        "Tem fé em seus ideais e dificilmente volta atrás em suas decisões. " +
+                        "Procura sempre ser justo, leal, compreensivo e viver em harmonia " +
+                        "com todos. \n" +
+                        "A vibração especial deste número sugere que o idealismo, a inspiração" +
+                        " e a inovação são altamente importantes para o seu possuidor. Uma " +
+                        "combinação de humildade e confiança o desafia a trabalhar para alcançar" +
+                        " a independência financeira e espiritual. Através da experiência, pode " +
+                        "aprender a lidar com os dois lados da sua natureza e desenvolver uma " +
+                        "atitude menos extremista, acreditando nos seus sentimentos. Em geral," +
+                        " o onze tem muita energia e gosta de vitalidade, mas deve evitar o " +
+                        "excesso de ansiedade e a falta de sentido prático \n" +
+                        "Se não seguir os dogmas esotéricos e estudos profundos do “hermetismo”," +
+                        " pode-se tornar indolente, indeciso e sujeito à vontade alheia, sendo " +
+                        "sugado e feito de empregado por seres muito mais inferiores do que ele. \n" +
+                        "Como é um ser superior, normalmente atrai inveja e conflito das pessoas " +
+                        "ao seu redor, fazendo amizades e inimizades com grande facilidade e, " +
+                        "assim, dificultando a conclusão dos seus objetivos. \n";
                 break;
 
-           case "22":
-                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
-                        "As pessoas cujos nomes correspondem a vinte e dois – o número supremo – possuem todas as qualidades boas dos outros números. Se desejar algo que em princípio pareça impossível, vá em frente, pois com certeza conseguirá atingir o seu objetivo, e até com certa facilidade, pois é habilidoso, idealista, organizado e tem grande potencial de realização. \n" +
-                        "Tem, ainda, outras qualidades: integridade moral, honestidade nata, inspiração divina, disciplina técnica e social, constância nos objetivos e grande capacidade para levar até ao fim um projeto ou um objetivo. Não é muito fácil conviver com ele, pois sendo “superior”, normalmente não se adapta a situações preconcebidas e muito menos gosta de aceitar ordens de quem quer que seja, gostando de trabalhar sozinho ou então em cargos de chefia. \n" +
-                        "A ambição pode levá-lo ao mundo dos negócios, no qual pode se sobressair graças à sua capacidade de organização e administração. Isto sugere também que pode vir a ser bem-sucedido nas áreas industrial, bancária, imobiliária e de merchandising. A sua visão e sua imaginação ativa podem levá-lo a seguir carreiras no teatro, fotografia, cinema ou decoração de interiores. A sua habilidade natural para lidar com as pessoas pode ser canalizada para profissões que envolvam o trato com o público, como comunicação, educação, medicina, trabalho social ou advocacia. O seu discernimento especial e compaixão podem levá-lo a trabalhar no mundo da cura, seja na medicina tradicional ou na alternativa. \n";
+            case "22":
+                resposta = "A expressão é a própria maneira de agir do ser humano no uso da sua" +
+                        " personalidade, motivada pelos seus conteúdos internos e externos. \n\n" +
+                        "As pessoas cujos nomes correspondem ao vinte e dois – o número " +
+                        "supremo – possuem todas as qualidades boas dos outros números. Se" +
+                        " desejar algo que em princípio pareça impossível, vá em frente, " +
+                        "pois com certeza conseguirá atingir o seu objetivo, e até com certa" +
+                        " facilidade, pois é habilidoso, idealista, organizado e tem grande" +
+                        " potencial de realização. \n" +
+                        "Tem, ainda, outras qualidades: integridade moral, honestidade nata," +
+                        " inspiração divina, disciplina técnica e social, constância nos " +
+                        "objetivos e grande capacidade para levar até ao fim um projeto ou" +
+                        " um objetivo. Não é muito fácil conviver com ele, pois sendo" +
+                        " “superior”, normalmente não se adapta a situações preconcebidas " +
+                        "e muito menos gosta de aceitar ordens de quem quer que seja, " +
+                        "gostando de trabalhar sozinho ou então em cargos de chefia. \n" +
+                        "A ambição pode levá-lo ao mundo dos negócios, no qual pode se " +
+                        "sobressair graças à sua capacidade de organização e administração." +
+                        " Isto sugere também que pode vir a ser bem-sucedido nas áreas " +
+                        "industrial, bancária, imobiliária e de merchandising. A sua visão" +
+                        " e sua imaginação ativa podem levá-lo a seguir carreiras no teatro," +
+                        " fotografia, cinema ou decoração de interiores. A sua habilidade" +
+                        " natural para lidar com as pessoas pode ser canalizada para " +
+                        "profissões que envolvam o trato com o público, como comunicação," +
+                        " educação, medicina, trabalho social ou advocacia. O seu " +
+                        "discernimento especial e compaixão podem levá-lo a trabalhar " +
+                        "no mundo da cura, seja na medicina tradicional ou na alternativa. \n";
                 break;
 
-              default:
+            default:
                 resposta = "ERRO";
                 break;
         }
@@ -174,53 +400,99 @@ public class Definicoes {
         return resposta;
     }
 
-   public String orientEx(String numorientacaoEx){
+    public String orientEx(String numorientacaoEx){
 
         String resposta;
 
         switch (numorientacaoEx){
             case "1":
-                resposta = "Em vista de ter tendência a começar muitas coisas e não terminá-las, deve adquirir conhecimentos, prudência, ponderação e sabedoria, para poder desenvolver o seu imenso potencial de realização e levar a bom termo os seus objetivos.";
+                resposta = "Em vista de ter tendência a começar muitas coisas e não " +
+                        "terminá-las, deve adquirir conhecimentos, prudência, ponderação e " +
+                        "sabedoria, para poder desenvolver o seu imenso potencial de " +
+                        "realização e levar a bom termo os seus objetivos.";
                 break;
 
             case "2":
-                resposta = "O dois era chamado pelos antigos de a “mãe dos números e do casamento”. Como a sua grande virtude é a compreensão dos processos do conhecimento oculto, deve sempre cultivar este dom, a fim de poder viver condignamente, sem esperar que alguém ou algo o faça movimentar-se.";
+                resposta = "O dois era chamado pelos antigos de a “mãe dos números e" +
+                        " do casamento”. Como a sua grande virtude é a compreensão dos" +
+                        " processos do conhecimento oculto, deve sempre cultivar este dom," +
+                        " a fim de poder viver condignamente, sem esperar que alguém ou" +
+                        " algo o faça movimentar-se.";
                 break;
 
             case "3":
-                resposta = "A vontade de aprender e a aversão à rotina indicam que você pode passar por diversas experiências na sua busca por uma carreira que o desafie mentalmente. Com a maneira persuasiva com que usa as palavras, pode ser bem sucedido no mundo da comunicação, vendas, escrita, arte ou área editorial, sendo, é claro, o chefe ou trabalhando por conta própria, pois tem grande aversão a ser mandado.";
+                resposta = "A vontade de aprender e a aversão à rotina indicam que você" +
+                        " pode passar por diversas experiências na sua busca por uma carreira" +
+                        " que o desafie mentalmente. Com a maneira persuasiva com que usa as" +
+                        " palavras, pode ser bem sucedido no mundo da comunicação, vendas, " +
+                        "escrita, arte ou área editorial, sendo, é claro, o chefe ou " +
+                        "trabalhando por conta própria, pois tem grande aversão a ser mandado.";
                 break;
 
             case "4":
-                resposta = "Como gosta da sua liberdade, evite fazer julgamentos ou criticar demais as pessoas, pois elas podem ficar ressentidas com as suas decisões e, assim, não lhe prestarem bons serviços ou não colaborarem com seus projetos.";
+                resposta = "Como gosta da sua liberdade, evite fazer julgamentos ou criticar" +
+                        " demais as pessoas, pois elas podem ficar ressentidas com as suas" +
+                        " decisões e, assim, não lhe prestarem bons serviços ou não colaborarem" +
+                        " com seus projetos.";
                 break;
 
             case "5":
-                resposta = "Como terá muitas experiências na vida, deve usar essas experiências e o seu temperamento corajoso para levar até o fim os seus projetos, pois é de certa forma dispersivo, não conseguindo terminar o que começa, tendo mais começos do que fins.";
+                resposta = "Como terá muitas experiências na vida, deve usar essas experiências" +
+                        " e o seu temperamento corajoso para levar até o fim os seus projetos," +
+                        " pois é de certa forma dispersivo, não conseguindo terminar o que " +
+                        "começa, tendo mais começos do que fins.";
                 break;
 
             case "6":
-                resposta = "Para se elevar e conquistar fama e fortuna deve procurar profissões de interesse humanitário, sempre incentivado pelos que ama. Deve, também, concentrar sua energia e não se preocupar com o que outras pessoas dizem ou fazem. Aprenda a dizer “não” sem medo de ofender os outros.";
+                resposta = "Para se elevar e conquistar fama e fortuna deve procurar profissões" +
+                        " de interesse humanitário, sempre incentivado pelas pessoas que o amam." +
+                        " Deve, também, concentrar sua energia e não se preocupar com o que outras " +
+                        "pessoas dizem ou fazem. Aprenda a dizer “não” sem medo de ofender " +
+                        "os outros.";
                 break;
 
             case "7":
-                resposta = "Deve controlar a sua vida e estabelecer primeiro uma base sólida. Deve aproveitar o que a vida tem de melhor e evitar o comodismo. Deve trabalhar em prol da humanidade, em serviços que beneficiem a coletividade e que de alguma maneira o satisfaçam intelectual e também espiritualmente. Precisa meditar e receber inspiração do eu interior.";
+                resposta = "Deve controlar a sua vida e estabelecer primeiro uma base " +
+                        "sólida. Deve aproveitar o que a vida tem de melhor e evitar " +
+                        "o comodismo. Deve trabalhar em prol da humanidade, em serviços" +
+                        " que beneficiem a coletividade e que de alguma maneira o " +
+                        "satisfaçam intelectual e também espiritualmente. Precisa " +
+                        "meditar e receber inspiração do eu interior.";
                 break;
 
             case "8":
-                resposta = "Como é progressista, dá grande importância ao dinheiro, ao status social e deseja constantemente expressar livremente os seus sentimentos, deve evitar situações monótonas ou excesso de rigidez. Terá mais chance de se realizar como alto executivo, comerciante ou trabalhando por conta própria.";
+                resposta = "Como é progressista, dá grande importância ao dinheiro, " +
+                        "ao status social e deseja constantemente expressar livremente" +
+                        " os seus sentimentos, deve evitar situações monótonas ou excesso" +
+                        " de rigidez. Terá mais chance de se realizar como alto executivo," +
+                        " comerciante ou trabalhando por conta própria.";
                 break;
 
             case "9":
-                resposta = "Como nasceu para ser livre, não deve se apegar a nada nem a ninguém, e sim amar e trabalhar em prol de toda a humanidade, sem nada esperar em troca. Evite ser destrutivo ou vingativo. Tente perceber a necessidade das outras pessoas e evite ser autocentrado ou crítico; evite dominar os outros com as suas opiniões. A compaixão e o amor trazem as maiores recompensas.";
+                resposta = "Como nasceu para ser livre, não deve se apegar a nada " +
+                        "nem a ninguém, e sim amar e trabalhar em prol de toda a humanidade," +
+                        " sem nada esperar em troca. Evite ser destrutivo ou vingativo." +
+                        " Tente perceber a necessidade das outras pessoas e evite ser " +
+                        "autocentrado ou crítico; evite dominar os outros com as suas" +
+                        " opiniões. A compaixão e o amor trazem as maiores recompensas.";
                 break;
 
             case "11":
-                resposta = "Como todos os grandes seres humanos, aqueles que se destacam dos demais, o onze também tem certas dificuldades de adaptação ao meio ambiente, ao convívio com seres de inferior categoria, que não o compreendem, não o apoiam e ainda o criticam. Deve ir em frente nos seus ideais sem se preocupar com o que os outros pensam de si.";
+                resposta = "Como todos os grandes seres humanos, aqueles que se destacam " +
+                        "dos demais, o onze também tem certas dificuldades de adaptação ao " +
+                        "meio ambiente, ao convívio com seres de inferior categoria, que " +
+                        "não o compreendem, não o apoiam e ainda o criticam. Deve ir em " +
+                        "frente nos seus ideais sem se preocupar com o que os outros pensam" +
+                        " de si.";
                 break;
 
             case "22":
-                resposta = "Pode-se tornar famoso, tanto nacional como internacionalmente, pois como tem grande capacidade de persuasão e destreza com as palavras, consegue convencer a todos com seus argumentos e ideais, que outras não devem ser se não as que visem o bem da humanidade. Todo e qualquer vício lhe é altamente prejudicial, principalmente o fumo.";
+                resposta = "Pode-se tornar famoso, tanto nacional como internacionalmente," +
+                        " pois como tem grande capacidade de persuasão e destreza com as" +
+                        " palavras, consegue convencer a todos com seus argumentos e " +
+                        "ideais, que outras não devem ser se não as que visem o bem da " +
+                        "humanidade. Todo e qualquer vício lhe é altamente prejudicial, " +
+                        "principalmente o fumo.";
                 break;
 
             default:
@@ -290,73 +562,205 @@ public class Definicoes {
         switch (numImpressao){
 
             case "1":
-                resposta ="Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
-                        "A impressão deste ser, é exatamente isto: um ser superior que se destaca dos demais, fazendo com que todos, invariavelmente, se virem para ele. \n" +
-                        "É líder por natureza e vive patrocinando novas ideais, sejam elas suas ou de outrem. Nessa busca, sonha em ser corajoso, ousado, justo, leal e original, tanto nas qualidades profissionais, quanto no seu modo de se vestir e no falar. É persistente e dificilmente se deixa dominar pelo desânimo, por isso, para conseguir o que deseja, pode mostrar-se teimoso, egoísta, obstinado e por vezes opressor. Sabe mandar, dirigir e tem aparência sólida e autoconfiante. \n" +
-                        "Entre os amigos (que são muitos) é sempre escolhido para liderar, pois as suas ideais e posturas sólidas, lhe conferem as prerrogativas inerentes aos vencedores. \n" +
-                        "Mostra grande potencial e habilidade executiva e de liderança, que pode se manifestar em trabalhos de especialização na sua área de atuação ou em postos de gerenciamento e administração, na carreira militar ou política. \n";
+                resposta ="Revela a primeira impressão que os outros têm de nós, antes " +
+                        "de nos conhecerem. \n\n"+
+                        "A impressão deste ser, é exatamente isto: um ser superior que se " +
+                        "destaca dos demais, fazendo com que todos, invariavelmente, se " +
+                        "virem para ele. \n" +
+                        "É líder por natureza e vive patrocinando novas ideais, sejam elas " +
+                        "suas ou de outrem. Nessa busca, sonha em ser corajoso, ousado, " +
+                        "justo, leal e original, tanto nas qualidades profissionais, quanto" +
+                        " no seu modo de se vestir e no falar. É persistente e dificilmente " +
+                        "se deixa dominar pelo desânimo, por isso, para conseguir o que " +
+                        "deseja, pode mostrar-se teimoso, egoísta, obstinado e por vezes " +
+                        "opressor. Sabe mandar, dirigir e tem aparência sólida e autoconfiante. \n" +
+                        "Entre os amigos (que são muitos) é sempre escolhido para liderar, " +
+                        "pois as suas ideais e posturas sólidas, lhe conferem as prerrogativas" +
+                        " inerentes aos vencedores. \n" +
+                        "Mostra grande potencial e habilidade executiva e de liderança, que " +
+                        "pode se manifestar em trabalhos de especialização na sua área de " +
+                        "atuação ou em postos de gerenciamento e administração, na carreira " +
+                        "militar ou política. \n";
                 break;
 
             case "2":
-                resposta ="Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
-                        "Quer amor, amizade, carinho, harmonia e paz. Tem feições que o destacam de todos os outros números: é ardoroso, idealista, calado, pacífico, diplomata, sendo muito hábil em conciliações de interesses seus e alheios. Na tentativa de agradar as pessoas de quem gosta, corre o risco de se tornar excessivamente dependente. Contudo, desenvolver a autoconfiança, pode superar essa tendência e vir a ser uma pessoa bem sucedida, sem grandes problemas. \n" +
-                        "É também responsável, justo, gosta de calma, de legitimidade, esclarecimento e também inspiração. Gosta também de se sentir compreendido e confortado. Quando só, parece sonhador, trazendo a cabeça nas “nuvens”. \n" +
-                        "Pelos modos calmos, gentis e agradáveis, desperta em todos a segurança e a confiança. Normalmente age com naturalidade e simplicidade, não gostando de se exibir, seja em família ou numa roda social. A discrição é seu lema. \n";
+                resposta ="Revela a primeira impressão que os outros têm de nós, antes " +
+                        "de nos conhecerem. \n\n"+
+                        "Quer amor, amizade, carinho, harmonia e paz. Tem feições que o" +
+                        " destacam de todos os outros números: é ardoroso, idealista, calado," +
+                        " pacífico, diplomata, sendo muito hábil em conciliações de interesses" +
+                        " seus e alheios. Na tentativa de agradar as pessoas de quem gosta, " +
+                        "corre o risco de se tornar excessivamente dependente. Contudo," +
+                        " desenvolver a autoconfiança, pode superar essa tendência e vir a ser " +
+                        "uma pessoa bem sucedida, sem grandes problemas. \n" +
+                        "É também responsável, justo, gosta de calma, de legitimidade, " +
+                        "esclarecimento e também inspiração. Gosta também de se sentir " +
+                        "compreendido e confortado. Quando só, parece sonhador, trazendo a" +
+                        " cabeça nas “nuvens”. \n" +
+                        "Pelos modos calmos, gentis e agradáveis, desperta em todos a segurança" +
+                        " e a confiança. Normalmente age com naturalidade e simplicidade, não" +
+                        " gostando de se exibir, seja em família ou numa roda social. A " +
+                        "discrição é seu lema. \n";
                 break;
 
             case "3":
-                resposta = "Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
-                        "É do tipo social, amistoso, alegre e jovial. O 3 é popular, atraente, criativo, gostando de ser aplaudido, notado, admirado, ou seja, que o vejam como um verdadeiro artista. Normalmente cultiva a criatividade, os contatos sociais e a expressão de suas próprias ideais e sentimentos, especialmente através de alguma forma de arte. \n" +
-                        "Demonstra personalidade e um espírito de grande profundidade, justiça, esperança, filantropia, alegria e felicidade. Abençoado e com charme, sensibilidade e imaginação fértil, o três precisa equilibrar essas qualidades com alguma forma de fundação sólida na vida. Embora seja, em geral, artístico, charmoso e elegante, com excelentes relacionamentos, e tenha um bom-senso de humor, talvez precise desenvolver a autoestima e evitar tendências à preocupação ou insegurança emocional. \n";
+                resposta = "Revela a primeira impressão que os outros têm de nós, antes " +
+                        "de nos conhecerem. \n\n"+
+                        "É do tipo social, amistoso, alegre e jovial. O 3 é popular, atraente," +
+                        " criativo, gostando de ser aplaudido, notado, admirado, ou seja, " +
+                        "que o vejam como um verdadeiro artista. Normalmente cultiva a " +
+                        "criatividade, os contatos sociais e a expressão de suas próprias ideais e sentimentos, especialmente através de alguma forma de arte. \n" +
+                        "Demonstra personalidade e um espírito de grande profundidade, justiça," +
+                        " esperança, filantropia, alegria e felicidade. Abençoado e com charme," +
+                        " sensibilidade e imaginação fértil, o três precisa equilibrar essas " +
+                        "qualidades com alguma forma de fundação sólida na vida. Embora seja," +
+                        " em geral, artístico, charmoso e elegante, com excelentes " +
+                        "relacionamentos, e tenha um bom-senso de humor, talvez precise " +
+                        "desenvolver a autoestima e evitar tendências à preocupação ou " +
+                        "insegurança emocional. \n";
                 break;
 
             case "4":
-                resposta = "Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
-                        "É o número da consumação e da manifestação da luz. É o número do entendimento e da ordem; é a chave que abrirá muitas portas mágicas fechadas ao homem comum. É o número dos seres rígidos, fortes, seguros, objetivos, trabalhadores, conservadores e dignos de confiança; o sustentáculo da família, da empresa e dos amigos. \n" +
-                        "É naturalmente preciso, simples, comedido, sendo apreciador de boa música, teatro e gastronomia. É elegante no vestir, preferindo o clássico ao moderno. \n" +
-                        "A sólida estrutura e capacidade de organização mostra que o quatro precisa de estabilidade e ordem. Como a natureza o dotou de grande energia, habilidades práticas e forte determinação, com certeza conseguirá, com estes predicados, atingir seus objetivos. \n" +
-                        "É detalhista, ordeiro, natural no andar, de gestos simples e graciosos. Bom ouvinte está sempre interessado nas conversas alheias quando estas lhe parecem sinceras e concretas. \n" +
+                resposta = "Revela a primeira impressão que os outros têm de nós, antes " +
+                        "de nos conhecerem. \n\n"+
+                        "É o número da consumação e da manifestação da luz. É o número do " +
+                        "entendimento e da ordem; é a chave que abrirá muitas portas mágicas " +
+                        "fechadas ao homem comum. É o número dos seres rígidos, fortes, seguros," +
+                        " objetivos, trabalhadores, conservadores e dignos de confiança; o " +
+                        "sustentáculo da família, da empresa e dos amigos. \n" +
+                        "É naturalmente preciso, simples, comedido, sendo apreciador de boa " +
+                        "música, teatro e gastronomia. É elegante no vestir, preferindo o " +
+                        "clássico ao moderno. \n" +
+                        "A sólida estrutura e capacidade de organização mostra que o quatro " +
+                        "precisa de estabilidade e ordem. Como a natureza o dotou de grande " +
+                        "energia, habilidades práticas e forte determinação, com certeza " +
+                        "conseguirá, com estes predicados, atingir seus objetivos. \n" +
+                        "É detalhista, ordeiro, natural no andar, de gestos simples e graciosos." +
+                        " Bom ouvinte está sempre interessado nas conversas alheias quando " +
+                        "estas lhe parecem sinceras e concretas. \n" +
                         "\n";
                 break;
 
             case "5":
-                resposta = "Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
-                        "É um número mágico e peculiar, que era usado pelos gregos e romanos como amuleto para proteger o portador dos espíritos malignos. O dono deste número é normalmente intuitivo, fazendo-o normalmente conhecer o âmago, o caráter e sentimentos alheios. É um ser cativante, interessante, agradável e por que não dizer, magnético. \n" +
-                        "Sonha em viajar por todos os recantos do planeta levando uma vida de aventuras, sem vínculos ou até mesmo sem muita responsabilidade (não que não a tenha). \n" +
-                        "Sabe se defender dos inimigos é esperto e dificilmente consegue ser enganado. É também muito leal e sabe fazer amizades e também inimizades com muita facilidade. \n" +
-                        "Está sempre à procura do que está além da superfície dos seres e das coisas, gostando de se mostrar antecipado, ora criando, descobrindo ou ditando modas. Uma das suas maiores virtudes é o entusiasmo com que encara qualquer inovação ou novidade, além de estar sempre bem informado sobre todas as coisas, sendo muito difícil surpreendê-lo. \n" +
-                        "Mesmo quando a idade chegar, terá sempre uma aparência alegre e juvenil. O desejo de explorar ou experimentar qualquer novidade e a abordagem entusiástica, sugerem que a vida tem muito a lhe oferecer. \n" +
-                        "O charme é dos seus atributos naturais e, por isso, não tem problemas em atrair admiradores e amantes.\n";
+                resposta = "Revela a primeira impressão que os outros têm de nós, antes " +
+                        "de nos conhecerem. \n\n"+
+                        "É um número mágico e peculiar, que era usado pelos gregos e romanos" +
+                        " como amuleto para proteger o portador dos espíritos malignos. O dono" +
+                        " deste número é normalmente intuitivo, fazendo-o normalmente conhecer" +
+                        " o âmago, o caráter e sentimentos alheios. É um ser cativante, " +
+                        "interessante, agradável e por que não dizer, magnético. \n" +
+                        "Sonha em viajar por todos os recantos do planeta levando uma vida de " +
+                        "aventuras, sem vínculos ou até mesmo sem muita responsabilidade " +
+                        "(não que não a tenha). \n" +
+                        "Sabe se defender dos inimigos é esperto e dificilmente consegue ser" +
+                        " enganado. É também muito leal e sabe fazer amizades e também " +
+                        "inimizades com muita facilidade. \n" +
+                        "Está sempre à procura do que está além da superfície dos seres e das" +
+                        " coisas, gostando de se mostrar antecipado, ora criando, descobrindo " +
+                        "ou ditando modas. Uma das suas maiores virtudes é o entusiasmo com que" +
+                        " encara qualquer inovação ou novidade, além de estar sempre bem " +
+                        "informado sobre todas as coisas, sendo muito difícil surpreendê-lo. \n" +
+                        "Mesmo quando a idade chegar, terá sempre uma aparência alegre e " +
+                        "juvenil. O desejo de explorar ou experimentar qualquer novidade e a " +
+                        "abordagem entusiástica, sugerem que a vida tem muito a lhe oferecer. \n" +
+                        "O charme é dos seus atributos naturais e, por isso, não tem problemas" +
+                        " em atrair admiradores e amantes.\n";
                 break;
 
             case "6":
-                resposta ="Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
-                        "É visto como a perfeição dos números pelos cabalistas e o filósofo grego Nicomachus o chama de Vênus, deusa a quem era consagrado e razão pela qual é tido como o número do amor. O portador deste número é elegante, atraente, do tipo paternal e em certas ocasiões, encantador. Sonha com uma família maravilhosa, uma bela casa, com varandas, flores e sempre pronta para receber os amigos. \n" +
-                        "É de certa maneira contraditório, pois enquanto tem o dom da harmonia, também atrai confusão; é o número da sedução, do vício e da virtude, das incertezas no casamento e também do amor puro e simples; gosta de segurança, tem senso de responsabilidade, ama o social (tem tendência à extravagância) e não suporta viver só. \n" +
-                        "O seis possui uma nobreza interior que se mostra especialmente quando ocupa posição de liderança ou de responsabilidade. Encara o trabalho com seriedade e dá o melhor de si quando tem liberdade de ação. Quando aprende a examinar todos os fatos de qualquer situação difícil ou a ceder em vez de se lançar em jogos de poder, tem resultados mais positivos. \n";
+                resposta ="Revela a primeira impressão que os outros têm de nós, antes" +
+                        " de nos conhecerem. \n\n"+
+                        "É visto como a perfeição dos números pelos cabalistas e o filósofo" +
+                        " grego Nicomachus (chamas de Vênus), deusa a quem era consagrado e" +
+                        " razão pela qual é tido como o número do amor. O portador deste " +
+                        "número é elegante, atraente, do tipo paternal e em certas ocasiões," +
+                        " encantador. Sonha com uma família maravilhosa, uma bela casa, com" +
+                        " varandas, flores e sempre pronta para receber os amigos. \n" +
+                        "É de certa maneira contraditório, pois enquanto tem o dom da harmonia," +
+                        " também atrai confusão; é o número da sedução, do vício e da virtude," +
+                        " das incertezas no casamento e também do amor puro e simples; gosta de" +
+                        " segurança, tem senso de responsabilidade, ama o social (tem tendência" +
+                        " à extravagância) e não suporta viver só. \n" +
+                        "O seis possui uma nobreza interior que se mostra especialmente quando" +
+                        " ocupa posição de liderança ou de responsabilidade. Encara o trabalho" +
+                        " com seriedade e dá o melhor de si quando tem liberdade de ação. Quando" +
+                        " aprende a examinar todos os fatos de qualquer situação difícil ou a " +
+                        "ceder em vez de se lançar em jogos de poder, tem resultados mais positivos. \n";
                 break;
 
             case "7":
-                resposta = "Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
-                        "É um número classificado como próspero e geralmente é visto assim. É um número inteiramente religioso e como tal foi estimado pelos antigos; representa o triunfo do espírito sobre a matéria. Tem facilidade de adquirir numerosas simpatias no mundo social. Seu grande desejo é se ver cercado de livros numa atmosfera de paz, beleza e tranquilidade, e isso o leva a imaginar-se sábio e também o refúgio aonde todos venham consultar. \n" +
-                        "É tremendamente místico, de natureza meditativa e também solitária, apesar de gostar da companhia dos amigos e também de elogios, vivendo à procura do entendimento e também do esclarecimento de suas dúvidas e conflitos. Dispõe de natureza expressiva, única e imponente, pois a sua personalidade sete, não pode ser imitada pelos que não pertencem à mesma vibração. Possui personalidade exigente, sinceridade e honestidade com todos, exigindo, é claro, reciprocidade. Tem natureza distinta, delicada, sóbria, não gostando muito de aparecer. \n" +
-                        "Como é uma pessoa sensível, com sentimentos intensos e profundos, aprende a relaxar procurando ser alegre e evitando sobrecarregar sua mente quando enfrenta situações estressantes. A tendência a ser enigmático ou dissimulado, muitas vezes o leva a desenvolver a arte de fazer perguntas sutis sem deixar que ninguém saiba o que realmente está pensando.\n";
+                resposta = "Revela a primeira impressão que os outros têm de nós, antes " +
+                        "de nos conhecerem. \n\n"+
+                        "É um número classificado como próspero e geralmente é visto assim." +
+                        " É um número inteiramente religioso e como tal foi estimado pelos " +
+                        "antigos; representa o triunfo do espírito sobre a matéria. Tem " +
+                        "facilidade de adquirir numerosas simpatias no mundo social. Seu " +
+                        "grande desejo é se ver cercado de livros numa atmosfera de paz, " +
+                        "beleza e tranquilidade, e isso o leva a imaginar-se sábio e também " +
+                        "o refúgio aonde todos venham consultar. \n" +
+                        "É tremendamente místico, de natureza meditativa e também solitária, " +
+                        "apesar de gostar da companhia dos amigos e também de elogios, vivendo" +
+                        " à procura do entendimento e também do esclarecimento de suas dúvidas" +
+                        " e conflitos. Dispõe de natureza expressiva, única e imponente, pois" +
+                        " a sua impressão sete, não pode ser imitada pelos que não " +
+                        "pertencem à mesma vibração. Possui personalidade exigente, sinceridade" +
+                        " e honestidade com todos, exigindo, é claro, reciprocidade. Tem " +
+                        "natureza distinta, delicada, sóbria, não gostando muito de aparecer. \n" +
+                        "Como é uma pessoa sensível, com sentimentos intensos e profundos, " +
+                        "aprende a relaxar procurando ser alegre e evitando sobrecarregar sua" +
+                        " mente quando enfrenta situações estressantes. A tendência a ser " +
+                        "enigmático ou dissimulado, muitas vezes o leva a desenvolver a arte" +
+                        " de fazer perguntas sutis sem deixar que ninguém saiba o que realmente" +
+                        " está pensando.\n";
                 break;
 
             case "8":
-                resposta = "Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
-                        "Este número é peculiar e visto como de grande poder pelos antigos gregos e cabalistas, que diziam: “Todas as coisas são oito”. O oito aparenta imponência e influência, mesmo que esteja com problemas pessoais ou financeiros. Tem raciocínio vivo e perspicaz, e seus modos são calmos e equilibrados. Sonha em ser o comandante de grande empreendimento comercial, um poderoso executivo, sempre cercado de tudo e de todos e chefiando numerosos empregados. \n" +
-                        "É ordeiro, prático e está sempre procurando fazer do seu local de trabalho um lugar agradável e eficiente, onde existam todas as coisas necessárias ao bom desenvolvimento profissional. \n" +
-                        "Quando é atingido em seu amor próprio, é passível de impulsos de mau humor e até certas repulsas a brincadeiras. Altamente criativo, o oito tem uma força vigorosa que o impele a sempre buscar novas formas de realização. Naturalmente dramático, mas com aversão a obedecer aos outros, não gosta de receber críticas. Tem uma incrível habilidade para lidar com as pessoas e fazer contatos, mas pode alterar entre ser caloroso e atencioso e ser frio e indiferente. \n" +
-                        "Gosta de ser notado e de dar impressão de estar bem financeiramente. Tem senso natural para os negócios e se beneficiará muito se desenvolver suas habilidades executivas e de organização.\n";
+                resposta = "Revela a primeira impressão que os outros têm de nós, antes " +
+                        "de nos conhecerem. \n\n"+
+                        "Este número é peculiar e visto como de grande poder pelos antigos" +
+                        " gregos e cabalistas, que diziam: “Todas as coisas são oito”. " +
+                        "O oito aparenta imponência e influência, mesmo que esteja com " +
+                        "problemas pessoais ou financeiros. Tem raciocínio vivo e perspicaz, " +
+                        "e seus modos são calmos e equilibrados. Sonha em ser o comandante " +
+                        "de grande empreendimento comercial, um poderoso executivo, sempre " +
+                        "cercado de tudo e de todos e chefiando numerosos empregados. \n" +
+                        "É ordeiro, prático e está sempre procurando fazer do seu local de " +
+                        "trabalho um lugar agradável e eficiente, onde existam todas as coisas" +
+                        " necessárias ao bom desenvolvimento profissional. \n" +
+                        "Quando é atingido em seu amor próprio, é passível de impulsos de " +
+                        "mau humor e até certas repulsas a brincadeiras. Altamente criativo," +
+                        " o oito tem uma força vigorosa que o impele a sempre buscar novas" +
+                        " formas de realização. Naturalmente dramático, mas com aversão a " +
+                        "obedecer aos outros, não gosta de receber críticas. Tem uma incrível" +
+                        " habilidade para lidar com as pessoas e fazer contatos, mas pode " +
+                        "alterar entre ser caloroso e atencioso e ser frio e indiferente. \n" +
+                        "Gosta de ser notado e de dar impressão de estar bem financeiramente. " +
+                        "Tem senso natural para os negócios e se beneficiará muito se " +
+                        "desenvolver suas habilidades executivas e de organização.\n";
                 break;
 
             case "9":
-                resposta = "Revela a primeira impressão que os outros têm de nós, antes de nos conhecerem. \n\n"+
-                        "É o ser que atrai sempre simpatias e antipatias na mesma proporção. Sonha em ser um humanitarista, ávido por servir, compreensivo em relação aos sofrimentos alheios e uma fonte de conforto e aconselhamento. Realiza-se pelo esforço que emprega em resolver os problemas alheios, dando-lhes amizade e carinho. \n" +
-                        "É um visionário, sempre em busca de harmonia, esclarecimento e analisando tudo e todos, procurando desvendar os problemas mais obscuros e incompreendidos da Natureza. \n" +
-                        "Possui rara inteligência e também profundos conhecimentos sobre os mais diversos assuntos, mesmo que tenha tido uma educação insuficiente. \n" +
-                        "Pela sua aparência (imponente), personalidade marcante, sabedoria, bondade, compreensão e ponderação, normalmente inspira confiança em todos que o conhecem, podendo produzir admiráveis resultados, pois normalmente atinge o fim a que se propõe. Quando vê as coisas correrem como quer, normalmente se sente leve e sabe julgar o caráter das pessoas. Isso lhe permite ser sociável e voltado para as coisas públicas, características que, quando combinadas, o levam a ajudar muitas pessoas.\n";
+                resposta = "Revela a primeira impressão que os outros têm de nós, antes " +
+                        "de nos conhecerem. \n\n"+
+                        "É o ser que atrai sempre simpatias e antipatias na mesma proporção." +
+                        " Sonha em ser um humanitarista, ávido por servir, compreensivo em " +
+                        "relação aos sofrimentos alheios e uma fonte de conforto e " +
+                        "aconselhamento. Realiza-se pelo esforço que emprega em resolver os" +
+                        " problemas alheios, dando-lhes amizade e carinho. \n" +
+                        "É um visionário, sempre em busca de harmonia, esclarecimento e " +
+                        "analisando tudo e todos, procurando desvendar os problemas mais " +
+                        "obscuros e incompreendidos da Natureza. \n" +
+                        "Possui rara inteligência e também profundos conhecimentos sobre os" +
+                        " mais diversos assuntos, mesmo que tenha tido uma educação " +
+                        "insuficiente. \n" +
+                        "Pela sua aparência (imponente), personalidade marcante, sabedoria," +
+                        " bondade, compreensão e ponderação, normalmente inspira confiança em " +
+                        "todos que o conhecem, podendo produzir admiráveis resultados, pois " +
+                        "normalmente atinge o fim a que se propõe. Quando vê as coisas correrem" +
+                        " como quer, normalmente se sente leve e sabe julgar o caráter das " +
+                        "pessoas. Isso lhe permite ser sociável e voltado para as coisas " +
+                        "públicas, características que, quando combinadas, o levam a ajudar " +
+                        "muitas pessoas.\n";
                 break;
 
             default:
@@ -419,10 +823,10 @@ public class Definicoes {
             default:
                 resposta = "ERRO";
                 break;
-}
+        }
 
         return resposta;
-                }
+    }
 
     public String destino(String numDestino){
 
@@ -430,68 +834,181 @@ public class Definicoes {
 
         switch (numDestino){
             case "1":
-                resposta ="O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
-                        "Normalmente é um ser talentoso e espirituoso, em geral uma pessoa ativa e produtiva, dotada de uma inteligência aguçada e perspicaz Se for estimulado por um projeto que considere valer a pena, tem o talento, a vitalidade e a capacidade para realizações extraordinárias. \n" +
-                        "O 1 necessita de brilho, de reconhecimento e sucesso. Para conseguir esse estágio, se dedicam exaustivamente ao trabalho e normalmente são os melhores na sua área de atuação. Quem com ele convive, fica muito intrigado, pois demonstra sempre um semblante feliz, alegre, descontraído e, acima de tudo, de muita confiança em suas realizações, mesmo que tudo isso não seja verdade.";
+                resposta ="O destino rege a vida do ser humano e indica o seu \"caminho\"" +
+                        " evolutivo. Ele orienta as decisões mais importantes na vida; " +
+                        "aquelas que determinam o que resultará das aplicações dos seus dons e" +
+                        " talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Normalmente é um ser talentoso e espirituoso, em geral uma pessoa " +
+                        "ativa e produtiva, dotada de uma inteligência aguçada e perspicaz. Se " +
+                        "for estimulado por um projeto que considere valer a pena, tem o " +
+                        "talento, a vitalidade e a capacidade para realizações extraordinárias. \n" +
+                        "O 1 necessita de brilho, de reconhecimento e sucesso. Para conseguir" +
+                        " esse estágio, se dedicam exaustivamente ao trabalho e normalmente " +
+                        "são os melhores na sua área de atuação. Quem com ele convive, fica " +
+                        "muito intrigado, pois demonstra sempre um semblante feliz, alegre, " +
+                        "descontraído e, acima de tudo, de muita confiança em suas realizações," +
+                        " mesmo que tudo isso não seja verdade.";
                 break;
 
             case "2":
-                resposta ="O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
-                        "Tem habilidades diplomáticas naturais e sabe deixar os outros à vontade. Normalmente as pessoas se sentem atraídas por sua gentileza e maneiras refinadas e normalmente se ajusta bem a trabalhos em conjunto. É amigo leal, excelente pai ou mãe e faz grande questão de proteger os familiares, amigos ou simplesmente colegas de trabalho. \n" +
-                        "Quando consegue ver as pessoas e situações a partir de uma perspectiva superior, pode dar muito de si, ao mesmo tempo em que se mantém distante, confiando que a vida irá naturalmente resolver as coisas no tempo devido.";
+                resposta ="O destino rege a vida do ser humano e indica o seu \"caminho\"" +
+                        " evolutivo. Ele orienta as decisões mais importantes na vida; " +
+                        "aquelas que determinam o que resultará das aplicações dos seus dons e" +
+                        " talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Tem habilidades diplomáticas naturais e sabe deixar os outros à " +
+                        "vontade. Normalmente as pessoas se sentem atraídas por sua gentileza" +
+                        " e maneiras refinadas. Normalmente se ajusta bem a trabalhos em" +
+                        " conjunto, pois é um amigo leal, excelente pai ou mãe e faz grande questão" +
+                        " de proteger os familiares, amigos ou simplesmente colegas de trabalho. \n" +
+                        "Consegue ver as pessoas e situações a partir de uma perspectiva" +
+                        " superior, pode dar muito de si, ao mesmo tempo em que se mantém " +
+                        "distante, confiando que a vida irá naturalmente resolver as coisas no " +
+                        "tempo devido.";
                 break;
 
             case "3":
-                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
-                        "Ao longo da sua existência deve sempre procurar cultivar esses dotes, ou seja, a criatividade, os contatos sociais e a expressão de suas ideais e sentimentos. \n" +
-                        "Tudo o que faz cresce e se multiplica. Tem, na comunicação, como um todo, o seu principal trunfo para ser próspero e feliz. A emoção e a criatividade são as razões do seu sucesso, pois tem extraordinária facilidade de expressão e também grande capacidade executiva. \n" +
-                        "Dinâmico e versátil, tem uma personalidade charmosa e habilidade para promover suas ideais. Quanto mais se dedicar ao trabalho, melhores serão os resultados e recompensas. Pode ser bem sucedido como vendedor, professor, relações públicas, nas artes plásticas ou cênicas ou em contato com o público.";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\"" +
+                        " evolutivo. Ele orienta as decisões mais importantes na vida; " +
+                        "aquelas que determinam o que resultará das aplicações dos seus dons e" +
+                        " talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Ao longo da sua existência deve sempre procurar cultivar esses dotes," +
+                        " ou seja, a criatividade, os contatos sociais e a expressão de suas " +
+                        "ideais e sentimentos. \n" +
+                        "Tudo o que faz cresce e se multiplica. Tem, na comunicação, como um " +
+                        "todo, o seu principal trunfo para ser próspero e feliz. A emoção e a " +
+                        "criatividade são as razões do seu sucesso, pois tem extraordinária " +
+                        "facilidade de expressão e também grande capacidade executiva. \n" +
+                        "Dinâmico e versátil, tem uma personalidade charmosa e habilidade para" +
+                        " promover suas ideais. Quanto mais se dedicar ao trabalho, melhores " +
+                        "serão os resultados e recompensas. Pode ser bem sucedido como vendedor," +
+                        " professor, relações públicas, nas artes plásticas ou cênicas ou em " +
+                        "contato com o público.";
                 break;
 
             case "4":
-                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
-                        "Terá de trabalhar muito, com muita dedicação para manter a vida financeira, afetiva e social. Porém, tudo o que consegue é sólido e eterno. Dedica-se de corpo e alma aos seus projetos e conquistas e quase sempre é bem sucedido profissionalmente. Tem poucos amigos, porém sinceros e não se interessa por quantidade, preferindo a qualidade em tudo e em todos. Sensível, cheio de ideais criativas e com senso de visão, tem potencial para expressar os seus conceitos originais e inspirados. Isso pode ajudá-lo a superar possíveis preocupações quanto à sua instabilidade financeira e a tomar as decisões corretas. Em si repousa a segurança e a estabilidade para manter tudo e todos que dele dependem.";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" " +
+                        "evolutivo. Ele orienta as decisões mais importantes na vida; " +
+                        "aquelas que determinam o que resultará das aplicações dos seus dons e" +
+                        " talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Terá de trabalhar muito, com muita dedicação para manter a vida " +
+                        "financeira, afetiva e social. Porém, tudo o que consegue é sólido e" +
+                        " eterno. Dedica-se de corpo e alma aos seus projetos e conquistas," +
+                        " quase sempre é bem sucedido profissionalmente. Tem poucos amigos, " +
+                        "porém sinceros e não se interessa por quantidade, preferindo a " +
+                        "qualidade em tudo e em todos. Sensível, cheio de ideais criativas e" +
+                        " com senso de visão, tem potencial para expressar os seus conceitos" +
+                        " originais e inspirados. Isso pode ajudá-lo a superar possíveis " +
+                        "preocupações quanto à sua instabilidade financeira e a tomar as " +
+                        "decisões corretas. Em si repousa a segurança e a estabilidade para " +
+                        "manter tudo e todos que dele dependem.";
                 break;
 
             case "5":
-                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
-                        "É alegre, comunicativo, inteligente e receptivo, sempre bem-vindo em qualquer roda. Curioso, dotado de capacidade de discernimento, geralmente procura se fortalecer através do conhecimento. Com ele não existe “mau tempo”; está sempre de bem com a vida e, por isso, por vezes é confundido e até tachado de irresponsável, coisa que não é, em absoluto. \n" +
-                        "Como é mentalmente ativo, gosta de um bom desafio intelectual. Contudo, a sua inclinação para se envolver em disputas implica que quando não consegue o que quer pode ficar irascível.";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\"" +
+                        " evolutivo. Ele orienta as decisões mais importantes na vida; " +
+                        "aquelas que determinam o que resultará das aplicações dos seus dons e" +
+                        " talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "É alegre, comunicativo, inteligente e receptivo, sempre bem-vindo em" +
+                        " qualquer roda. Curioso, dotado de capacidade de discernimento, " +
+                        "geralmente procura se fortalecer através do conhecimento. Com ele" +
+                        " não existe “mau tempo”; está sempre de bem com a vida e, por isso," +
+                        " por vezes é confundido e até tachado de irresponsável, coisa que " +
+                        "não é, em absoluto. \n" +
+                        "Como é mentalmente ativo, gosta de um bom desafio intelectual. " +
+                        "Contudo, a sua inclinação para se envolver em disputas implica que" +
+                        " quando não consegue o que quer pode ficar irascível.";
                 break;
 
             case "6":
-                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
-                        "A sua forte personalidade, combinada com sua capacidade amorosa e seu charme, pode ser muito atraente para os demais. É ambicioso mas também compreensivo e encorajador, com disposição de fazer qualquer coisa pelas pessoas que ama. Detesta aglomerações e festividades excessivas, gosta da harmonia e de viver em paz. Geralmente se dá bem em relacionamentos afetivos, pois é amável e muito gentil.";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\"" +
+                        " evolutivo. Ele orienta as decisões mais importantes na vida; " +
+                        "aquelas que determinam o que resultará das aplicações dos seus dons" +
+                        " e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "A sua forte personalidade, combinada com sua capacidade amorosa e " +
+                        "seu charme, pode ser muito atraente para os demais. É ambicioso mas " +
+                        "também compreensivo e encorajador, com disposição de fazer qualquer " +
+                        "coisa pelas pessoas que ama. Detesta aglomerações e festividades " +
+                        "excessivas, gosta da harmonia e de viver em paz. Geralmente se dá " +
+                        "bem em relacionamentos afetivos, pois é amável e muito gentil.";
                 break;
 
             case "7":
-                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
-                        "Busca sempre o lado oculto das coisas e das pessoas. Nunca se satisfaz com as aparências, preferindo conhecer a essência. \n" +
-                        "Com uma necessidade constante de ter uma maior autoconsciência, gosta de reunir informações e se interessa por ler, escrever por assuntos espirituais. A tendência a ser enigmático ou reservado sugere que pode ocasionalmente se sentir mal interpretado.";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\"" +
+                        " evolutivo. Ele orienta as decisões mais importantes na vida; " +
+                        "aquelas que determinam o que resultará das aplicações dos seus dons" +
+                        " e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Busca sempre o lado oculto das coisas e das pessoas. Nunca se " +
+                        "satisfaz com as aparências, preferindo conhecer a essência. \n" +
+                        "Com uma necessidade constante de ter uma maior autoconsciência, " +
+                        "gosta de reunir informações e se interessa por ler, assuntos " +
+                        "espirituais. A tendência a ser enigmático ou reservado " +
+                        "sugere que pode ocasionalmente se sentir mal interpretado.";
                 break;
 
             case "8":
-                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
-                        "A sua necessidade de crescimento e habilidade para rever o todo sugere que gosta de pensar em grandes termos. Confiante e curioso, não gosta de interferências de outras pessoas e, com a inclinação à teimosia, pode tornar-se inquieto e impaciente.";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\"" +
+                        " evolutivo. Ele orienta as decisões mais importantes na vida; " +
+                        "aquelas que determinam o que resultará das aplicações dos seus dons" +
+                        " e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "A sua necessidade de crescimento e habilidade para rever o todo" +
+                        " sugere que gosta de pensar em grandes termos. Confiante e curioso," +
+                        " não gosta de interferências de outras pessoas e, com a inclinação à " +
+                        "teimosia, pode tornar-se inquieto e impaciente.";
                 break;
 
             case "9":
-                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
-                        "Com sua grande capacidade para adquirir conhecimentos, pode ser bem sucedido no meio acadêmico ou nas áreas de advocacia, psicologia, medicina, literatura, ou ainda nas artes plásticas de um modo geral e, principalmente, no meio esotérico.";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\"" +
+                        " evolutivo. Ele orienta as decisões mais importantes na vida; " +
+                        "aquelas que determinam o que resultará das aplicações dos seus dons" +
+                        " e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Com sua grande capacidade para adquirir conhecimentos, pode ser " +
+                        "bem sucedido no meio acadêmico ou nas áreas de advocacia, " +
+                        "psicologia, medicina, literatura, ou ainda nas artes plásticas " +
+                        "de um modo geral e, principalmente, no meio esotérico.";
                 break;
 
             case "11":
-                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
-                        "Sensível e idealista, é normalmente uma pessoa enérgica, com enorme potencial mental quando está disposto a se disciplinar através da concentração nos seus objetivos. Versátil e imaginativo, precisa expressar o seu poder criativo e emocional. A compostura e a perseverança são frequentemente a chave para o seu sucesso, e pode impressionar quando se especializa em uma área específica. \n" +
-                        "O número-mestre 11 sugere que o idealismo, a inspiração e a inovação são altamente importante para ele. Uma combinação de humildade e confiança o desafia a trabalhar para alcançar a independência financeira e espiritual. \n" +
-                        "É concentrado, objetivo, inspirador, muito espiritualizado, intuitivo, expansivo, prestativo, tem grande habilidade para curar, é humanitário e psíquico.";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\"" +
+                        " evolutivo. Ele orienta as decisões mais importantes na vida; " +
+                        "aquelas que determinam o que resultará das aplicações dos seus dons" +
+                        " e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "Sensível e idealista, é normalmente uma pessoa enérgica, com enorme" +
+                        " potencial mental quando está disposto a se disciplinar através da" +
+                        " concentração nos seus objetivos. Versátil e imaginativo, precisa" +
+                        " expressar o seu poder criativo e emocional. A compostura e a " +
+                        "perseverança são frequentemente a chave para o seu sucesso, e pode" +
+                        " impressionar quando se especializa em uma área específica. \n" +
+                        "O número-mestre 11 sugere que o idealismo, a inspiração e a " +
+                        "inovação são altamente importante para ele. Uma combinação de " +
+                        "humildade e confiança o desafia a trabalhar para alcançar a independência financeira e espiritual. \n" +
+                        "É concentrado, objetivo, inspirador, muito espiritualizado, " +
+                        "intuitivo, expansivo, prestativo, tem grande habilidade para " +
+                        "curar, é humanitário e psíquico.";
                 break;
 
             case "22":
-                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\" evolutivo. Ele orienta as decisões mais importantes na vida; aquelas que determinam o que resultará das aplicações dos seus dons e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
-                        "O Destino mestre 22 é orgulhoso, prático e altamente intuitivo. Normalmente honesto e trabalhador, com capacidade natural para a liderança, possui uma personalidade carismática e uma compreensão profunda das pessoas e de suas motivações. Apesar de ser reservado, muitas vezes tem uma preocupação atenciosa e protetora com o bem-estar das pessoas, mas nunca perde de vista a sua posição realista e pragmática. Em geral culto e mundano, tem muitos amigos e admiradores. Os que são mais competitivos, podem alcançar o sucesso e a fortuna com a ajuda e o encorajamento dos amigos e familiares. \n" +
-                        "Charmoso, talentoso, comunicativo e diplomata natural, pode seguir carreiras nas áreas de vendas, promoções, agências ou de relações públicas. Da mesma forma, pode se dedicar ao mundo das comunicações, área editorial, política, educação, medicina e, principalmente, à área holística, ajudando a humanidade. \n" +
-                        "Além de todos estes dons, ainda possui facilidade de entender e desenvolver processos de alta magia, entendida como uma força extrafísica e não como uma forma racional";
+                resposta = "O destino rege a vida do ser humano e indica o seu \"caminho\"" +
+                        " evolutivo. Ele orienta as decisões mais importantes na vida; " +
+                        "aquelas que determinam o que resultará das aplicações dos seus dons" +
+                        " e talentos nas suas realizações pessoais conforme for a sua vocação.\n\n" +
+                        "O Destino mestre 22 é orgulhoso, prático e altamente intuitivo." +
+                        " Normalmente honesto e trabalhador, com capacidade natural para " +
+                        "a liderança, possui uma personalidade carismática e uma compreensão" +
+                        " profunda das pessoas e de suas motivações. Apesar de ser reservado," +
+                        " muitas vezes tem uma preocupação atenciosa e protetora com o " +
+                        "bem-estar das pessoas, mas nunca perde de vista a sua posição " +
+                        "realista e pragmática. Em geral culto e mundano, tem muitos amigos" +
+                        " e admiradores. Os que são mais competitivos, podem alcançar o " +
+                        "sucesso e a fortuna com a ajuda e o encorajamento dos amigos e " +
+                        "familiares. \n" +
+                        "Charmoso, talentoso, comunicativo e diplomata natural, pode seguir" +
+                        " carreiras nas áreas de vendas, promoções, agências ou de relações" +
+                        " públicas. Da mesma forma, pode se dedicar ao mundo das comunicações," +
+                        " área editorial, política, educação, medicina e, principalmente, à " +
+                        "área holística, ajudando a humanidade. \n" +
+                        "Além de todos estes dons, ainda possui facilidade de entender e " +
+                        "desenvolver processos de alta magia, entendida como uma força " +
+                        "extrafísica e não como uma forma racional";
                 break;
 
             default:
@@ -559,65 +1076,152 @@ public class Definicoes {
         return resposta;
     }
 
-   public String orientDest(String numOrientacaoDest){
+    public String orientDest(String numOrientacaoDest){
 
         String resposta;
 
         switch (numOrientacaoDest){
             case "1":
-                resposta = "Como não gosta de receber ordens, deve sempre procurar trabalhar por conta própria ou em cargo de chefia. Sendo individualista, íntegro e honesto em seus propósitos, deve aprender a ser pioneiro, a trabalhar em grupo e a ser comandante, não ditador; a ouvir conselhos, analisar situações e, após meditar sobre o assunto, tomar decisões. Ou seja, não agir precipitadamente.";
+                resposta = "Como não gosta de receber ordens, deve sempre procurar " +
+                        "trabalhar por conta própria ou em cargo de chefia. Sendo " +
+                        "individualista, íntegro e honesto em seus propósitos, deve " +
+                        "aprender a ser pioneiro, a trabalhar em grupo e a ser comandante," +
+                        " não ditador; a ouvir conselhos, analisar situações e, após meditar" +
+                        " sobre o assunto, tomar decisões. Ou seja, não agir precipitadamente.";
                 break;
 
             case "2":
-                resposta = "Precisa cultivar a paciência, cooperação, tato, lealdade, aplicação e capacidade de seguir a orientação dos outros. \n" +
-                        "Sendo o seu principal atributo a união, deve aprender a unir todos aqueles que desejam essa parceria. Porém, não deve interferir (o que normalmente faz) naqueles que não desejam estar unidos. \n" +
-                        "Trabalhe sempre em parceria; se não existir, procure. Não fique parado esperando que as coisas caiam do céu ou que apareça alguém do nada para lhe ajudar a resolver seus problemas.";
+                resposta = "Precisa cultivar a paciência, cooperação, tato, lealdade, " +
+                        "aplicação e capacidade de seguir a orientação dos outros. \n" +
+                        "Sendo o seu principal atributo a união, deve aprender a unir " +
+                        "todos aqueles que desejam essa parceria. Porém, não deve interferir" +
+                        " (o que normalmente faz) naqueles que não desejam estar unidos. \n" +
+                        "Trabalhe sempre em parceria; se não existir, procure. Não fique " +
+                        "parado esperando que as coisas caiam do céu ou que apareça alguém " +
+                        "do nada para lhe ajudar a resolver seus problemas.";
                 break;
 
             case "3":
-                resposta = "Como nasceu com o dom da palavra, da comunicação, deve usar esse dom intuitivo para alcançar sucesso em trabalhos mentais. Embora o dia 3 faça com que seja artístico e charmoso, dotado de um bom senso de humor, precisa desenvolver a autoestima e evitar as tendências a se preocupar ou se sentir emocionalmente inseguro. \n" +
-                        "Deve, ainda, manter sob controle suas necessidades de movimentação e os excessos de atividades corriqueiras. Seja mais seleto nas amizades, ou seja, procure qualidade à quantidade.";
+                resposta = "Como nasceu com o dom da palavra, da comunicação, deve usar " +
+                        "esse dom intuitivo para alcançar sucesso em trabalhos mentais. " +
+                        "Embora o seu destino faça com que seja artístico e charmoso, dotado de " +
+                        "um bom senso de humor, precisa desenvolver a autoestima e evitar as " +
+                        "tendências a se preocupar ou se sentir emocionalmente inseguro. \n" +
+                        "Deve, ainda, manter sob controle suas necessidades de movimentação e" +
+                        " os excessos de atividades corriqueiras. Seja mais seleto nas " +
+                        "amizades, ou seja, procure qualidade à quantidade.";
                 break;
 
             case "4":
-                resposta = "Deve viver ponderadamente, desenvolver o senso de responsabilidade moral, equilíbrio no poder e correta aplicação do saber em todos os seus projetos e realizações. Para viver sem muitos altos e baixos, precisa praticar a justiça, a ponderação e serviço a terceiros, sempre que a oportunidade se oferecer. Deve se relacionar positivamente com todos e respeitar o direito que eles tem de errarem. Deve, também, se relacionar com pessoas inteligentes e com as quais possa compartilhar os seus interesses.";
+                resposta = "Deve viver ponderadamente, desenvolver o senso de responsabilidade" +
+                        " moral, equilíbrio no poder e correta aplicação do saber em todos os" +
+                        " seus projetos e realizações. Para viver sem muitos altos e baixos," +
+                        " precisa praticar a justiça, a ponderação e serviço a terceiros, " +
+                        "sempre que a oportunidade se oferecer. Deve se relacionar " +
+                        "positivamente com todos e respeitar o direito que eles tem de " +
+                        "errarem. Deve, também, se relacionar com pessoas inteligentes e " +
+                        "com as quais possa compartilhar os seus interesses.";
                 break;
 
             case "5":
-                resposta = "Para evitar os aspectos negativos prejudiciais ao desenvolvimento pessoal, deve desenvolver o poder de análise e seleção, aproveitando as experiências para aperfeiçoar e elevar seu caráter e sentir uma nobre afinidade humana isenta de interesses particulares, sexuais ou materiais. Como vive quase que exclusivamente no presente, é aconselhável trabalhar com um propósito definido, com um objetivo altruísta e levá-lo até o fim, aconteça o que acontecer. \n" +
-                        "Lembre-se que a desordem não faz parte do Universo; logo, quando encontrar desordem, mude; mude a desordem em uma nova ordem. Será um bom psicólogo, historiador, professor, jurista, conferencista ou carreiras que tenham contato com o público. \n" +
-                        "Como admira pessoas poderosas e independentes, precisa de um parceiro que o enfrente e que não se intimide com a sua personalidade vigorosa. Embora seja amigável e sociável, gosta de fazer as coisas sozinho e de enfrentar novos desafios. Como gosta de exercitar o seu poder cerebral, prefere a companhia de pessoas inteligentes.";
+                resposta = "Para evitar os aspectos negativos prejudiciais ao desenvolvimento" +
+                        " pessoal, deve desenvolver o poder de análise e seleção, aproveitando" +
+                        " as experiências para aperfeiçoar e elevar seu caráter e sentir" +
+                        " uma nobre afinidade humana isenta de interesses particulares, " +
+                        "sexuais ou materiais. Como vive quase que exclusivamente no presente," +
+                        " é aconselhável trabalhar com um propósito definido, com um objetivo" +
+                        " altruísta e levá-lo até o fim, aconteça o que acontecer. \n" +
+                        "Lembre-se que a desordem não faz parte do Universo; logo, quando " +
+                        "encontrar desordem, mude; mude a desordem em uma nova ordem. Será " +
+                        "um bom psicólogo, historiador, professor, jurista, conferencista ou" +
+                        " carreiras que tenham contato com o público. \n" +
+                        "Como admira pessoas poderosas e independentes, precisa de um parceiro" +
+                        " que o enfrente e que não se intimide com a sua personalidade vigorosa." +
+                        " Embora seja amigável e sociável, gosta de fazer as coisas sozinho " +
+                        "e de enfrentar novos desafios. Como gosta de exercitar o seu poder " +
+                        "cerebral, prefere a companhia de pessoas inteligentes.";
                 break;
 
             case "6":
-                resposta = "Como é o destino da responsabilidade e da liderança, necessita aprender a se ajustar a condições pouco harmoniosas, a assumir o fardo dos outros, a defender suas próprias ideais e a servir com alegria. Apesar de seus ideais elevados, precisa ser determinado, ter paciência e perseverança para atingir as suas metas. \n" +
-                        "Deve trabalhar com o público, pois conquista amizades e simpatias com grande facilidade, sendo respeitado e amado por todos.";
+                resposta = "Como é o destino da união, necessita " +
+                        "aprender a se ajustar a condições pouco harmoniosas, a assumir o" +
+                        " fardo dos outros, a defender suas próprias ideais e a servir com " +
+                        "alegria. Apesar de seus ideais elevados, precisa ser determinado, " +
+                        "ter paciência e perseverança para atingir as suas metas. \n" +
+                        "Deve trabalhar com o público, pois conquista amizades e simpatias " +
+                        "com grande facilidade, sendo respeitado e amado por todos.";
                 break;
 
             case "7":
-                resposta = "O 7 é o Destino da sabedoria e também o da solidão, por isso necessita desenvolver seus poderes mentais, estudar, meditar, buscar o significado último da vida. Enfim, tornar-se um especialista. \n" +
-                        "Com sua inteligência arguta, sua habilidade de liderança e poder inerente a este dia, pode ter muitas oportunidades profissionais e ser bem sucedido em qualquer uma delas. Pode ser escritor, advogado, pesquisador, religioso, pesquisador ou trabalhar simplesmente para desenvolver espiritualmente o planeta. Contudo, evite usar o poder de forma destrutiva e se rebelar contra os outros, pois o “tiro pode sair pela culatra”, ou seja, você ser o prejudicado no final.";
+                resposta = "O 7 é o Destino da sabedoria e também o da solidão, por " +
+                        "isso necessita desenvolver seus poderes mentais, estudar, meditar," +
+                        " buscar o significado último da vida. Enfim, tornar-se um especialista. \n" +
+                        "Com sua inteligência arguta, sua habilidade de liderança e poder " +
+                        "inerente a este destino, pode ter muitas oportunidades profissionais " +
+                        "e ser bem sucedido em qualquer uma delas. Pode ser escritor, " +
+                        "advogado, pesquisador, religioso, pesquisador ou trabalhar " +
+                        "simplesmente para desenvolver espiritualmente o planeta. Contudo," +
+                        " evite usar o poder de forma destrutiva e se rebelar contra os " +
+                        "outros, pois o “tiro pode sair pela culatra”, ou seja, você ser " +
+                        "o prejudicado no final.";
                 break;
 
             case "8":
-                resposta = "Precisa cultivar a eficiência na arte de negociar e compreender as leis que comandam a acumulação, o poder e o uso do dinheiro. \n" +
-                        "Para aproveitar ao máximo a sua inteligência rápida, sua necessidade de expressão e o lado sociável da sua natureza, precisa superar a inclinação à incerteza ou à indecisão nos seus relacionamentos emocionais. Necessita aprender que as pessoas precisam de atenção. Por isso, fique atento: quanto maior for a ostentação, mais as pessoas concluirão que você não precisa delas. E, se em algum momento você realmente precisar, elas não estarão por perto. \n" +
-                        "Como tem grande capacidade executiva, pode ser advogado, executivo de grandes empresas, vendedor (por conta própria), professor, político, missões religiosas ou conselheiro.";
+                resposta = "Precisa cultivar a eficiência na arte de negociar e compreender" +
+                        " as leis que comandam a acumulação, o poder e o uso do dinheiro. \n" +
+                        "Para aproveitar ao máximo a sua inteligência rápida, sua necessidade" +
+                        " de expressão e o lado sociável da sua natureza, precisa superar a " +
+                        "inclinação à incerteza ou à indecisão nos seus relacionamentos " +
+                        "emocionais. Necessita aprender que as pessoas precisam de atenção." +
+                        " Por isso, fique atento: quanto maior for a ostentação, mais as " +
+                        "pessoas concluirão que você não precisa delas. E, se em algum " +
+                        "momento você realmente precisar, elas não estarão por perto. \n" +
+                        "Como tem grande capacidade executiva, pode ser advogado, executivo " +
+                        "de grandes empresas, vendedor (por conta própria), professor, " +
+                        "político, missões religiosas ou conselheiro.";
                 break;
 
             case "9":
-                resposta = "Necessita servir e se divertir. Precisa aprender a amar o próximo, a livrar-se dos preconceitos, ser generoso, tolerante e compreensivo com seus semelhantes. Este número sugere a necessidade de superar desafios e a tendência a ser excessivamente sensível e passível de instabilidade emocional. Pode-se beneficiar de viagens internacionais e da interação com pessoas de diversos círculos sociais, mas deve evitar os sonhos irrealistas ou a inclinação ao escapismo.";
+                resposta = "Necessita servir e se divertir. Precisa aprender a amar o " +
+                        "próximo, a livrar-se dos preconceitos, ser generoso, tolerante " +
+                        "e compreensivo com seus semelhantes. Este destino sugere a necessidade" +
+                        " de superar desafios e a tendência a ser excessivamente sensível e " +
+                        "passível de instabilidade emocional. Pode-se beneficiar de viagens" +
+                        " internacionais e da interação com pessoas de diversos círculos " +
+                        "sociais, mas deve evitar os sonhos irrealistas ou a inclinação ao " +
+                        "escapismo.";
                 break;
 
             case "11":
-                resposta = "Precisa investigar o misticismo, confiar na própria intuição, ter fé, conservar-se humilde diante da notoriedade e inspirar os outros através do seu exemplo. \n" +
-                        "Como a Natureza lhe dotou de certos atributos que não deu aos demais, deve usá-los para melhorar o planeta, os seus semelhantes e a própria vida. Não exija demais dos outros ou que eles compreendam ou façam o mesmo que você. Embora precise de liberdade para agir de forma independente, evite se preocupar demais consigo mesmo e aprenda a trabalhar com as outras pessoas. Quando combina seu pensamento imaginativo com sua habilidade e praticidade, pode obter resultados extraordinários.";
+                resposta = "Precisa investigar o misticismo, confiar na própria intuição," +
+                        " ter fé, conservar-se humilde diante da notoriedade e inspirar os" +
+                        " outros através do seu exemplo. \n" +
+                        "Como a Natureza lhe dotou de certos atributos que não deu aos " +
+                        "demais, deve usá-los para melhorar o planeta, os seus semelhantes" +
+                        " e a própria vida. Não exija demais dos outros ou que eles " +
+                        "compreendam ou façam o mesmo que você. Embora precise de liberdade" +
+                        " para agir de forma independente, evite se preocupar demais consigo" +
+                        " mesmo e aprenda a trabalhar com as outras pessoas. Quando combina" +
+                        " seu pensamento imaginativo com sua habilidade e praticidade, pode" +
+                        " obter resultados extraordinários.";
                 break;
 
             case "22":
-                resposta = "Precisa aprender que justiça, cooperação e serviço prestado também fazem parte do cotidiano. Precisa aprender a penetrar nos problemas, até às suas últimas motivações de seus atos e as verdadeiras razões de seu proceder. \n" +
-                        "Apesar de emocional e materialmente generoso, pode, às vezes, radicalizar, deixando-se levar por uma vida de luxo e glamour. Se cair no escapismo e se recusar a amadurecer, precisará aprender a ser responsável e a ter uma perspectiva mais madura. Porém, quando faz algo de que realmente gosta, é capaz de trabalhar arduamente e, com dedicação e perseverança, pode se realizar e ser bem-sucedido. \n" +
-                        "Está destinado a ser Líder, pela sua capacidade executiva que se estende por vasto campo, atingindo mesmo as fronteiras internacionais. No tocante à Magia, a mesma poderá ser construtiva ou destrutiva; o que semear, colherá!";
+                resposta = "Precisa aprender que justiça, cooperação e serviço prestado " +
+                        "também fazem parte do cotidiano. Precisa aprender a penetrar nos" +
+                        " problemas, até às suas últimas motivações de seus atos e as " +
+                        "verdadeiras razões de seu proceder. \n" +
+                        "Apesar de emocional e materialmente generoso, pode, às vezes, " +
+                        "radicalizar, deixando-se levar por uma vida de luxo e glamour. " +
+                        "Se cair no escapismo e se recusar a amadurecer, precisará aprender" +
+                        " a ser responsável e a ter uma perspectiva mais madura. Porém, " +
+                        "quando faz algo de que realmente gosta, é capaz de trabalhar " +
+                        "arduamente com dedicação e perseverança, pode se realizar e " +
+                        "ser bem-sucedido. \n" +
+                        "Está destinado a ser Líder, pela sua capacidade executiva que se " +
+                        "estende por vasto campo, atingindo mesmo as fronteiras internacionais." +
+                        " No tocante à Magia, a mesma poderá ser construtiva ou destrutiva;" +
+                        " o que semear, colherá!";
                 break;
 
             default:
@@ -677,13 +1281,13 @@ public class Definicoes {
                 resposta ="Esperança";
                 break;
 
-    default:
-    resposta = "ERRO";
+            default:
+                resposta = "ERRO";
                 break;
-}
+        }
 
         return resposta;
-                }
+    }
 
 
     public String missao(String numMissao){
@@ -692,113 +1296,409 @@ public class Definicoes {
 
         switch (numMissao){
             case "1":
-                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
-                        "As atribulações, contratempos, obstáculos e vitórias que obteve ou obterá na primeira metade da vida (até os 45 anos), servem ou serviram para desenvolver a força moral necessária na segunda metade, quando necessitará se estabilizar materialmente e cumprir seus deveres sociais e espirituais. \n" +
-                        "Com desejo de ser o primeiro e independente, o possuidor desta Missão tem inclinação a ser individualista, inovador e corajoso, com muita energia, predicados que deve cultivar ao longo da sua vida. O espírito pioneiro o encoraja a se aventurar sozinho nos seus empreendimentos. Esta força também pode estimulá-lo a desenvolver habilidades executivas, de organização, criatividade e originalidade. \n" +
-                        "A Missão 1, é a do ser inteligente, mas também o é do ambicioso e do agressivo. É confiante em seus propósitos, independente e, se quiser, poderá aspirar aos maiores cargos na sua profissão ou atividade. Tem tendência a ser autoritário, dominador e inflexível em seus propósitos, o que lhe causará alguns problemas, principalmente com respeito aos subordinados e pessoas mais chegadas, como parentes e amigos. Será sempre invejado e deve se proteger espiritualmente contra essa inveja e contra inúmeras maledicências que dirão sobre sua pessoa. \n" +
-                        "Será também admirado, respeitado e terá a consideração dos outros. Se agir com prudência e sabedoria, poderá ser muito bem sucedido na política, na administração de grandes empresas, como líder de povos ou excelente místico. \n" +
-                        "Idealista e sociável busca estabilidade emocional e segurança. Tem uma personalidade carismática e atrai sempre amigos e admiradores respeitáveis.";
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que " +
+                        "a sua vocação. Essa Missão será desenvolvida ao longo da vida " +
+                        "independentemente de qual profissão exercerá, e será inerente a " +
+                        "tudo o que vier a fazer na vida.\n\n"+
+                        "As atribulações, contratempos, obstáculos e vitórias que obteve " +
+                        "ou obterá na primeira metade da vida (até os 45 anos), servem ou " +
+                        "serviram para desenvolver a força moral necessária na segunda metade," +
+                        " quando necessitará se estabilizar materialmente e cumprir seus " +
+                        "deveres sociais e espirituais. \n" +
+                        "Com desejo de ser o primeiro e independente, o possuidor desta " +
+                        "Missão tem inclinação a ser individualista, inovador e corajoso, " +
+                        "com muita energia, predicados que deve cultivar ao longo da sua vida." +
+                        " O espírito pioneiro o encoraja a se aventurar sozinho nos seus " +
+                        "empreendimentos. Esta força também pode estimulá-lo a desenvolver" +
+                        " habilidades executivas, de organização, criatividade e originalidade. \n" +
+                        "A Missão 1, é a do ser inteligente, mas também o é do ambicioso e " +
+                        "do agressivo. É confiante em seus propósitos, independente e, se " +
+                        "quiser, poderá aspirar aos maiores cargos na sua profissão ou " +
+                        "atividade. Tem tendência a ser autoritário, dominador e inflexível " +
+                        "em seus propósitos, o que lhe causará alguns problemas, principalmente " +
+                        "com respeito aos subordinados e pessoas mais chegadas, como parentes e " +
+                        "amigos. Será sempre invejado e deve se proteger espiritualmente contra " +
+                        "essa inveja e contra inúmeras maledicências que dirão sobre sua pessoa. \n" +
+                        "Será também admirado, respeitado e terá a consideração dos outros. " +
+                        "Se agir com prudência e sabedoria, poderá ser muito bem sucedido " +
+                        "na política, na administração de grandes empresas, como líder de " +
+                        "povos ou excelente místico. \n" +
+                        "Idealista e sociável busca estabilidade emocional e segurança. " +
+                        "Tem uma personalidade carismática e atrai sempre amigos e admiradores" +
+                        " respeitáveis.";
                 break;
 
             case "2":
-                resposta ="Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
-                        "Paz e disposição ordenada como um todo, é seu principal lema. Sua missão representa a solidificação do ser humano, a capacidade de trabalhar em grupo, a disposição em servir e também em querer que tudo esteja em perfeita ordem e em perfeito estado de funcionamento. \n" +
-                        "Harmonia entre pesquisar e executar, coerência entre os propósitos e os objetivos são, com certeza, suas maiores virtudes. \n" +
-                        "Aparenta ser frio, calculista, obstinado, incrédulo, mas na realidade é muito afetuoso, bom amante e sempre pronto a ajudar aqueles que o procuram e também aqueles que necessitam sem o procurarem, ou seja, gosta de ajudar a todos indistintamente. \n" +
-                        "Em virtude desse seu procedimento, por vezes é enganado por aqueles em quem confia, pois como é íntegro e honesto em tudo e com todos, acha que os outros também o são. Tal procedimento o deprime e o chateia, mas como não sabe guardar rancor nem ódio, rapidamente se recupera desses inconvenientes, perdoando os elementos que lhe fizeram mal. \n" +
-                        "É o melhor mediador que existe e, em sua longa existência, será excelente juiz, advogado, médico, professor ou trabalhando como elemento de retaguarda em uma grande organização, além, é claro, de ser o melhor diplomata que se conhece. \n" +
-                        "Bebida alcoólica, cigarro e drogas de qualquer espécie, são venenos ao seu organismo.";
+                resposta ="Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua " +
+                        "vocação. Essa Missão será desenvolvida ao longo da vida " +
+                        "independentemente de qual profissão exercerá, e será inerente " +
+                        "a tudo o que vier a fazer na vida.\n\n"+
+                        "Paz e disposição ordenada como um todo, é seu principal lema. Sua" +
+                        " missão representa a solidificação do ser humano, a capacidade " +
+                        "de trabalhar em grupo, a disposição em servir e também em querer " +
+                        "que tudo esteja em perfeita ordem e estado de " +
+                        "funcionamento. \n" +
+                        "Harmonia entre pesquisar e executar, coerência entre os propósitos" +
+                        " e os objetivos são, com certeza, suas maiores virtudes. \n" +
+                        "Aparenta ser frio, calculista, obstinado, incrédulo, mas na " +
+                        "realidade é muito afetuoso, bom amante e sempre pronto a ajudar " +
+                        "aqueles que o procuram e também aqueles que necessitam sem o " +
+                        "procurarem, ou seja, gosta de ajudar a todos indistintamente. \n" +
+                        "Em virtude desse seu procedimento, por vezes é enganado por aqueles" +
+                        " em quem confia, pois como é íntegro e honesto em tudo e com todos," +
+                        " acha que os outros também o são. Tal procedimento o deprime e o " +
+                        "chateia, mas como não sabe guardar rancor nem ódio, rapidamente se" +
+                        " recupera desses inconvenientes, perdoando os elementos que lhe " +
+                        "fizeram mal. \n" +
+                        "É o melhor mediador que existe e, em sua longa existência, será " +
+                        "excelente juiz, advogado, médico, professor ou trabalhando como " +
+                        "elemento de retaguarda em uma grande organização, além, é claro, " +
+                        "de ser o melhor diplomata que se conhece. \n" +
+                        "Bebida alcoólica, cigarro e drogas de qualquer espécie, são " +
+                        "venenos ao seu organismo.";
                 break;
 
             case "3":
-                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
-                        "É sociável, popular, criativo, artístico e imaginativo. A palavra que exprime seu número é a auto expressão, seja na oratória, escrevendo ou mesmo representando. De excelente senso de humor, o 3 nasceu para brilhar, pois é dotado de grande imaginação e criatividade. \n" +
-                        "Mesmo quando a idade chegar, parecerá sempre jovial e sonhador, procurando novas aventuras e criando novos projetos. Se interpretar estas palavras corretamente, poderá ser ou conseguir tudo o que desejar. \n" +
-                        "Durante sua longa vida, muitas oportunidades de sucesso surgirão; cabe a você interpretá-las e seguir a sua própria intuição, não se deixando seduzir ou levar pela conversa dos outros. \n" +
-                        "Como não se deixa jamais dominar pela depressão ou desânimo, quase sempre é bem sucedido no que pretende realizar. Porém, de acordo com a sua personalidade extrovertida, que por vezes é interpretada como sendo irresponsável, estará exposto a críticas, do tipo: “Você é irresponsável, só pensa em farra...” \n" +
-                        "Deve evitar os trabalhos rotineiros e enfadonhos, como escriturário, caixa de banco, ou qualquer outro que não seja brilhar. Deve estimular a arte na sua plenitude, a oratória, a comunicação, a música, a literatura, o paisagismo, etc. \n" +
-                        "Mesmo quando muito tenso ou preocupado, jamais demonstra seus sentimentos, mostrando aos outros somente o que é belo e agradável em seu ser, o que na realidade é muito bom, dando vida à antiga máxima: “Demonstre sempre alegria; desse modo, deixarás os amigos sempre alegres e os inimigos perplexos e intrigados”. \n" +
-                        "O convívio familiar, os compromissos sociais e o trabalho, normalmente serão tratados com espírito elevado e qualquer problema que surja, será resolvido com sabedoria e criatividade.";
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é " +
+                        "que a sua vocação. Essa Missão será desenvolvida ao longo da " +
+                        "vida independentemente de qual profissão exercerá, e será inerente" +
+                        " a tudo o que vier a fazer na vida.\n\n"+
+                        "É sociável, popular, criativo, artístico e imaginativo. As palavras" +
+                        " que exprimem sua missão é a auto expressão, seja na oratória, " +
+                        "escrevendo ou mesmo representando. De excelente senso de humor, " +
+                        "o 3 nasceu para brilhar, pois é dotado de grande imaginação e " +
+                        "criatividade. \n" +
+                        "Mesmo quando a idade chegar, parecerá sempre jovial e sonhador, " +
+                        "procurando novas aventuras e criando novos projetos. Se interpretar" +
+                        " estas palavras corretamente, poderá ser ou conseguir tudo o que" +
+                        " desejar. \n" +
+                        "Durante sua longa vida, muitas oportunidades de sucesso surgirão;" +
+                        " cabe a você interpretá-las e seguir a sua própria intuição, não" +
+                        " se deixando seduzir ou levar pela conversa dos outros. \n" +
+                        "Como não se deixa jamais dominar pela depressão ou desânimo, quase" +
+                        " sempre é bem sucedido no que pretende realizar. Porém, de acordo" +
+                        " com a sua personalidade extrovertida, que por vezes é interpretada" +
+                        " como sendo irresponsável, estará exposto a críticas, do tipo: " +
+                        "“Você é irresponsável, só pensa em farra...” \n" +
+                        "Deve evitar os trabalhos rotineiros e enfadonhos, como escriturário," +
+                        " caixa de banco, ou qualquer outro que não seja brilhar. Deve " +
+                        "estimular a arte na sua plenitude, a oratória, a comunicação, a" +
+                        " música, a literatura, o paisagismo, etc. \n" +
+                        "Mesmo quando muito tenso ou preocupado, jamais demonstra seus " +
+                        "sentimentos, mostrando aos outros somente o que é belo e agradável" +
+                        " em seu ser, o que na realidade é muito bom, dando vida à antiga " +
+                        "máxima: “Demonstre sempre alegria; desse modo, deixarás os amigos " +
+                        "sempre alegres e os inimigos perplexos e intrigados”. \n" +
+                        "O convívio familiar, os compromissos sociais e o trabalho, " +
+                        "normalmente serão tratados com espírito elevado e qualquer " +
+                        "problema que surja, será resolvido com sabedoria e criatividade.";
                 break;
 
             case "4":
-                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
-                        "Sua Missão não é a de um visionário e sim de alguém com os pés no chão, alguém que persegue e consegue seus objetivos por métodos já consagrados e não por iniciativa própria, usando projetos inéditos. \n" +
-                        "É um lutador; coragem e determinação não lhe faltam e enfrenta qualquer obstáculo com valentia e determinação. A sua Missão é construir coisas; porém, a sua realização pessoal será de âmbito mais coletivo e não em prazer próprio. O amor, a tolerância, a paciência, a harmonia, fazem parte desta Missão, pois todos estes predicados lhe serão exigidos durante toda a vida. Na maturidade, ou seja, após os 45 anos, tais virtudes deverão ficar muito mais latentes, pois será comparado a um pai ou a uma mãe, aonde todos virão se aconselhar. \n" +
-                        "Como é empreendedor, ambicioso e trabalhador, tem força de vontade e habilidade para perceber as oportunidades que podem ajudá-lo na sua escalada para o sucesso. A construção civil, a química, a metalurgia, a odontologia, a segurança pública, política, e as finanças de um modo geral, devem ou deveriam ser os seus principais objetivos. As parcerias serão sempre preferíveis à iniciativa individual. \n" +
-                        "Se compreender bem estas palavras e possuir tempo e discernimento compatíveis, conseguirá reconhecimento tanto no âmbito nacional como internacional, pois é carismático, amigo e interessado no bem estar do seu semelhante, e o planeta necessita muito desse tipo de indivíduo.";
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é " +
+                        "que a sua vocação. Essa Missão será desenvolvida ao longo da " +
+                        "vida independentemente de qual profissão exercerá, e será inerente" +
+                        " a tudo o que vier a fazer na vida.\n\n"+
+                        "Sua Missão não é a de um visionário e sim de alguém com os pés no" +
+                        " chão, alguém que persegue e consegue seus objetivos por métodos " +
+                        "já consagrados e não por iniciativa própria, usando projetos " +
+                        "inéditos. \n" +
+                        "É um lutador; coragem e determinação não lhe faltam e enfrenta " +
+                        "qualquer obstáculo com valentia e determinação. A sua Missão é " +
+                        "construir coisas; porém, a sua realização pessoal será de âmbito" +
+                        " mais coletivo e não em prazer próprio. O amor, a tolerância, a" +
+                        " paciência, a harmonia, fazem parte desta Missão, pois todos " +
+                        "estes predicados lhe serão exigidos durante toda a vida. Na " +
+                        "maturidade, ou seja, após os 45 anos, tais virtudes deverão ficar" +
+                        " muito mais latentes, pois será comparado a um pai ou a uma mãe," +
+                        " a onde todos virão se aconselhar. \n" +
+                        "Como é empreendedor, ambicioso e trabalhador, tem força de " +
+                        "vontade e habilidade para perceber as oportunidades que podem " +
+                        "ajudá-lo na sua escalada para o sucesso. A construção civil, a " +
+                        "química, a metalurgia, a odontologia, a segurança pública, " +
+                        "política, e as finanças de um modo geral, devem ou deveriam ser" +
+                        " os seus principais objetivos. As parcerias serão sempre " +
+                        "preferíveis à iniciativa individual. \n" +
+                        "Se compreender bem estas palavras e possuir tempo e discernimento" +
+                        " compatíveis, conseguirá reconhecimento tanto no âmbito nacional " +
+                        "como internacional, pois é carismático, amigo e interessado no bem" +
+                        " estar do seu semelhante, e o planeta necessita muito desse " +
+                        "tipo de indivíduo.";
                 break;
 
             case "5":
-                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
-                        "Além dos predicados acima expostos, esta Missão mostra um ser ousado, enérgico e amante da liberdade. Normalmente é atraente ao sexo oposto e está fadado a trocar várias vezes de parceiro durante a vida, pois também é bastante volúvel. Amante do novo gosta de viajar pelo mundo sempre em busca de novidades, estudando e tentando compreender seus semelhantes. \n" +
-                        "Tem mente investigadora, grande versatilidade mental, excelente memória e extraordinária capacidade para fazer várias coisas ou mesmo ler vários livros ao mesmo tempo. Tem, também, a tendência para começar várias coisas e não terminá-las, ou seja, tem muitos começos e poucos fins. Tal tendência deve-se principalmente ao desejo quase obstinado de conhecer, o que o torna por vezes dispersivo, instável e inquieto, mudando de atividade tão logo encontre outra que lhe proporcione mais prazer e interesse. \n" +
-                        "Como é adaptável e ousado, deve assumir responsabilidades, pois pode naturalmente ser levado a posições de autoridade. Sua inteligência aguçada e suas ideias originais podem levá-lo a seguir carreiras nas áreas de educação, filosofia ou pesquisa científica. Magnânimo e gentil, é excelente para lidar com as pessoas e normalmente sabe perceber as oportunidades. Como não gosta de obedecer a ordens de outros, prefere ocupar posições gerenciais ou trabalhar por conta própria, pois quer ter liberdade para agir do seu jeito. Seu humanitarismo e suas aspirações espirituais podem levá-lo a ter atividades ligadas a reformas sociais ou à religião. Mas o seu senso dramático natural pode fazer com que seja atraído pelo mundo do entretenimento. \n" +
-                        "Por ser muito popular, por vezes se deixa levar por palavras elogiosas e comete erros infantis de julgamento de seus semelhantes, sendo muitas vezes vítima de intrigas e ciúmes. É inteligente e deve aprender a desligar-se das opiniões alheias e a seguir sua própria intuição, mesmo que a princípio lhe pareça tarefa das mais difíceis. Novos ambientes, novos amigos, novas paisagens, novos horizontes, farão parte ativa de sua vida.";
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que " +
+                        "a sua vocação. Essa Missão será desenvolvida ao longo da vida " +
+                        "independentemente de qual profissão exercerá, e será inerente a " +
+                        "tudo o que vier a fazer na vida.\n\n"+
+                        "Esta Missão mostra um ser " +
+                        "ousado, enérgico e amante da liberdade. Normalmente é atraente " +
+                        "ao sexo oposto e está fadado a trocar várias vezes de parceiro " +
+                        "durante a vida, pois também é bastante volúvel. Amante do novo " +
+                        "gosta de viajar pelo mundo sempre em busca de novidades, estudando" +
+                        " e tentando compreender seus semelhantes. \n" +
+                        "Tem mente investigadora, grande versatilidade mental, excelente " +
+                        "memória e extraordinária capacidade para fazer várias coisas ou " +
+                        "mesmo ler vários livros ao mesmo tempo. Tem, também, a tendência " +
+                        "para começar várias coisas e não terminá-las, ou seja, tem muitos" +
+                        " começos e poucos fins. Tal tendência deve-se principalmente ao " +
+                        "desejo quase obstinado de conhecer, o que o torna por vezes " +
+                        "dispersivo, instável e inquieto, mudando de atividade tão logo " +
+                        "encontre outra que lhe proporcione mais prazer e interesse. \n" +
+                        "Como é adaptável e ousado, deve assumir responsabilidades, pois " +
+                        "pode naturalmente ser levado a posições de autoridade. Sua " +
+                        "inteligência aguçada e suas ideias originais podem levá-lo a " +
+                        "seguir carreiras nas áreas de educação, filosofia ou pesquisa " +
+                        "científica. Magnânimo e gentil, é excelente para lidar com as " +
+                        "pessoas e normalmente sabe perceber as oportunidades. Como não " +
+                        "gosta de obedecer a ordens de outros, prefere ocupar posições " +
+                        "gerenciais ou trabalhar por conta própria, pois quer ter liberdade" +
+                        " para agir do seu jeito. Seu humanitarismo e suas aspirações " +
+                        "espirituais podem levá-lo a ter atividades ligadas a reformas " +
+                        "sociais ou à religião. Mas o seu senso dramático natural pode " +
+                        "fazer com que seja atraído pelo mundo do entretenimento. \n" +
+                        "Por ser muito popular, por vezes se deixa levar por palavras " +
+                        "elogiosas e comete erros infantis de julgamento de seus " +
+                        "semelhantes, sendo muitas vezes vítima de intrigas e ciúmes." +
+                        " É inteligente e deve aprender a desligar-se das opiniões " +
+                        "alheias e a seguir sua própria intuição, mesmo que a princípio " +
+                        "lhe pareça tarefa das mais difíceis. Novos ambientes, novos " +
+                        "amigos, novas paisagens, novos horizontes, farão parte ativa " +
+                        "de sua vida.";
                 break;
 
             case "6":
-                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
-                        "A família é a sua principal fonte de preocupação. É extremamente prático, equilibrado, sentimental, leal, compreensivo e sempre pronto a ajudar aqueles que solicitam sua ajuda. \n" +
-                        "É honesto, digno de confiança, bondoso, alegre e muito amoroso. Sente-se muito feliz em cargos que requeiram alta responsabilidade, na qual possa contribuir para regularizar, ajustar e harmonizar as coisas — ocupações relacionadas com instituições de caridade, ensino de modo geral, treinamento, ocupações esotéricas, tanto em consultas como didáticas, ou trabalhos em comunidades que requeiram uma liderança justa e íntegra. \n" +
-                        "O Amor é a sua palavra mágica; amor pelas crianças, velhos, familiares, principalmente os filhos (se os tiver), pelos amigos e, em alguns casos, pelos inimigos. \n" +
-                        "Às vezes pode ser explosivo, principalmente quando duvidam de sua capacidade profissional ou põem à prova sua honestidade. Porém, logo esquece as ofensas e os desafetos e perdoa todos, indistintamente. A sua Missão é, invariavelmente, o Amor Universal. Caso se desvie dela, sofrerá na maturidade o peso dessa negligência, culpando tudo e a todos pelos fracassos e decepções que por certo aparecerão, mesmo que, materialmente seja bem sucedido. \n" +
-                        "Se atentar para estas palavras, terá êxito social e será muito popular, principalmente se se dedicar a algum tipo de Ciência Oculta ou à religião, pois é muito convincente e consegue facilmente fazer com que as pessoas o sigam. Cuidado com o fanatismo, pois ele poderá levá-lo a sofrer do mal que anunciar. \n" +
-                        "Amigável e perceptivo, prefere a companhia de pessoas inteligentes e enérgicas, com quem possa dialogar e ter estímulo mental. A sua natureza amigável e solidária sugere que os outros o procuram para pedir conselhos e apoio. Nos seus relacionamentos aparenta ser forte e enérgico, mas o lado sensível da sua natureza implica que pode, ocasionalmente, ficar inquieto e entediado. Embora tenha interesse por outros países e pessoas estrangeiras, prefere ter uma vida doméstica estável.";
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é" +
+                        " que a sua vocação. Essa Missão será desenvolvida ao longo da" +
+                        " vida independentemente de qual profissão exercerá, e será " +
+                        "inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "A família é a sua principal fonte de preocupação. É extremamente" +
+                        " prático, equilibrado, sentimental, leal, compreensivo e sempre" +
+                        " pronto a ajudar aqueles que solicitam sua ajuda. \n" +
+                        "É honesto, digno de confiança, bondoso, alegre e muito amoroso." +
+                        " Sente-se muito feliz em cargos que requeiram alta responsabilidade," +
+                        " na qual possa contribuir para regularizar, ajustar e harmonizar" +
+                        " as coisas — ocupações relacionadas com instituições de caridade," +
+                        " ensino de modo geral, treinamento, ocupações esotéricas, tanto" +
+                        " em consultas como didáticas, ou trabalhos em comunidades que " +
+                        "requeiram uma liderança justa e íntegra. \n" +
+                        "O Amor é a sua palavra mágica; amor pelas crianças, velhos, " +
+                        "familiares, principalmente os filhos (se os tiver), pelos amigos " +
+                        "e, em alguns casos, pelos inimigos. \n" +
+                        "Às vezes pode ser explosivo, principalmente quando duvidam de " +
+                        "sua capacidade profissional ou põem à prova sua honestidade. " +
+                        "Porém, logo esquece as ofensas e os desafetos e perdoa todos, " +
+                        "indistintamente. A sua Missão é, invariavelmente, o Amor Universal." +
+                        " Caso se desvie dela, sofrerá na maturidade o peso dessa " +
+                        "negligência, culpando tudo e a todos pelos fracassos e decepções" +
+                        " que por certo aparecerão, mesmo que, materialmente seja bem " +
+                        "sucedido. \n" +
+                        "Se atentar para estas palavras, terá êxito social e será muito " +
+                        "popular, principalmente se se dedicar a algum tipo de Ciência " +
+                        "Oculta ou à religião, pois é muito convincente e consegue " +
+                        "facilmente fazer com que as pessoas o sigam. Cuidado com o " +
+                        "fanatismo, pois ele poderá levá-lo a sofrer do mal que anunciar. \n" +
+                        "Amigável e perceptivo, prefere a companhia de pessoas inteligentes" +
+                        " e enérgicas, com quem possa dialogar e ter estímulo mental. " +
+                        "A sua natureza amigável e solidária sugere que os outros o " +
+                        "procuram para pedir conselhos e apoio. Nos seus relacionamentos" +
+                        " aparenta ser forte e enérgico, mas o lado sensível da sua " +
+                        "natureza implica que pode, ocasionalmente, ficar inquieto e " +
+                        "entediado. Embora tenha interesse por outros países e pessoas " +
+                        "estrangeiras, prefere ter uma vida doméstica estável.";
                 break;
 
             case "7":
-                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
-                        "A Sabedoria é a sua palavra de ordem. É um número por vezes enigmático, pois tanto pode ser profundo, calado e introspectivo, como estranho, sociável, falante e cativante. \n" +
-                        "À primeira impressão, as pessoas sentem até um certo receio de se aproximar dele, pois seu ar superior e até assustador, leva-as a se afastar em princípio. Porém após algumas horas ou somente minutos de convivência, todos lhe são simpáticos e anseiam por permanecer em sua companhia, e se alguns não o fazem, é por pura inveja ou despeito. \n" +
-                        "O 7 a vibração da perfeição e da sabedoria, tanto na vida material como no mundo espiritual. É o número das qualidades psíquicas e também da sensibilidade. Como não gosta de ser mandado, deve evitar qualquer trabalho subalterno, saindo-se melhor como educador, guia espiritual, orador, pregador, pesquisador, explorador, historiador, ou em atividades ligadas ao saber, na mais pura expressão da verdade. \n" +
-                        "É autoritário e gosta por demais que os outros o venham consultar. Poderá também ser excelente escritor metafísico, de esoterismo, religião ou de assuntos relacionados à autoajuda. \n" +
-                        "Existe tendência a tornar-se introvertido e meditativo, na maturidade. É fundamental que se cerque de pessoas inteligentes e, de preferência, que comunguem de seus ideais. \n" +
-                        "O sucesso mundano, ou seja, material, é importante para a sua realização espiritual, por isso, não deve ser negligenciado qualquer projeto que possa trazer benefícios financeiros, pois sua Missão depende, em muito, desse poder material para se desenvolver e obter o êxito que almeja. \n" +
-                        "Carismático e ambicioso, tem charme e calor humano. Como é sociável e generoso, se sai especialmente bem em atividades que envolvam o trato com as outras pessoas. Independente e voltado para o sucesso, gosta de se manter em atividade e pensa em termos grandiosos. Com as suas poderosas convicções e seu desejo de servir, pode se dedicar a um ideal ou liderar um movimento que seja de utilidade prática para as outras pessoas. Ainda que consiga demonstrar uma profunda compaixão, as suas emoções fortes podem indicar que precisa evitar extremos ou agir muito impulsivamente.";
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais " +
+                        "é que a sua vocação. Essa Missão será desenvolvida ao longo da" +
+                        " vida independentemente de qual profissão exercerá, e será " +
+                        "inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "A Sabedoria é a sua palavra de ordem. É um ser por vezes " +
+                        "enigmático, pois tanto pode ser profundo, calado e introspectivo," +
+                        " como estranho, sociável, falante e cativante. \n" +
+                        "À primeira impressão, as pessoas sentem até um certo receio de" +
+                        " se aproximar dele, pois seu ar superior e até assustador, " +
+                        "leva-as a se afastar em princípio. Porém após algumas horas " +
+                        "ou somente minutos de convivência, todos lhe são simpáticos e" +
+                        " anseiam por permanecer em sua companhia, e se alguns não o " +
+                        "fazem, é por pura inveja ou despeito. \n" +
+                        "A missão sete evoca a vibração da perfeição e da sabedoria, tanto na vida material" +
+                        " como no mundo espiritual. É o número das qualidades psíquicas " +
+                        "e também da sensibilidade. Como não gosta de ser mandado, deve " +
+                        "evitar qualquer trabalho subalterno, saindo-se melhor como " +
+                        "educador, guia espiritual, orador, pregador, pesquisador, " +
+                        "explorador, historiador, ou em atividades ligadas ao saber, " +
+                        "na mais pura expressão da verdade. \n" +
+                        "É autoritário e gosta por demais que os outros o venham consultar." +
+                        " Poderá também ser excelente escritor metafísico, de esoterismo," +
+                        " religião ou de assuntos relacionados à autoajuda. \n" +
+                        "Existe tendência a tornar-se introvertido e meditativo, na " +
+                        "maturidade. É fundamental que se cerque de pessoas inteligentes " +
+                        "e, de preferência, que comunguem de seus ideais. \n" +
+                        "O sucesso mundano, ou seja, material, é importante para a sua " +
+                        "realização espiritual, por isso, não deve ser negligenciado " +
+                        "qualquer projeto que possa trazer benefícios financeiros, pois " +
+                        "sua Missão depende, em muito, desse poder material para se " +
+                        "desenvolver e obter o êxito que almeja. \n" +
+                        "Carismático e ambicioso, tem charme e calor humano. Como é " +
+                        "sociável e generoso, se sai especialmente bem em atividades " +
+                        "que envolvam o trato com as outras pessoas. Independente e voltado" +
+                        " para o sucesso, gosta de se manter em atividade e pensa em termos" +
+                        " grandiosos. Com as suas poderosas convicções e seu desejo de " +
+                        "servir, pode se dedicar a um ideal ou liderar um movimento que " +
+                        "seja de utilidade prática para as outras pessoas. Ainda que " +
+                        "consiga demonstrar uma profunda compaixão, as suas emoções fortes" +
+                        " podem indicar que precisa evitar extremos ou agir muito " +
+                        "impulsivamente.";
                 break;
 
             case "8":
-                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
-                        "É organizado, muito dedicado aos seus negócios, excelente para lidar com situações concretas, dominador, prático, direto, seguro de si e generoso. A sua meta principal é o progresso material; progresso sólido, feito com justiça e elevado senso moral. \n" +
-                        "É persistente, tem grande força de vontade e está sempre à espreita de oportunidades, dificilmente deixando que se lhe escapem. Tais características ficam, com o passar dos anos, cada vez mais acentuadas. \n" +
-                        "O grande problema que deve encontrar na primeira metade da vida (até aos 45 anos), é a disciplina. Caso não seja disciplinado nessa fase, sofrerá muito na segunda, onde as oportunidades já não serão tantas, e a vitalidade já não será tão grande. Se disciplinado, sempre encontrará meios de se locupletar, seja trabalhando com afinco e esperteza, seja fazendo os outros trabalharem em seu proveito. \n" +
-                        "Não é dado a discussões e a teimosias, preferindo contornar qualquer obstáculo que se entreponha entre si e o objetivo desejado. Quanto aos amigos, poderá ter tantos quanto os que lhe querem bem, pois sabe fazer amizades e também sabe desfazê-las, tão logo perceba que são interesseiras. \n" +
-                        "Como dá grande importância à riqueza material, terá mais sucesso como alto executivo de uma grande empresa, proprietário de um complexo industrial, comércio em geral, advogado, político ou dedicar-se às Leis. Para que isso se concretize, deverá ter vontade firme, muita energia e autoridade. \n" +
-                        "Através da sua inspirada conscientização e autodisciplina, poderá ser muito feliz trabalhando em prol da humanidade. É necessário aprender a se desapegar em um nível profundo e pode ser que só compreenda isso numa idade avançada. Quando reconhece esta necessidade adquire liberdade interior e passa a ter ideais mais profundos e humanitários. Altamente intuitivo, tem necessidade de transcender o lado mundano da vida que pode estimulá-lo a produzir um trabalho original ou fazê-lo entrar em contato com outros países.";
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais " +
+                        "é que a sua vocação. Essa Missão será desenvolvida ao longo da " +
+                        "vida independentemente de qual profissão exercerá, e será " +
+                        "inerente a tudo o que vier a fazer na vida.\n\n"+
+                        "É organizado, muito dedicado aos seus negócios, excelente para" +
+                        " lidar com situações concretas, dominador, prático, direto, " +
+                        "seguro de si e generoso. A sua meta principal é o progresso " +
+                        "material; progresso sólido, feito com justiça e elevado senso" +
+                        " moral. \n" +
+                        "É persistente, tem grande força de vontade e está sempre à " +
+                        "espreita de oportunidades, dificilmente deixando que se lhe " +
+                        "escapem. Tais características ficam, com o passar dos anos, " +
+                        "cada vez mais acentuadas. \n" +
+                        "O grande problema que deve encontrar na primeira metade da vida" +
+                        " (até aos 45 anos), é a disciplina. Caso não seja disciplinado" +
+                        " nessa fase, sofrerá muito na segunda, onde as oportunidades" +
+                        " já não serão tantas, e a vitalidade já não será tão grande. " +
+                        "Se disciplinado, sempre encontrará meios de se locupletar, seja" +
+                        " trabalhando com afinco e esperteza, seja fazendo os outros " +
+                        "trabalharem em seu proveito. \n" +
+                        "Não é dado a discussões e a teimosias, preferindo contornar " +
+                        "qualquer obstáculo que se entreponha entre si e o objetivo " +
+                        "desejado. Quanto aos amigos, poderá ter tantos quanto os que lhe" +
+                        " querem bem, pois sabe fazer amizades e também sabe desfazê-las, " +
+                        "tão logo perceba que são interesseiras. \n" +
+                        "Como dá grande importância à riqueza material, terá mais sucesso" +
+                        " como alto executivo de uma grande empresa, proprietário de um " +
+                        "complexo industrial, comércio em geral, advogado, político ou " +
+                        "dedicar-se às Leis. Para que isso se concretize, deverá ter vontade" +
+                        " firme, muita energia e autoridade. \n" +
+                        "Através da sua inspirada conscientização e autodisciplina, poderá" +
+                        " ser muito feliz trabalhando em prol da humanidade. É necessário" +
+                        " aprender a se desapegar em um nível profundo e pode ser que só " +
+                        "compreenda isso numa idade avançada. Quando reconhece esta " +
+                        "necessidade adquire liberdade interior e passa a ter ideais " +
+                        "mais profundos e humanitários. Altamente intuitivo, tem necessidade" +
+                        " de transcender o lado mundano da vida que pode estimulá-lo a " +
+                        "produzir um trabalho original ou fazê-lo entrar em contato com " +
+                        "outros países.";
                 break;
 
             case "9":
-                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
-                        "É aquele que ao longo da vida deve obter o máximo de conhecimentos possíveis, a fim de adquirir a Sabedoria. É universalista, generoso, sente compaixão por todos, quer melhorar a espécie humana e busca sempre a verdade. \n" +
-                        "Por ser universalista, tanto o passado, o presente e o futuro fazem parte do seu dia-a-dia, vivendo nessa eterna busca, sem nada encontrar, pois já sabe de antemão todas as respostas. \n" +
-                        "Como tem ampla visão do mundo e das coisas que o cercam, principalmente os seus semelhantes, sofre por demais quando percebe injustiças ou mesmo quando alguém é maltratado, mesmo que todos digam que merece, sejam eles quem forem. \n" +
-                        "Normalmente é impessoal, porque os interesses pessoais geralmente levam-no a desapontamentos. Por seu caráter, não deve ser egoísta e jamais esperar qualquer coisa dos outros, principalmente agradecimentos. Como é incompreendido, por ser universal, tem alguma dificuldade de relacionamento afetivo, dificilmente se dando bem no amor. \n" +
-                        "Por vezes será chamado “irmão(ã) mais velho(a) da humanidade”, pois sua responsabilidade é quase sempre com os outros e muito pouco faz em prol de si mesmo. Pelo seu caráter justo e humanitário, encontrará muitas pessoas boas e prosperará e terá sucesso e felicidade. O amor que dedicará ao seu semelhante voltará duplicado e encontrará paz e harmonia. \n" +
-                        "Na maturidade, caso tenha destinado a primeira parte da vida ao altruísmo, deve se dedicar ao ensino religioso, esotérico, a escrever ou a falar em público. Nessa fase, muitas pessoas dependerão de sua sabedoria e o (a) procurarão, esperando encontrar uma palavra de apoio, solidariedade e sabedoria. Deve, enfim, viver tão altruisticamente quanto possível e sempre buscar a harmonia entre seus irmãos.";
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que" +
+                        " a sua vocação. Essa Missão será desenvolvida ao longo da vida" +
+                        " independentemente de qual profissão exercerá, e será inerente" +
+                        " a tudo o que vier a fazer na vida.\n\n"+
+                        "É aquele que ao longo da vida deve obter o máximo de conhecimentos" +
+                        " possíveis, a fim de adquirir a Sabedoria. É universalista, generoso," +
+                        " sente compaixão por todos, quer melhorar a espécie humana e busca" +
+                        " sempre a verdade. \n" +
+                        "Por ser universalista, tanto o passado, o presente e o futuro fazem" +
+                        " parte do seu dia-a-dia, vivendo nessa eterna busca, sem nada " +
+                        "encontrar, pois já sabe de antemão todas as respostas. \n" +
+                        "Como tem ampla visão do mundo e das coisas que o cercam, " +
+                        "principalmente os seus semelhantes, sofre por demais quando percebe" +
+                        " injustiças ou mesmo quando alguém é maltratado, mesmo que todos " +
+                        "digam que merece, sejam eles quem forem. \n" +
+                        "Normalmente é impessoal, porque os interesses pessoais geralmente " +
+                        "levam-no a desapontamentos. Por seu caráter, não deve ser egoísta e" +
+                        " jamais esperar qualquer coisa dos outros, principalmente " +
+                        "agradecimentos. Como é incompreendido, por ser universal, tem " +
+                        "alguma dificuldade de relacionamento afetivo, dificilmente se dando" +
+                        " bem no amor. \n" +
+                        "Por vezes será chamado “irmão(ã) mais velho(a) da humanidade”, pois" +
+                        " sua responsabilidade é quase sempre com os outros e muito pouco faz" +
+                        " em prol de si mesmo. Pelo seu caráter justo e humanitário, encontrará" +
+                        " muitas pessoas boas e prosperará e terá sucesso e felicidade. O " +
+                        "amor que dedicará ao seu semelhante voltará duplicado e encontrará " +
+                        "paz e harmonia. \n" +
+                        "Na maturidade, caso tenha destinado a primeira parte da vida ao " +
+                        "altruísmo, deve se dedicar ao ensino religioso, esotérico, a escrever" +
+                        " ou a falar em público. Nessa fase, muitas pessoas dependerão de sua" +
+                        " sabedoria e o (a) procurarão, esperando encontrar uma palavra de " +
+                        "apoio, solidariedade e sabedoria. Deve, enfim, viver tão " +
+                        "altruisticamente quanto possível e sempre buscar a harmonia entre" +
+                        " seus irmãos.";
                 break;
 
             case "11":
-                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
-                        "A grande virtude do 11 é a Fé. Esta Fé, em si mesmo, não representa propriamente religiosidade, mas também a Fé nos seus ideais, propósitos, pressentimentos, “sorte” ou em projetos que elabora. \n" +
-                        "Consciente ou inconscientemente, a Fé em alguma coisa é a sua “mola mestra” que lhe empurra para o destino. \n" +
-                        "Agindo corretamente, tem o potencial para inspirar as pessoas com seus ideais e imaginação; assim, evite investir suas energias mentais em coisas de pouca importância para não se desviar das suas metas positivas. Quando se concentra em suas energias positivas, é capaz de obter resultados produtivos. Cuide da sua dieta e da sua saúde e aprenda a relaxar de vez em quando. \n" +
-                        "Tem a habilidade para encantar as pessoas, mas elas talvez não vejam que atrás da sua aparência ousada, sofre de confusão interior. Em idade avançada, terá uma sabedoria acumulada através do desenvolvimento espiritual, da compreensão universal e da potencial místico. Evite ser impulsivo, agir de forma extravagante ou se deixar levar por esquemas de enriquecimento rápido, investindo em planos de longo prazo. \n" +
-                        "É um diplomata por excelência e possui a rara capacidade da harmonia e compreensão. É justo e está sempre pronto a “arbitrar” qualquer divergência entre colegas de profissão, amigos ou discórdias familiares. \n" +
-                        "É incapaz de ferir propositadamente um seu semelhante e, quando isso acontece, prontamente pede desculpas e não repete mais o erro. \n" +
-                        "Com o passar dos anos, as suas capacidades de liderança ficarão mais latentes e sólidas e as oportunidades de sucesso, prosperidade e fama aparecerão e com certeza as aproveitará. \n" +
-                        "Estas características poderão levá-lo a ser um famoso orador, um renomado político ou mesmo um diplomata, incumbido de uma grande missão, principalmente de Paz, que lhe será imposta e que terá de usar de toda a sua perspicácia e habilidade para saber concretizá-la a bom termo. A parte final da vida (após os 60 anos) será repleta de paz, harmonia e felicidade.";
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que" +
+                        " a sua vocação. Essa Missão será desenvolvida ao longo da vida " +
+                        "independentemente de qual profissão exercerá, e será inerente a" +
+                        " tudo o que vier a fazer na vida.\n\n"+
+                        "A grande virtude da sua missão 11 é a Fé. Esta Fé, em si mesmo, não representa" +
+                        " propriamente religiosidade, mas também a Fé nos seus ideais, " +
+                        "propósitos, pressentimentos, “sorte” ou em projetos que elabora. \n" +
+                        "Consciente ou inconscientemente, a Fé em alguma coisa é a sua " +
+                        "“mola mestra” que lhe empurra para o destino. \n" +
+                        "Agindo corretamente, tem o potencial para inspirar as pessoas com " +
+                        "seus ideais e imaginação; assim, evite investir suas energias mentais" +
+                        " em coisas de pouca importância para não se desviar das suas metas" +
+                        " positivas. Quando se concentra em suas energias positivas, é capaz" +
+                        " de obter resultados produtivos. Cuide da sua dieta e da sua saúde" +
+                        " e aprenda a relaxar de vez em quando. \n" +
+                        "Tem a habilidade para encantar as pessoas, mas elas talvez não vejam" +
+                        " que atrás da sua aparência ousada, sofre de confusão interior. Em" +
+                        " idade avançada, terá uma sabedoria acumulada através do " +
+                        "desenvolvimento espiritual, da compreensão universal e da potencial " +
+                        "místico. Evite ser impulsivo, agir de forma extravagante ou se deixar" +
+                        " levar por esquemas de enriquecimento rápido, investindo em planos de" +
+                        " longo prazo. \n" +
+                        "É um diplomata por excelência e possui a rara capacidade da harmonia " +
+                        "e compreensão. É justo e está sempre pronto a “arbitrar” qualquer " +
+                        "divergência entre colegas de profissão, amigos ou discórdias " +
+                        "familiares. \n" +
+                        "É incapaz de ferir propositadamente um seu semelhante e, quando isso" +
+                        " acontece, prontamente pede desculpas e não repete mais o erro. \n" +
+                        "Com o passar dos anos, as suas capacidades de liderança ficarão mais" +
+                        " latentes e sólidas e as oportunidades de sucesso, prosperidade e " +
+                        "fama aparecerão e com certeza as aproveitará. \n" +
+                        "Estas características poderão levá-lo a ser um famoso orador, um " +
+                        "renomado político ou mesmo um diplomata, incumbido de uma grande " +
+                        "missão, principalmente de Paz, que lhe será imposta e que terá de " +
+                        "usar de toda a sua perspicácia e habilidade para saber concretizá-la" +
+                        " a bom termo. A parte final da vida (após os 60 anos) será repleta de" +
+                        " paz, harmonia e felicidade.";
                 break;
 
             case "22":
-                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que a sua vocação. Essa Missão será desenvolvida ao longo da vida independentemente de qual profissão exercerá, e será inerente a tudo o que vier a fazer na vida.\n\n"+
-                        "A Missão 22 é muito parecida com o “Destino 22”, pois é um número altruísta e voltado quase exclusivamente para a humanidade, para o todo, para a sabedoria. Vê tudo em larga escala e é altamente capaz de levar a bom termo qualquer projeto que vise o bem do Planeta. \n" +
-                        "Mentalmente arguto e intuitivo, gosta de tomar as próprias decisões. É uma pessoa humanitária, que tem uma visão realista da vida e, com sua força, pode dar apoio a quem precisa. \n" +
-                        "Com grande habilidade social, normalmente tem muitos amigos e admiradores. Para ter paz e harmonia, muitas vezes está disposto a fazer concessões ou sacrifícios. Considera a amizade e gosta de se dar com as pessoas que o inspirem a ser aventureiro e o divirtam. Se sente bem quando está na companhia dos que ama. \n" +
-                        "A sua existência se pautará por testes: financeiros, amorosos ou existenciais. Porém, como é um ser superior, uma vez ciente deste fato, conseguirá se sair bem em qualquer atividade ou profissão e terá grandes satisfações no decurso de sua longa existência. \n" +
-                        "Pode-se dedicar à política, ciências, filosofia, relações públicas, filantropia, esoterismo ou religiosidade. \n" +
-                        "Deverá aprender a ser prático e idealista, a ter os “pés no chão”, a estudar os princípios fundamentais do ser humano e a trabalhar para construir um mundo melhor. \n" +
-                        "Quaisquer tipos de vício (bebida, cigarro, drogas) são verdadeiros venenos para o seu organismo.";
+                resposta = "Cada ser humano traz ao nascer uma Missão, que nada mais é que" +
+                        " a sua vocação. Essa Missão será desenvolvida ao longo da vida " +
+                        "independentemente de qual profissão exercerá, e será inerente a " +
+                        "tudo o que vier a fazer na vida.\n\n"+
+                        "A Missão 22 é muito parecida com o “Destino 22”, pois é um número " +
+                        "altruísta e voltado quase exclusivamente para a humanidade, para o" +
+                        " todo, para a sabedoria. Vê tudo em larga escala e é altamente capaz" +
+                        " de levar a bom termo qualquer projeto que vise o bem do Planeta. \n" +
+                        "Mentalmente arguto e intuitivo, gosta de tomar as próprias decisões." +
+                        " É uma pessoa humanitária, que tem uma visão realista da vida e, " +
+                        "com sua força, pode dar apoio a quem precisa. \n" +
+                        "Com grande habilidade social, normalmente tem muitos amigos e " +
+                        "admiradores. Para ter paz e harmonia, muitas vezes está disposto a" +
+                        " fazer concessões ou sacrifícios. Considera a amizade e gosta de se" +
+                        " dar com as pessoas que o inspirem a ser aventureiro e o divirtam." +
+                        " Se sente bem quando está na companhia dos que ama. \n" +
+                        "A sua existência se pautará por testes: financeiros, amorosos ou " +
+                        "existenciais. Porém, como é um ser superior, uma vez ciente deste " +
+                        "fato, conseguirá se sair bem em qualquer atividade ou profissão e " +
+                        "terá grandes satisfações no decurso de sua longa existência. \n" +
+                        "Pode-se dedicar à política, ciências, filosofia, relações públicas," +
+                        " filantropia, esoterismo ou religiosidade. \n" +
+                        "Deverá aprender a ser prático e idealista, a ter os “pés no chão”, " +
+                        "a estudar os princípios fundamentais do ser humano e a trabalhar " +
+                        "para construir um mundo melhor. \n" +
+                        "Quaisquer tipos de vício (bebida, cigarro, drogas) são verdadeiros " +
+                        "venenos para o seu organismo.";
                 break;
 
             default:
@@ -809,7 +1709,7 @@ public class Definicoes {
         return resposta;
     }
 
-   public String titulodia(String titDia){
+    public String titulodia(String titDia){
 
         String resposta;
 
@@ -941,10 +1841,10 @@ public class Definicoes {
             default:
                 resposta = "ERRO";
                 break;
-}
+        }
 
-      return resposta;
-                }
+        return resposta;
+    }
 
 
     public String dia(String numDia){
@@ -953,12 +1853,47 @@ public class Definicoes {
 
         switch (numDia){
             case "01":
-                resposta = "A personalidade é formada de acordo com dia do nascimento e representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no ser humano as suas qualidades inatas, determinando as suas tendências naturais, as suas particularidades como o selo que será a sua marca por toda a vida refletindo-se em seus dons peculiares. \n\n"+
-                        "É um líder nato; gosta de mandar em vez de fazer. É criativo e original, tem raciocínio lógico e rápido, e é capaz de discutir sobre os mais variados assuntos, até mesmo aqueles que conhece superficialmente. \n" +
-                        "Tem tendência a ser autoritário, de certa maneira possessivo e um tanto egocêntrico. Ainda que o lado aventureiro da sua natureza queira se expressar, a sua visão altamente pragmática e a preocupação com a segurança sugerem um certo materialismo. Isso indica que mesmo que o idealismo e a visão tenham um papel importante na sua vida, a preocupação com o dinheiro, ou com a sua falta, mantém os seus pés firmes no chão. Todavia, você é uma pessoa amável, que tem emoções fortes, inclinações humanitárias e grande capacidade de liderança. Embora não o sendo, o número 1 é considerado “frio”, calculista e pouco comunicativo. Raramente demonstra afeto e compaixão. Contudo, gosta de ser elogiado e admirado. Quando seus projetos ou desejos não se realizam ou são frustrados, o seu sistema metabólico sofre sobremaneira e os nervos e a pressão arterial são sobrecarregados, podendo causar graves danos ao organismo. \n" +
-                        "Como líder, sente-se terrivelmente frustrado em posição subalterna e, por vezes, torna-se irascível, violento e inconsequente, sendo muito difícil trabalhar e conviver em sua companhia. Precisa também aprender que o mundo não gira ao seu redor, evitando a inclinação a ser autocentrado ou ditatorial. \n" +
-                        "O nascido no dia um necessita saber para poder e querer. Estudar, projetar, manter a consistência no objetivo deve ser sua principal característica, pois tem tendência a deixar tudo pela metade ou a glória aos outros. \n" +
-                        "Individualista e dinâmico, gosta de conhecer gente de diferentes círculos sociais. Como é sociável, aprecia a companhia de outras pessoas, especialmente as que são criativas e que o estimulam a se expressar. Ainda que seja leal e disposto a apoiar entes queridos, tem dúvidas e se sente indeciso nos seus relacionamentos. Para evitar desapontamentos, precisa encarar a sua vida emocional com leveza e lembrar que deseja ser feliz.";
+                resposta = "A personalidade é formada de acordo com dia do nascimento e " +
+                        "representa o \"Eu Sou\" mais verdadeiro de cada um, registrando no" +
+                        " ser humano as suas qualidades inatas, determinando as suas " +
+                        "tendências naturais, as suas particularidades como o selo que " +
+                        "será a sua marca por toda a vida refletindo-se em seus dons " +
+                        "peculiares. \n\n"+
+                        "É um líder nato; gosta de mandar em vez de fazer. É criativo e " +
+                        "original, tem raciocínio lógico e rápido, e é capaz de discutir " +
+                        "sobre os mais variados assuntos, até mesmo aqueles que conhece " +
+                        "superficialmente. \n" +
+                        "Tem tendência a ser autoritário, de certa maneira possessivo e " +
+                        "um tanto egocêntrico. Ainda que o lado aventureiro da sua natureza " +
+                        "queira se expressar, a sua visão altamente pragmática e a preocupação" +
+                        " com a segurança sugerem um certo materialismo. Isso indica que " +
+                        "mesmo que o idealismo e a visão tenham um papel importante na sua " +
+                        "vida, a preocupação com o dinheiro, ou com a sua falta, mantém os " +
+                        "seus pés firmes no chão. Todavia, você é uma pessoa amável, que tem" +
+                        " emoções fortes, inclinações humanitárias e grande capacidade de " +
+                        "liderança. Embora não o sendo, o número 1 é considerado “frio”, " +
+                        "calculista e pouco comunicativo. Raramente demonstra afeto e " +
+                        "compaixão. Contudo, gosta de ser elogiado e admirado. Quando seus" +
+                        " projetos ou desejos não se realizam ou são frustrados, o seu " +
+                        "sistema metabólico sofre sobremaneira e os nervos e a pressão " +
+                        "arterial são sobrecarregados, podendo causar graves danos ao " +
+                        "organismo. \n" +
+                        "Como líder, sente-se terrivelmente frustrado em posição subalterna " +
+                        "e, por vezes, torna-se irascível, violento e inconsequente, sendo" +
+                        " muito difícil trabalhar e conviver em sua companhia. Precisa " +
+                        "também aprender que o mundo não gira ao seu redor, evitando a " +
+                        "inclinação a ser autocentrado ou ditatorial. \n" +
+                        "O nascido no dia um necessita saber para poder e querer. Estudar," +
+                        " projetar, manter a consistência no objetivo deve ser sua " +
+                        "principal característica, pois tem tendência a deixar tudo pela " +
+                        "metade ou a glória aos outros. \n" +
+                        "Individualista e dinâmico, gosta de conhecer gente de diferentes " +
+                        "círculos sociais. Como é sociável, aprecia a companhia de outras " +
+                        "pessoas, especialmente as que são criativas e que o estimulam a se" +
+                        " expressar. Ainda que seja leal e disposto a apoiar entes queridos," +
+                        " tem dúvidas e se sente indeciso nos seus relacionamentos. Para" +
+                        " evitar desapontamentos, precisa encarar a sua vida emocional com" +
+                        " leveza e lembrar que deseja ser feliz.";
                 break;
 
             case "02":
@@ -1803,36 +2738,60 @@ public class Definicoes {
 
         String resposta;
 
-            switch (numComp){
+        switch (numComp){
 
-                case "Compativeis":
-                    resposta ="Casais compatíveis são harmônicos, porém o relacionamento tende a tornar-se monótono com o passar dos anos. É fundamental que os parceiros tenham em mente que a convivência necessita ser “alimentada” continuamente, onde a imaginação (de ambos) deve ser cultivada cotidianamente.";
-                    break;
+            case "Compativeis":
+                resposta ="Casais compatíveis são harmônicos, porém o relacionamento " +
+                        "tende a tornar-se monótono com o passar dos anos. É fundamental" +
+                        " que os parceiros tenham em mente que a convivência necessita ser " +
+                        "“alimentada” continuamente, onde a imaginação (de ambos) deve ser " +
+                        "cultivada cotidianamente.";
+                break;
 
-                case "Vibram":
-                    resposta ="Casais vibram sinalizam forte atração sexual e paixão, com sentimentos intensos que podem levar a conflitos constantes e até separação por causa de ciúmes exagerados, inconstância sexual, arrogância de um ou ambos os parceiros, caso não se transforme em amor. Quando o casal conseguir transformar paixão em amor serão abençoados com um amor incondicional.";
-                    break;
+            case "Vibram":
+                resposta ="Casais vibram sinalizam forte atração sexual e paixão, com " +
+                        "sentimentos intensos que podem levar a conflitos constantes e" +
+                        " até separação por causa de ciúmes exagerados, inconstância sexual," +
+                        " arrogância de um ou ambos os parceiros, caso não se transforme em " +
+                        "amor. Quando o casal conseguir transformar a paixão em amor serão" +
+                        " abençoados com um amor incondicional.";
+                break;
 
-                case "Atraem-se":
-                    resposta ="Casais que se atraem são totalmente compatíveis entre si, e o amor e o sexo se compatibilizam harmonicamente. Tendem para a amabilidade, cordialidade, delicadeza, cumplicidade e compreensão mútuas. O relacionamento com esta característica tem tudo para ser bem-sucedido, e se não for, ou será por interferência de terceiros ou por falta de atenção de um para com o outro.";
-                    break;
+            case "Atraem-se":
+                resposta ="Casais que se atraem são totalmente compatíveis entre si, o amor" +
+                        " e o sexo se compatibilizam harmonicamente. Tendem para a amabilidade," +
+                        " cordialidade, delicadeza, cumplicidade e compreensão mútuas. O " +
+                        "relacionamento com esta característica tem tudo para ser bem-sucedido, " +
+                        "e se não for, ou será por interferência de terceiros ou por falta de" +
+                        " atenção de um para com o outro.";
+                break;
 
-                case "Opostos":
-                    resposta ="Os casais opostos não refletem o pior dos relacionamentos, como se supunha, desde que os envolvidos tenham consciência do fato e são intelectualmente desenvolvidos. No entanto, ambos devem usar de diplomacia constantemente e ceder em muitos pontos, a fim de evitar conflitos e o fracasso do casamento. É imperioso respeitarem-se mutuamente na individualidade e na intimidade, bem como nunca interferir, sem ser chamado, nos sonhos, desejos e projetos pessoais um do outro.";
-                    break;
+            case "Opostos":
+                resposta ="Os casais opostos não refletem o pior dos relacionamentos, como se" +
+                        " supunha, desde que os envolvidos tenham consciência do fato e são" +
+                        " intelectualmente desenvolvidos. No entanto, ambos devem usar de diplomacia" +
+                        " constantemente e ceder em muitos pontos, a fim de evitar conflitos e o" +
+                        " fracasso do casamento. É imperioso respeitarem-se mutuamente na individualidade" +
+                        " e na intimidade, bem como nunca interferir, sem ser chamado, nos sonhos, desejos" +
+                        " e projetos pessoais um do outro.";
+                break;
 
-                case "Passivos":
-                    resposta ="Os casais passivos indicam relacionamentos onde a amizade e a cumplicidade predominam sobre o sexo. Para levar adiante um casamento entre pessoas de números passivos, há necessidade de que pelo menos um dos parceiros se proponha a manter a chama sexual acesa, porque senão o relacionamento se transforma, com o passar do tempo, em uma relação mais de irmãos que\n" +
-                            "propriamente de casal. Mesmo que se separem, geralmente continuam bons amigos.";
-                    break;
+            case "Passivos":
+                resposta ="Os casais passivos indicam relacionamentos onde a amizade e a cumplicidade" +
+                        " predominam sobre o sexo. Para levar adiante um casamento entre pessoas " +
+                        "de números passivos, há necessidade de que pelo menos um dos parceiros se" +
+                        " proponha a manter a chama sexual acesa, porque senão o relacionamento" +
+                        " se transforma, com o passar do tempo, em uma relação mais de irmãos que " +
+                        "propriamente de casal. Mesmo que se separem, geralmente continuam bons amigos.";
+                break;
 
 
-                default:
+            default:
                 resposta = "ERRO";
                 break;
         }
 
-         return resposta;
+        return resposta;
     }
 
 }

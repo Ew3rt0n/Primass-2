@@ -17,8 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3079df9-eceb-43bd-b228-41f1027cdf5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/primass/Fragments/ResultadoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/primass/Fragments/ResultadoFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/primass/Definicoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/primass/Definicoes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,11 +295,11 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="456" y="315" key="chooseDestDirectoryDialog/0.0.1280.984@0.0.1280.984" timestamp="1599826920387" />
-    <state x="359" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1602533942399">
+    <state x="359" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1602707031310">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="336" y="361" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1602006278191" />
-    <state x="359" y="267" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602533942399" />
+    <state x="359" y="267" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602707031310" />
     <state x="429" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598383363355">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
