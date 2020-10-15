@@ -126,7 +126,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 ArrayList<ArrayList<String>> list = new ArrayList<>();
                 list = new TrianguloInvertido().ArcanoRegente(mNomeNum);
 
-                dialog(def.titulosArcRegentes(String.valueOf(list.get(list.size()-1))), def.arcRegentes(String.valueOf(list.get(list.size()-1))));
+                dialog(def.titulosArcRegentes(String.valueOf(list.get(list.size() - 1))), def.arcRegentes(String.valueOf(list.get(list.size() - 1))));
 
                 break;
 
@@ -426,11 +426,15 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
 
         }
     }
-        /*public void resultadoArc (){
+
+    public void resultadoArc() {
 
         ImageView imagemArc = view.findViewById(R.id.im_fundo_arc);
 
-        switch (resultadoArc) {
+        ArrayList<ArrayList<String>> list = new ArrayList<>();
+        list = new TrianguloInvertido().ArcanoRegente(mNomeNum);
+
+        switch (String.valueOf(list.get(list.size() - 1))) {
             case "1":
                 im_fundo_arc.setImageResource(R.drawable.numero_1);
                 break;
@@ -462,6 +466,8 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
             default:
                 break;
 
-        } */
+        }
+
+    }
 
 }
