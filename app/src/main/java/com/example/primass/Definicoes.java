@@ -3450,7 +3450,7 @@ public class Definicoes {
 //            case "1":
 //            case "19":
             case Constants.um_dezenove:
-                resposta = "As pessoas não guardam os seus segredos e te traem, " +
+                resposta = "Você já oberservou como as pessoas não guardam os seus segredos e te traem, " +
                         "sem nenhuma justificativa. Além de ter que conviver com " +
                         "o sucesso e fracasso contínuos.\n" +
                         "\n" +
