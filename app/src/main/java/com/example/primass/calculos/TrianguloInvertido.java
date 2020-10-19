@@ -52,7 +52,7 @@ public class TrianguloInvertido {
                 linhas.add(lin);
             }
         }
-
+//teste
         return linhas;
     }
 }

@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             valConvercoes.setValData(calc.calcData(mDia + mMes + mAno, true));
             valConvercoes.setValNomeComData(calc.calcNomeComData(valConvercoes.getValNome(), valConvercoes.getValData(), true));
             valConvercoes.setNomeNum(calc.converter(mNome, Constants.NOME));
-
+//teste
             resultado();
 
         } else {

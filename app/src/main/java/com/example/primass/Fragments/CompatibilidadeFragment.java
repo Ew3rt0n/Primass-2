@@ -152,6 +152,7 @@ public class CompatibilidadeFragment extends Fragment {
                    Compativel: 9
                    Passivo: 4, 8
          */
+        //teste
 
 
 
