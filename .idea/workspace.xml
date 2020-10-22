@@ -20,19 +20,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/primass/Definicoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/primass/Definicoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/primass/Fragments/CompatibilidadeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/primass/Fragments/CompatibilidadeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/primass/Fragments/ResultadoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/primass/Fragments/ResultadoFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/primass/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/primass/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/primass/calculos/Calculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/primass/calculos/Calculos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/primass/calculos/TrianguloInvertido.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/primass/calculos/TrianguloInvertido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/primass/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/primass/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/primass/utils/Validacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/primass/utils/Validacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="c3a714a50305" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -301,11 +295,11 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="456" y="315" key="chooseDestDirectoryDialog/0.0.1280.984@0.0.1280.984" timestamp="1599826920387" />
-    <state x="359" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1603138272349">
+    <state x="359" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1603379135658">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="336" y="361" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1602006278191" />
-    <state x="359" y="267" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603138272349" />
+    <state x="359" y="267" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603379135658" />
     <state x="429" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598383363355">
       <screen x="0" y="0" width="1280" height="984" />
     </state>

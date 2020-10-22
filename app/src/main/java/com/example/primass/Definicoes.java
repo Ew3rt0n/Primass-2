@@ -3369,18 +3369,13 @@ public class Definicoes {
                 break;
 
             case "9":
-                resposta = "Há resquícios na sua alma, de uma vida passada onde" +
-                        "você era um ser frio, sem amor e " +
-                        "compreensão para com seus semelhantes. Não aparentava " +
-                        "qualquer sentimento de afeto; era desumano, indiferente," +
-                        " pouco se importando com os outros. \n" +
-                        "Em virtude dessa “apatia” emocional, agora você" +
-                        " poderá sofrer alguns reveses na vida, como perda de " +
-                        "propriedades, longos períodos desempregado, doenças " +
-                        "diversas e também desapontamentos com amigos, parentes," +
-                        " sócios, cônjuge ou simplesmente companheiros. \n" +
-                        "A Lição a aprender nesta vida é a de ser bondoso, amoroso," +
-                        " generoso, compreensivo e interessado em tudo e com todos.";
+                resposta = "Uma lição simples que se aprendida vai melhorar toda a sua " +
+                        "vida e o relacionamento com os outros. É desenvolver a sua empatia " +
+                        "e para isso você deve sempre respeitar a dor e os limites do outro, você " +
+                        "não pode julgar alguém com base na sua própria experiência e capacidade, " +
+                        "afinal só aquele que está passando por uma situação sabe a verdade sobre " +
+                        "si e suas próprias capacidades. Se não for possível ajudar alguém de nenhuma forma, " +
+                        "tenha empatia e não atrapalhe ainda mais.";
                 break;
 
             default:
