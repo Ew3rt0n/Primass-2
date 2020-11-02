@@ -140,7 +140,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
                 break;
 
             case R.id.im_fundo_im:
-                dialog(def.tituloimp(mConsoante), def.impressao(mConsoante));
+                dialog(def.tituloimp(mVogal), def.impressao(mVogal));
                 break;
 
             case R.id.im_fundo_mis:
@@ -397,7 +397,7 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
 
         ImageView imagemImp = view.findViewById(R.id.im_fundo_im);
 
-        switch (mConsoante) {
+        switch (mVogal) {
             case "1":
                 im_fundo_im.setImageResource(R.drawable.numero_1);
                 break;
