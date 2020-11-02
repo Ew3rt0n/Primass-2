@@ -22,6 +22,8 @@ import java.util.ArrayList;
 
 public class ResultadoFragment extends Fragment implements View.OnClickListener {
 
+    private ArrayList<ArrayList<String>> list = new ArrayList<>();;
+
     private Definicoes def;
 
     private ImageView im_fundo_ex, im_fundo_im, im_fundo_des,
@@ -99,11 +101,14 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
         im_fundo_ori = view.findViewById(R.id.im_fundo_ori);
         im_fundo_lic = view.findViewById(R.id.im_fundo_lic);
 
+        list = new TrianguloInvertido().ArcanoRegente(mNomeNum);
+
         resultadoExp();
         resultadoDes();
         resultadoMis();
         resultadoImp();
         licoes(mNomeNum);
+        resultadoArc();
 
 
         def = new Definicoes();
@@ -123,9 +128,9 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
 
             case R.id.im_fundo_arc:
 
-                ArrayList<ArrayList<String>> list = new ArrayList<>();
-                list = new TrianguloInvertido().ArcanoRegente(mNomeNum);
-
+//                ArrayList<ArrayList<String>> list = new ArrayList<>();
+//                list = new TrianguloInvertido().ArcanoRegente(mNomeNum);
+//
                 dialog(def.titulosArcRegentes(String.valueOf(list.get(list.size() - 1))), def.arcRegentes(String.valueOf(list.get(list.size() - 1))));
 
                 break;
@@ -429,12 +434,9 @@ public class ResultadoFragment extends Fragment implements View.OnClickListener 
 
     public void resultadoArc() {
 
-        ImageView imagemArc = view.findViewById(R.id.im_fundo_arc);
+        String result = String.valueOf(list.get(list.size() - 1)).replace("[","").replace("]","");
 
-        ArrayList<ArrayList<String>> list = new ArrayList<>();
-        list = new TrianguloInvertido().ArcanoRegente(mNomeNum);
-
-        switch (String.valueOf(list.get(list.size() - 1))) {
+        switch (result) {
             case "1":
                 im_fundo_arc.setImageResource(R.drawable.numero_1);
                 break;

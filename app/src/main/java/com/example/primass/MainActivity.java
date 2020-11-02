@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -147,6 +149,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 break;
         }
+
+        hideKeyBoard();
     }
 
     private void calcula() {
@@ -214,6 +218,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    public void hideKeyBoard() {
+        View view1 = this.getCurrentFocus();
+        if(view1!= null){
+            InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view1.getWindowToken(), 0);
+        }
+    }
 }
 
 

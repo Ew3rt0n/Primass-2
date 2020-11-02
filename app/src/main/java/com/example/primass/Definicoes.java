@@ -3298,7 +3298,7 @@ public class Definicoes {
                 break;
 
             case "4":
-                resposta = "A preguiça mostrou-se uma constante nas suas vidas anteriores," +
+                resposta = "A preguiça mostrou-se uma constante nas suas vidas anteriores, " +
                         "sendo um habito seu deixar tudo" +
                         " a meio caminho; não gostava de receber ordens, de trabalho" +
                         " metódico ou pesado. Tinha também certa dificuldade em " +
@@ -3804,7 +3804,7 @@ public class Definicoes {
 
         switch (numComp) {
 
-            case "Compativeis":
+            case Constants.COMPATIVEL:
                 resposta = "Casais compatíveis são harmônicos, porém o relacionamento " +
                         "tende a tornar-se monótono com o passar dos anos. É fundamental" +
                         " que os parceiros tenham em mente que a convivência necessita ser " +
@@ -3812,7 +3812,7 @@ public class Definicoes {
                         "cultivada cotidianamente.";
                 break;
 
-            case "Vibram":
+            case Constants.VIBRA:
                 resposta = "Casais vibram sinalizam forte atração sexual e paixão, com " +
                         "sentimentos intensos que podem levar a conflitos constantes e" +
                         " até separação por causa de ciúmes exagerados, inconstância sexual," +
@@ -3821,7 +3821,7 @@ public class Definicoes {
                         " abençoados com um amor incondicional.";
                 break;
 
-            case "Atraem-se":
+            case Constants.ATRAI:
                 resposta = "Casais que se atraem são totalmente compatíveis entre si, o amor" +
                         " e o sexo se compatibilizam harmonicamente. Tendem para a amabilidade," +
                         " cordialidade, delicadeza, cumplicidade e compreensão mútuas. O " +
@@ -3830,7 +3830,7 @@ public class Definicoes {
                         " atenção de um para com o outro.";
                 break;
 
-            case "Opostos":
+            case Constants.OPOSTO:
                 resposta = "Os casais opostos não refletem o pior dos relacionamentos, como se" +
                         " supunha, desde que os envolvidos tenham consciência do fato e são" +
                         " intelectualmente desenvolvidos. No entanto, ambos devem usar de diplomacia" +
@@ -3840,7 +3840,7 @@ public class Definicoes {
                         " e projetos pessoais um do outro.";
                 break;
 
-            case "Passivos":
+            case Constants.PASSIVO:
                 resposta = "Os casais passivos indicam relacionamentos onde a amizade e a cumplicidade" +
                         " predominam sobre o sexo. Para levar adiante um casamento entre pessoas " +
                         "de números passivos, há necessidade de que pelo menos um dos parceiros se" +

@@ -21,6 +21,12 @@ public class Constants {
     public static final String OITO = "8";
     public static final String NOVE = "9";
 
+    public static final String COMPATIVEL = "Compativeis";
+    public static final String VIBRA = "Vibram";
+    public static final String ATRAI = "Atraem-se";
+    public static final String OPOSTO = "Opostos";
+    public static final String PASSIVO = "Passivos";
+
     //teste
 
 }
